@@ -1,0 +1,1828 @@
+   Hak cipta pada
+   Pengarah
+   Prof. Dr.rer.nat. Agus Rubiyanto, M.Eng.Sc.
+   Prof. Erma Suryani S.T., M.T., Ph.D.
+   Penanggung Jawab
+   Rifqi Aulia Tanjung, S.T., M.T.
+   Tim Penyusun
+   Amalia Rizqi Utami, S.T., M.T.
+   Amalia Nur Kumalaningrum, S.Si., M.AgrSc.
+   Darmansyah, S.Si., M.Ti.
+   Riza Alviany, S.T., M.T.
+   Menasita Mayantasari, S.Si., M.T.
+   Nia Febrianti, S.T., M.T.
+   Desain dan Tata Letak
+   Dian Fatikha Rizki Aminoto
+   Alya Juniar
+   Fauziah Yasmin
+   Dikeluarkan oleh
+   Institut Teknologi Kalimantan
+                                                Terbit Pertama: Juli 2025
+                                                Isi buku ini menggunakan huruf Nunito Sans
+                                                11/6 pt. Spasi antarbaris 1,2. Margin halaman
+                                                0,7 inci kanan–kiri, 0,5 inci atas–bawah. Gutter
+                                                0,2 inci. SIL Open Font License (OFL) 1.1.
+                                                Institut    Teknologi    Kalimantan.   Panduan
+                                                Program       Kampus       Berdampak     Institut
+                                                Teknologi Kalimantan, Balikpapan. 2025. vi, 72
+                                                hlm.; 21 x 29,7 cm
+ii                                             PEDOMAN PELAKSANAAN TUGAS AKHIR
+                     KATA PENGANTAR
+       Pedoman Pelaksanaan Tugas Akhir Institut Teknologi Kalimantan
+(ITK) Tahun 2025. Pedoman ini disusun untuk memberikan panduan bagi
+mahasiswa dalam melaksanakan Tugas Akhir sesuai ketentuan yang
+berlaku di ITK.
+       Edisi ini merupakan penyempurnaan dari versi sebelumnya, dengan
+penyesuaian berdasarkan Peraturan Akademik Tahun 2024, yang
+menetapkan bahwa bentuk Tugas Akhir dapat berupa skripsi, proyek, atau
+prototipe.
+       Ucapan terima kasih kami sampaikan kepada Rektor beserta para
+Wakil Rektor, Tim Kurikulum Pusat, Program Studi, Tim Penyusun Pedoman
+Pelaksanaan Tugas Akhir, serta seluruh pihak yang telah berkontribusi
+dalam penyusunan buku ini.
+       Kami menyadari, meskipun telah diupayakan sebaik mungkin,
+pedoman ini mungkin masih memiliki kekurangan. Oleh karena itu, masukan
+dan saran dari berbagai pihak sangat kami harapkan untuk penyempurnaan
+di masa mendatang.
+       Buku pedoman ini mulai diimplementasikan pada awal Tahun
+Akademik 2025/2026. Semoga pedoman ini dapat memberikan manfaat
+dan kontribusi nyata bagi Institut Teknologi Kalimantan dan seluruh pihak
+yang terkait.
+                                                   Balikpapan, Juli 2025
+                                                   Institut Tekologi Kalimantan
+                                                   Tim Penyusun 2025
+ PEDOMAN PELAKSANAAN TUGAS AKHIR                                                iii
+                                               DAFTAR ISI
+   KATA PENGANTAR ................................................................................................................ iii
+   DAFTAR ISI ............................................................................................................................... iv
+   BAB 1 KETENTUAN UMUM .................................................................................................. 1
+            1.1.       Definisi dan Pengertian ......................................................................... 2
+            1.2.       Tujuan Tugas Akhir ................................................................................. 2
+            1.3.       Fungsi Tugas Akhir ................................................................................. 3
+            1.4.       Bentuk Tugas Akhir................................................................................. 3
+            1.5.       Mata Kuliah Tugas Akhir ....................................................................... 6
+            1.6.       Etika dan Integritas Akademik ............................................................ 6
+   BAB 2 PROSEDUR PELAKSANAAN DAN BIMBINGAN ................................................ 8
+            2.1        Garis Besar Pelaksanaan ....................................................................... 9
+            2.2        Pra-pelaksanaan Tugas Akhir .......................................................... 10
+            2.3        Pelaksanaan Tugas Akhir ................................................................... 14
+            2.4        Pengumpulan dan Pelaporan Tugas Akhir .................................. 19
+            2.5        Ketentuan Perubahan Bentuk Tugas Akhir .................................. 22
+            2.6        Pengelolaan Administrasi Tugas Akhir .......................................... 22
+   BAB 3 DOSEN PEMBIMBING DAN PENILAI ................................................................. 24
+            3.1        Pembimbing Tugas Akhir .................................................................. 25
+            3.2        Penguji Tugas Akhir ............................................................................ 27
+   BAB 4 PENILAIAN DAN KONVERSI ................................................................................ 28
+iv                                                                       PEDOMAN PELAKSANAAN TUGAS AKHIR
+         4.1   Ketentuan Umum ................................................................................. 29
+         4.2   Ketentuan Penyesuaian Penilaian ................................................... 30
+         4.3   Komponen dan Bobot Penilaian ..................................................... 30
+         4.4   Konversi Kegiatan Pembelajaran Di Luar Program Studi ........ 32
+Lampiran 1 Formulir Tugas Akhir.................................................................................... 34
+Lampiran 2 Rubrik Tugas Akhir ....................................................................................... 48
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                                          v
+vi PEDOMAN PELAKSANAAN TUGAS AKHIR                BAB 1 KETENTUAN UMUM
+PEDOMAN PELAKSANAAN TUGAS AKHIR      1
+  1.1. Definisi dan Pengertian
+  a. Tugas Akhir (TA), selanjutnya disebut TA merupakan karya ilmiah yang
+     disusun oleh mahasiswa Institut Teknologi Kalimantan (ITK) dalam
+     rangka menyelesaikan program studi sarjana yang disertai laporan
+     tertulis dalam bentuk naskah akademik.
+  b. Calon Peserta TA adalah mahasiswa aktif program studi yang telah
+     memenuhi syarat akademik untuk memulai proses penyusunan tugas
+     akhir namun belum terdaftar dalam Data Peserta TA.
+  c. Peserta TA adalah mahasiswa aktif program studi yang telah terdaftar
+     dalam Data Peserta TA.
+  d. Data Peserta TA adalah database Peserta TA milik Fakultas yang
+     minimal berisi identitas mahasiswa dan statusnya dalam pelaksanaan
+     TA.
+  e. Pembimbing TA adalah akademisi dan/atau praktisi yang ditugaskan
+     untuk membimbing Peserta TA mahasiswa dalam melaksanakan TA.
+     Pembimbing TA terdiri dari Pembimbing Utama dan Pembimbing
+     Pendamping. Pembimbing TA juga bertindak sebagai Penguji TA saat
+     Seminar Proposal TA dan Sidang TA.
+  f. Penguji TA adalah akademisi dan/atau praktisi yang ditugaskan untuk
+     melaksanakan penilaian akademik terhadap Peserta TA pada saat
+     Seminar Proposal TA atau Sidang TA. Penguji TA terdiri dari Ketua
+     Penguji TA dan Anggota Penguji TA.
+  1.2. Tujuan Tugas Akhir
+  a. Mengkaji    implikasi  pengembangan    dan/atau implementasi     ilmu
+     pengetahuan dan teknologi berdasarkan kaidah, nilai, norma, tata cara,
+     dan etika ilmiah.
+2                                       PEDOMAN PELAKSANAAN TUGAS AKHIR
+b. Menerapkan pemikiran logis, kritis, sistematis, dan inovatif dalam
+    pengembangan      dan/atau  implementasi   ilmu   pengetahuan    dan
+    teknologi, dengan mempertimbangkan nilai-nilai humaniora yang
+    relevan dengan bidang keahliannya.
+c. Menunjukkan kinerja secara mandiri, berkualitas, dan terukur dalam
+    melaksanakan TA.
+d. Mendokumentasikan, menyimpan, mengamankan, dan             melakukan
+    penelusuran ulang data untuk menjamin keabsahan informasi serta
+    mencegah terjadinya plagiarisme.
+1.3. Fungsi Tugas Akhir
+a. Sebagai syarat kelulusan bagi mahasiswa program sarjana
+b. Sebagai bukti kompetensi akademik mahasiswa di bidangnya
+c. Sebagai kontribusi akademik bagi pengembangan ilmu pengetahuan
+    dan teknologi
+1.4. Bentuk Tugas Akhir
+a. TA dapat dilakukan dalam bentuk Skripsi, Proyek, atau Prototipe.
+b. TA dapat dilaksanakan secara Individu atau Kelompok.
+c. TA yang dilaksanakan secara Kelompok tetap dinilai secara Individu.
+1.4.1 Skripsi
+        Skripsi merupakan Bentuk TA dengan luaran berupa karya tulis
+        ilmiah yang disusun melalui proses penelitian yang sistematis.
+        Skripsi dirancang untuk memanfaatkan atau mendemonstrasikan
+        penguasaan mahasiswa atas bidang keahlian program studi atau
+        turunannya. TA dalam bentuk skripsi menghasilkan luaran berupa
+        Laporan TA dan Artikel Ilmiah. TA dalam bentuk skripsi harus
+        memuat secara jelas hal-hal berikut:
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                          3
+        1. Objek yang akan diteliti.
+        2. Permasalahan yang diangkat serta tujuan penelitian.
+        3. Metode penelitian yang digunakan.
+        4. Hasil penelitian yang dapat dibuktikan secara teoritis, didukung
+            oleh      penyajian   data      yang   sahih,    dan      dapat
+            dipertanggungjawabkan.
+        5. Kesimpulan dari permasalahan yang diteliti.
+        6. Eksplorasi teori yang mendasari penelitian dan analisis.
+  1.4.2 Proyek
+        Proyek merupakan bentuk TA dengan luaran berupa naskah
+        akademik yang disusun berdasarkan kegiatan desain, studi kasus,
+        analisis, atau penyelesaian masalah berbasis praktik keprofesian.
+        Proyek dirancang untuk memanfaatkan atau mendemonstrasikan
+        penguasaan mahasiswa atas bidang keahlian program studi atau
+        turunannya. TA dalam bentuk proyek menghasilkan luaran berupa
+        Laporan TA dan Artikel Ilmiah. TA dalam bentuk proyek harus
+        memuat secara jelas hal-hal berikut:
+        1. Objek yang menjadi fokus rancangan, kajian, atau analisis.
+        2. Tujuan dan/atau manfaat dari proyek yang dilakukan.
+        3. Metodologi yang digunakan dalam proses desain, studi, atau
+            analisis.
+        4. Evaluasi terhadap kinerja, kelayakan, atau efektivitas sistem,
+            proses, atau kasus yang dikaji.
+        5. Luaran berupa dokumen teknis, laporan studi, model desain, atau
+            hasil analisis yang dapat dijadikan dasar implementasi atau
+            pengambilan keputusan.
+        6. Keterlibatan industri atau masyarakat, dan/atau kolaborasi
+            dengan mitra eksternal.
+        7. Kesimpulan mengenai capaian, temuan, dan tingkat keberhasilan
+            atau rekomendasi dari proyek.
+4                                        PEDOMAN PELAKSANAAN TUGAS AKHIR
+1.4.3 Prototipe
+       Prototipe merupakan bentuk TA dengan luaran berupa hasil rancang
+       bangun perangkat lunak, perangkat keras, atau kombinasi keduanya.
+       Prototipe dirancang untuk memanfaatkan atau mendemonstrasikan
+       penguasaan mahasiswa atas bidang keahlian tertentu dalam
+       program studinya. Prototipe harus berada minimal pada Tingkat
+       Kesiapan Teknologi (TKT) 4 dan bertujuan untuk menghasilkan
+       inovasi teknis untuk menyelesaikan permasalahan atau memberikan
+       manfaat. TA dalam bentuk prototipe menghasilkan luaran berupa
+       Produk, Laporan TA, dan Artikel Ilmiah. TA dalam bentuk prototipe
+       harus memuat secara jelas hal-hal berikut:
+       1. Objek yang akan dirancang dan/atau dibangun.
+       2. Tujuan dan/atau manfaat dari pengembangan prototipe.
+       3. Metodologi perancangan atau rancang bangun.
+       4. Pengujian atau evaluasi terhadap kinerja dan kelayakan
+           prototipe.
+       5. Hasil akhir berupa model fisik, perangkat lunak, atau sistem
+           simulasi.
+       6. Fokus utama pada pengembangan inovasi teknis atau produk
+           terapan.
+       7. Prototipe yang dihasilkan wajib didaftarkan sebagai Hak
+           Kekayaan Intelektual (HKI).
+1.4.4 Perbedaan Bentuk TA
+       Tabel Perbedaan Bentuk Tugas Akhir
+   Aspek             Skripsi                   Proyek               Prototipe
+Fokus       Penyelesaian masalah Penyelesaian masalah      Penyelesaian masalah
+Masalah     melalui penelitian        praktis melalui      dengan pengembangan
+            ilmiah, eksplorasi teori, perancangan solusi   alat, sistem, atau
+            atau pengembangan         berbasis metode yang perangkat untuk menguji
+            metode baru.              sudah dikenal.       solusi teknis.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                    5
+  Pendekatan Eksperimen, simulasi, Desain, implementasi,   Pengembangan dan
+              atau studi literatur dan evaluasi di dunia   pengujian produk atau
+              mendalam.            nyata.                  sistem yang
+                                                           dibuat/dikembangkan.
+  Luaran      Naskah akademik dan  Naskah akademik dan     Produk nyata dan naskah
+  Wajib       artikel ilmiah yang  artikel ilmiah yang     akademik (alat, sistem,
+              berisi hasil riset,  menjelaskan proses      software) dan dokumen
+              analisis, dan        perancangan, solusi     teknis lengkap terkait
+              kesimpulan.          teknis dan implementasi proses pembuatan dan
+                                   terbatas (jika ada).    hasil uji coba.
+  1.5. Mata Kuliah Tugas Akhir
+  1. Mata kuliah (MK) Tugas Akhir diambil melalui SIM Akademik ITK pada
+      saat perwalian semester dimana Nilai TA akan dilaporkan.
+  2. Syarat mengambil MK Tugas Akhir adalah:
+      •   Jumlah SKS lulus ≥ 120 SKS;
+      •   Telah menempuh MK Prasyarat dengan nilai minimal D (jika ada);
+          dan
+      •   Syarat lain yang ditentukan program studi (jika ada).
+  3. MK Tugas Akhir dapat dibuka dalam bentuk 3 kelas :
+      •   Tugas Akhir kelas A merupakan bentuk tugas akhir skripsi
+      •   Tugas Akhir kelas B merupakan bentuk tugas akhir proyek
+      •   Tugas Akhir kelas C merupakan bentuk tugas akhir prototipe
+  1.6. Etika dan Integritas Akademik
+  1. Mahasiswa wajib menjunjung tinggi:
+     a. Etika akademik, sebagai pedoman moral dalam seluruh proses
+         pelaksanaan tugas akhir.
+6                                             PEDOMAN PELAKSANAAN TUGAS AKHIR
+   b. Kaidah keilmuan, yang mencakup pemikiran rasional, sistematis,
+       berbasis bukti, serta terbuka terhadap evaluasi dan kritik yang
+       membangun; dan
+   c. Nilai-nilai  integritas  akademik,    yang  mencakup     kejujuran,
+       kepercayaan, keadilan, kehormatan, tanggung jawab, dan keteguhan
+       hati dalam melaksanakan setiap tahapan tugas akhir.
+2. TA dilaksanakan untuk memajukan ilmu pengetahuan, meningkatkan
+    kesejahteraan, menjaga martabat, dan mendukung peradaban manusia,
+    serta harus bebas dari praktik yang merugikan atau membahayakan
+    pihak mana pun.
+3. ITK melarang segala bentuk kecurangan dalam pelaksanaan tugas akhir.
+4. Pelanggaran terhadap etika, kaidah keilmuan, dan integritas akademik,
+    atau kecurangan dalam pelaksanaan TA dikenai sesuai ketentuan yang
+    berlaku.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                           7
+  BAB 2 PROSEDUR PELAKSANAAN
+        DAN BIMBINGAN
+8               PEDOMAN PELAKSANAAN TUGAS AKHIR
+2.1   Garis Besar Pelaksanaan
+                      Gambar 1 Tahapan Tugas Akhir
+PEDOMAN PELAKSANAAN TUGAS AKHIR                    9
+   2.2   Pra-pelaksanaan Tugas Akhir
+   2.2.1 Penentuan Topik dan Pembimbing Tugas Akhir
+         1. Calon Peserta TA berkonsultasi dengan dosen wali atau dosen
+            lain di program studinya untuk merencanakan Topik TA dan
+            Pembimbing TA.
+         2. Topik TA harus sesuai dengan bidang keilmuan program studi
+            atau turunannya.
+         3. Pembimbing TA diutamakan yang memiliki kesesuaian bidang
+            keahlian dengan Topik TA.
+         4. Program studi dapat menentukan dosen Pembimbing TA untuk
+            mahasiswanya sesuai kebijaksanaan Koordinator Program Studi.
+         5. Calon Peserta TA mendaftarkan diri beserta Topik TA dan
+            Pembimbing TA dengan menyerahkan FormTA-01A/B ke
+            Fakultas.
+         6. Fakultas melakukan verifikasi data Calon Peserta TA maksimal 5
+            (lima) hari kerja sejak FormTA-01A/B diterima.
+         7. Calon Peserta TA yang terverifikasi akan dimasukkan dalam
+            Data Peserta TA oleh Fakultas dan dapat memulai Penyusunan
+            Proposal TA.
+         8. Calon Peserta TA yang tidak terverifikasi wajib melengkapi
+            kekurangannya.
+         9. Dalam hal terjadi perubahan pembimbing TA, peserta TA wajib
+            mengajukan      kembali    FormTA-01A/B    ke  Fakultas  untuk
+            memperbarui Data Peserta TA.
+   2.2.2 Penyusunan Proposal Tugas Akhir
+         1. Proposal TA adalah naskah akademik yang memaparkan
+            rencana Pelaksanaan TA termasuk topik dan permasalahan yang
+            diangkat sesuai bidang keilmuan Program Studi atau cabang
+            ilmunya.
+         2. Proposal TA ditulis sesuai Bentuk TA dan panduan kepenulisan
+            yang berlaku.
+10                                        PEDOMAN PELAKSANAAN TUGAS AKHIR
+      3. Peserta TA mendiskusikan topik, permasalahan, dan bentuk TA
+          dengan Pembimbing TA.
+      4. Peserta TA melakukan studi literatur dan melaksanakan proses
+          penyusunan Proposal TA dalam bimbingan Pembimbing TA.
+      5. Proposal TA yang sudah selesai dan disetujui oleh Pembimbing
+          TA dapat digunakan untuk mendaftar Seminar Proposal TA.
+2.2.3 Pendaftaran Seminar Proposal Tugas Akhir
+      1. Seminar      Proposal   TA     adalah     forum   akademik     yang
+          diselenggarakan     untuk   menguji     kelayakan    rencana   dan
+          memperoleh masukan sebelum Pelaksanaan TA.
+      2. Syarat mendaftar Seminar Proposal TA adalah:
+          •   Terdaftar sebagai Peserta TA dalam Data Peserta TA;
+          •   Disetujui untuk melaksanakan Seminar Proposal TA oleh
+              Pembimbing TA; dan
+          •   Memenuhi        syarat       khusus       yang      ditentukan
+              Fakultas/Jurusan/Program Studi jika ada.
+      3. Peserta     TA    mendaftar    Seminar      Proposal   TA   dengan
+          menyerahkan lampiran berikut ke Fakultas:
+          •   FormTA-02; dan
+          •   Syarat khusus yang ditentukan Fakultas/ Jurusan/ Program
+              Studi jika ada.
+      4. Fakultas melakukan verifikasi maksimal 5 (lima) hari kerja sejak
+          pendaftaran diterima.
+      5. Peserta     TA    yang   tidak   terverifikasi  wajib   melengkapi
+          kekurangannya.
+      6. Peserta TA yang terverifikasi akan masuk dalam proses
+          penjadwalan Seminar Proposal TA.
+      7. Fakultas melakukan penjadwalan bersama Ketua Jurusan /
+          Koordinator Program Studi. Atau sebaliknya, Ketua Jurusan /
+          Koordinator Program Studi dapat mengusulkan penjadwalan
+          kepada Fakultas.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                              11
+         8. Fakultas mengumumkan jadwal Seminar Proposal TA dan
+            memperbarui Data Peserta TA.
+   2.2.4 Persiapan Seminar Proposal Tugas Akhir
+         1. Peserta TA mengundang Penguji TA selambat-lambatnya 3
+            (tiga) hari kerja sebelum Seminar Proposal TA dilaksanakan
+            dengan melampirkan hasil cetak (print-out) atau digital (sesuai
+            kesepakatan dengan penguji):
+            •   Proposal TA yang disetujui oleh Pembimbing TA untuk
+                masing-masing Penguji TA;
+            •   FormTA-03A untuk masing-masing Penguji TA; dan
+            •   FormTA-03B untuk Ketua Penguji.
+         2. Peserta TA menyiapkan pemaparan Seminar Proposal TA untuk
+            durasi 15 menit.
+         3. Peserta TA menyiapkan peralatan mencatat dan FormTA-03C.
+         4. Peserta TA mengundang audiens sebanyak minimal 10 orang.
+         5. Peserta TA menyiapkan diri untuk menjalani Seminar Proposal
+            TA.
+         6. Peserta TA juga dapat menyiapkan hal-hal lain yang belum
+            tersedia di ruangan Seminar Proposal TA untuk menunjang
+            pemaparannya dengan sepengetahuan Pembimbing TA.
+   2.2.5 Pelaksanaan Seminar Proposal Tugas Akhir
+         1. Seminar Proposal TA dilakukan secara terbuka untuk Civitas
+            Akademika ITK. Koordinator Program Studi / Ketua Jurusan /
+            Dekan dapat memberlakukan Seminar Proposal TA tertutup atau
+            terbuka untuk umum dalam kondisi-kondisi tertentu.
+         2. Seminar Proposal TA dapat dimulai dengan syarat :
+            •   Peserta TA siap melaksanakan Seminar Proposal TA;
+            •   Tim Penguji TA siap menguji Seminar Proposal TA; dan
+            •   Audiens yang hadir sebanyak minimal 10 orang siap
+                berpartisipasi.
+         3. Rangkaian Seminar Proposal TA terdiri dari :
+12                                      PEDOMAN PELAKSANAAN TUGAS AKHIR
+          •  Pembukaan oleh Ketua Penguji / Dosen Pembimbing Utama
+          •  Pemaparan oleh Peserta TA selama 15 menit.
+          •  Sesi tanya jawab dimoderatori oleh Ketua Tim Penguji.
+             Audiens dapat berpartisipasi.
+          •  Penutup oleh Ketua Penguji / Dosen Pembimbing Utama.
+          •  Total durasi kegiatan Seminar Proposal TA ditentukan oleh
+             Fakultas/Jurusan/Program Studi pada saat penjadwalan.
+      4. Penguji TA dalam menguji Seminar Proposal TA bertugas untuk:
+          •  Memastikan topik dan permasalahan yang diusulkan sesuai
+             dengan bidang keilmuan Program Studi atau turunannya;
+          •  Memastikan rencana Pelaksanaan TA yang diusulkan layak
+             dan dapat diterapkan;
+          •  Memastikan rencana Pelaksanaan TA yang diusulkan selaras
+             dengan capaian pembelajaran yang diharapkan Program
+             Studi;
+          •  Memberikan rekomendasi terhadap Proposal TA yang
+             diajukan;
+          •  Memberikan penilaian akademik terhadap Proposal TA,
+             pemahaman, dan performa Peserta TA; dan
+          •  Memutuskan hasil Seminar Proposal Tugas Akhir.
+      5. Performa Peserta TA dalam Seminar Proposal TA menjadi
+          pertimbangan Penguji TA dalam :
+          •  Menyetujui Proposal TA yang diajukan; dan
+          •  Memberikan nilai Seminar Proposal TA.
+      6. Hasil dari Seminar Proposal TA adalah
+          •  Nilai Seminar Proposal TA; dan
+          •  Keterangan "Disetujui" atau "Tidak disetujui".
+      7. Peserta TA dengan Proposal TA yang “Disetujui” wajib mengisi
+          FormTA-03C dan dapat memulai Pelaksanaan TA.
+      8. Proposal TA mendapatkan hasil "Tidak disetujui" apabila:
+          •  Topik tidak sesuai dengan bidang keilmuan Program Studi
+             atau turunannya;
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                        13
+             •   Kegiatan tidak sesuai dengan capaian pembelajaran yang
+                 diharapkan Program Studi;
+             •   Mendapatkan nilai huruf D atau E; atau
+             •   Hal lain yang mengharuskan Peserta TA untuk mengganti
+                 topik TA nya.
+         9. Peserta TA dengan Proposal TA yang “Tidak disetujui” wajib
+             mengulang pendaftaran Seminar Proposal TA dengan Proposal
+             TA yang telah diperbarui.
+         10. Fakultas memperbarui Data Peserta TA setelah Seminar
+             Proposal TA dilaksanakan.
+   2.3   Pelaksanaan Tugas Akhir
+   2.3.1 Pelaksanaan Tugas Akhir dan Pembimbingan
+         1. Peserta TA melaksanakan TA dengan menjunjung tinggi etika,
+             kaidah ilmiah, integritas akademik, serta melawan segala bentuk
+             kecurangan.
+         2. Peserta TA melaksanakan TA sesuai dengan topik dan
+             permasalahan yang disetujui dalam Seminar Proposal TA serta
+             memperhatikan rekomendasi dalam FormTA-03C.
+         3. Peserta TA melaksanakan TA dalam bimbingan Pembimbing TA.
+         4. Peserta TA mengisi FormTA-04 setiap mengikuti sesi bimbingan
+             dengan Pembimbing TA.
+         5. Peserta TA wajib mengikuti sesi bimbingan dengan Pembimbing
+             TA minimal 10 kali dihitung setelah Proposal TA “Disetujui” pada
+             Seminar Proposal TA
+         6. Sesi bimbingan dengan jadwal bebas atau ditentukan oleh
+             Pembimbing TA.
+         7. Peserta TA dan Pembimbing TA mengutamakan kegiatan
+             bimbingan yang dilakukan secara tatap muka.
+   2.3.2 Penyusunan Laporan Tugas Akhir
+14                                         PEDOMAN PELAKSANAAN TUGAS AKHIR
+       1. Laporan TA adalah naskah akademik yang menyajikan hasil
+            lengkap Pelaksanaan TA.
+       2. Laporan TA disusun sesuai panduan penulisan yang berlaku.
+       3. Laporan TA disusun dengan mempertahankan topik dan
+            permasalahan yang disetujui saat Seminar Proposal TA.
+            Pembimbing TA / Ketua Penguji TA / Koordinator Program
+            Studi dapat mewajibkan Peserta TA untuk mengulang Seminar
+            Proposal TA jika ditemukan terdapat perubahan Topik atau
+            Permasalahan secara substantif.
+       4. Laporan TA disusun oleh Peserta TA berdasarkan hasil
+            pelaksanaan yang telah dilakukan.
+2.3.3 Pendaftaran Sidang Tugas Akhir
+      1. Sidang TA adalah forum akademik yang diselenggarakan untuk
+          menguji dan menilai hasil akhir pelaksanaan tugas akhir dan
+          kemampuan Peserta TA dalam mempertahankan hasil karyanya
+          secara ilmiah.
+      2. Syarat mendaftar Sidang TA adalah:
+          •   Memenuhi syarat mengambil MK Tugas Akhir;
+          •   Telah menghadiri minimal 10 kali kegiatan Seminar Proposal
+              TA.
+          •   Disetujui untuk melaksanakan Sidang TA oleh Pembimbing
+              TA; dan
+          •   Memenuhi         syarat   khusus       yang     ditentukan
+              Fakultas/Jurusan/Program Studi jika ada.
+      3. Peserta TA mendaftar Sidang TA dengan menyerahkan lampiran
+          berikut ke Fakultas:
+          •   FormTA-03D terisi sebanyak 10 lembar;
+          •   FormTA-04 dengan minimal terisi 10 kali sesi bimbingan;
+          •   FormTA-05; dan
+          •   Syarat khusus yang ditentukan Fakultas/Jurusan/Program
+              Studi jika ada.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                          15
+         4. Fakultas melakukan verifikasi maksimal 5 (lima) hari kerja sejak
+             pendaftaran diterima.
+         5. Peserta    TA    yang   tidak  terverifikasi wajib  melengkapi
+             kekurangannya.
+         6. Peserta TA yang terverifikasi akan masuk dalam proses
+             penjadwalan Sidang TA.
+         7. Fakultas melakukan penjadwalan bersama Ketua Jurusan /
+             Koordinator Program Studi. Atau sebaliknya, Ketua Jurusan /
+             Koordinator Program Studi dapat mengusulkan penjadwalan
+             kepada Fakultas.
+         8. Ketentuan penjadwalan Sidang TA adalah sebagai berikut :
+             •   paling cepat 14 minggu sejak Seminar Proposal TA; dan
+             •   paling lambat 52 minggu sejak Seminar Proposal TA
+         9. Mahasiswa yang tidak melaksanakan Sidang TA dalam batas
+             waktu yang ditentukan, dinyatakan Tidak Lulus dan wajib
+             mengulang seluruh tahap pelaksanaan tugas akhir.
+         10. Fakultas mengumumkan jadwal Sidang TA dan memperbarui
+             Data Peserta TA.
+   2.3.4 Persiapan Sidang Tugas Akhir
+         1. Peserta TA mengundang Penguji TA selambat-lambatnya 3
+             (tiga) hari kerja sebelum Sidang TA dilaksanakan dengan
+             melampirkan hasil cetak (print-out) atau digital (sesuai
+             kesepakatan dengan penguji):
+             •   Laporan TA yang disetujui oleh Pembimbing TA untuk
+                 masing-masing Penguji TA;
+             •   FormTA-06A untuk masing-masing Penguji TA; dan
+             •   FormTA-06B untuk Ketua Penguji.
+         2. Peserta TA menyiapkan pemaparan Sidang TA untuk durasi 15
+             menit.
+         3. Peserta TA menyiapkan peralatan mencatat.
+         4. Peserta TA menyiapkan diri untuk menjalani Sidang TA.
+16                                        PEDOMAN PELAKSANAAN TUGAS AKHIR
+      5. Peserta TA juga dapat menyiapkan hal-hal lain yang belum
+          tersedia di ruangan Sidang TA untuk menunjang pemaparannya
+          dengan sepengetahuan Pembimbing TA.
+2.3.5 Pelaksanaan Sidang Tugas Akhir
+      1. Sidang TA dilakukan secara tertutup. Koordinator Program Studi
+         / Ketua Jurusan / Dekan dapat memberlakukan Sidang TA
+         terbuka dalam kondisi-kondisi tertentu.
+      2. Peserta TA wajib mematuhi aturan pakaian Sidang TA sebagai
+         berikut:
+          •   Pria: kemeja lengan panjang polos rapi, dasi, celana kain
+              berwarna gelap, ikat pinggang, sepatu tertutup dengan kaos
+              kaki, serta menjaga kerapian rambut.
+          •   Wanita: kemeja atau blus lengan panjang polos rapi, rok atau
+              celana kain panjang kain berwarna gelap, sepatu tertutup
+              dengan kaos kaki, serta menjaga kerapian rambut. Bagi yang
+              berhijab, wajib menggunakan hijab dengan warna polos.
+          •   Fakultas dapat menentukan Pakaian Sidang TA.
+      3. Sidang TA dapat dimulai dengan syarat:
+          •   Peserta TA siap melaksanakan Sidang TA; dan
+          •   Tim Penguji TA siap menguji Sidang TA.
+      4.  Rangkaian Sidang TA terdiri dari:
+          •   Pembukaan oleh Ketua Penguji / Dosen Pembimbing Utama.
+          •   Pemaparan oleh Peserta TA selama 15 menit.
+          •   Sesi tanya jawab dimoderatori oleh Ketua Tim Penguji.
+          •   Penutup oleh Ketua Penguji / Dosen Pembimbing Utama.
+          •   Total    durasi  kegiatan  Sidang    TA   ditentukan    oleh
+              Fakultas/Jurusan/Program Studi pada saat penjadwalan.
+      5.   Penguji TA dalam menguji Sidang TA bertugas untuk:
+          •   Memeriksa kesesuaian substansi Tugas Akhir dengan bidang
+              keilmuan program studi atau turunannya.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                            17
+      •  Menilai kelayakan ilmiah, keaslian, dan kontribusi hasil
+         penelitian terhadap pengembangan ilmu atau aplikasi di
+         bidang terkait;
+      •  Menguji pemahaman mahasiswa terhadap teori, metode,
+         hasil, dan pembahasan penelitian melalui tanya jawab;
+      •  Menilai ketercapaian capaian pembelajaran yang diharapkan
+         Program Studi;
+      •  Memberikan rekomendasi terhadap Laporan TA yang
+         diajukan;
+      •  Memberikan penilaian akademik terhadap Laporan TA,
+         pemahaman, dan performa Peserta TA; dan
+      •  Memutuskan hasil Seminar Proposal Tugas Akhir.
+   6. Performa Peserta TA dalam Sidang TA menjadi pertimbangan
+      Penguji TA dalam:
+      •  Memberikan nilai Sidang TA; dan
+      •  Menentukan kelulusan Peserta TA.
+   7. Hasil dari Sidang TA adalah:
+      •  Nilai Sidang TA; dan
+      •  Keterangan "Lulus" atau "Tidak Lulus".
+   8. Peserta TA yang dinyatakan "Lulus" wajib:
+      •  Melakukan revisi Laporan TA sesuai dengan catatan saat
+         Sidang TA; dan
+      •  Menyusun Artikel Ilmiah untuk bentuk skripsi dan proyek,
+         dan draft Hak Cipta/Desain Industri/Paten untuk bentuk
+         prototipe.
+   9. Peserta TA dinyatakan "Tidak lulus" apabila:
+      •  Topik tidak sesuai dengan bidang keilmuan Program Studi
+         atau turunannya;
+      •  Peserta TA tidak menunjukkan kelayakan ilmiah, keaslian,
+         atau kontribusi hasil penelitian yang cukup terhadap
+         pengembangan ilmu atau aplikasi di bidang terkait;
+18                                 PEDOMAN PELAKSANAAN TUGAS AKHIR
+          •   Peserta TA tidak menunjukkan pemahaman yang cukup
+              terhadap teori, metode, hasil, dan pembahasan penelitian;
+          •   Peserta TA tidak menunjukkan kemampuan yang cukup
+              dalam menyajikan dan mempertahankan argumen secara
+              ilmiah, baik secara lisan maupun tertulis;
+          •   Peserta TA tidak menunjukkan ketercapaian capaian
+              pembelajaran yang diharapkan Program Studi;
+          •   Peserta TA mendapatkan nilai Sidang TA dengan grade D
+              atau E; atau
+          •   Hal lain yang mengharuskan Peserta TA untuk mengulangi
+              kegiatan TA nya.
+      10. Peserta TA dengan Proposal TA yang “Tidak lulus” wajib
+          mengulang Sidang TA dengan jadwal pelaksanaan ditentukan
+          oleh tim penguji TA.
+      11. Fakultas memperbarui Data Peserta TA setelah Sidang TA
+          dilaksanakan.
+  2.4 Pengumpulan dan Pelaporan Tugas Akhir
+   2.4.1 Revisi Laporan Tugas Akhir
+      1. Peserta TA yang dinyatakan Lulus Sidang TA wajib melakukan
+          Revisi Laporan TA sesuai dengan catatan dan rekomendasi saat
+          Sidang TA.
+      2. Revisi Laporan TA disusun sesuai panduan penulisan yang
+          berlaku untuk Laporan TA.
+      3. Nilai mata kuliah tugas akhir Peserta TA diunggah setelah Revisi
+          Laporan TA diselesaikan.
+      4. Revisi Laporan TA disusun dalam bimbingan Pembimbing TA.
+      5. Revisi Laporan TA wajib disetujui oleh Penguji TA.
+      6. Revisi Laporan TA wajib menghasilkan Laporan TA (bagian isi)
+          dengan nilai kesamaan (similarity score) maksimal 30%.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                           19
+        7. Peserta TA mengajukan pengukuran nilai kesamaan sesuai
+           prosedur yang ditentukan oleh Fakultas.
+        8. Revisi Laporan TA dijilid hardcover sebanyak 2 (dua) rangkap
+           serta wajib ditandatangani basah (bukan hasil pemindaian dan
+           fotokopi).
+        9. Revisi Laporan TA dapat disimpan dalam bentuk digital oleh
+           Peserta TA.
+   2.4.2 Penyusunan Artikel Ilmiah dan Draft Hak Cipta/Desain Industri/
+          Paten
+        1. Peserta TA yang dinyatakan Lulus Sidang TA wajib menyusun
+           Artikel Ilmiah untuk bentuk skripsi dan proyek, dan draft Hak
+           Cipta/Desain Industri/Paten untuk bentuk Prototipe.
+        2. Artikel Ilmiah dan draft Hak Cipta/Desain Industri/Paten disusun
+           sesuai panduan penulisan yang berlaku.
+        3. Artikel Ilmiah dan draft Hak Cipta/Desain Industri/Paten disusun
+           dalam bimbingan Pembimbing TA.
+        4. Artikel Ilmiah dan draft Hak Cipta/Desain Industri/Paten disusun
+           dengan nilai kesamaan (similarity score) maksimal 20%.
+        5. Peserta TA mengajukan pengukuran nilai kesamaan sesuai
+           prosedur yang ditentukan oleh Fakultas.
+        6. Artikel Ilmiah dan draft Hak Cipta/Desain Industri/Paten dapat
+           disimpan dalam bentuk digital oleh Peserta TA.
+   2.4.3 Pengumpulan Laporan Tugas Akhir Cetak
+        1. Laporan TA dicetak berwarna dan dijilid hardcover sesuai
+            panduan kepenulisan TA yang berlaku;
+        2. Laporan TA cetak didistribusikan oleh Peserta TA kepada:
+           •   Fakultas sebanyak 1 (satu) eksemplar; dan
+           •   Perpustakaan ITK sebanyak 1 (satu) eksemplar.
+        3. Fakultas dan Perpustakaan ITK melakukan verifikasi maksimal 5
+           (lima) hari kerja sejak pelaporan diterima.
+20                                        PEDOMAN PELAKSANAAN TUGAS AKHIR
+       4. Peserta TA mendapatkan Tanda Terima dari Fakultas dan
+          Perpustakaan ITK;
+       5. Prosedur Pengumpulan Laporan TA Cetak diatur oleh Fakultas
+          dan Perpustakaan ITK.
+2.4.4 Pengumpulan Laporan Tugas Akhir dan Artikel Ilmiah atau draft
+      Hak Cipta/Desain Industri/Paten Digital
+       1. Laporan TA dan Artikel Ilmiah atau draft Hak Cipta/Desain
+          Industri/Paten disimpan dalam bentuk digital sesuai panduan
+          yang berlaku;
+       2. Laporan TA dan Artikel Ilmiah atau draft Hak Cipta/Desain
+          Industri/Paten dalam bentuk digital diunggah melalui:
+          •   Fakultas; dan
+          •   Perpustakaan ITK.
+       3. Fakultas dan Perpustakaan ITK melakukan verfikasi maksimal 5
+          (lima) hari kerja sejak pelaporan diterima;
+       4. Peserta TA mendapatkan Tanda Terima dari Fakultas dan
+          Perpustakaan ITK;
+       5. Prosedur Pengumpulan Laporan TA dan Artikel Ilmiah atau draft
+          Hak Cipta/Desain Industri/Paten Digital diatur oleh Fakultas dan
+          Perpustakaan ITK.
+2.4.5  Penyelesaian TA
+       1. Peserta TA dinyatakan selesai TA ketika
+          •   Mendapatkan Nilai TA minimal C.
+          •   Memiliki Tanda Terima Berkas TA dari Fakultas.
+          •   Memiliki Tanda Terima Berkas TA dari Perpustakaan ITK.
+       2. Peserta TA melaporkan Penyelesaian TA dengan menyerahkan
+          FormTA-07 ke Fakultas.
+       3. Fakultas melakukan verifikasi maksimal 5 (lima) hari kerja sejak
+          pelaporan diterima.
+       4. Peserta    TA    yang    tidak  terverifikasi wajib  melengkapi
+          kekurangannya.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                            21
+        5. Peserta TA yang terverifikasi dinyatakan selesai TA.
+        6. Fakultas mengupdate Data Peserta TA
+    2.5 Ketentuan Perubahan Bentuk Tugas Akhir
+        1. Peserta TA dapat melakukan perubahan Bentuk TA.
+        2. Peserta TA wajib berkonsultasi dengan Pembimbing TA untuk
+           mengubah Bentuk TA.
+        3. Peserta TA mengisi dan mengajukan FormTA-08 ke Fakultas.
+        4. Fakultas melakukan pemindahan kelas TA, pemindahan kelas
+           dilakukan mengikuti jadwal Kalender Akademik ITK.
+        5. Peserta TA wajib melakukan pendaftaran dan melaksanakan
+           Seminar Proposal TA dengan bentuk TA yang baru.
+        6. Peserta TA yang melakukan perubahan bentuk TA dapat
+           melaksanakan Sidang TA paling cepat 14 minggu sejak Seminar
+           Proposal TA dengan bentuk TA sebelumnya dan maksimal 52
+           minggu sejak Seminar Proposal TA dengan bentuk yang baru.
+        7. Mahasiswa yang tidak melaksanakan Sidang TA dalam batas
+           waktu yang ditentukan, dinyatakan Tidak Lulus dan wajib
+           mengulang seluruh tahap pelaksanaan tugas akhir.
+        8. Peserta TA yang telah mengajukan perubahan bentuk TA, tidak
+           dapat melanjutkan bentuk TA sebelumnya
+   2.6  Pengelolaan Administrasi Tugas Akhir
+        1. Fakultas wajib mengelola Pelaksanaan Tugas Akhir.
+        2. Seluruh ketentuan yang ditetapkan dalam pedoman ini wajib
+            dilaksanakan.
+        3. Fakultas dapat menambah syarat / proses sesuai keperluan
+            namun tidak dapat mengurangi hal-hal yang sudah ditentukan
+            pada pedoman ini.
+22                                      PEDOMAN PELAKSANAAN TUGAS AKHIR
+      4. Formulir yang digunakan dalam Pedoman ini dapat didigitalisasi
+          dengan ketentuan:
+          •   Tidak mengurangi informasi yang didapatkan dari Formulir
+              dalam Pedoman ini.
+          •   Tidak mengurangi akuntabilitas dibandingkan Formulir yang
+              ada dalam Pedoman ini.
+      5. Untuk setiap ketentuan tambahan yang ditetapkan oleh
+          Fakultas, Formulir dapat disesuaikan dengan mempertahankan
+          informasi penting yang didapatkan dari Formulir dalam Pedoman
+          ini
+      6. Setiap ketentuan tambahan yang diatur oleh Fakultas wajib
+          tertuang dalam dokumen resmi yang disahkan oleh Dekan.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                         23
+   BAB 3 DOSEN PEMBIMBING DAN
+           PENILAI
+24              PEDOMAN PELAKSANAAN TUGAS AKHIR
+3.1   Pembimbing Tugas Akhir
+3.1.1 Ketentuan Pembimbing Tugas Akhir
+      1. Pembimbing TA terdiri atas :
+          •   1 (satu) orang Pembimbing Utama; dan
+          •   1 (satu) atau 2 (dua) orang Pembimbing Pendamping.
+      2. Syarat Pembimbing Utama:
+          •   Merupakan dosen pada Program Studi yang sama dengan
+              Peserta TA.
+          •   Minimal bergelar Magister (S-2).
+          •   Minimal memiliki jabatan akademik Asisten Ahli.
+      3. Syarat Pembimbing Pendamping:
+          •   Dari kalangan dosen dalam/luar ITK: minimal bergelar
+              Magister (S-2).
+          •   Dari kalangan peneliti: minimal bergelar Magister (S-2) dan
+              memiliki jabatan akademik minimal Peneliti Ahli Pertama.
+          •   Dari kalangan perekayasa: minimal bergelar Magister (S-2)
+              dan memiliki jabatan akademik minimal Perekayasa Pertama.
+          •   Dari kalangan praktisi: minimal bergelar Sarjana (S-1),
+              memiliki pengalaman kerja minimal 5 (lima) tahun di
+              bidangnya, dan pernah melakukan supervisi.
+      4. Pembimbing TA secara resmi membimbing Peserta TA
+          terverifikasi dan terdaftar dalam Data Peserta TA.
+      5. Jumlah mahasiswa yang dibimbing sebagai Pembimbing Utama
+          ditetapkan oleh Program Studi dengan memperhatikan beban
+          kerja dosen dan pemerataan rasio bimbingan antar dosen.
+      6. Jumlah mahasiswa yang dibimbing sebagai Pembimbing
+          Pendamping       ditetapkan    oleh  Program    Studi   dengan
+          memperhatikan beban kerja dosen dan pemerataan rasio
+          bimbingan antar dosen.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                           25
+         7. Jumlah mahasiswa luar program studi yang dibimbing menjadi
+             tanggung jawab masing-masing dosen dengan memperhatikan
+             jumlah keseluruhan bimbingannya.
+   3.1.2 Tugas dan Kewajiban Pembimbing Tugas Akhir
+         1. Membimbing mahasiswa mulai dari penyusunan proposal,
+             pelaksanaan      penelitian/proyek,  hingga    penulisan   dan
+             persetujuan Laporan Tugas Akhir sesuai kode etik akademik.
+         2. Memberikan arahan pada aspek metodologi, substansi, dan tata
+             tulis, serta memotivasi mahasiswa untuk menyelesaikan Tugas
+             Akhir tepat waktu.
+         3. Menyediakan waktu konsultasi, memeriksa kemajuan, dan
+             memastikan kesesuaian topik dengan capaian pembelajaran
+             Program Studi.
+         4. Menghadiri Seminar Proposal dan Sidang Tugas Akhir secara
+             luring.
+   3.1.3 Penggantian Pembimbing Tugas Akhir
+         Pembimbing TA dapat diganti apabila memenuhi salah satu kondisi
+         berikut:
+         1. Pembimbing mendapat tugas belajar atau penugasan di luar
+              kampus dengan durasi lebih dari 4 (empat) bulan.
+         2. Pembimbing sakit atau berhalangan tetap.
+         3. Pembimbing mengundurkan diri dengan alasan yang dapat
+              diterima oleh Program Studi.
+         4. Mahasiswa mengganti judul atau materi Tugas Akhir sehingga
+              tidak lagi relevan dengan bidang keilmuan pembimbing yang
+              bersangkutan.
+         5. Pembimbing         tidak     menjalankan    kewajiban     dalam
+              melaksanakan tugas bimbingan sesuai ketentuan.
+26                                         PEDOMAN PELAKSANAAN TUGAS AKHIR
+3.2   Penguji Tugas Akhir
+3.2.1 Ketentuan Tim Penguji Tugas Akhir
+      1. Tim Penguji TA terdiri atas:
+          •   1 (satu) orang Ketua Penguji; dan
+          •   3 (tiga) sampai 5 (lima) orang Anggota Penguji.
+      2. Ketua Penguji harus berasal dari program studi yang sama
+          dengan Peserta TA yang diuji.
+      3. Pada saat Seminar Proposal TA atau Sidang TA, Pembimbing TA
+          merangkap sebagai Anggota Penguji dan dihitung dalam jumlah
+          Tim Penguji TA.
+      4. Tim Penguji TA diusulkan oleh Koordinator Program Studi pada
+          saat penjadwalan Seminar Proposal TA atau Sidang TA.
+      5. Apabila pada pelaksanaan Seminar Proposal TA atau Sidang TA,
+          seorang atau lebih penguji berhalangan hadir maka Koordinator
+          Program Studi dapat menunjuk pengganti seketika dan
+          melaporkan penggantian tersebut pada Fakultas.
+3.2.2 Tugas dan Kewajiban Tim Penguji Tugas Akhir
+      1. Mempelajari draft Proposal dan/atau Laporan TA sebelum ujian.
+      2. Hadir tepat waktu sesuai jadwal Program Studi.
+      3. Mengajukan pertanyaan dan masukan yang relevan dan tidak
+          menyimpang dari ruang lingkup TA.
+      4. Memberikan penilaian objektif sesuai standar/rubrik yang
+          berlaku dan menetapkan rekomendasi hasil ujian.
+      5. Ketua Penguji memimpin, membuka, dan menutup ujian;
+          mengoordinasikan tanya jawab; menghimpun penilaian; serta
+          menandatangani berita acara bersama anggota.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                         27
+   BAB 4 PENILAIAN DAN KONVERSI
+28               PEDOMAN PELAKSANAAN TUGAS AKHIR
+4.1     Ketentuan Umum
+1. Penilaian TA ditujukan untuk mengukur ketercapaian capaian
+   pembelajaran yang diharapkan oleh Program Studi.
+2. Penilaian TA dilakukan 2 kali, yaitu pada saat Seminar Proposal TA dan
+   Sidang TA.
+3. Penilaian TA memiliki Komponen, Sub-komponen, dan Bobot yang
+   ditetapkan oleh ITK.
+4. Komponen Profesionalisme hanya dinilai oleh Pembimbing TA
+5. Penilaian Seminar Proposal TA dan Sidang TA dilakukan secara terpisah
+   sehingga setiap mahasiswa memiliki:
+   a. Nilai Seminar Proposal TA
+   b. Nilai Sidang TA.
+6. Tim Penguji TA dapat melakukan penilaian pada FormTA-03A dan
+   FormTA-06A dengan mengisi salah satu opsi berikut:
+   a. Nilai Sub-komponen yang merupakan rincian dari nilai komponen;
+       atau
+   b. Nilai Komponen yang merupakan rerata dari Sub-komponen yang
+       sesuai
+7. Ketua Tim Penguji melakukan rekapitulasi nilai Komponen pada FormTA-
+   03B dan FormTA-06B untuk mendapatkan nilai akhir Seminar Proposal
+   TA dan Sidang TA.
+8. Nilai akhir Seminar Proposal TA dan Sidang TA adalah sebagai berikut:
+            Nilai Angka              Nilai Huruf             Predikat
+          86 ≤ 𝑁𝑖𝑙𝑎𝑖 ≤ 100                A                Sangat Baik
+          76 ≤ 𝑁𝑖𝑙𝑎𝑖 < 86                AB                 Baik Sekali
+          66 ≤ 𝑁𝑖𝑙𝑎𝑖 < 76                 B                    Baik
+          56 ≤ 𝑁𝑖𝑙𝑎𝑖 < 66                BC                 Cukup Baik
+          51 ≤ 𝑁𝑖𝑙𝑎𝑖 < 56                 C                   Cukup
+          41 ≤ 𝑁𝑖𝑙𝑎𝑖 < 51                 D                   Kurang
+           0 ≤ 𝑁𝑖𝑙𝑎𝑖 < 41                 E               Sangat Kurang
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                           29
+   4.2      Ketentuan Penyesuaian Penilaian
+   1. Program studi dapat menyesuaikan Komponen dan sub-Komponen
+       dengan ketentuan sebagai berikut :
+       a. Daftar Komponen tidak dapat diubah.
+       b. Daftar Sub-komponen dapat disesuaikan.
+       c. Bobot Komponen dan Sub-komponen dapat disesuaikan.
+       d. Komponen “Substansi” memiliki Bobot ≥ 55%.
+       e. Komponen “Profesionalisme” tidak dinilai pada Seminar
+            Proposal TA.
+       f.   Tidak ada Komponen dan Sub-komponen dengan bobot <
+            5%.
+       g. Bobot sub-komponen berjumlah 100% untuk setiap
+            komponennya.
+       h. Setiap perubahan komponen harus disertai rubrik penilaian.
+   2. Apabila Fakultas/Jurusan/Program studi memperlakukan nilai Seminar
+       Proposal TA dan Sidang TA sebagai satu kesatuan, maka bobot
+       keduanya adalah sebagai berikut :
+       a. Nilai Seminar Proposal TA 40%
+       b. Nilai Sidang TA 60%
+   3. Fakultas/Jurusan/Program studi dapat menyesuaikan bobot pada poin 2
+       dengan ketentuan nilai Sidang TA harus lebih besar sama dengan ( ≥ )
+       55%.
+   4.3      Komponen dan Bobot Penilaian
+   Tabel Komponen penilaian TA
+       Komponen          Seminar Proposal TA        Sidang TA     Korelasi CPL
+    Pemaparan                   15 %                   10 %          CPL 1
+    Penulisan                   30 %                   20 %          CPL 1
+30                                           PEDOMAN PELAKSANAAN TUGAS AKHIR
+ Substansi                             55 %                    55 %       CPL 2 & CPL Prodi
+ Profesionalisme                         -                     15 %              CPL 4
+ Total                                100 %                   100 %                -
+Tabel Sub-komponen pemaparan, penulisan, dan profesionalisme
+    Komponen                        Sub-komponen                  Bobot      Korelasi CPL
+                     Struktur & Sistematika Penulisan           60         CPL 1
+ Penulisan
+                     Kepatuhan Format & Tata Tulis              40         CPL 1
+                     Media Presentasi (PPT/Visual)              40         CPL 1
+ Pemaparan           Komunikasi Verbal                          30         CPL 1
+                     Komunikasi Non-Verbal & Attitude           30         CPL 1
+                     Etika dan Komunikasi                       40         CPL 4
+ Profesionalisme
+                     Kemandirian & Daya Juang                   60         CPL 4
+Tabel Sub-komponen substansi
+                            Sub-komponen                         Bobot
+                                                                                     Korelasi
+  Komponen
+                    Proposal               Sidang     Skripsi   Proyek  Prototipe
+                                                                                       CPL
+               Pemahaman             Pemahaman                                       CPL
+                                                      30      30        30
+               Materi & Topik        Materi & Topik                                  Prodi
+                                     Eksekusi Metode
+               Rumusan Masalah
+                                     dan Relevansi    10      10        10           CPL 2
+               & Relevansi
+                                     Masalah
+               Relevansi Metode      Validitas Data
+                                                      20      20        20           CPL 2
+               dengan Masalah        dan Analisis
+ Substansi     Kelayakan
+                                     Argumentasi dan
+               Rencana TA untuk
+                                     Penarikan        25      25        25           CPL 2
+               Diimplementasika
+                                     Kesimpulan
+               n
+               Relevansi
+               Rencana Luaran        Luaran, Dampak,
+                                                      15      15        15           CPL 2
+               dan Potensi           & Kelayakan
+               Dampak
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                               31
+   4.4      Konversi Kegiatan Pembelajaran Di Luar Program
+            Studi
+   Aktivitas pembelajaran di luar program studi yang dapat dikonversi sebagai
+   tugas akhir diantara lain:
+   Tabel Aktivitas Pembelajaran di Luar Prodi yang dapat dikonversi TA
+    Jenis Kegiatan                         Deskripsi                        Contoh / Catatan
+    Kompetisi       Kegiatan kompetisi/perlombaan tingkat nasional     Contoh: PKM, Gemastik,
+    Mahasiswa       dan/atau internasional yang diadakan oleh instansi lomba inovasi, hackathon,
+                    pemerintah dan/atau swasta disertai dengan         business plan
+                    supervisi.                                         competition, dll.
+    Pertukaran      Kegiatan pertukaran mahasiswa antar universitas    Contoh: IISMA, program
+    Mahasiswa       baik dalam maupun luar negeri yang berbasiskan     joint research exchange,
+                    penelitian.                                        student mobility berfokus
+                                                                       riset.
+    Magang          Kegiatan magang kerja yang dilakukan pada          Contoh: Magang di
+    Keprofesian     instansi pemerintah dan/atau swasta disertai       BUMN, perusahaan
+                    dengan supervisi.                                  teknologi, kementerian,
+                                                                       NGO, dll.
+    Magang Riset    Kegiatan penelitian yang dilakukan di dalam        Contoh: Penelitian
+                    dan/atau di luar ITK bekerja sama dengan instansi  kolaboratif dengan BRIN,
+                    pemerintah dan/atau swasta baik dalam maupun       universitas lain, atau
+                    luar negeri disertai dengan supervisi.             perusahaan riset.
+    Kewirausahaan   Kegiatan kewirausahaan yang dilakukan atas         Contoh: Mendirikan
+                    inisiatif mandiri atau berkelompok dengan          startup teknologi, usaha
+                    berbasiskan teknologi disertai dengan supervisi.   rintisan berbasis digital,
+                                                                       technopreneurship.
+    Proyek          Kegiatan pengabdian kepada masyarakat atau         Contoh: Program bantuan
+    Kemanusiaan     proyek kemanusiaan yang mempunyai kontribusi       pasca-bencana,
+                    ilmu pengetahuan dan teknologi disertai dengan     penyuluhan berbasis
+                    supervisi.                                         IPTEK, pemberdayaan
+                                                                       masyarakat.
+32                                                    PEDOMAN PELAKSANAAN TUGAS AKHIR
+ Jenis Kegiatan                      Deskripsi                         Contoh / Catatan
+ Kuliah Kerja    Kegiatan yang memberikan pengalaman belajar      Contoh: KKN Tematik di
+ Nyata Tematik   untuk hidup di tengah masyarakat di luar kampus, daerah tertinggal,
+                 terutama di daerah 3T, dan bersama masyarakat    pengembangan desa
+                 mengidentifikasi potensi serta menangani masalah digital, pendampingan
+                 dan memberikan solusi. Mendukung program kerja   UMKM desa, revitalisasi
+                 Kementerian Desa PDTT dan/atau stakeholder       daerah.
+                 sejenis.
+Kegiatan pembelajaran di luar program studi yang dapat dikonversi menjadi
+tugas akhir minimal memenuhi persyaratan:
+     •   Memenuhi syarat dan ketentuan pelaksanaan tugas akhir
+     •   Merupakan kegiatan yang telah selesai dilaksanakan
+     •   Kegiatan yang dikonversi harus sesuai bidang keilmuan dengan
+         rekomendasi 6 SKS dan mengacu pada panduan pembelajaran di
+         luar prodi
+     •   Memiliki pembahasan yang layak sehingga dapat digunakan sebagai
+         naskah akademik untuk dikonversikan menjadi tugas akhir
+     •   Mendapatkan       persetujuan          dari    pembimbing,        kepala    pusat
+         pembelajaran di luar program studi dan koordinator program studi
+ PEDOMAN PELAKSANAAN TUGAS AKHIR                                                           33
+   Lampiran 1 Formulir Tugas Akhir
+34               PEDOMAN PELAKSANAAN TUGAS AKHIR
+PEDOMAN PELAKSANAAN TUGAS AKHIR 3536 PEDOMAN PELAKSANAAN TUGAS AKHIRPEDOMAN PELAKSANAAN TUGAS AKHIR 3738 PEDOMAN PELAKSANAAN TUGAS AKHIRPEDOMAN PELAKSANAAN TUGAS AKHIR 3940 PEDOMAN PELAKSANAAN TUGAS AKHIRPEDOMAN PELAKSANAAN TUGAS AKHIR 4142 PEDOMAN PELAKSANAAN TUGAS AKHIRPEDOMAN PELAKSANAAN TUGAS AKHIR 4344 PEDOMAN PELAKSANAAN TUGAS AKHIRPEDOMAN PELAKSANAAN TUGAS AKHIR 4546 PEDOMAN PELAKSANAAN TUGAS AKHIRPEDOMAN PELAKSANAAN TUGAS AKHIR 47   Lampiran 2 Rubrik Tugas Akhir
+48              PEDOMAN PELAKSANAAN TUGAS AKHIR
+Rubrik Penilaian Bentuk Skripsi
+A. Rubrik Penilaian Seminar Proposal TA
+ Kriteria Penilaian Sangat Baik (86-100)      Baik (66-85)        Cukup (51-65)    Kurang (0-50)
+                                                   Penulisan
+ Struktur &         Penulisan ditulis    Penulisan ditulis    Penulisan kurang     Penulisan
+ Sistematika        dengan jelas,        dengan jelas, ada    jelas, ada bagian    tidak jelas,
+ Penulisan          didukung dengan      bagian yang tidak    yang tidak didukung  tidak
+                    argumentasi yang     didukung dengan      dengan               didukung
+                    kuat berdasarkan     argumentasi yang     argumentasi yang     dengan
+                    studi literatur yang kuat berdasarkan     kuat berdasarkan     argumentasi
+                    relevan, menuliskan  studi literatur yang studi literatur yang yang kuat,
+                    pustaka (quotation)  relevan, ada bagian  relevan, ada bagian  studi literatur
+                    yang diambil         yang tidak           yang tidak           yang tidak
+                    dengan tepat,        menuliskan pustaka   menuliskan pustaka   relevan, tidak
+                    paragraf yang        (quotation) yang     (quotation) yang     menuliskan
+                    ditulis mengalir     diambil, ada         diambil, ada         pustaka
+                    dengan jelas,        paragraf yang        paragraf yang        (quotation)
+                    kalimat yang ditulis ditulis kurang       ditulis tidak        yang diambil,
+                    dalam paragraf       mengalir dengan      mengalir dengan      paragraf dan
+                    mengalir dengan      jelas, ada kalimat   jelas, banyak        kalimat yang
+                    jelas.               yang ditulis dalam   kalimat yang ditulis ditulis tidak
+                                         paragraf kurang      dalam paragraf       mengalir
+                                         mengalir dengan      tidak mengalir       dengan jelas.
+                                         jelas.               dengan jelas.
+ Kepatuhan          Proposal ditulis     Proposal ditulis                 Proposal             Pro
+ Format & Tata      dengan sangat        dengan lengkap dan   ditulis dengan tidak posal ditulis
+ Tulis              lengkap dan benar;   benar pada format;   lengkap dan masih    dengan tidak
+                    hasil gambar dan     hasil gambar dan     terdapat kesalahan   lengkap dan
+                    tabel ditampilkan    tabel yang           pada format; hasil   mengandung
+                    secara sempurna      ditampilkan          gambar dan tabel     banyak
+                    dengan               mengandung kedua     yang ditampilkan     kesalahan
+                    mengandung kedua     unsur, yaitu         hanya memenuhi       pada format;
+                    unsur informatif dan informatif dan       salah satu unsur     hasil gambar
+                    komprehensif; serta  komprehensif; serta  informatif atau      dan tabel
+                    penulisan proposal   penulisan proposal   komprehensif; dan    yang
+                    telah memenuhi       telah memenuhi dua   penulisan proposal   ditampilkan
+                    semua kaidah karya   kaidah karya ilmiah, baru memenuhi        tidak
+                    ilmiah, yaitu        yakni penggunaan     salah satu kaidah    informatif
+                    penggunaan bahasa    bahasa Indonesia     karya ilmiah, yaitu  maupun
+                    Indonesia baku       baku sesuai EYD,     penggunaan bahasa    komprehensif;
+                    sesuai EYD,          penggunaan istilah   Indonesia baku       selain itu,
+                    penggunaan istilah   asing yang tepat,    sesuai EYD,          penulisan
+                    asing yang tepat,    atau penyajian       penggunaan istilah   tidak
+                    dan penyajian                             asing, atau          memenuhi
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                 49
+   Kriteria Penilaian Sangat Baik (86-100)      Baik (66-85)        Cukup (51-65)   Kurang (0-50)
+                      materi dengan        materi dengan        penyajian materi    kaidah karya
+                      kalimat sempurna.    kalimat sempurna     dengan kalimat      ilmiah karena
+                                                                sempurna.           tidak
+                                                                                    menggunakan
+                                                                                    bahasa
+                                                                                    Indonesia
+                                                                                    baku sesuai
+                                                                                    EYD, terdapat
+                                                                                    penggunaan
+                                                                                    istilah asing
+                                                                                    yang tidak
+                                                                                    tepat, serta
+                                                                                    penyajian
+                                                                                    materi tidak
+                                                                                    diuraikan
+                                                                                    dengan
+                                                                                    kalimat
+                                                                                    sempurna.
+                                                   Pemaparan
+   Media Presentasi   Peserta TA           Peserta TA           Peserta TA hanya    Peserta TA
+   (PPT/Visual)       memaparkan semua     memaparkan poin-     memaparkan sedikit  hanya
+                      poin penting yang    poin penting         topik atau tidak    memaparkan
+                      didukung             dengan sebagian      menekankan poin-    sedikit topik
+                      argumentasi, ide,    didukung             poin penting,       tanpa
+                      dan data yang        argumentasi, ide,    dengan sebagian     menyampaika
+                      tepat; seluruh slide dan data yang        besar slide berisi  n poin-poin
+                      berfokus pada satu   tepat; sebagian      terlalu banyak ide  penting,
+                      ide dengan isi yang  besar slide          dan kata, meskipun  menggunakan
+                      padat; setiap slide  menampilkan satu     gambar yang         slide yang
+                      dilengkapi gambar    ide namun berisi     ditampilkan sudah   tidak
+                      berkualitas yang     terlalu banyak kata; sesuai proporsi dan menampilkan
+                      membantu             serta gambar yang    tata letak terlihat ide utama dan
+                      pemahaman            digunakan sesuai     berstruktur.        berisi terlalu
+                      audiens; serta tata  proporsi dengan                          banyak kata,
+                      letak ditampilkan    tata letak yang                          disertai
+                      dengan menarik.      berstruktur.                             gambar yang
+                                                                                    mengganggu
+                                                                                    serta tata
+                                                                                    letak yang
+                                                                                    berantakan
+                                                                                    dan
+                                                                                    membingungk
+                                                                                    an.
+50                                                  PEDOMAN PELAKSANAAN TUGAS AKHIR
+ Kriteria Penilaian Sangat Baik (86-100)       Baik (66-85)      Cukup (51-65)   Kurang (0-50)
+ Komunikasi                              Peserta TA          Peserta TA          Peserta TA
+ Verbal                                  menggunakan         menggunakan         menggunakan
+                                         Bahasa Indonesia    Bahasa Indonesia    Bahasa
+                    Peserta TA           formal dengan       formal dengan       Indonesia
+                    menggunakan          volume suara yang   volume suara        yang tidak
+                    Bahasa Indonesia     jelas, mampu        kurang jelas, cukup formal
+                    formal dengan        mengkomunikasikan   kesulitan dalam     dengan
+                    volume suara yang    ide dengan baik,    menyampaikan ide-   volume suara
+                    sangat jelas serta   serta menunjukkan   ide, serta          kurang jelas,
+                    intonasi yang baik,  cukup persiapan     menunjukkan         sangat
+                    mampu                sehingga            kurang persiapan    kesulitan
+                    mengkomunikasikan    penyampaian dapat   dengan pekerjaan    dalam
+                    ide dengan antusias  dimengerti.         yang tidak lengkap. menyampaika
+                    menggunakan                                                  n ide-ide,
+                    bahasa yang tepat,                                           serta
+                    suara yang jelas,                                            menunjukkan
+                    dan penyampaian                                              sedikit
+                    yang mudah                                                   persiapan
+                    dimengerti.                                                  dengan hasil
+                                                                                 pekerjaan
+                                                                                 yang tidak
+                                                                                 lengkap.
+ Komunikasi Non-    Peserta TA bersikap  Peserta TA bersikap Peserta TA kurang   Peserta TA
+ Verbal & Attitude  sopan, percaya diri, sopan dan percaya   bersikap sopan dan  tidak bersikap
+                    dan tenang dengan    diri dengan hampir  percaya diri, hanya sopan dan
+                    selalu melakukan     selalu melakukan    sedikit melakukan   percaya diri,
+                    kontak mata serta    kontak mata serta   kontak mata, dan    hanya sedikit
+                    tidak pernah         hanya sesekali      terkadang melihat   melakukan
+                    melihat catatan.     melihat catatan.    catatan.            kontak mata,
+                                                                                 dan selalu
+                                                                                 melihat
+                                                                                 catatan.
+                                                   Substansi
+ Pemahaman          Memahami seluruh     Sebagian besar      Memahami            Tidak
+ Materi & Topik     materi/topik dengan  materi/topik        sebagian kecil      memahami
+                    sangat baik,         dipahami dengan     materi/topik,       materi/topik,
+                    penjelasan jelas,    baik, penjelasan    penjelasan masih    penjelasan
+                    tepat, dan           cukup jelas.        banyak kekeliruan.  tidak tepat
+                    meyakinkan.                                                  dan
+                                                                                 membingungk
+                                                                                 an.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                              51
+   Kriteria Penilaian Sangat Baik (86-100)      Baik (66-85)        Cukup (51-65)   Kurang (0-50)
+   Rumusan            Rumusan masalah      Rumusan masalah      Rumusan masalah     Rumusan
+   Masalah &          sangat jelas, fokus, cukup jelas, relevan kurang jelas,       masalah tidak
+   Relevansi          dan sangat relevan   dengan topik         relevansi dengan    jelas, tidak
+                      dengan topik.        meskipun belum       topik lemah.        relevan
+                                           komprehensif.                            dengan topik.
+   Relevansi          Metode sangat        Metode sesuai        Metode cukup        Metode yang
+   Metode dengan      relevan, dipilih     dengan masalah       sesuai tetapi tidak dipilih tidak
+   Masalah            dengan tepat, dan    dan sebagian         dijelaskan dengan   sesuai dengan
+                      dijelaskan dengan    dijelaskan dengan    tepat.              masalah
+                      jelas serta logis.   benar.                                   penelitian.
+   Kelayakan          Rencana penelitian   Rencana penelitian   Rencana penelitian  Rencana
+   Rencana TA         sangat layak,        cukup layak dan      kurang layak dan    penelitian
+   untuk              realistis, dan dapat sebagian besar       butuh banyak        tidak layak
+   Diimplementasik    diimplementasikan    dapat                perbaikan agar      dan sulit
+   an                 dengan baik.         diimplementasikan.   dapat               diimplementa
+                                                                diimplementasikan.  sikan.
+   Relevansi          Rencana luaran       Rencana luaran       Rencana luaran      Rencana
+   Rencana Luaran     sangat relevan dan   cukup relevan dan    kurang relevan dan  luaran tidak
+   dan Potensi        memiliki potensi     berpotensi           potensi dampaknya   jelas, tidak
+   Dampak             dampak yang          memberikan           rendah.             relevan, dan
+                      signifikan.          dampak positif                           tidak memiliki
+                                           terbatas.                                potensi
+                                                                                    dampak.
+52                                                 PEDOMAN PELAKSANAAN TUGAS AKHIR
+B. Rubrik Penilaian Sidang TA
+ Kriteria Penilaian  Sangat Baik (86-100)      Baik (66-85)        Cukup (51-65)       Kurang (0-50)
+                                                      Penulisan
+ Struktur &         Penulisan jelas,      Penulisan jelas       Penulisan cukup    Penulisan tidak
+ Sistematika        padat, dan runtut     sesuai topik, meski   jelas namun        jelas, banyak
+ Penulisan          dengan argumen        ada bagian kurang     masih ada bagian   bagian tidak sesuai
+                    kuat berdasarkan      argumentatif dan      tidak sesuai       topik, kurang
+                    literatur relevan;    alur paragraf kurang  topik, kurang      argumentasi, serta
+                    pustaka               mengalir. Pustaka     argumentasi dari   literatur tidak
+                    dicantumkan tepat;    dicantumkan           literatur relevan, relevan dan tidak
+                    paragraf dan          dengan tepat          dan tidak semua    dicantumkan
+                    kalimat mengalir.     namun belum           pustaka            dengan benar.
+                    Desain eksperimen     sepenuhnya kuat.      dicantumkan.       Desain eksperimen
+                    tepat sesuai tujuan   Desain eksperimen     Desain             tidak sesuai tujuan
+                    dan menguji           tepat sesuai tujuan,  eksperimen         dan tanpa
+                    hipotesis penelitian. meski uji masih       sesuai tujuan      hipotesis.
+                    Variabel sesuai       menyisakan            tetapi belum diuji Pembahasan tidak
+                    bidang, didukung      pertanyaan.           lengkap,           menunjukkan
+                    literatur, dengan     Variabel sesuai       hubungan           peningkatan
+                    hubungan hasil        bidang ilmu dengan    variabel masih     performa maupun
+                    yang jelas.           hubungan hasil        logis tanpa bukti  analisis yang baik.
+                    Pembahasan            yang relevan.         kuat.              Kesimpulan tidak
+                    menunjukkan           Pembahasan            Pembahasan         tepat serta tidak
+                    peningkatan           menunjukkan           belum              memberi saran
+                    performa signifikan   peningkatan           menunjukkan        penelitian lanjutan.
+                    (atau analisa kuat    performa atau         peningkatan        Pustaka mayoritas
+                    jika tidak),          disertai analisa      performa meski     usang (>10 tahun)
+                    kesimpulan sesuai     penyebab jika tidak   ada analisis       dan jumlah jurnal
+                    serta memberi         meningkat.            penyebab           nasional maupun
+                    saran                 Kesimpulan sesuai     masalah.           internasional
+                    pengembangan.         tetapi saran          Kesimpulan         sangat sedikit.
+                    Pustaka relevan,      penelitian lanjutan   sesuai namun
+                    terkini (≥5 tahun     masih terbatas.       tanpa saran
+                    terakhir), mayoritas  Pustaka relevan,      penelitian
+                    berasal dari jurnal   sebagian besar ≤10    lanjutan. Pustaka
+                    nasional dan          tahun terakhir,       sebagian kurang
+                    internasional.        jumlah jurnal         relevan,
+                                          nasional dan          mayoritas ≤10
+                                          internasional masih   tahun terakhir,
+                                          kurang.               jumlah jurnal
+                                                                nasional dan
+                                                                internasional
+                                                                masih sedikit.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                      53
+   Kriteria Penilaian  Sangat Baik (86-100)      Baik (66-85)       Cukup (51-65)        Kurang (0-50)
+   Kepatuhan          Laporan ditulis       Laporan ditulis      Laporan ditulis     Laporan ditulis
+   Format & Tata      dengan sangat         dengan lengkap dan   dengan tidak        dengan tidak
+   Tulis              lengkap dan benar;    benar pada format;   lengkap dan         lengkap dan
+                      hasil gambar dan      hasil gambar dan     masih terdapat      mengandung
+                      tabel ditampilkan     tabel yang           kesalahan pada      banyak kesalahan
+                      secara sempurna       ditampilkan          format; hasil       pada format; hasil
+                      dengan                mengandung kedua     gambar dan tabel    gambar dan tabel
+                      mengandung kedua      unsur, yaitu         yang ditampilkan    yang ditampilkan
+                      unsur informatif dan  informatif dan       hanya memenuhi      tidak informatif
+                      komprehensif; serta   komprehensif; serta  salah satu unsur    maupun
+                      penulisan proposal    penulisan proposal   informatif atau     komprehensif;
+                      telah memenuhi        telah memenuhi dua   komprehensif;       selain itu,
+                      semua kaidah karya    kaidah karya ilmiah, dan penulisan       penulisan tidak
+                      ilmiah, yaitu         yakni penggunaan     proposal baru       memenuhi kaidah
+                      penggunaan bahasa     bahasa Indonesia     memenuhi salah      karya ilmiah karena
+                      Indonesia baku        baku sesuai EYD,     satu kaidah karya   tidak menggunakan
+                      sesuai EYD,           penggunaan istilah   ilmiah, yaitu       bahasa Indonesia
+                      penggunaan istilah    asing yang tepat,    penggunaan          baku sesuai EYD,
+                      asing yang tepat,     atau penyajian       bahasa Indonesia    terdapat
+                      dan penyajian         materi dengan        baku sesuai EYD,    penggunaan istilah
+                      materi dengan         kalimat sempurna     penggunaan          asing yang tidak
+                      kalimat sempurna.                          istilah asing, atau tepat, serta
+                                                                 penyajian materi    penyajian materi
+                                                                 dengan kalimat      tidak diuraikan
+                                                                 sempurna.           dengan kalimat
+                                                                                     sempurna.
+                                                       Pemaparan
+   Media              Peserta TA            Peserta TA           Peserta TA          Peserta TA hanya
+   Presentasi         memaparkan semua      memaparkan poin-     hanya               memaparkan
+   (PPT/Visual)       poin penting yang     poin penting         memaparkan          sedikit topik tanpa
+                      didukung              dengan sebagian      sedikit topik atau  menyampaikan
+                      argumentasi, ide,     didukung             tidak               poin-poin penting,
+                      dan data yang         argumentasi, ide,    menekankan          menggunakan slide
+                      tepat; seluruh slide  dan data yang        poin-poin           yang tidak
+                      berfokus pada satu    tepat; sebagian      penting, dengan     menampilkan ide
+                      ide dengan isi yang   besar slide          sebagian besar      utama dan berisi
+                      padat; setiap slide   menampilkan satu     slide berisi        terlalu banyak kata,
+                      dilengkapi gambar     ide namun berisi     terlalu banyak      disertai gambar
+                      berkualitas yang      terlalu banyak kata; ide dan kata,       yang mengganggu
+                      membantu              serta gambar yang    meskipun            serta tata letak
+                      pemahaman             digunakan sesuai     gambar yang         yang berantakan
+                      audiens; serta tata   proporsi dengan      ditampilkan         dan
+                      letak ditampilkan     tata letak yang      sudah sesuai        membingungkan.
+                      dengan menarik.       berstruktur.         proporsi dan tata
+54                                                      PEDOMAN PELAKSANAAN TUGAS AKHIR
+ Kriteria Penilaian  Sangat Baik (86-100)       Baik (66-85)         Cukup (51-65)          Kurang (0-50)
+                                                                  letak terlihat
+                                                                  berstruktur.
+ Komunikasi         Peserta TA             Peserta TA             Peserta TA            Peserta TA
+ Verbal             menggunakan            menggunakan            menggunakan           menggunakan
+                    Bahasa Indonesia       Bahasa Indonesia       Bahasa Indonesia      Bahasa Indonesia
+                    formal dengan          formal dengan          formal dengan         yang tidak formal
+                    volume suara yang      volume suara yang      volume suara          dengan volume
+                    sangat jelas serta     jelas, mampu           kurang jelas,         suara kurang jelas,
+                    intonasi yang baik,    mengkomunikasikan      cukup kesulitan       sangat kesulitan
+                    mampu                  ide dengan baik,       dalam                 dalam
+                    mengkomunikasikan      serta menunjukkan      menyampaikan          menyampaikan ide-
+                    ide dengan antusias    cukup persiapan        ide-ide, serta        ide, serta
+                    menggunakan            sehingga               menunjukkan           menunjukkan
+                    bahasa yang tepat,     penyampaian dapat      kurang persiapan      sedikit persiapan
+                    suara yang jelas,      dimengerti.            dengan                dengan hasil
+                    dan penyampaian                               pekerjaan yang        pekerjaan yang
+                    yang mudah                                    tidak lengkap.        tidak lengkap.
+                    dimengerti.
+ Komunikasi         Peserta TA bersikap    Peserta TA bersikap    Peserta          TA   Peserta TA tidak
+ Non-Verbal &       sopan, percaya diri,   sopan dan percaya      kurang bersikap       bersikap sopan dan
+ Attitude           dan tenang dengan      diri dengan hampir     sopan           dan   percaya diri, hanya
+                    selalu    melakukan    selalu     melakukan   percaya         diri, sedikit melakukan
+                    kontak mata serta      kontak mata serta      hanya       sedikit   kontak mata, dan
+                    tidak pernah melihat   hanya         sesekali melakukan             selalu       melihat
+                    catatan.               melihat catatan.       kontak mata, dan      catatan.
+                                                                  terkadang
+                                                                  melihat catatan.
+                                                       Substansi
+ Pemahaman          Memahami materi        Memahami materi        Memahami              Kurang memahami
+ Materi & Topik     secara menyeluruh,     dengan baik,           materi secara         materi dan topik,
+                    semua penjelasan       sebagian besar         terbatas,             penjelasan tidak
+                    tepat, logis, dan      penjelasan tepat       beberapa              tepat dan kurang
+                    mendalam.              dan logis.             penjelasan tepat      logis.
+                                                                  namun masih
+                                                                  kurang jelas.
+ Eksekusi           Metode         sangat  Metode        relevan  Metode       cukup    Metode tidak sesuai
+ Metode dan         relevan,      eksekusi dengan       masalah   relevan      tetapi   dengan      masalah
+ Relevansi          tepat dan menjawab     dan          eksekusi  eksekusi     belum    dan           tujuan
+ Masalah                                                          lengkap        atau   penelitian.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                           55
+   Kriteria Penilaian  Sangat Baik (86-100)       Baik (66-85)         Cukup (51-65)       Kurang (0-50)
+                      tujuan     penelitian  sebagian        besar  masih          ada
+                      sepenuhnya.            tepat.                 kesalahan.
+   Validitas Data     Data sangat valid,     Data valid, analisis   Data cukup valid,  Data kurang valid,
+   dan Analisis       analisis        logis, sebagian besar logis   analisis sebagian  analisis tidak logis
+                      mendalam,         dan  dan      mendukung     logis      namun   atau tidak sesuai.
+                      mendukung              kesimpulan.            kurang
+                      kesimpulan                                    mendukung
+                      sepenuhnya.                                   kesimpulan.
+   Argumentasi        Argumentasi kuat,      Argumentasi baik,      Argumentasi        Argumentasi
+   dan Penarikan      kesimpulan tepat,      kesimpulan             cukup,             lemah, kesimpulan
+   Kesimpulan         logis, dan             sebagian besar         kesimpulan         tidak tepat atau
+                      mendukung tujuan       tepat dan relevan.     sebagian tepat     tidak mendukung
+                      penelitian                                    namun masih        tujuan penelitian.
+                                                        .
+                      sepenuhnya.                                   terbatas.
+   Luaran,            Luaran sangat jelas,   Luaran          jelas, Luaran      cukup  Luaran        kurang
+   Dampak, &          dampak signifikan,     dampak            dan  jelas,    dampak   jelas,       dampak
+   Kelayakan          dan        kelayakan   kelayakan baik.        dan     kelayakan  terbatas, kelayakan
+                      tinggi.                                       masih terbatas.    rendah.
+                                                Profesionalisme
+   Etika dan                                 Mampu                  Mampu              Kurang       mampu
+   Komunikasi                                berkomunikasi          berkomunikasi      berkomunikasi
+                      Mampu                  secara lisan maupun    secara       lisan secara          lisan
+                      berkomunikasi          tertulis       dalam   maupun tertulis    maupun        tertulis
+                      secara lisan maupun    pekerjaan atau saat    dalam pekerjaan    dalam      pekerjaan
+                      tertulis       dalam   bimbingan dengan       atau          saat atau             saat
+                      pekerjaan atau saat    baik serta bersikap    bimbingan          bimbingan,      serta
+                      bimbingan dengan       sopan             dan  dengan      cukup  kurang
+                      sangat baik, disertai  bertanggung jawab.     baik         serta menunjukkan sikap
+                      sikap sopan dan                               menunjukkan        sopan             dan
+                      penuh      tanggung                           sikap yang cukup   tanggung jawab.
+                      jawab.                                        sopan          dan
+                                                                    bertanggung
+                                                                    jawab.
+56                                                       PEDOMAN PELAKSANAAN TUGAS AKHIR
+ Kriteria Penilaian  Sangat Baik (86-100)        Baik (66-85)       Cukup (51-65)     Kurang (0-50)
+ Kemandirian &      Peserta TA sangat      Peserta TA cukup      Peserta TA        Peserta TA tidak
+ Daya Juang         mandiri dalam          mandiri, beberapa     kurang mandiri,   mandiri, tidak
+                    menyampaikan ide,      kali menyampaikan     sedikit           menyampaikan ide,
+                    menyelesaikan          ide, menyelesaikan    menyampaikan      menyelesaikan
+                    tugas tepat waktu,     tugas tepat waktu     ide,              tugas tidak tepat
+                    berpikir kritis,       namun kurang          menyelesaikan     waktu dan tidak
+                    kreatif, dan analitis, tuntas, berpikir      tugas kurang      tuntas, kurang
+                    beradaptasi baik,      kritis, kreatif, dan  tepat waktu dan   berpikir kritis,
+                    menguasai              analitis dengan baik, tidak tuntas,     kreatif, dan analitis,
+                    kemampuan teknis,      beradaptasi baik,     berpikir kritis,  beradaptasi kurang
+                    serta menghasilkan     serta menguasai       kreatif, dan      baik, kurang
+                    pekerjaan              kemampuan teknis      analitis secara   menguasai
+                    memuaskan dan          dasar untuk           terbatas,         kemampuan teknis
+                    berkontribusi dalam    melaksanakan TA       beradaptasi       dasar, serta
+                    penelitian.                                  cukup baik, cukup menghasilkan
+                                                                 menguasai         pekerjaan tidak
+                                                                 kemampuan         memuaskan dan
+                                                                 teknis dasar,     kontribusi
+                                                                 serta             penelitian yang
+                                                                 menghasilkan      minim.
+                                                                 pekerjaan tidak
+                                                                 memuaskan
+                                                                 dengan
+                                                                 kontribusi
+                                                                 penelitian yang
+                                                                 minim.
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                      57
+   2. Rubrik Penilaian Bentuk Proyek
+   A. Rubrik Penilaian Seminar Proposal TA
+     Kriteria Penilaian  Sangat Baik (86-100)     Baik (66-85)        Cukup (51-65)      Kurang (0-50)
+                                                       Penulisan
+    Struktur &          Proposal sangat       Proposal cukup      Proposal umum:         Proposal
+    Sistematika         komprehensif: latar   baik: latar         latar belakang         lemah: latar
+    Penulisan           belakang kuat dan     belakang, rumusan   kurang jelas,          belakang,
+                        logis, rumusan        masalah dan         rumusan masalah        rumusan
+                        masalah jelas dan     tujuan sudah        dan tujuan masih       masalah dan
+                        fokus, tujuan         sesuai, metodologi  terlalu luas atau      tujuan tidak
+                        spesifik dan terukur. ada meskipun tidak  tidak spesifik.        sinkron.
+                        Metodologi sangat     terlalu rinci. Ada  Metodologi masih       Metodologi
+                        rinci, tahapan kerja  manfaat proyek      kurang tepat.          tidak
+                        realistis. Manfaat    meski tidak terlalu                        memadai dan
+                        proyek nyata dan      signifikan.                                arah
+                        inovatif.                                                        pengembang
+                                                                                         an proyek
+                                                                                         tidak realistis.
+    Kepatuhan           Struktur dokumen      Struktur sesuai     Struktur tidak sesuai  Struktur tidak
+    Format & Tata       sesuai panduan        panduan             panduan                sesuai
+    Tulis               kepenulisan TA.       kepenulisan TA,     kepenulisan TA,        panduan
+                        Bahasa ilmiah         namun ada sedikit   banyak kekeliruan      kepenulisan
+                        digunakan             kesalahan format    dalam penggunaan       TA, bahasa
+                        konsisten, ejaan dan  dalam penulisan.    bahasa dan ejaan.      tidak ilmiah,
+                        tata bahasa benar.    Bahasa ilmiah       Daftar pustaka         banyak
+                        Sitasi dan daftar     digunakan cukup     kurang lengkap.        kesalahan
+                        pustaka lengkap       konsisten, masih                           ejaan, daftar
+                        dan mutakhir.         ada kesalahan                              pustaka tidak
+                                              pada ejaan dan                             memadai.
+                                              tata bahasa. Sitasi
+                                              dan daftar pustaka
+                                              cukup lengkap.
+                                                      Pemaparan
+    Media Presentasi    Media presentasi      Media presentasi    Media kurang           Media
+    (PPT/Visual)        sangat menarik,       menarik dan cukup   menarik, banyak        presentasi
+                        profesional, dan      konsisten. Ada      teks di slide, sedikit tidak
+                        estetis; Gambar,      penggunaan          atau tidak ada         terstruktur
+                        grafik, dan animasi   gambar/grafik       ilustrasi pendukung.   dengan baik,
+                        digunakan efektif     yang membantu,      Tata letak dan         membingungk
+                        untuk memperjelas     walau ada sedikit   konsistensi            an, banyak
+                        informasi tanpa       ketidakseimbanga    warna/gaya masih       teks panjang,
+                        mengganggu fokus      n antara teks dan   belum optimal          gambar tidak
+58                                                     PEDOMAN PELAKSANAAN TUGAS AKHIR
+  Kriteria Penilaian   Sangat Baik (86-100)     Baik (66-85)        Cukup (51-65)    Kurang (0-50)
+                      audiens. Slide berisi visual. Tata letak  sehingga             relevan atau
+                      poin-poin ringkas,    cukup rapi dan      mengganggu visual    tidak ada,
+                      ilustrasi mendukung   poin-poin isi       dan poin-poin        serta
+                      pemahaman.            mudah dipahami.     penyampaian.         penggunaan
+                      Konsistensi visual                                             warna tidak
+                      terjaga sepanjang                                              konsisten,
+                      presentasi.                                                    sehingga sulit
+                                                                                     dipahami
+                                                                                     audiens
+ Komunikasi           Bahasa lisan sangat   Bahasa cukup        Bahasa kurang jelas, Bahasa tidak
+ Verbal               jelas dan mudah       jelas, meskipun     sering melakukan     formal,
+                      dipahami, artikulasi  kadang terdengar    jeda, kontak mata    banyak
+                      sempurna. Kontak      terbata-bata.       minim, ekspresi      kalimat tidak
+                      mata aktif dengan     Kontak mata         monoton. Waktu       selesai,
+                      audiens, ekspresi     dilakukan sesekali, presentasi kurang    artikulasi
+                      wajah mendukung       ekspresi cukup      terkontrol sehingga  buruk. Tidak
+                      komunikasi, gestur    mendukung.          terasa tergesa-gesa  ada kontak
+                      alami. Pengelolaan    Waktu presentasi    atau terlalu lama.   mata dengan
+                      waktu sangat baik,    sedikit melewati                         audiens,
+                      presentasi            batas yang                               postur tubuh
+                      diselesaikan tepat    dianjurkan.                              kaku. Waktu
+                      waktu tanpa                                                    tidak sesuai
+                      terburu-buru atau                                              dengan
+                      berlarut-larut.                                                alokasi,
+                                                                                     presentasi
+                                                                                     jauh lebih
+                                                                                     pendek atau
+                                                                                     jauh lebih
+                                                                                     lama dari
+                                                                                     ketentuan.
+ Komunikasi Non-      Peserta TA bersikap   Peserta TA          Peserta TA kurang    Peserta TA
+ Verbal             & sopan, percaya diri,  bersikap sopan      bersikap sopan dan   tidak bersikap
+ Attitude             dan tenang dengan     dan percaya diri    percaya diri, hanya  sopan dan
+                      selalu melakukan      dengan hampir       sedikit melakukan    percaya diri,
+                      kontak mata serta     selalu melakukan    kontak mata, dan     hanya sedikit
+                      tidak pernah melihat  kontak mata serta   terkadang melihat    melakukan
+                      catatan.              hanya sesekali      catatan.             kontak mata,
+                                            melihat catatan.                         dan selalu
+                                                                                     melihat
+                                                                                     catatan.
+                                                     Substansi
+ Pemahaman            Menunjukkan           Memahami            Memahami             Tidak
+ Materi & Topik       pemahaman             sebagian besar      sebagian materi      memahami
+                      mendalam terhadap     materi dan topik.   dasar. Jawaban       materi dan
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                    59
+    Kriteria Penilaian  Sangat Baik (86-100)     Baik (66-85)         Cukup (51-65)     Kurang (0-50)
+                       materi dan topik.     Menjawab             kadang ragu atau      topik.
+                       Dapat menjelaskan     pertanyaan cukup     tidak konsisten.      Jawaban
+                       hubungan teori dan    baik, tetapi ada                           salah atau
+                       aplikasi praktis,     keterbatasan                               kosong.
+                       menjawab              dalam detail teknis
+                       pertanyaan audiens    atau elaborasi ide.
+                       dengan cepat, tepat,
+                       dan analitis.
+   Rumusan             Rumusan masalah       Rumusan masalah      Rumusan masalah       Rumusan
+   Masalah &           jelas, spesifik,      cukup jelas dan      umum, relevansi       masalah tidak
+   Relevansi           relevan dengan        relevan, tetapi      kurang kuat, tidak    jelas, tidak
+                       topik, dan            kurang spesifik      sepenuhnya terkait    relevan
+                       menunjukkan           atau belum           topik.                dengan topik.
+                       urgensi serta         sepenuhnya
+                       kontribusi proyek.    menunjukkan
+                                             urgensi.
+   Relevansi           Metode yang           Metode cukup         Metode kurang         Metode tidak
+   Metode dengan       digunakan sangat      sesuai dengan        sesuai atau hanya     relevan atau
+   Masalah             sesuai dengan         masalah, tetapi      sebagian relevan      tidak dapat
+                       masalah yang          ada beberapa         dengan masalah.       menjawab
+                       dirumuskan dan        keterbatasan                               masalah.
+                       mampu menjawab        dalam penerapan
+                       pertanyaan            atau efektivitasnya.
+                       penelitian secara
+                       efektif.
+   Kelayakan           Rencana TA sangat     Rencana TA cukup     Rencana TA            Rencana TA
+   Rencana TA          layak untuk           layak, tetapi ada    memiliki kelayakan    tidak layak
+   untuk               diimplementasikan;    beberapa aspek       terbatas; beberapa    untuk
+   Diimplementasik     sumber daya,          yang perlu           aspek tidak realistis diimplementa
+   an                  waktu, dan prosedur   diperbaiki untuk     atau sulit            sikan, banyak
+                       jelas dan realistis.  implementasi..       diimplementasikan.    aspek tidak
+                                                                                        realistis.
+   Relevansi           Rencana luaran        Rencana luaran       Rencana luaran        Rencana
+   Rencana Luaran      proyek jelas,         proyek cukup jelas   proyek kurang jelas,  luaran proyek
+   dan         Potensi relevan, dan          dan relevan,         relevansi terbatas,   tidak jelas,
+   Dampak              memiliki potensi      dampaknya cukup      dan potensi dampak    tidak relevan,
+                       dampak tinggi bagi    signifikan tetapi    rendah.               dan tidak
+                       bidang ilmu,          terbatas.                                  memiliki
+                       masyarakat, atau                                                 potensi
+                       industri.                                                        dampak.
+60                                                    PEDOMAN PELAKSANAAN TUGAS AKHIR
+B. Rubrik Penilaian Sidang TA
+  Kriteria Penilaian   Sangat Baik (86-100)        Baik (66-85)       Cukup (51-65)    Kurang (0-50)
+                                                      Penulisan
+ Struktur &          Laporan                  Laporan              Laporan hasil    Laporan hanya
+ Sistematika         menggambarkan            menggambarkan        proyek           deskriptif tanpa
+ Penulisan           seluruh proses proyek    hasil proyek dengan  dilaporkan       analisis, hasil
+                     secara komprehensif      cukup baik, analisis namun analisis   proyek tidak
+                     dengan dilengkapi        cukup memadai,       dan evaluasi     jelas, evaluasi
+                     analisis kritis. Hasil   evaluasi cukup baik  lemah.           tidak dilakukan.
+                     proyek sesuai dengan     meskipun tidak
+                     tujuan awal yang         mendalam.
+                     ditetapkan.
+                     Memberikan refleksi
+                     dan rekomendasi
+                     berharga.
+ Kepatuhan           Struktur dokumen         Struktur sesuai      Struktur tidak   Struktur tidak
+ Format & Tata       sesuai panduan           panduan              sesuai panduan   sesuai panduan
+ Tulis               kepenulisan TA.          kepenulisan TA,      kepenulisan TA,  kepenulisan TA,
+                     Bahasa ilmiah            namun ada sedikit    banyak           bahasa tidak
+                     digunakan konsisten,     kesalahan format     kekeliruan       ilmiah, banyak
+                     ejaan dan tata bahasa    dalam penulisan.     dalam            kesalahan ejaan,
+                     benar. Sitasi dan daftar Bahasa ilmiah        penggunaan       daftar pustaka
+                     pustaka lengkap dan      digunakan cukup      bahasa dan       tidak memadai.
+                     mutakhir.                konsisten, masih     ejaan. Daftar
+                                              ada kesalahan pada   pustaka kurang
+                                              ejaan dan tata       lengkap.
+                                              bahasa. Sitasi dan
+                                              daftar pustaka
+                                              cukup lengkap.
+                                                     Pemaparan
+ Media               Media presentasi         Media presentasi     Media kurang     Media
+ Presentasi          sangat menarik,          menarik dan cukup    menarik, banyak  presentasi tidak
+ (PPT/Visual)        profesional, dan         konsisten. Ada       teks di slide,   terstruktur
+                     estetis; Gambar, grafik, penggunaan           sedikit atau     dengan baik,
+                     dan animasi digunakan    gambar/grafik yang   tidak ada        membingungkan
+                     efektif untuk            membantu, walau      ilustrasi        , banyak teks
+                     memperjelas informasi    ada sedikit          pendukung. Tata  panjang, gambar
+                     tanpa mengganggu         ketidakseimbangan    letak dan        tidak relevan
+                     fokus audiens. Slide     antara teks dan      konsistensi      atau tidak ada,
+                     berisi poin-poin         visual. Tata letak   warna/gaya       serta
+                     ringkas, ilustrasi       cukup rapi dan poin- masih belum      penggunaan
+                     mendukung                poin isi mudah       optimal          warna tidak
+                     pemahaman.               dipahami.            sehingga         konsisten,
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                     61
+   Kriteria Penilaian   Sangat Baik (86-100)       Baik (66-85)    Cukup (51-65)     Kurang (0-50)
+                      Konsistensi visual                         mengganggu       sehingga sulit
+                      terjaga sepanjang                          visual dan poin- dipahami
+                      presentasi.                                poin             audiens
+                                                                 penyampaian.
+   Komunikasi                                Bahasa cukup jelas, Bahasa kurang    Bahasa tidak
+   Verbal             Bahasa lisan sangat    meskipun kadang     jelas, sering    formal, banyak
+                      jelas dan mudah        terdengar terbata-  melakukan jeda,  kalimat tidak
+                      dipahami, artikulasi   bata. Kontak mata   kontak mata      selesai,
+                      sempurna. Kontak       dilakukan sesekali, minim, ekspresi  artikulasi buruk.
+                      mata aktif dengan      ekspresi cukup      monoton. Waktu   Tidak ada
+                      audiens, ekspresi      mendukung. Waktu    presentasi       kontak mata
+                      wajah mendukung        presentasi sedikit  kurang           dengan audiens,
+                      komunikasi, gestur     melewati batas      terkontrol       postur tubuh
+                      alami. Pengelolaan     yang dianjurkan.    sehingga terasa  kaku. Waktu
+                      waktu sangat baik,                         tergesa-gesa     tidak sesuai
+                      presentasi                                 atau terlalu     dengan alokasi,
+                      diselesaikan tepat                         lama.            presentasi jauh
+                      waktu tanpa terburu-                                        lebih pendek
+                      buru atau berlarut-                                         atau jauh lebih
+                      larut.                                                      lama dari
+                                                                                  ketentuan.
+   Komunikasi         Peserta TA bersikap    Peserta TA bersikap Peserta TA       Peserta TA tidak
+   Non-Verbal &       sopan, percaya diri,   sopan dan percaya   kurang bersikap  bersikap sopan
+   Attitude           dan tenang dengan      diri dengan hampir  sopan dan        dan percaya diri,
+                      selalu melakukan       selalu melakukan    percaya diri,    hanya sedikit
+                      kontak mata serta      kontak mata serta   hanya sedikit    melakukan
+                      tidak pernah melihat   hanya sesekali      melakukan        kontak mata,
+                      catatan.               melihat catatan.    kontak mata,     dan selalu
+                                                                 dan terkadang    melihat catatan.
+                                                                 melihat catatan.
+                                                     Substansi
+   Pemahaman          Menunjukkan            Memahami            Hanya            Tidak
+   Materi & Topik     pemahaman              sebagian besar      memahami         memahami
+                      mendalam terhadap      aspek proyek,       bagian dasar     konsep inti
+                      seluruh aspek proyek   penjelasan cukup    proyek,          proyek dan tidak
+                      dan mampu              baik, tetapi ada    menjawab         mampu
+                      menjelaskan            keterbatasan dalam  pertanyaan       menjawab
+                      hubungan teori         detail teknis atau  dengan jawaban   pertanyaan
+                      dengan aplikasi        pengembangan ide.   umum, kadang     dengan tepat.
+                      praktis.                                   ragu-ragu.
+62                                                   PEDOMAN PELAKSANAAN TUGAS AKHIR
+ Kriteria Penilaian   Sangat Baik (86-100)      Baik (66-85)      Cukup (51-65)    Kurang (0-50)
+ Eksekusi           Metode sangat relevan  Metode relevan,      Metode cukup    Metode tidak
+ Metode dan         dengan masalah,        eksekusi sebagian    relevan,        relevan,
+ Relevansi          eksekusi tepat,        besar tepat, ada     eksekusi belum  eksekusi tidak
+ Masalah            menjawab tujuan        beberapa             lengkap atau    sesuai dengan
+                    penelitian sepenuhnya. kekurangan minor.    ada kesalahan.  tujuan
+                                                                                penelitian.
+ Validitas Data     Data sangat valid,     Data valid, analisis Data cukup      Data tidak valid,
+ dan Analisis       analisis logis,        sebagian besar logis valid, analisis analisis tidak
+                    mendalam, dan          dan mendukung        sebagian logis, logis atau tidak
+                    mendukung              kesimpulan.          kurang          sesuai.
+                    kesimpulan                                  mendukung
+                    sepenuhnya.                                 kesimpulan.
+ Argumentasi        Argumentasi kuat,      Argumentasi baik,    Argumentasi     Argumentasi
+ dan Penarikan      kesimpulan tepat,      kesimpulan           cukup,          lemah,
+ Kesimpulan         logis, dan mendukung   sebagian besar       kesimpulan      kesimpulan
+                    tujuan penelitian      tepat dan relevan.   sebagian tepat  tidak tepat atau
+                    sepenuhnya.                                 namun masih     tidak
+                                                      .
+                                                                terbatas.       mendukung
+                                                                                tujuan
+                                                                                penelitian.
+ Luaran,            Luaran proyek sangat   Luaran proyek jelas, Luaran proyek   Luaran proyek
+ Dampak, &          jelas, dampak          dampak dan           cukup jelas,    kurang jelas,
+ Kelayakan          signifikan, dan        kelayakan baik.      dampak dan      dampak
+                    kelayakan tinggi.                           kelayakan masih terbatas,
+                                                                terbatas.       kelayakan
+                                                                                rendah.
+                                               Profesionalisme
+ Etika dan                                 Mampu                Mampu           Kurang mampu
+ Komunikasi                                berkomunikasi        berkomunikasi   berkomunikasi
+                    Mampu berkomunikasi    secara lisan maupun  secara lisan    secara lisan
+                    secara lisan maupun    tertulis dalam       maupun tertulis maupun tertulis
+                    tertulis dalam         pekerjaan atau saat  dalam pekerjaan dalam pekerjaan
+                    pekerjaan atau saat    bimbingan dengan     atau saat       atau saat
+                    bimbingan dengan       baik serta bersikap  bimbingan       bimbingan, serta
+                    sangat baik, disertai  sopan dan            dengan cukup    kurang
+                    sikap sopan dan penuh  bertanggung jawab.   baik serta      menunjukkan
+                    tanggung jawab.                             menunjukkan     sikap sopan dan
+                                                                sikap yang      tanggung jawab.
+                                                                cukup sopan
+                                                                dan
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                63
+   Kriteria Penilaian   Sangat Baik (86-100)      Baik (66-85)      Cukup (51-65)     Kurang (0-50)
+                                                                  bertanggung
+                                                                  jawab.
+   Kemandirian &      Aktif mencari solusi   Cukup mandiri        Kurang mandiri   Tidak mandiri,
+   Daya Juang         saat menemui           tetapi kadang butuh  sehingga sering  tidak
+                      masalah, mengerjakan   arahan dari dosen.   membutuhkan      bertanggung
+                      TA sesuai timeline     Menyelesaikan TA     bimbingan        jawab, jumlah
+                      yang telah disepakati  sesuai timeline yang intensif. TA     bimbingan
+                      dengan hasil melebihi  telah disepakati     selesai sesuai   sangat minim,
+                      ekspektasi.            dengan hasil yang    timeline namun   TA tidak
+                                             selaras dengan       kurang supervisi diselesaikan
+                                             tujuan               secara           sesuai timeline.
+                                                                  mendalam.
+64                                                  PEDOMAN PELAKSANAAN TUGAS AKHIR
+3.         Rubrik Penilaian Bentuk Prototipe
+A.         Rubrik Penilaian Seminar Proposal TA
+      Kriteria     Sangat Baik (86-100)     Baik (66-85)         Cukup (51-65)       Kurang (0-50)
+     Penilaian
+                                                   Penulisan
+ Struktur &       Penjelasan isi        Penjelasan isi       Penjelasan isi       Penjelasan isi
+ Sistematika      proposal beserta      proposal beserta     proposal beserta     proposal
+ Penulisan        konsep desain         konsep desain        konsep desain        beserta konsep
+                  prototipe yang akan   prototipe yang       prototipe yang akan  desain prototipe
+                  dibuat ditulis        akan dibuat          dibuat tidak ditulis yang akan
+                  lengkap serta         ditulis lengkap      lengkap serta        dibuat tidak
+                  didukung dengan       serta didukung       didukung dengan      ditulis lengkap
+                  referensi 5 tahun     dengan referensi     referensi tidak 5    serta didukung
+                  terakhir minimal 10   tidak 5 tahun        tahun terakhir       dengan referensi
+                  pustaka               terakhir minimal     minimal 10 pustaka   tidak 5 tahun
+                                        10 pustaka                                terakhir dan
+                                                                        atau
+                                                                                  kurang dari 10
+                                                             Penjelasan isi       pustaka
+                                                             laporan beserta
+                                                             konsep desain
+                                                             prototipe yang akan
+                                                             dibuat ditulis
+                                                             lengkap serta
+                                                             didukung dengan
+                                                             referensi 5 tahun
+                                                             terakhir kurang dari
+                                                             10 pustaka
+ Kepatuhan        Proposal ditulis      Proposal ditulis     Proposal tidak       Proposal tidak
+ Format & Tata    sesuai dengan         sesuai dengan        ditulis sesuai       ditulis sesuai
+ Tulis            format penulisan      format penulisan     dengan format        dengan format
+                  dan lengkap serta     dan lengkap serta    penulisan dan/atau   penulisan
+                  menggunakan           menggunakan          tidak lengkap serta  dan/atau tidak
+                  Bahasa Indonesia      Bahasa Indonesia     menggunakan          lengkap serta
+                  yang baku dan         yang baku dan        Bahasa Indonesia     tidak
+                  ilmiah, tidak         ilmiah, terdapat     yang baku dan        menggunakan
+                  terdapat kesalahan    kesalahan dalam      ilmiah, terdapat     Bahasa
+                  dalam penulisan       penulisan (ejaan,    kesalahan dalam      Indonesia yang
+                  (ejaan, kalimat,      kalimat, paragraf)   penulisan (ejaan,    baku dan ilmiah,
+                  paragraf) serta       serta penggunaan     kalimat, paragraf)   terdapat
+                  penggunaan sitasi     sitasi yang benar    serta penggunaan     kesalahan
+                  yang benar                                 sitasi yang benar    dalam penulisan
+                                                                                  (ejaan, kalimat,
+                                                                                  paragraf) serta
+                                                                                  penggunaan
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                    65
+        Kriteria   Sangat Baik (86-100)        Baik (66-85)           Cukup (51-65)        Kurang (0-50)
+      Penilaian
+                                                                                        sitasi yang
+                                                                                        benar
+                                                      Pemaparan
+   Media          Media presentasi         Media presentasi      Media kurang           Media
+   Presentasi     sangat menarik,          menarik dan           menarik, banyak        presentasi tidak
+   (PPT/Visual)   profesional, dan         cukup konsisten.      teks di slide, sedikit terstruktur
+                  estetis; Gambar,         Ada penggunaan        atau tidak ada         dengan baik,
+                  grafik, dan animasi      gambar/grafik         ilustrasi pendukung.   membingungkan
+                  digunakan efektif        yang membantu,        Tata letak dan         , banyak teks
+                  untuk memperjelas        walau ada sedikit     konsistensi            panjang, gambar
+                  informasi tanpa          ketidakseimbanga      warna/gaya masih       tidak relevan
+                  mengganggu fokus         n antara teks dan     belum optimal          atau tidak ada,
+                  audiens. Slide berisi    visual. Tata letak    sehingga               serta
+                  poin-poin ringkas,       cukup rapi dan        mengganggu visual      penggunaan
+                  ilustrasi mendukung      poin-poin isi         dan poin-poin          warna tidak
+                  pemahaman.               mudah dipahami.       penyampaian.           konsisten,
+                  Konsistensi visual                                                    sehingga sulit
+                  terjaga sepanjang                                                     dipahami
+                  presentasi.                                                           audiens
+   Komunikasi     Komunikatif,             Komunikatif,          Komunikatif tetapi     Tidak
+   Verbal         penyampaian              penyampaian           penyampaian            komunikatif atau
+                  efektif, efisien, jelas, efektif, jelas,       kurang efektif dan     sulit dipahami.
+                  dan menarik.             tetapi ada            kadang kurang jelas.
+                                           keterbatasan
+                                           dalam elaborasi
+                                           ide.
+   Komunikasi     Bahasa tubuh alami,      Bahasa tubuh          Bahasa tubuh           Bahasa tubuh
+   Non-Verbal &   tidak berlebihan,        agak kaku tetapi      terbatas, kurang       tidak sesuai,
+   Attitude       mendukung                masih                 mendukung              mengganggu,
+                  penyampaian,             mendukung             penyampaian.           atau tidak
+                  menarik audiens.         penyampaian.                                 mendukung
+                                                                                        penyampaian.
+                                                       Substansi
+   Pemahaman      Pemahaman materi         Pemahaman             Pemahaman materi       Pemahaman
+   Materi & Topik kuat, penjelasan         materi terlihat,      terlihat, penjelasan   kurang jelas
+                  sangat jelas,            penjelasan jelas,     jelas, jawaban tidak   dan/atau
+                  jawaban tepat dan        jawaban tepat.        selalu tepat.          jawaban
+                  jelas.                                                                sebagian besar
+                                                                                        salah.
+66                                                      PEDOMAN PELAKSANAAN TUGAS AKHIR
+      Kriteria  Sangat Baik (86-100)     Baik (66-85)       Cukup (51-65)       Kurang (0-50)
+     Penilaian
+ Rumusan       Gagasan belum         Gagasan belum      Gagasan sudah        Gagasan sudah
+ Masalah &     banyak yang           banyak yang        banyak yang          banyak yang
+ Relevansi     mengembangkan,        mengembangkan      mengembangkan        mengembangka
+               unik, kreatif, dan    dan inovatif       tetapi ada inovasi   n dan tidak ada
+               inovatif                                                      inovasi
+ Relevansi     Menggunakan           Menggunakan        Menggunakan          Menggunakan
+ Metode        IPTEKS yang           IPTEKS yang        IPTEKS yang          IPTEKS yang
+ dengan        relevan, spesifik,    relevan, spesifik, relevan, umum, dan   relevan dan
+ Masalah       dan mutakhir serta    dan mutakhir       mutakhir             umum tetapi
+               memadukan dari                                                tidak mutakhir
+               beberapa IPTEKS                                               (lama)
+ Kelayakan     Prototipe memiliki    Prototipe          Prototipe memiliki   Prototipe
+ Rencana TA    dampak luas dan       memiliki manfaat   manfaat tetapi       memiliki
+ untuk         potensial untuk       tetapi dampaknya   dampaknya tidak      manfaat tetapi
+ Diimplementa  pengembangan          tidak luas serta   luas serta potensial dampaknya
+ sikan         IPTEKS, sosial        potensial untuk    untuk                tidak luas serta
+               dan/atau ekonomi      pengembangan       pengembangan         tidak memiliki
+                                     IPTEKS, sosial     IPTEKS, sosial       potensial untuk
+                                     dan/atau ekonomi   dan/atau ekonomi     pengembangan
+                                                                             IPTEKS, sosial
+                                                                             dan/atau
+                                                                             ekonomi
+ Relevansi     Rancangan             Rancangan          Rancangan            Rancangan
+ Rencana       prototipe memiliki    prototipe memiliki prototipe memiliki   prototipe
+ Luaran dan    keunggulan            keunggulan         keunggulan           memiliki
+ Potensi       dibandingkan          dibandingkan       dibandingkan         keunggulan
+ Dampak        dengan                dengan             dengan               dibandingkan
+               implementasi yang     implementasi       implementasi yang    dengan
+               telah ada serta       yang telah ada     telah ada tetapi     implementasi
+               dijelaskan secara     dan dijelaskan     penjelasan tidak     yang telah ada
+               rinci dan jelas       secara umum        jelas                tetapi tidak ada
+                                                                             penjelasan
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                               67
+   B.          Rubrik Penilaian Sidang TA
+     Kriteria Penilaian  Sangat Baik (86-100)      Baik (66-85)      Cukup (51-65)      Kurang (0-50)
+                                                       Penulisan
+   Struktur &           Penjelasan isi        Penjelasan isi      Penjelasan isi     Penjelasan isi
+   Sistematika          laporan beserta       laporan beserta     laporan beserta    laporan beserta
+   Penulisan            desain prototipe      desain prototipe    desain prototipe   desain prototipe
+                        yang dibuat ditulis   yang dibuat ditulis yang dibuat tidak  yang dibuat tidak
+                        lengkap serta         lengkap serta       ditulis lengkap    ditulis lengkap
+                        didukung dengan       didukung dengan     serta didukung     serta didukung
+                        referensi 5 tahun     referensi tidak 5   dengan referensi   dengan referensi
+                        terakhir minimal 10   tahun terakhir      tidak 5 tahun      tidak 5 tahun
+                        pustaka               minimal 10 pustaka  terakhir minimal   terakhir dan
+                                                                  10 pustaka         kurang dari 10
+                                                                                     pustaka
+                                                                             atau
+                                                                  Penjelasan isi
+                                                                  laporan beserta
+                                                                  desain prototipe
+                                                                  yang dibuat
+                                                                  ditulis lengkap
+                                                                  serta didukung
+                                                                  dengan referensi
+                                                                  5 tahun terakhir
+                                                                  kurang dari 10
+                                                                  pustaka
+   Kepatuhan                                                                         Laporan tidak
+   Format & Tata                                                  Laporan tidak      ditulis sesuai
+   Tulis                Laporan ditulis                           ditulis sesuai     dengan format
+                                              Laporan ditulis
+                        sesuai dengan                             dengan format      penulisan
+                                              sesuai dengan
+                        format penulisan                          penulisan          dan/atau tidak
+                                              format penulisan
+                        dan lengkap serta                         dan/atau tidak     lengkap serta
+                                              dan lengkap serta
+                        menggunakan                               lengkap serta      tidak
+                                              menggunakan
+                        Bahasa Indonesia                          menggunakan        menggunakan
+                                              Bahasa Indonesia
+                        yang baku dan                             Bahasa Indonesia   Bahasa
+                                              yang baku dan
+                        ilmiah, tidak                             yang baku dan      Indonesia yang
+                                              ilmiah, terdapat
+                        terdapat kesalahan                        ilmiah, terdapat   baku dan ilmiah,
+                                              kesalahan dalam
+                        dalam penulisan                           kesalahan dalam    terdapat
+                                              penulisan (ejaan,
+                        (ejaan, kalimat,                          penulisan (ejaan,  kesalahan dalam
+                                              kalimat, paragraf)
+                        paragraf) serta                           kalimat, paragraf) penulisan (ejaan,
+                                              serta penggunaan
+                        penggunaan sitasi                         serta              kalimat,
+                                              sitasi yang benar
+                        yang benar                                penggunaan         paragraf) serta
+                                                                  sitasi yang benar  penggunaan
+                                                                                     sitasi yang benar
+68                                                       PEDOMAN PELAKSANAAN TUGAS AKHIR
+  Kriteria Penilaian  Sangat Baik (86-100)         Baik (66-85)         Cukup (51-65)      Kurang (0-50)
+                                                       Pemaparan
+Media Presentasi     Media presentasi         Media presentasi       Media kurang       Media presentasi
+(PPT/Visual)         sangat menarik,          menarik dan cukup      menarik, banyak    tidak terstruktur
+                     profesional, dan         konsisten. Ada         teks di slide,     dengan baik,
+                     estetis; Gambar,         penggunaan             sedikit atau tidak membingungkan,
+                     grafik, dan animasi      gambar/grafik yang     ada ilustrasi      banyak teks
+                     digunakan efektif        membantu, walau        pendukung. Tata    panjang, gambar
+                     untuk memperjelas        ada sedikit            letak dan          tidak relevan
+                     informasi tanpa          ketidakseimbangan      konsistensi        atau tidak ada,
+                     mengganggu fokus         antara teks dan        warna/gaya         serta
+                     audiens. Slide berisi    visual. Tata letak     masih belum        penggunaan
+                     poin-poin ringkas,       cukup rapi dan         optimal sehingga   warna tidak
+                     ilustrasi mendukung      poin-poin isi mudah    mengganggu         konsisten,
+                     pemahaman.               dipahami.              visual dan poin-   sehingga sulit
+                     Konsistensi visual                              poin               dipahami
+                     terjaga sepanjang                               penyampaian.       audiens
+                     presentasi.
+Komunikasi           Komunikatif,             Komunikatif,           Komunikatif        Tidak
+Verbal               penyampaian              penyampaian            tetapi             komunikatif atau
+                     efektif, efisien, jelas, efektif, jelas, tetapi penyampaian        sulit dipahami.
+                     dan menarik.             ada keterbatasan       kurang efektif
+                                              dalam elaborasi ide.   dan kadang
+                                                                     kurang jelas.
+Komunikasi Non-      Bahasa tubuh alami,      Bahasa tubuh agak      Bahasa tubuh       Bahasa tubuh
+Verbal & Attitude    tidak berlebihan,        kaku tetapi masih      terbatas, kurang   tidak sesuai,
+                     mendukung                mendukung              mendukung          mengganggu,
+                     penyampaian,             penyampaian.           penyampaian.       atau tidak
+                     menarik audiens.                                                   mendukung
+                                                                                        penyampaian.
+                                                        Substansi
+Pemahaman            Penguasaan materi        Penguasaan materi      Penguasaan         Penjelasan jelas
+Materi & Topik       terlihat kuat,           terlihat, penjelasan   materi terlihat,   dan/atau
+                     penjelasan sangat        jelas, dan jawaban     penjelasan jelas,  jawaban
+                     jelas, dan jawaban       benar baik saat        dan jawaban        sebagian besar
+                     benar serta jelas        penilaian akhir        tidak selalu benar salah baik saat
+                     baik saat penilaian      maupun bimbingan       baik saat          penilaian akhir
+                     akhir maupun                                    penilaian akhir    maupun
+                     bimbingan                                       maupun             bimbingan
+                                                                     bimbingan
+ PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                         69
+     Kriteria Penilaian    Sangat Baik (86-100)      Baik (66-85)       Cukup (51-65)       Kurang (0-50)
+   Eksekusi Metode        Prototipe belum       Prototipe belum      Prototipe sudah     Prototipe sudah
+   dan Relevansi          banyak yang           banyak yang          banyak yang         banyak yang
+   Masalah                mengembangkan,        mengembangkan        mengembangkan       mengembangkan
+                          unik, kreatif, dan    dan inovatif         tetapi ada inovasi  dan tidak ada
+                          inovatif                                                       inovasi
+   Validitas Data         Menggunakan           Menggunakan          Menggunakan         Menggunakan
+   dan Analisis           IPTEKS yang           IPTEKS yang          IPTEKS yang         IPTEKS yang
+                          relevan, spesifik,    relevan, spesifik,   relevan, umum,      relevan dan
+                          dan mutakhir serta    dan mutakhir         dan mutakhir        umum tetapi
+                          memadukan dari                                                 tidak mutakhir
+                          beberapa IPTEKS                                                (lama)
+   Argumentasi dan        Menarik kesimpulan    Menarik kesimpulan   Kesimpulan          Kesimpulan tidak
+   Penarikan              dengan tepat, logis,  dengan tepat dan     sebagian tepat      tepat atau tidak
+   Kesimpulan             dan didukung          logis, namun         dan logis, analisis logis, analisis
+                          analisis data yang    analisis data kurang data kurang         data lemah atau
+                          kuat; saran untuk     mendalam; saran      mendukung;          tidak ada; tidak
+                          pengembangan          untuk                saran untuk         memberikan
+                          penelitian            pengembangan         pengembangan        saran untuk
+                          disampaikan jelas     penelitian           penelitian kurang   pengembangan
+                                                disampaikan          jelas               penelitian
+                                                terbatas
+   Luaran, Dampak,        Prototipe berfungsi   Prototipe berfungsi  Prototipe           Prototipe tidak
+   & Kelayakan            optimal, lengkap,     dan lengkap tetapi   berfungsi tetapi    berfungsi dan
+                          dikemas rapi,         tidak dikemas rapi;  tidak dikemas       tidak disertai
+                          memberikan            memberikan           atau prototipe      dokumen
+                          kontribusi nyata,     kontribusi dan       tidak berfungsi     analisis; tidak
+                          dan memiliki          potensi dampak       tetapi disertai     memberikan
+                          potensi dampak        terbatas             dokumen analisis    kontribusi atau
+                          luas untuk IPTEKS,                         kegagalan;          dampak nyata
+                          sosial, dan/atau                           dampak terbatas
+                          ekonomi
+               Profesionalisme
+   Etika dan                                    Mampu                Mampu               Kurang mampu
+   Komunikasi             Mampu                 berkomunikasi        berkomunikasi       berkomunikasi
+                          berkomunikasi         secara lisan         secara lisan        secara lisan
+                          secara lisan maupun   maupun tertulis      maupun tertulis     maupun tertulis
+                          tertulis dalam        dalam pekerjaan      dalam pekerjaan     dalam pekerjaan
+                          pekerjaan atau saat   atau saat            atau saat           atau saat
+                          bimbingan dengan      bimbingan dengan     bimbingan           bimbingan, serta
+                          sangat baik, disertai baik serta bersikap  dengan cukup        kurang
+                          sikap sopan dan       sopan dan            baik serta          menunjukkan
+                                                                     menunjukkan
+70                                                         PEDOMAN PELAKSANAAN TUGAS AKHIR
+ Kriteria Penilaian  Sangat Baik (86-100)        Baik (66-85)    Cukup (51-65)    Kurang (0-50)
+                    penuh tanggung          bertanggung       sikap yang cukup sikap sopan dan
+                    jawab.                  jawab.            sopan dan        tanggung jawab.
+                                                              bertanggung
+                                                              jawab.
+Kemandirian &       Sangat aktif,           Aktif, mandiri,   Disiplin, serta  Tidak selalu
+Daya Juang          mandiri, proaktif       disiplin, serta   tidak selalu     menunjukkan
+                    dalam mencari           menunjukkan       menunjukkan      progress saat
+                    solusi, disiplin, serta progress saat     progress saat    bimbingan, tidak
+                    selalu menunjukkan      bimbingan         bimbingan        disiplin
+                    progress saat
+                    bimbingan
+PEDOMAN PELAKSANAAN TUGAS AKHIR                                                                 71
+   v
+     http://s.itk.ac.id/lampirantakp2025
+72                        PEDOMAN PELAKSANAAN TUGAS AKHIR
+PEDOMAN PELAKSANAAN TUGAS AKHIR 73

@@ -1,0 +1,566 @@
+   Hak cipta pada
+   Pengarah
+   Prof. Dr.rer.nat. Agus Rubiyanto, M.Eng.Sc.
+   Prof. Erma Suryani S.T., M.T., Ph.D.
+   Penanggung Jawab
+   Rifqi Aulia Tanjung, S.T., M.T.
+   Tim Penyusun
+   Amalia Rizqi Utami, S.T., M.T.
+   Amalia Nur Kumalaningrum, S.Si., M.AgrSc.
+   Darmansyah, S.Si., M.Ti.
+   Riza Alviany, S.T., M.T.
+   Menasita Mayantasari, S.Si., M.T.
+   Nia Febrianti, S.T., M.T.
+   Desain dan Tata Letak
+   Dian Fatikha Rizki Aminoto
+   Alya Juniar
+   Fauziah Yasmin
+   Dikeluarkan oleh
+   Institut Teknologi Kalimantan
+                                               Isi buku ini menggunakan huruf Nunito Sans
+                                               11/6 pt. Spasi antarbaris 1,2. Margin halaman
+                                               0,7 inci kanan–kiri, 0,5 inci atas–bawah. Gutter
+                                               0,2 inci. SIL Open Font License (OFL) 1.1.
+                                               Institut    Teknologi    Kalimantan.   Panduan
+                                               Program       Kampus       Berdampak     Institut
+                                               Teknologi Kalimantan, Balikpapan. 2025. vi, 25
+                                               hlm.; 21 x 29,7 cm
+ii                                             PANDUAN KEPENULISAN TUGAS AKHIR
+                     KATA PENGANTAR
+        Puji syukur kami panjatkan ke hadirat Tuhan Yang Maha Esa atas
+terbitnya Buku Panduan Kepenulisan Tugas Akhir Institut Teknologi
+Kalimantan (ITK) Tahun 2025. Panduan ini disusun sebagai acuan resmi
+dalam penyusunan dokumen Tugas Akhir bagi mahasiswa ITK, baik dalam
+bentuk skripsi, proyek, maupun prototipe, sebagaimana telah diatur dalam
+Peraturan Akademik Tahun 2024. Penyusunan buku panduan ini bertujuan
+untuk menyamakan pemahaman dan tata cara penulisan Tugas Akhir yang
+sesuai   dengan    standar   akademik   ITK.   Panduan         ini    merupakan
+penyempurnaan dari versi sebelumnya, dengan penambahan beberapa
+ketentuan dan format yang disesuaikan dengan perkembangan kebutuhan
+akademik serta dinamika program studi.
+        Kami menyampaikan apresiasi dan terima kasih kepada Rektor dan
+para Wakil Rektor, Tim Kurikulum di tingkat Pusat, Program Studi, Tim
+Penyusun Panduan, serta seluruh pihak yang telah berkontribusi dalam
+penyusunan panduan ini. Panduan ini mulai diberlakukan pada tahun
+akademik 2025/2026 dan diharapkan dapat memberikan kemudahan serta
+kejelasan bagi mahasiswa dalam menyelesaikan Tugas Akhir, sekaligus
+mendukung pencapaian mutu akademik yang lebih baik di ITK.
+        Kami    menyadari   bahwa   panduan     ini    masih       mengandung
+kekurangan. Oleh karena itu, masukan dan saran dari berbagai pihak sangat
+kami harapkan untuk perbaikan di masa mendatang.
+                                                    Balikpapan, Juli 2025
+                                                    Institut Tekologi Kalimantan
+                                                    Tim Penyusun 2025
+ PANDUAN KEPENULISAN TUGAS AKHIR                                                 iii
+                                            DAFTAR ISI
+   KATA PENGANTAR ..................................................................................................... iii
+   DAFTAR ISI .................................................................................................................... iv
+   BAB 1 STRUKTUR PROPOSAL TUGAS AKHIR ...................................................... 1
+        1.1. Bagian Awal (Skripsi/Proyek/Prototipe) .................................................... 2
+        1.2. Bagian Isi ............................................................................................................. 2
+        1.3. Bagian Akhir (Skripsi/Proyek/Prototipe) .................................................... 4
+   BAB 2 STRUKTUR LAPORAN TUGAS AKHIR ........................................................ 5
+        2.1  Bagian Awal (Skripsi/Proyek/Prototipe) .................................................... 6
+        2.2  Bagian Isi ............................................................................................................. 7
+        2.3  Bagian Akhir (Skripsi/Proyek/Prototipe) .................................................... 9
+   BAB 3 TATA CARA PENULISAN PROPOSAL DAN LAPORAN TUGAS AKHIR ...........10
+        3.1  Aturan Penulisan ............................................................................................ 11
+        3.2  Bahasa ............................................................................................................... 12
+        3.3  Penulisan BAB, SUB BAB, dan SUB-SUB BAB ....................................... 12
+        3.4  Penomoran Halaman ................................................................................... 13
+        3.5  Penulisan Tabel dan Gambar ..................................................................... 13
+        3.6  Penulisan Persamaan.................................................................................... 15
+        3.7  Penulisan Daftar Pustaka............................................................................. 16
+   BAB 4 TATA CARA PENULISAN ARTIKEL ILMIAH ............................................. 17
+        4.1  Judul ................................................................................................................... 18
+        4.2  Identitas Penulis ............................................................................................. 18
+        4.3  Pendahuluan ................................................................................................... 19
+iv                                                                    PANDUAN KEPENULISAN TUGAS AKHIR
+    4.4    Tinjauan Pustaka/Kajian Teori ................................................................... 20
+    4.5    Metodologi ...................................................................................................... 20
+    4.6    Hasil dan Pembahasan................................................................................. 20
+    4.7    Acknowledgements ...................................................................................... 21
+    4.8    Daftar Pustaka/Referensi ............................................................................. 21
+Lampiran ...................................................................................................................... 22
+    Lampiran 1: Panduan Penyusunan Tugas Akhir Dalam Format Digital ............... 23
+    Lampiran 2: Template Cover, Proposal dan Laporan Tugas Akhir ........... 24
+PANDUAN KEPENULISAN TUGAS AKHIR                                                                                                    v
+vi PANDUAN KEPENULISAN TUGAS AKHIR      BAB 1 STRUKTUR PROPOSAL TUGAS
+                               AKHIR
+PANDUAN KEPENULISAN TUGAS AKHIR      1
+  1.1. Bagian Awal (Skripsi/Proyek/Prototipe)
+  Bagian awal dari Proposal Tugas Akhir terdiri dari:
+  a. Halaman Sampul
+  b. Lembar Persetujuan
+      Lembar persetujuan ditandatangani oleh dosen pembimbing yang telah
+      menyetujui isi dari Proposal Tugas Akhir.
+  c. Kata Pengantar
+      Halaman Kata Pengantar memuat pengantar singkat atas karya ilmiah
+      dan ucapan terima kasih kepada berbagai pihak yang telah membantu
+      dalam penyusunan tugas akhir.
+  d. Abstrak
+      Abstrak pada Proposal TA merupakan ikhtisar suatu tugas akhir yang
+      memuat permasalahan, tujuan dan metode penelitian (bentuk skripsi).
+      Abstrak Proposal TA bentuk proyek memuat permasalahan, tujuan, dan
+      metodologi.       Sedangkan   abstrak    bentuk   prototipe    memuat
+      permasalahan dan/atau obyek yang dirancang, tujuan, potensi dampak
+      fungsional/komersial, konsep desain dan metode implementasi. Abstrak
+      ditulis dalam format Bahasa Indonesia dan Bahasa Inggris.
+  e. Daftar Isi
+  f.  Daftar gambar, Tabel, dan Notasi (jika ada)
+  1.2. Bagian Isi
+  1.2.1 Skripsi
+  a. BAB 1 Pendahuluan
+      Pendahuluan berisi latar belakang, rumusan masalah dan/obyek yang
+      diteliti, tujuan, batasan penelitian, manfaat dan kerangka penelitian.
+      Kerangka penelitian menjelaskan state of the art penelitian yang dapat
+      berupa Mind Map atau Fishbone Diagram.
+2                                           PANDUAN KEPENULISAN TUGAS AKHIR
+b. BAB 2 Tinjauan Pustaka
+    Tinjauan Pustaka berisi dasar teori dan kajian referensi ilmiah yang
+    digunakan dalam pelaksanaan tugas akhir, termasuk penelitian
+    terdahulu yang berisi perbandingan metode dan hasil yang ada.
+c. BAB 3 Metode Penelitian
+    Metode     penelitian  berisi garis  besar  penelitian, diagram   alir
+    penelitian/flowchart, prosedur penelitian, variabel penelitian dan
+    rencana jadwal penelitian.
+1.2.2 Proyek
+a. BAB 1 Pendahuluan
+    Pendahuluan berisi latar belakang, rumusan masalah dan/obyek yang
+    dirancang, tujuan, batasan proyek, urgensi, relevansi dengan industri
+    atau akademik serta kerangka penelitian. Jika ada mitra, sertakan
+    perannya.
+b. BAB 2 Metodologi
+    Memaparkan dan membandingkan beberapa penelitian, teknologi,
+    dan/atau metode yang mendukung untuk penyelesaian proyek. Jika ada
+    mitra, sertakan standar yang digunakan.
+c. BAB 3 Rancangan Proyek
+    Rancangan Proyek berisi garis besar, diagram alir/flowchart, prosedur,
+    desain, sumber daya dan rencana jadwal proyek. Jika kolaboratif,
+    jelaskan kontribusi mitra.
+1.2.3 Prototipe
+a. BAB 1 Pendahuluan
+    Pendahuluan berisi latar belakang, rumusan masalah dan/obyek yang
+    dirancang, tujuan, batasan rancangan, manfaat, potensi dampak
+    fungsional/komersial dan kerangka penelitian.
+b. BAB 2 Tinjauan Pustaka
+    Tinjauan Pustaka berisi kajian terhadap teknologi atau metode terkait,
+    termasuk penelitian terdahulu dan perbandingan hasil implementasi
+PANDUAN KEPENULISAN TUGAS AKHIR                                            3
+      yang ada. Dasar teori yang mendukung pengembangan prototipe juga
+      dapat disertakan..
+  c. BAB 3 Desain dan Implementasi
+      Menjelaskan konsep desain, spesifikasi teknis, dan tahapan pembuatan
+      prototipe. Metode implementasi mencakup pemilihan bahan, teknik
+      manufaktur/ produksi, alat yang digunakan, serta rencana jadwal
+      penelitian.
+  1.3. Bagian Akhir (Skripsi/Proyek/Prototipe)
+  Bagian akhir Proposal Tugas Akhir ini adalah Daftar Pustaka dan Lampiran.
+  a. Daftar Pustaka
+     Daftar pustaka sebanyak minimal 10 referensi, yang mana 70% daftar
+     referensi yang digunakan merupakan terbitan 10 tahun terakhir.
+     Disarankan tidak menggunakan referensi dari repositori tugas akhir ITK
+     maupun kampus lain yang tidak melalui proses review resmi.
+  b. Lampiran
+4                                         PANDUAN KEPENULISAN TUGAS AKHIR
+       BAB 2 STRUKTUR LAPORAN TUGAS
+                               AKHIR
+PANDUAN KEPENULISAN TUGAS AKHIR      5
+  2.1    Bagian Awal (Skripsi/Proyek/Prototipe)
+  Bagian awal Laporan Tugas Akhir terdiri atas:
+  a. Halaman Sampul
+  b. Pernyataan Orisinalitas
+     Halaman ini berisi pernyataan tertulis dari penulis bahwa skripsi yang
+     disusun adalah hasil karyanya sendiri dan ditulis dengan mengikuti
+     kaidah penulisan ilmiah.
+  c. Pernyataan Persetujuan Publikasi Tugas Akhir untuk Kepentingan
+     Akademis
+     Halaman ini berisi pernyataan dari Peserta TA yang memberikan
+     kewenangan kepada Institut Teknologi Kalimantan untuk menyimpan,
+     mengalih media atau merubah format, merawat, dan mempublikasikan
+     hasil TA untuk kepentingan akademis. Artinya, Institut Teknologi
+     Kalimantan berwenang untuk mempublikasikan hasil TA hanya untuk
+     kepentingan pengembangan ilmu pengetahuan, sedangkan hak cipta
+     tetap pada penulis.
+  d. Lembar Pengesahan
+     Halaman Pengesahan berfungsi untuk menjamin keabsahan karya
+     ilmiah atau pernyataan tentang penerimaannya.
+  e. Kata Pengantar
+  f. Abstrak
+     Abstrak pada Laporan TA merupakan ikhtisar suatu tugas akhir yang
+     memuat permasalahan, tujuan, metode penelitian, hasil, dan kesimpulan
+     (bentuk skripsi). Abstrak Laporan TA bentuk proyek memuat
+     permasalahan, tujuan, metodologi, hasil proyek, kesimpulan dan
+     rekomendasi.    Sedangkan,    abstrak    bentuk    prototipe  memuat
+     permasalahan dan/atau obyek yang dirancang, tujuan, potensi dampak
+     fungsional/komersial, konsep desain, metode implementasi, pengujian
+     dan evaluasi, serta kesimpulan.
+  g. Daftar Isi
+  h. Daftar Gambar, Tabel dan Notasi (jika ada)
+6                                         PANDUAN KEPENULISAN TUGAS AKHIR
+2.2     Bagian Isi
+Bagian isi memuat uraian atau penjabaran atau analisis yang dilakukan oleh
+penulis. Penjabaran mencakup pendahuluan, tinjauan pustaka, metode
+penelitian, hasil dan pembahasan serta penutup. Fakultas dapat
+menyesuaikan bagian isi sesuai dengan kebutuhan masing-masing, dengan
+tetap mengacu pada struktur umum yang telah ditetapkan. Ketentuan yang
+diatur dalam panduan ini merupakan ketentuan minimum konten dari bagian
+isi, sehingga fakultas dapat menambahkan elemen lain yang dianggap
+relevan sesuai dengan bidang keilmuan.
+2.2.1 Skripsi
+        a. BAB 1 Pendahuluan
+        b. BAB 2 Tinjauan Pustaka
+        c. BAB 3 Metode Penelitian
+           Metode penelitian berisi garis besar penelitian, diagram alir
+           penelitian/flowchart, prosedur penelitian dan variabel penelitian
+        d. BAB 4 Hasil dan Pembahasan
+           Hasil dan Pembahasan berisi hasil penelitian dan pembahasan
+           untuk menjawab tujuan penelitian dan hipotesis. Bagian ini
+           menyajikan    data   penelitian, menganalisis    temuan,   serta
+           menghubungkannya dengan teori atau penelitian sebelumnya.
+        e. BAB 5 Penutup
+           Penutup berisi Kesimpulan dan Saran. Bab ini merangkum hasil
+           penelitian dan memberikan rekomendasi berdasarkan temuan
+           yang diperoleh.
+2.2.2 Proyek
+        a. BAB 1 Pendahuluan
+        b. BAB 2 Metodologi
+        c. BAB 3 Rancangan Proyek
+ PANDUAN KEPENULISAN TUGAS AKHIR                                             7
+           Rancangan Proyek berisi garis besar, diagram alir/flowchart,
+           prosedur, desain dan sumber daya. Jika kolaboratif, jelaskan
+           kontribusi mitra.
+        d. BAB 4 Hasil Proyek
+           Hasil proyek menyajikan penyelesaian masalah praktis melalui
+           penerapan metode. Hasil proyek dianalisis dan dievaluasi
+           pencapaiannya, serta jika ada mitra tambahkan relevansi solusi
+           dengan kebutuhan. Jika independen, fokus pada efektivitas dan
+           inovasi.
+        e. BAB 5 Penutup
+           Penutup berisi Kesimpulan dan Rekomendasi. Kesimpulan
+           merangkum pencapaian proyek dan tingkat keberhasilannya.
+           Rekomendasi dapat mencakup pengembangan lanjutan, validasi
+           tambahan, atau penerapan lebih luas.
+  2.2.3 Prototipe
+        a. BAB 1 Pendahuluan
+        b. BAB 2 Tinjauan Pustaka
+        c. BAB 3 Desain dan Implementasi
+           Menjelaskan konsep desain, spesifikasi teknis, dan tahapan
+           pembuatan      prototipe.   Metode    implementasi    mencakup
+           pemilihan bahan, teknik manufaktur/ produksi dan alat yang
+           digunakan
+        d. BAB 4 Pengujian dan Evaluasi
+           Menguraikan metode pengujian, parameter yang diuji, serta hasil
+           yang diperoleh. Evaluasi dilakukan untuk menilai performa
+           prototipe serta mengidentifikasi kendala dan potensi perbaikan.
+        e. BAB 5 Penutup
+           Penutup berisi Kesimpulan dan Rekomendasi. Kesimpulan
+           merangkum      hasil   serta  tingkat   keberhasilan   prototipe.
+           Rekomendasi pengembangan dapat mencakup penyempurnaan
+           desain, peningkatan material, atau skala implementasi lebih luas.
+8                                         PANDUAN KEPENULISAN TUGAS AKHIR
+2.3     Bagian Akhir (Skripsi/Proyek/Prototipe)
+Bagian Akhir dari Laporan TA berupa Daftar Pustaka dan Lampiran.
+a. Daftar Pustaka
+b. Lampiran
+    Lampiran merupakan data atau pelengkap atau hasil olahan yang
+    menunjang penulisan tugas akhir, tetapi tidak dicantumkan di dalam isi
+    tugas akhir. Contoh : tabulasi data penelitian, metode perhitungan, data
+    pendukung atau data sekunder yang mendukung penelitian dan riwayat
+    penulis.
+Program studi dapat menambah, mengurangi, atau memodifikasi jumlah
+dan penomoran bab sesuai kebutuhan keilmuan masing-masing. Setiap bab
+wajib memuat konten yang dipersyaratkan setiap bentuk tugas akhir
+(Skripsi, Proyek, atau Prototipe). Alur dasar mulai dari pendahuluan hingga
+kesimpulan dan elemen penulisan baku (abstrak, daftar isi, penomoran,
+gaya kutipan, dsb.) harus tetap terjaga.
+ PANDUAN KEPENULISAN TUGAS AKHIR                                             9
+        BAB 3 TATA CARA PENULISAN
+   PROPOSAL DAN LAPORAN TUGAS AKHIR
+10                   PANDUAN KEPENULISAN TUGAS AKHIR
+3.1     Aturan Penulisan
+a. Proposal dan Laporan Tugas Akhir diketik dengan menggunakan
+    Microsoft Word dan dicetak dengan ketentuan:
+    Jenis kertas : HVS 80gr putih polos
+    Ukuran : A4 (210 mm x 297 mm atau 8.27 in x 11.69 in).
+b. Jarak spasi antar baris : 1,5 spasi, kecuali abstrak 1 spasi.
+c. Naskah harus ditulis pada kedua sisi kertas (bolak-balik).
+d. Margin mirror:
+    •   Margin dalam (inside) : 4 cm,
+    •   Margin atas (top) : 3 cm,
+    •   Margin luar (outside) : 3 cm,
+    •   Margin bawah (bottom) : 3 cm.
+e. Ketentuan Watermark ITK pada file digital Prposal dan Laporan TA:
+    •   Setting APPEAR BEHIND PAGE: opacity 30%, scale relative to page
+        80%. Setiap lembar proposal dan laporan TA kecuali LEMBAR
+        PENGESAHAN.
+    •   LEMBAR PENGESAHAN harus di-scan dalam satu halaman dan
+        telah ditandatangani serta distempel Fakultas.
+    •   Perhatikan isi dari file anda, apakah menggunakan kertas A4 portrait
+        atau landscape.
+f.  Ruang penulisan
+    •   Alinea dimulai dari margin kiri dan berakhir pada margin kanan
+    •   Perataan kiri dan kanan (justify alignment)
+    •   Baris pertama tiap alinea menjorok ke dalam 1 cm
+    •   Huruf yang digunakan pada seluruh alinea adalah Times New
+        Roman dengan ukuran 12
+g. Penggunaan header dan footer hanya dibatasi untuk:
+     •   Header : penulisan “Skripsi/Proyek/Prototipe Program Studi …..”
+     •   Footer : penulisan nomor halaman
+ PANDUAN KEPENULISAN TUGAS AKHIR                                             11
+   3.2    Bahasa
+   a. Penulisan Proposal dan Laporan Tugas Akhir harus mengikuti standar
+      penulisan karya ilmiah.
+   b. Penulisan menggunakan Bahasa Indonesia baku, sesuai dengan Ejaan
+      Bahasa       Indonesia      yang     Disempurnakan           (EYD      V),
+      https://ejaan.kemdikbud.go.id/
+   c. Penggunaan kata atau istilah yang berasal dari bahasa asing yang sudah
+      ada padanannya dalam Bahasa Indonesia harus digunakan, jika belum
+      ada maka kata tersebut dicetak miring (italic). Istilah-istilah baru yang
+      belum dibakukan dalam Bahasa Indonesia dapat dipergunakan asal
+      konsisten. Pada penggunaan yang pertama kali perlu diberikan
+      padanannya dalam bahasa asing (dalam kurung). Jika banyak
+      menggunakan istilah baru, sebaiknya dibuatkan daftar istilah pada
+      lampiran. Istilah-istilah dalam Bahasa Indonesia dapat dilihat pada
+      Kamus Besar Bahasa Indonesia (KBBI).
+   d. Penyajian materi diuraikan dengan kalimat sempurna yaitu dengan
+      menggunakan kalimat pasif, bukan kalimat perintah dan tidak
+      menggunakan kata ganti orang pertama (saya, kita, kami, atau
+      penulis).
+   3.3    Penulisan BAB, SUB BAB, dan SUB-SUB BAB
+   a. Setiap bab dimulai pada halaman baru dan penulisan nomor bab harus
+      menggunakan angka arab kapital yang diawali (BAB 1, BAB 2, BAB 3,
+      dan seterusnya).
+   b. Judul bab dituliskan seluruhnya dengan huruf kapital (upper case)
+      dengan perataan tengah (center alignment). Ukuran font yang
+      digunakan adalah 14 dengan jenis tebal (bold).
+   c. Nomor dan judul bab ditulis secara simetris atau rata tengah.
+   d. Judul sub bab dan sub-sub bab dituliskan dengan angka arab Jenis huruf
+      yang digunakan adalah bold ukuran 12.
+12                                         PANDUAN KEPENULISAN TUGAS AKHIR
+e. Nomor dan judul sub bab serta sub-sub bab dimulai dari margin kiri
+    ruang pengetikan.
+f.  Penomoran bab umumnya hanya sampai 3 level (bab / sub bab / sub-
+    sub bab).
+    Contoh penomoran BAB dan sub bab
+                                    BAB 1
+                                  JUDUL BAB
+    1.1 Sub Bab Satu
+    1.1.1 Sub-sub Bab Satu
+3.4     Penomoran Halaman
+a. Penomoran halaman
+    •   BAGIAN AWAL : angka Romawi kecil (i, ii, iii, dan seterusnya)
+    •   BAGIAN ISI, BAGIAN AKHIR : angka Arab (1,2,3, dan seterusnya)
+b. Nomor halaman diletakkan pada bagian bawah kanan kertas, kurang
+    lebih 1,5 cm dari tepi bawah kertas.
+3.5     Penulisan Tabel dan Gambar
+a. Setiap gambar dan tabel pada Proposal dan Laporan Tugas Akhir harus
+    diberi nomor dan judul.
+b. Nomor dan judul gambar diletakkan di bawah gambar yang
+    bersangkutan dan diberi nomor gambar yang didahului oleh nomor bab,
+    dengan spasi penulisan 1.
+c. Gambar dan nomor serta judul gambar diletakkan rata tengah (center).
+d. Nomor dan judul tabel diletakkan di atas tabel yang bersangkutan dan
+    diberi nomor tabel yang didahului oleh nomor bab, dengan spasi
+    penulisan 1.
+e. Tabel dan nomor serta judul tabel diletakkan rata tengah (center).
+ PANDUAN KEPENULISAN TUGAS AKHIR                                        13
+   f. Jika diperlukan, ukuran font di dalam tabel dapat diperkecil dan jarak
+      antar baris dalam tabel adalah 1 spasi.
+   g. Setiap gambar dan tabel harus diacu dalam naskah.
+   h. Jika tabel atau gambar terlalu panjang, maka dapat diputus dan
+      dilanjutkan pada halaman berikutnya. Untuk tabel yang terpotong
+      masing – masing bagian harus dilengkapi dengan kepala tabel.
+   i. Jika tabel dan gambar terlalu lebar, terdapat beberapa ketentuan
+      sebagai berikut :
+      •   Ditempatkan secara memanjang di halaman tersendiri
+      •   Ditempatkan pada kertas lebar kemudian dilipat agar tidak melebihi
+          format kertas
+      •   Diperkecil ukurannya, tetapi ukuran huruf yang tercantum di
+          dalamnya tidak boleh lebih kecil dari 8 point
+      •   Untuk gambar dan tabel yang dikutip dari sumber lain haruslah
+          dituliskan sumbernya. Untuk tabel sumber kutipan dituliskan di
+          bawah tabel, sedangkan untuk gambar sumber kutipan dituliskan di
+          bawah nomor dan judul gambar dengan spasi penulisan masing –
+          masing adalah 1.
+      •   Contoh penulisan nomor dan judul gambar pada BAB 2:
+           Gambar 2.1 Hubungan antara supersaturasi dengan laju nukleasi, pertumbuhan
+                         kristal dan ukuran kristal (O’Sullivan dkk, 2012)
+14                                                PANDUAN KEPENULISAN TUGAS AKHIR
+j.  Contoh penulisan nomor dan judul tabel pada BAB 2:
+    Tabel 2.1 Perbandingan Yield dan Kemurnian Kristal PA pada berbagai
+                               metode separasi
+      Nilai          HPPC    Host-Guest        Silica Gel Column
+                     PC*)    Inclusion #)           Chrom. $)
+      Yield         16%          17%                  0,011%
+      Purity        98%          44%                   98%
+        *)
+           Li dkk (2011)
+        #)
+           Tong dkk (2012)
+        $)
+           Xian dkk (2011)
+k. Pencantuman sumber kutipan dilakukan dengan menuliskan nama
+    keluarga atau belakang pengarang diikuti oleh tahun terbit dan dalam
+    tanda kurung.
+l.  Gambar atau tabel dari sumber lain yang telah diolah diberi tambahan
+    keterangan telah diolah dalam kurung.
+3.6     Penulisan Persamaan
+a. Persamaan matematika diberi nomor persamaan yang didahului nomor
+    bab dalam tanda kurung.
+b. Makna dari notasi dalam persamaan matematika dicantumkan pada
+    Daftar Notasi.
+c. Nomor persamaan dituliskan rata kanan.
+d. Setiap persamaan harus diacu dalam naskah.
+e. Contoh penulisan persamaan matematika di BAB 2 :
+                               P = F/A                         (2.1)
+ PANDUAN KEPENULISAN TUGAS AKHIR                                         15
+   3.7     Penulisan Daftar Pustaka
+   Daftar pustaka yang digunakan harus ditulis secara benar, lengkap, dan
+   konsisten dengan menggunakan format atau standar tertentu. Penulisan
+   daftar pustaka diwajibkan menggunakan aplikasi pengolah referensi,
+   seperti Mendeley, Zotero, Endnote, atau lainnya. Dalam sebuah karya tulis,
+   format penulisan yang dipakai pada penulisan kutipan harus sama dengan
+   format penulisan daftar referensi, yakni:
+   a. Penulisan daftar pustaka mengikuti aturan HARVARD style.
+   b. Sumber yang dikutip dalam uraian atau teks, tabel dan atau gambar
+       harus ditulis lengkap dalam Daftar Pustaka
+   c. Gelar kebangsawanan atau gelar akademik tidak perlu ditulis
+   d. Baris pertama setiap pustaka dimulai dari margin kiri sedangkan baris
+       kedua dan seterusnya ditulis dengan jarak 1.27 cm dari margin kiri.
+   e. Daftar diurutkan berdasarkan abjad tanpa diberi nomor
+16                                           PANDUAN KEPENULISAN TUGAS AKHIR
+            BAB 4 TATA CARA PENULISAN
+                      ARTIKEL ILMIAH
+PANDUAN KEPENULISAN TUGAS AKHIR       17
+   Penyusunan artikel ilmiah harus memenuhi sebagai berikut:
+   •   Artikel ilmiah merupakan bagianatau keseluruhan dari Tugas Akhir.
+   •   Jumlah halaman karya ilmiah 6-8 halaman.
+   •   Karya ilmiah harus direview dan disetujui minimal oleh pembimbing.
+   Selanjutnya struktur Artikel Ilmiah dijelaskansecara rinci pada bagian sub
+   bab dibawah ini.
+   4.1     Judul
+   Judul adalah bagian artikel ilmiah yang pertama kali dibaca dan merupakan
+   identitas yang mewakili isi dari suatu artikel ilmiah. Judul terdiri dari 10-15
+   kata, ditulis tegak, cetak tebal (bold), ditengah (center), tidak miring (italic),
+   dan tidak digaris bawah (underline)
+   4.2     Identitas Penulis
+   Identitas terdiri dari tiga bagian yaitu: nama, afiliasi, dan alamat email
+   penulis. Letak identitas penulis persis di bawah judul artikel ilmiah. Nama
+   penulis pertama adalah mahasiswa peserta Tugas Akhir. Nama penulis
+   dicantumkan tanpa disertai gelar akademik dan dicetak tebal (bold) dengan
+   spasi single di bawah judul. Jika nama penulis agak panjang maka nama
+   yang boleh disingkat sebaiknya nama depan atau tengah. Nama bagian
+   belakang penulis usahakan tetap utuh. Afiliasi atau institusi penulis adalah
+   fakultas dan kampus/universitas/perguruan tinggi beserta alamatnya.
+   Letaknya afiliasi/institusi sekitar satu spasi di bawah nama penulis.
+   Sedangkan alamat email penulis terletak satu spasi di bawah afiliasi
+   penulis. Untuk penulis yang terdiri lebih dari satu orang, maka alamat email
+   yang dicantumkan cukup penulis pertama saja. Contoh dapat dilihat pada
+   Gambar
+18                                              PANDUAN KEPENULISAN TUGAS AKHIR
+         Gambar 2. Contoh judul dan identitas penulis pada artikel ilmiah
+4.3    Pendahuluan
+a. Latar Belakang dan Perumusan Masalah
+   Pada bagian ini diuraikan alasan pemilihan memilih judul artikel,
+   alasan/argumentasi, dan mengenai hal yang membuat penulis/peneliti
+   tertarik untuk membahas masalah tersebut. Kemudian dilanjutkan
+   dengan permasalahan yang akan menjadi fokus dalam artikel ilmiah
+   tersebut. Agar penelitian fokus dan tidak menyebar kepada hal-hal yang
+   dianggap tidak penting, maka penting juga untuk memberikan batasan
+   permasalahan
+b. Tujuan
+   Hal-hal yang diuraikan dalam tujuan penelitian sebaiknya berhubungan
+   dengan judul dan untuk membuktikan teori-teori yang digunakan dalam
+   penelitian.
+c. Manfaat
+   Hal-hal yang dibahas dalam manfaat penelitian adalah mengenai hasil
+   penelitian yang diharapkan dapat berguna bagi peneliti, objek
+   penelitian, masyarakat, dan ilmu pengetahuan.
+d. Hipotesis
+   Hipotesis merupakan bentuk pernyataan atau jawaban sementara
+   peneliti dari permasalahan yang akan dibahas karena harus diuji atau
+   dibuktikan kebenarannya. Hipotesis hanya terdapat pada artikel ilmiah
+   yang menggunakan jenis penelitian kuantitatif.
+PANDUAN KEPENULISAN TUGAS AKHIR                                           19
+   4.4     Tinjauan Pustaka/Kajian Teori
+   Bagian ini berisi pembahasan tentang teori dan hasil penelitian yang
+   berkaitan atau mendukung dalam penulisan artikel ilmiah. Teori dan hasil
+   penelitian dapat berasal dari jurnal nasional maupun jurnal internasional.
+   Hal ini berguna untuk lebih meyakinkan pembaca agar semakin tertarik
+   membaca hasil penelitian pada artikel ilmiah.
+   4.5     Metodologi
+   Metodologi penelitian adalah tata cara atau aturan yang digunakan untuk
+   melaksanakan riset atau penelitian. Metodologi merupakan prosedur
+   penelitian yang tersusun secara sistematis dan ilmiah, sehingga menjadi
+   aturan yang harus dilakukan dalam melakukan penelitian. Dalam artikel
+   ilmiah, bagian metodologi berisi uraian bagaimana proses penelitian
+   dilaksanakan secara singkat namun harus jelas.
+   4.6     Hasil dan Pembahasan
+   Hasil dan pembahasan merupakan bagian terpenting dalam artikel ilmiah.
+   Hal ini disebabkan karena pada bagian ini dapat dilihat bagaimana
+   kemampuan dan kualitas seseorang dalam menganalisa data-data
+   penelitian yang diperoleh sebelum diolah menjadi kesimpulan. Apabila
+   bagian hasil (result) dan pembahasan (discussion) dipisah, maka pada
+   bagian hasil (result) hanya menguraikan hasil penelitian saja baru kemudian
+   pada bagian pembahasan (discussion) diuraikan tentang pembahasan
+   analisa hasil penelitian. Sedangkan untuk bagian hasil dan pembahasan
+   (result and discussion) disatukan maka penulis harus dapat menguraikan
+   secara urut dan jelas agar mudah dipahami.
+20                                          PANDUAN KEPENULISAN TUGAS AKHIR
+4.7     Acknowledgements
+Penghargaan atau acknowledgment adalah suatu bentuk ucapan terima
+kasih kepada perorangan atau institusi yang telah memberikan bantuan
+terhadap pelaksanaan penelitian dan penyusunan artikel ilmiah. Selain
+sebagai     bentuk     apresiasi,   penghargaan      merupakan      bentuk
+pertanggungjawaban peneliti atas bantuan yang diterima. Bentuk bantuan
+meliputi moril dan materil seperti saran-saran, pemeriksaan tata bahasa,
+membantu proses pengumpulan dan analisa data, dana penelitian, sarana
+penunjang penelitian dan lain-lain.
+Pada penulisan artikel ilmiah, bagian penghargaan (acknowledgment) tidak
+harus selalu dicantumkan. Penulisan bagian ini didasarkan pada seberapa
+pentingnya bantuan yang diberikan. Semakin penting dan berharga suatu
+bantuan maka akan mendapat prioritas untuk dicantumkan.
+4.8     Daftar Pustaka/Referensi
+Referensi adalah bagian yang berisi sumber rujukan atau sumber acuan
+yang dipakai penulis untuk mengutip literatur sebagai bahan artikel ilmiah.
+Hal ini sangat bermanfaat dalam penyusunan artikel ilmiah untuk
+menghindari plagiarisme atau dianggap plagiat. Semua sumber yang
+disitasi harus dicantumkan pada bagian referensi dan begitu pula
+sebaliknya. Adapun format penulisan pada daftar pustaka disamakan
+dengan format penulisan Proposal dan Laporan Tugas Akhir.
+Khusus TA bentuk prototipe, artikel ilmiah bisa digantikan dengan :
+1. Draft dan Sertifikat Hak Cipta;
+2. Draft Usulan Desain Industri (disertai bukti submit); atau
+3. Draft Usulan Paten (disertai bukti submit).
+ PANDUAN KEPENULISAN TUGAS AKHIR                                            21
+   Lampiran
+22    PANDUAN KEPENULISAN TUGAS AKHIR
+Lampiran 1: Panduan Penyusunan Tugas Akhir Dalam
+Format Digital
+Aturan penyusunan Tugas Akhir dalam format digital (softcopy) adalah
+sebagai berikut:
+   1. Dokumen dalam format digital (FORMAT PDF) wajib diunggah pada
+        link google form(*)
+        a. Laporan TA yang sudah
+        b. Slide Presentasi Tugas Akhir
+        c. Artikel Ilmiah atau Draft Hak Cipta/ Desain Industri/ Paten
+            (khusus bentuk prototipe)
+   2. Form lembar Persetujuan Publikasi Ilmiah yang ditandatangani
+        dosen pembimbing utama. Dosen dapat memilih opsi Tidak Setuju
+        bila akan dipublikasikan di jurnal. Bila tidak dipublikasikan dalam
+        waktu 2 tahun sejak Laporan TA dikumpulkan, maka naskah karya
+        ilmiah diwajibkan untuk diunggah di Repositori ITK.
+   (*) Link Form dapat diakses pada link berikut ini:
+   http://www.repository.itk.ac.id
+PANDUAN KEPENULISAN TUGAS AKHIR                                             23
+   Lampiran 2: Template Cover, Proposal dan Laporan
+   Tugas Akhir
+   Template Cover: s.itk.ac.id/cover_ta
+   Template Bentuk Skripsi: s.itk.ac.id/templateskripsi
+   Template Bentuk Proyek: s.itk.ac.id/templateproyek
+   Template Prototipe: s.itk.ac.id/templateprototipe
+24                                           PANDUAN KEPENULISAN TUGAS AKHIR
+         http://s.itk.ac.id/lampirantakp2025
+PANDUAN KEPENULISAN TUGAS AKHIR              25
+26 PANDUAN KEPENULISAN TUGAS AKHIR

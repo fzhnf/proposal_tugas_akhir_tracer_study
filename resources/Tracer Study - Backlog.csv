@@ -1,0 +1,59 @@
+Sebagai [seorang],Saya ingin bisa [melakukan sesuatu],maka [reason/objektif],Prioritas,Status
+Admin,Mengelola akses user,,Must,Baru
+Admin,Melihat unit kerja,,Must,Baru
+Admin,Melihat pejabat unit kerja,,Must,Baru
+Tim Tracer,Melihat daftar kuisioner,,Must,Baru
+Tim Tracer,Menambahkan kuisioner,"Tim Tracer dapat menambahkan kuesioner dengan 4 tipe kuisioner yakni exit survey, lv1, lv2,  survey kepuasan pengguna",Must,Baru
+Tim Tracer,Mengubah kuisioner,,Must,Baru
+Tim Tracer,Menghapus kuisioner,,Must,Baru
+Tim Tracer,Menduplikat/kloning daftar kuisioner,,Must,Baru
+Tim Tracer,Melakukan pratinjau terhadap kuesioner,,Must,Baru
+Tim Tracer,Mengexport handout kuisioner ,,Must,Baru
+Tim Tracer,Mengexport handout kuisioner ke dalam format BAN PT,,Must,Baru
+Tim Tracer,Mengexport handout kuisioner ke dalam format Kementerian,,Must,Baru
+Tim Tracer,Mengimport handout kuisioner,,Must,Baru
+Tim Tracer,Mengatur aktivasi kuesioner,,Must,Baru
+Tim Tracer,Memantau progress pengisian kuesioner,,Must,Baru
+Tim Tracer,Melakukan filter data pengisian kuesioner,,Must,Baru
+Tim Tracer,Melihat halaman suatu kuesioner,,Must,Baru
+Tim Tracer,Menambah halaman suatu kuesioner,,Must,Baru
+Tim Tracer,Mengubah halaman suatu kuesioner,,Must,Baru
+Tim Tracer,Menghapus halaman suatu kuesioner,,Must,Baru
+Tim Tracer,Melihat detail section suatu kuesioner,,Must,Baru
+Tim Tracer,Menambah section suatu kuesioner,,Must,Baru
+Tim Tracer,Mengubah section suatu kuesioner,,Must,Baru
+Tim Tracer,Menghapus section suatu kuesioner,,Must,Baru
+Tim Tracer,Mengubah urutan section suatu kuesioner,,Must,Baru
+Tim Tracer,Mengelola logic yang menampilkan section dengan kondisi tertentu,,Must,Baru
+Tim Tracer,Melihat detail pertanyaan suatu kuesioner,,Must,Baru
+Tim Tracer,Menambah pertanyaan suatu kuesioner,,Must,Baru
+Tim Tracer,Mengubah pertanyaan suatu kuesioner,,Must,Baru
+Tim Tracer,Menghapus pertanyaan suatu kuesioner,,Must,Baru
+Tim Tracer,Mengubah urutan pertanyaan suatu kuesioner,,Must,Baru
+Tim Tracer,Mengelola logic yang menampilkan pertanyaan dengan kondisi tertentu,,Must,Baru
+Tim Tracer,Melihat hasil pengisian responden,,Must,Baru
+Tim Tracer,Mengekspor hasil pengisian responden ,,Must,Baru
+Tim Tracer,Menambahkan jenis kuisioner,,Must,Baru
+Tim Tracer,Mengubah jenis kuisioner,,Must,Baru
+Tim Tracer,Menghapus jenis kuisioner,,Must,Baru
+Tim Prodi,Melihat detail pertanyaan tambahan suatu kuesioner sesuai dengan prodi yang login,,Must,Baru
+Tim Prodi,Menambah pertanyaan tambahan suatu kuesioner sesuai dengan prodi yang login,,Must,Baru
+Tim Prodi,Mengubah pertanyaan tambahan suatu kuesioner sesuai dengan prodi yang login,,Must,Baru
+Tim Prodi,Menghapus pertanyaan tambahan suatu kuesioner sesuai dengan prodi yang login,,Must,Baru
+Tim Prodi,Mengubah urutan pertanyaan tambahan suatu kuesioner sesuai dengan prodi yang login,,Must,Baru
+Tim Prodi,Mengelola logic yang menampilkan pertanyaan tambahan dengan kondisi tertentu sesuai dengan prodi yang login,,Must,Baru
+Tim Prodi,Melihat laporan progres pengisian kuisioner dari alumni,,Must,Baru
+Alumni,Dapat mengisi kuisioner,,Must,Baru
+Alumni,Dapat melompati pengisian Exit Survey  apabila status pekerjaan telah bekerja saat periode pengisian Exit Survey,,Must,Baru
+Alumni,Dapat menerima notifikasi himbauan pengisian Tracer Study Lv.1 melalui blast otomatis ke email pribadi yang telah diisi didalam exit survey alumni 6 bulan setelah alumni telah mengisi exit survey,,Must,Baru
+Alumni,Dapat menerima notifikasi himbauan pengisian Tracer Study Lv.2 melalui blast otomatis ke nomor WA alumni setelah 2 tahun mengisi Trace Study Lv.1,,Must,Baru
+Supervisor,Dapat menerima notifikasi himbauan pengisian SKP ke alamat email supervisor saat alumni telah menyelesaikan pengisian Tracer Study Lv.1 ,,Must,Baru
+Supervisor,Dapat mengisi kuisioner SKP tanpa registrasi,,Must,Baru
+Pimpinan Unit,g,,Must,Baru
+Tim Prodi,Bisa mengimport hasil responden berdasarkan handouts kuisioner yang diexport melalui excel/csv keedalam sistem,,Must,Baru
+Tim Prodi,Mengimport responden kuisioner ,,Must ,Baru
+Tim Prodi,Menyediakan dashboard untuk membantu pengisian laporan BAN PT,,Must,Baru
+Tim Prodi,Mengexport hasil responden kuisioner ke dalam format Kementerian,,Must,Baru
+Tim Tracer,Mengelola representasi pertanyaan dan jawaban kedalam format BAN PT dan Kementerian,,Must,Baru
+Tim Prodi,Mengirim kembali smtp ke email supervisor secara manual,,Must,Baru
+Tim Tracer,"Implementasi machine learning untuk pelaporan kuisioner (Tracer Study, Exit Survey, SKP)",,Must,Baru
