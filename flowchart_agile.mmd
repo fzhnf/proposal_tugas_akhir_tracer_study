@@ -1,0 +1,21 @@
+---
+config:
+  theme: 'neutral'
+---
+graph TD
+    Start(("Mulai")):::startend --> Init["Inisialisasi & Product Backlog"]:::bw
+    Init --> Plan["Sprint Planning"]:::bw
+
+    subgraph SprintCycle [Siklus Sprint]
+        direction TB
+        Plan --> Exec["`Sprint Execution
+(Daily Scrum, Design & Build)`"]:::bw
+        Exec --> Review["`Sprint Review & Validation
+(UAT Parsial)`"]:::bw
+        Review --> Retro["Sprint Retrospective"]:::bw
+    end
+
+    Retro --> Decision{"`Backlog
+Tersisa?`"}:::bw
+    Decision -- Ya --> Plan
+    Decision -- Tidak --> End(("Selesai")):::startend
