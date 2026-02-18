@@ -1,0 +1,1311 @@
+                          HALAMAN SAMPUL
+[Disesuaikan dengan fakultas]
+          PERNYATAAN ORISINALITAS TUGAS AKHIR
+Dengan ini saya menyatakan bahwa isi sebagian maupun keseluruhan Tugas
+Akhir saya dengan judul [Judul Tugas Akhir dengan format Bold] adalah
+benar-benar hasil karya intelektual mandiri, diselesaikan tanpa menggunakan
+bahan-bahan yang tidak diizinkan dan bukan merupakan karya pihak lain yang
+saya akui sebagai karya sendiri. Semua referensi yang dikutip maupun dirujuk
+telah ditulis secara lengkap pada daftar pustaka. Apabila ternyata pernyataan ini
+tidak benar, saya bersedia menerima sanksi sesuai peraturan yang berlaku.
+                                            Balikpapan, 01 Januari 2026
+                                            [Materai + Tanda Tangan]
+                                            Reno Fahrezi Purnomo
+                                            NIM. 11221051
+                                                                               ii
+  PERNYATAAN PERSETUJUAN PUBLIKASI TUGAS AKHIR
+                 UNTUK KEPENTINGAN AKADEMIS
+Sebagai sivitas akademik Institut Teknologi Kalimantan, saya yang bertanda
+tangan di bawah ini:
+Nama​ ​        ​      : Reno Fahrezi Purnomo
+NIM​ ​         ​      : 11221051
+Program Studi​​       : Informatika
+Jurusan​       ​      : Teknik Elektro, Informatika, dan Bisnis
+Fakultas​      ​      : Sains dan Teknologi Informasi
+demi pengembangan ilmu pengetahuan, menyetujui untuk memberikan kepada
+Institut Teknologi Kalimantan Hak Bebas Royalti Non-eksklusif (Non-exclusive
+Royalty Free Right) atas karya ilmiah saya yang berjudul:
+  RANCANG BANGUN SISTEM BACKEND TRACER STUDY
+         ITK DENGAN MODEL WATERFALL ITERATIVE
+beserta perangkat yang ada (jika diperlukan). Dengan Hak Bebas Royalti
+Non-eksklusi     ini, Institut  Teknologi    Kalimantan     berhak   menyimpan,
+mengalihmediakan, mengelola dalam bentuk pangkalan data (database), merawat,
+dan memublikasikan tugas akhir saya selama tetap mencantumkan nama saya
+sebagai penulis/pencipta dan sebagai pemilik Hak Cipta.
+Demikian pernyataan ini saya buat dengan sebenarnya.
+                                             Balikpapan, 01 Januari 2026
+                                             Reno Fahrezi Purnomo
+                                             NIM. 11221051
+                                                                             iii
+iii                        LEMBAR PERSETUJUAN
+Proposal Tugas Akhir dengan judul:
+  “RANCANG BANGUN SISTEM BACKEND TRACER STUDY
+       ITK DENGAN MODEL WATERFALL ITERATIVE”
+Yang disusun oleh:
+                                   [tanda tangan]
+                              Reno Fahrezi Purnomo
+                                  NIM. 11221051
+Telah diperiksa dan disetujui oleh dosen pembimbing:
+Dosen Pembimbing Utama​                         Dosen Pembimbing Pendamping
+​
+Riska Kurniyanto Abdullah, S.T., M.Kom.​        Nur Fajri Azhar, S.Kom., M.Kom.
+NIP. 198803082020121011​                        NIP. 199205182019031015
+                                                                              iv
+                       LEMBAR PENGESAHAN
+                                 TUGAS AKHIR
+              Disusun untuk memenuhi syarat memperoleh gelar
+                          Sarjana Informatik (S.Kom.)
+                                      pada
+Program Studi S-1 Informatika Jurusan Teknik Elektro, Informatika, dan Bisnis
+                    Fakultas Sains dan Teknologi Informasi
+                         Institut Teknologi Kalimantan
+                               Judul Tugas Akhir :
+                                      Oleh :
+                    Reno Fahrezi Purnomo NIM. 11221051
+                    Disetujui oleh Tim Penguji Tugas Akhir :
+1. Riska Kurniyanto Abdullah, S.T., M.Kom.      Pembimbing I  ………………
+2. Nur Fajri Azhar, S.Kom., M.Kom.              Pembimbing II ………………
+3.                                              Penguji I     ………………
+4.                                              Penguji II    ………………
+                                 BALIKPAPAN
+           [BULAN disesuaikan dengan periode Sidang TA], 2026
+                             KATA PENGANTAR
+      Puji syukur kepada Tuhan Yang Maha Esa atas berkat dan anugerah-Nya​
+    sehingga Penulis dapat menyelesaikan proposal tugas akhir prototipe yang
+                                     berjudul:
+    “RANCANG BANGUN SISTEM BACKEND TRACER STUDY ITK
+                 DENGAN MODEL WATERFALL ITERATIVE”
+         Proposal tugas akhir ini merupakan salah satu syarat yang harus ditempuh
+untuk menyelesaikan Program Sarjana di Program Studi Informatika, Jurusan
+Teknik Elektro, Informatika, dan Bisnis, Fakultas Sains dan Teknologi Informasi
+Institut Teknologi Kalimantan (ITK) Balikpapan. Untuk itu Penulis mengucapkan
+terima kasih yang sebesar-besarnya kepada:
+    1.​ Bapak Riska Kurniyanto Abdullah, S.T., M.Kom. selaku Pembimbing
+         Utama dan Bapak Nur Fajri Azhar, S.Kom., M.Kom. selaku Pembimbing
+         Pendamping
+    2.​ Ibu Nisa Rizqiya Fadhliana, S.Kom., M.T selaku Koordinator Program
+         Studi Informatika.
+    3.​ Orang Tua yang selalu mendoakan dan memeberi dukungan dalam proses
+         penyusunan proposal tugas akhir.
+    4.​ Serta semua pihak yang terlibat dalam penyusunan proposal tugas akhir
+         ini.
+​        Penulis menyadari bahwa penyusunan proposal tugas akhir prototipe ini
+masih jauh dari sempurna, karena itu Penulis mengharapkan segala kritik dan
+saran yang membangun. Semoga tugas akhir ini dapat bermanfaat bagi semua
+pihak. Atas perhatiannya Penulis ucapkan terima kasih.
+                                                        Balikpapan, Februari 2026
+                                                                           Penulis
+                                                                                vi
+RANCANG BANGUN BACKEND SISTEM TRACER STUDY
+ITK MENGGUNAKAN MODEL WATERFALL ITERATIVE
+Nama Mahasiswa​                       : Reno Fahrezi Purnomo
+NIM​                                  : 11221051
+Dosen Pembimbing Utama​               : Riska Kurniyanto Abdullah, S.T., M.Kom.
+Dosen Pembimbing Pendamping​          : Nur Fajri Azhar, S.Kom., M.Kom.
+                                  ABSTRAK
+       Sistem tracer study merupakan instrumen penting dalam evaluasi mutu
+pendidikan tinggi yang diwajibkan oleh Kemendiktisaintek melalui berbagai
+regulasi untuk memantau relevansi lulusan dengan kebutuhan dunia kerja. Institut
+Teknologi Kalimantan (ITK) telah mengimplementasikan sistem tracer study
+melalui laman tracerstudy.itk.ac.id, namun sistem tersebut memiliki kelemahan
+fundamental dalam pengelolaan kuesioner yang bersifat statis dan hardcoded,
+sehingga setiap perubahan instrumen survei memerlukan intervensi pengembang
+dan menyebabkan ketergantungan teknis yang tinggi. Penelitian ini bertujuan
+untuk merancang dan mengimplementasikan sistem backend tracer study ITK
+yang memiliki fitur Manajemen Kuesioner agar admin dapat mengelola struktur
+dan konten kuesioner secara mandiri tanpa perubahan kode program. Metode
+pengembangan yang digunakan adalah Waterfall Iterative dengan tahapan studi
+literatur, identifikasi masalah, analisis kebutuhan, perancangan sistem
+menggunakan BPMN dan UML, implementasi berbasis framework Laravel
+dengan arsitektur MVC dan Repository Pattern, serta pengujian menggunakan
+unit testing. Sistem dirancang dengan menerapkan Role-Based Access Control
+(RBAC) untuk mengelola hak akses bertingkat, basis data hybrid yang
+menggabungkan struktur relasional dengan tipe data JSON untuk fleksibilitas
+kuesioner dinamis. Penelitian ini diharapkan menghasilkan sistem backend yang
+tidak hanya memenuhi kewajiban pelaporan ke PDDikti dan BAN-PT, tetapi juga
+memberikan kemandirian lebih tinggi bagi UPA Pengembangan Karier dan
+Kewirausahaan dalam mengelola instrumen tracer study secara efektif, efisien,
+dan adaptif terhadap perubahan regulasi maupun kebutuhan internal institusi.
+Kata kunci: Tracer Study, Backend, Waterfall Iterative, Role Based Access
+Control
+                                                                             vii
+DESIGN AND DEVELOPMENT OF ITK TRACER STUDY
+SYSTEM BACKEND USING ITERATIVE WATERFALL MODEL
+By​                                     : Reno Fahrezi Purnomo
+Student Identity Number​                : 11221051
+Supervisor​                             : Riska Kurniyanto Abdullah, S.T., M.Kom.
+Co-Supervisor​                          : Nur Fajri Azhar, S.Kom., M.Kom.
+                                    ABSTRACT
+        Tracer study systems are essential instruments in higher education quality
+evaluation mandated by the Ministry of Education, Culture, Research, and
+Technology through various regulations to monitor graduate relevance to labor
+market demands. Institut Teknologi Kalimantan (ITK) has implemented a tracer
+study system through the tracerstudy.itk.ac.id website, however, the system has
+fundamental weaknesses in questionnaire management that is static and
+hardcoded, requiring developer intervention for every survey instrument
+modification and causing high technical dependency. This research aims to design
+and implement an ITK tracer study backend system featuring a questionnaire
+management that enables administrators to manage questionnaire structure and
+content independently without code changes. The development method employed
+is Iterative Waterfall with stages including literature study, problem identification,
+requirements analysis, system design using BPMN and UML, implementation
+based on Laravel framework with MVC architecture and Repository Pattern, and
+testing using unit testing. The system is designed by implementing Role-Based
+Access Control (RBAC) to manage tiered access rights, a hybrid database that
+combines relational structure with JSON data types for dynamic questionnaire
+flexibility. This research is expected to produce a backend system that not only
+fulfills reporting obligations to PDDikti and BAN-PT, but also provides greater
+autonomy for the Career and Entrepreneurship Development Support Unit in
+managing tracer study instruments effectively, efficiently, and adaptively to
+regulatory changes and internal institutional needs.
+Keywords: tracer study, backend, waterfall iterative, role-based access control
+                                                                                   viii
+                                  DAFTAR ISI
+HALAMAN SAMPUL​                                           i
+PERNYATAAN ORISINALITAS TUGAS AKHIR​                     ii
+PERNYATAAN PERSETUJUAN PUBLIKASI TUGAS AKHIR UNTUK
+KEPENTINGAN AKADEMIS​                                  iii
+LEMBAR PERSETUJUAN​                                     iv
+LEMBAR PENGESAHAN​                                       v
+KATA PENGANTAR​                                         vi
+ABSTRAK​                                               vii
+ABSTRACT​                                             viii
+DAFTAR ISI​                                             ix
+DAFTAR GAMBAR​                                           x
+DAFTAR TABEL​                                           xi
+BAB 1​
+PENDAHULUAN​                                             1
+   1.1 Latar Belakang​                                   1
+   1.2 Rumusan Masalah dan/atau Obyek yang Dirancang​    1
+   1.3 Tujuan​                                           1
+   1.4 Batasan Rancangan​                                2
+   1.5 Manfaat​                                          2
+   1.6 Potensi Dampak Fungsional/Komersial​              2
+   1.7 Kerangka Tugas Akhir​                             3
+BAB 2​
+TINJAUAN PUSTAKA​                                        4
+   2.1 Kajian Teknologi atau Metode Terkait​             4
+   2.2 Penelitian Terdahulu​                             4
+               Tabel 2.1. Penelitian Terdahulu​          4
+   2.3 Dasar Teori Pendukung (Optional)​                 5
+BAB 3​
+DESAIN DAN IMPLEMENTASI​                                 6
+   3.1 Konsep Design​                                    6
+   3.2 Spesifikasi Teknis​                               6
+   3.3 Tahapan Pembuatan Prototipe​                      6
+   3.4 Metode Implementasi​                              7
+   3.5 Jadwal Pembuatan Prototipe​                       7
+BAB 4​
+PENGUJIAN DAN EVALUASI​                                  8
+   4.1 Metode Pengujian​                                 8
+                                                        ix
+  4.2 Parameter Pengujian​  8
+  4.3 Hasil Pengujian​      8
+  4.4 Evaluasi Prototipe​   9
+BAB 5​
+PENUTUP​                   10
+  5.1 Kesimpulan​          10
+  5.2 Rekomendasi​         10
+DAFTAR PUSTAKA​            11
+LAMPIRAN​                  12
+                           ix
+DAFTAR GAMBAR
+              x
+DAFTAR TABEL
+             xi
+                                   BAB 1​
+                            PENDAHULUAN
+1.1​ Latar Belakang
+      Kementerian Pendidikan Tinggi, Sains, dan Teknologi (Kemendiktisaintek)
+telah mewajibkan pelaksanaan tracer study di perguruan tinggi melalui berbagai
+regulasi, seperti Surat Edaran Dirjen Belmawa No. 471/B/SE/VII/2017,
+Permendikbud No. 3 Tahun 2020 tentang Standar Nasional Pendidikan Tinggi,
+serta Surat Edaran No. 4822/E1/DI.04.02/2021 tentang Indikator Kinerja Utama
+(IKU) PTN. Menurut situs resmi Tracer Study Kemendiktisaintek, inisiatif
+pengumpulan data nasional dimulai sejak 2011 untuk memastikan standarisasi
+metode dan pelaporan tahunan ke Pangkalan Data Pendidikan Tinggi (PDDikti),
+guna mengevaluasi relevansi pendidikan tinggi dengan dunia kerja serta
+mendukung akreditasi BAN-PT. Perguruan tinggi memiliki kewajiban untuk terus
+meningkatkan kualitas pendidikan dan daya saing lulusan melalui instrumen ini.
+      Tracer Study merupakan kegiatan yang digunakan untuk mengetahui
+hubungan antara input pendidikan, proses pendidikan, dan hasil pendidikan
+(Shelly Andari dkk., 2021). Data yang valid mengenai masa tunggu kerja,
+kesesuaian bidang, dan kepuasan pengguna lulusan sangat krusial bagi evaluasi
+kurikulum institusi.
+      Pelaksanaan tracer study di Institut Teknologi Kalimantan (ITK) menjadi
+tanggung jawab Unit Penunjang Akademik (UPA) Pengembangan Karier dan
+Kewirausahaan. Hal ini sejalan dengan mandat yang tertuang dalam Peraturan
+Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia
+Nomor 41 Tahun 2024 tentang Organisasi dan Tata Kerja Institut Teknologi
+Kalimantan. Berdasarkan Pasal 63 ayat (1), UPA ini ditetapkan sebagai unit
+penunjang akademik yang berfokus di bidang pengembangan karier dan
+kewirausahaan.
+                                                                               1
+      Sejalan dengan mandat tersebut, ITK telah mengimplementasikan pelacakan
+alumni melalui laman tracerstudy.itk.ac.id. Namun, berdasarkan hasil wawancara
+dan diskusi kebutuhan sistem bersama Kepala Unit Penunjang Akademik
+Pengembangan Karier dan Kewirausahaan teridentifikasi kelemahan fundamental
+pada sistem yang berjalan saat ini. Beliau menyoroti bahwa manajemen kuesioner
+pada sistem eksisting masih bersifat statis, di mana logika pertanyaan dan struktur
+data tertanam langsung pada basis kode program. Kondisi ini menyebabkan pihak
+UPA tidak memiliki fleksibilitas untuk mengakomodasi perubahan instrumen
+survei yang sering terjadi, baik akibat pembaruan regulasi Kemendiktisaintek
+maupun kebutuhan data spesifik dari program studi. Akibatnya, setiap modifikasi
+pertanyaan membutuhkan intervensi kode program yang mengakibatkan
+ketergantungan teknis terhadap pengembang.
+        Berbagai pengembangan sistem informasi tracer study berbasis web telah
+dilakukan sebagai langkah digitalisasi pendataan alumni dan pelaporan akreditasi
+pada perguruan tinggi. Sistem-sistem yang ada umumnya menyediakan fitur
+pengisian kuesioner melalui situs web. Namun, sebagian besar solusi yang ada
+masih berfokus pada kuesioner dengan struktur yang kaku, dimana daftar
+pertanyaan dan alur survei dibenamkan dalam kode sumber dan tidak bisa di akses
+oleh pengguna non teknis. Kondisi ini membuat pengelolaan instrumen oleh
+pengguna non teknis menjadi terbatas karena penyesuaian kuesioner memerlukan
+campur tangan pengembang
+      Merespons      permasalahan     tersebut,    penelitian   ini  mengusulkan
+pengembangan sistem backend tracer study dengan fitur utama Manajemen
+Kuesioner. Fitur ini dirancang untuk memberikan kendali yang lebih luas kepada
+admin dalam mengelola elemen survei, mulai dari menambah dan memodifikasi
+tipe pertanyaan hingga mengatur logika kuesioner sesuai kebutuhan. Dengan
+adanya fitur tersebut, ketergantungan operasional pada programmer setiap kali
+terjadi pembaruan instrumen survei diharapkan dapat dikurangi secara signifikan.
+        Untuk memastikan proses pengembangan berjalan terstruktur, penelitian
+ini menggunakan metode Waterfall. Penggunaan pendekatan sekuensial pada
+Waterfall memudahkan pemisahan tahap analisis, perancangan, implementasi, dan
+                                                                                  2
+pengujian, sehingga setiap fase pengembangan sistem tracer study terdokumentasi
+dan dapat ditelusuri dengan baik.
+        Berdasarkan pemaparan tersebut, penelitian ini akan difokuskan pada
+rancang bangun ulang sistem backend tracer study ITK yang adaptif terhadap
+perubahan instrumen survei dan kebutuhan pelaporan. Melalui pengembangan ini,
+diharapkan sistem tidak hanya memenuhi kewajiban pelaporan data ke Pangkalan
+Data Pendidikan Tinggi (PDDikti), tetapi juga memberikan tingkat kemandirian
+yang lebih tinggi bagi UPA Pengembangan Karier dan Kewirausahaan dalam
+mengelola instrumen survei secara mandiri, efektif, dan efisien guna mendukung
+peningkatan mutu lulusan Institut Teknologi Kalimantan.
+1.2​ Rumusan Masalah dan/atau Obyek yang Dirancang
+Berdasarkan permasalahan yang telah diuraikan pada latar belakang, maka
+rumusan masalah dalam penelitian ini adalah sebagai berikut:
+    1.​ Bagaimana merancang sistem backend tracer study yang memiliki fitur
+        manajemen kuesioner?
+    2.​ Bagaimana melakukan pengujian terhadap sistem backend tracer study
+        yang dikembangkan dengan unit testing?
+1.3​ Tujuan
+       Sejalan dengan rumusan masalah yang telah disusun, penelitian ini memiliki
+tujuan sebagai berikut:
+                                                                                3
+    1.​ Menghasilkan rancangan sistem backend tracer study yang menyediakan
+        fitur manajemen kuesioner sehingga struktur, konten, dan alur kuesioner
+        dapat dikonfigurasi tanpa perubahan kode program.
+    2.​ Mengimplementasikan rancangan backend tracer study ke dalam aplikasi
+        berbasis Laravel yang mendukung pengelolaan kuesioner, distribusi
+        pengisian, serta pengelolaan data hasil tracer study.
+    3.​ Melakukan pengujian terhadap sistem backend tracer study yang
+        dikembangkan untuk memastikan fungsionalitas manajemen kuesioner
+        dinamis dan alur proses utama (pengelolaan kuesioner, distribusi,
+        pengisian, dan pelaporan) berjalan sesuai kebutuhan pengguna.
+    4.​ Menerapkan metode Iterative Waterfall pada proses pengembangan
+        backend tracer study dan mendokumentasikan penerapannya pada setiap
+        tahapan, mulai dari analisis kebutuhan hingga pengujian.
+1.4​ Batasan Rancangan
+    1.​ Penelitian ini hanya berfokus pada perancangan dan pengembangan sisi
+        backend sistem tracer study Institut Teknologi Kalimantan, sehingga
+        pengembangan antarmuka pengguna (frontend) dan aplikasi mobile tidak
+        dibahas secara mendalam.
+    2.​ Fitur yang dikembangkan dibatasi pada manajemen kuesioner dinamis dan
+        alur proses utama tracer study, meliputi pengelolaan struktur kuesioner,
+        periode pelaksanaan, distribusi kuesioner, serta pengelolaan data hasil
+        isian sesuai kebutuhan Unit Penunjang Akademik Pengembangan Karier
+        dan Kewirausahaan.
+    3.​ Pengujian sistem terbatas pada unit testing terhadap modul‑modul backend
+        utama.
+                                                                               4
+1.5​ Manfaat
+       Penelitian ini diharapkan dapat memberikan manfaat bagi berbagai pihak,
+antara lain:
+    1.​ Manfaat Akademis
+        Memberikan kontribusi dalam pengembangan studi terkait perancangan
+        dan pengembangan sistem backend tracer study dengan manajemen
+        kuesioner dinamis, khususnya pada konteks perguruan tinggi yang perlu
+        menyesuaikan instrumen tracer study terhadap perubahan regulasi dan
+        kebutuhan data.
+    2.​ Manfaat Praktis bagi Pengguna
+        Membantu admin atau pengelola tracer study dalam mengelola struktur
+        dan konten kuesioner secara lebih mandiri tanpa ketergantungan tinggi
+        pada pengembang, sehingga penyesuaian instrumen dapat dilakukan
+        dengan lebih cepat dan terkontrol.
+    3.​ Manfaat Praktis bagi Responden
+        Memudahkan alumni sebagai responden dalam mengisi kuesioner tracer
+        study melalui antarmuka pengisian yang lebih terstruktur, konsisten, dan
+        dapat diakses kapan saja selama periode pengisian berlangsung.
+1.6​ Potensi Dampak Fungsional/Komersial
+    1.​ Memberikan sistem tracer study terpusat untuk mengelola kuesioner dan
+        data hasil tracer study secara lebih terstruktur, efisien, dan terdokumentasi
+        dengan baik.
+    2.​ Mengurangi ketergantungan pada pengembang serta menurunkan biaya
+        pemeliharaan setiap kali terjadi perubahan instrumen kuesioner, karena
+        penyesuaian dapat dilakukan langsung oleh admin melalui mekanisme
+        manajemen kuesioner dinamis.
+1.7​ Kerangka Tugas Akhir
+                                                                                    5
+                         Gambar 1.1 Diagram Alir Penelitian
+       Gambar 1.1 menggambarkan kerangka tugas akhir yang menerapkan
+metode pengembangan Waterfall Iterative. Berbeda dengan model air terjun klasik
+yang kaku, pendekatan ini memodifikasi alur linear dengan menambahkan
+mekanisme umpan balik yang memungkinkan perbaikan dilakukan ke tahap-tahap
+sebelumnya jika ditemukan ketidaksesuaian.
+       Proses penelitian diawali dengan tahap Studi Literatur dan Identifikasi
+Masalah untuk membangun landasan teori serta merumuskan urgensi penelitian.
+                                                                              6
+Selanjutnya, masuk ke tahapan inti pengembangan sistem yang terdiri dari empat
+fase utama:
+    1.​ Analisis Kebutuhan: Tahap pengumpulan dan pendefinisian seluruh
+        kebutuhan fungsional maupun non-fungsional yang diperlukan oleh sistem
+        tracer study.
+    2.​ Perancangan Desain Antarmuka: Pembuatan rancangan visual, struktur
+        basis data, dan alur interaksi pengguna berdasarkan analisis kebutuhan
+        yang telah disepakati.
+    3.​ Implementasi: Tahap penerjemahan desain ke dalam kode program
+        menggunakan framework Laravel dan manajemen basis data yang telah
+        ditentukan.
+    4.​ Testing: Pengujian sistem untuk memastikan fungsionalitas berjalan sesuai
+        rencana dan bebas dari galat.
+        Model iterative waterfall adalah pengembangan dari model waterfall yang
+memberikan jalur umpan balik atau perubahan pada setiap fase ke fase
+sebelumnya (Kesumadji dkk, 2024). hal ini memungkinkan kesalahan yang
+ditemukan pada tahap yang lebih akhir dapat dikoreksi pada tahap yang menjadi
+sumber permasalahan tersebut. Setelah seluruh fungsi utama dinyatakan valid
+pada tahap pengujian, alur pengembangan dalam penelitian ini kemudian
+diteruskan ke tahap analisis hasil dan diskusi, dan diakhiri dengan penarikan
+kesimpulan serta penyusunan saran.
+                                                                                7
+                                      BAB 2​
+                           TINJAUAN PUSTAKA
+       Bab 2 berisi kajian terhadap teknologi atau metode terkait, termasuk
+penelitian terdahulu dan perbandingan hasil implementasi yang ada, serta dasar
+teori yang mendukung pengembangan prototipe jika dibutuhkan.
+2.1​ Tracer Study
+       Keberhasilan perguruan tinggi salah satunya ditentukan oleh aspek
+relevansi. Pada aspek ini, perguruan tinggi berperan sebagai penyelenggara
+pendidikan yang mampu mencetak lulusan dengan daya saing tinggi untuk
+menghadapi dunia kerja. Tracer Study digunakan sebagai instrumen untuk
+menelusuri keterkaitan antara input pendidikan, proses pembelajaran, output yang
+dihasilkan, serta capaian hasil pendidikan. (Fitriani, Setiawan dan Anwar, 2024)
+       Tracer Study memenuhi kebutuhan nasional melalui kebijakan Kementerian
+Pendidikan seperti Surat Edaran Dirjen Belmawa No. 471/B/SE/VII/2017 dan
+Permendikbud No. 3 Tahun 2020, yang mewajibkan perguruan tinggi
+menyediakan data akurat tentang transisi lulusan ke dunia kerja untuk evaluasi
+relevansi pendidikan serta syarat akreditasi BAN-PT. Secara internal, perguruan
+tinggi memanfaatkannya sebagai umpan balik untuk perbaikan kurikulum,
+pengukuran outcome seperti tingkat penyerapan kerja, penguatan jaringan alumni,
+dan peningkatan mutu pembelajaran berkelanjutan.
+       Tracer Study merupakan salah satu sarana yang digunakan untuk menelusuri
+informasi alumni dan mampu menyediakan berbagai informasi yang bermanfaat
+seperti   data    pribadi,  riwayat    pendidikan      ataupun   informasi  riwayat
+pekerjaan.(Hasan dan Nurlelah, 2022)
+       Tracer study memiliki peran penting sebagai sarana memperoleh informasi
+dari alumni terkait outcome pendidikan, termasuk relevansi ilmu yang dipelajari
+selama kuliah dengan kebutuhan dunia kerja, aktivitas yang dijalani setelah lulus,
+                                                                                  8
+perkembangan karier, serta kemampuan mereka dalam bersaing di lingkungan
+kerja. Data yang diperoleh digunakan sebagai dasar evaluasi kinerja perguruan
+tinggi sekaligus upaya peningkatan mutu pendidikan di masa mendatang. Selain
+itu, pelaksanaan tracer study juga menjadi salah satu persyaratan dalam proses
+akreditasi oleh Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT) (Agustin,
+Deni Apriadi, 2019).
+2.2​ Laravel
+         Laravel merupakan sebuah kerangka kerja pemrograman yang berbasis
+open source yang dipakai oleh banyak developer dari seluruh dunia. Kemudahan
+penggunaan dan dokumentasi yang lengkap menjadi salah satu faktor mengapa
+Laravel menjadi primadona dalam beberapa tahun terakhir . Laravel berada
+dibawah lisensi MIT, dengan menggunakan GitHub sebagai tempat berbagi kode.
+Pada bulan Desember 2013, Laravel menempati kerangka kerja PHP terpopuler
+dan berada di atas kerangka kerja PHP lain seperti Phalcon, Symfony,
+Codelgniter, dan lainnya. Laravel juga menjadi salah satu framework yang dapat
+membantu developper untuk memaksimalkan penggunaan PHP didalam proses
+pengembangan website. Selain itu, Laravel juga memiliki beberapa fitur
+unggulan, seperti template engine, routing, dan modularity. (Rizki, Achmady dan
+Setiawati, 2023)
+  2.2.1​ Laravel Sanctum
+   Menurut situs resmi laravel https://laravel.com/docs/12.x/sanctum Laravel
+Sanctum     merupakan paket autentikasi yang disediakan          Laravel untuk
+mengamankan aplikasi berbasis API, single page application (SPA), maupun
+aplikasi mobile dengan cara yang lebih sederhana dibandingkan implementasi
+OAuth2 penuh seperti Laravel Passport. Sanctum menyediakan dua mekanisme
+utama, yaitu autentikasi berbasis token API personal dan autentikasi berbasis
+cookie sesi untuk SPA yang berkomunikasi dengan backend Laravel yang sama.
+Laravel Memiliki lisensi MIT
+.
+                                                                              9
+  2.2.2​ Laravel Excel
+​        Laravel Excel dimaksudkan sebagai PhpSpreadsheet bernuansa Laravel
+yang sederhana namun elegan dengan tujuan mempermudah import dan eksport.
+Laravel Excel dikembangkan oleh Maatebsite, sebuah perusahaan asal Belanda
+yang aktif dalam pengembangan ekosistem Laravel.(Pramudita dan Somya,
+2021). Laravel Excel merupakan paket sumber terbuka yang dirilis dengan lisensi
+MIT, sehingga dapat digunakan secara bebas pada proyek pribadi maupun
+komersial, dengan kewajiban untuk tetap mencantumkan atribusi kepada
+pengembang asli dalam kode sumber.
+2.3​ Model View Controller
+        Salah satu bentuk design pattern dalam pengembangan website adalah
+arsitektur Model-View-Controller (MVC) (Permana dan Sihanato, 2024). MVC
+memecah aplikasi web menjadi 3 layer, di mana bagian pertama ialah Model yang
+memiliki kaitan terhadap operasi database, bagian kedua yaitu View yang
+kaitannya dengan interface, dan bagian ketiga yaitu Controller yang kaitannya
+dengan logika aplikasi serta mengendalikan View dan Controller pada alur data
+(Alkaff dkk. 2021)
+2.4​ Repository Design Pattern
+        Pola Repositori sering dianggap sebagai pola desain struktural, namun pola
+ini tidak selalu masuk dengan rapi ke dalam kategori umum seperti pola creational
+(penciptaan), structural (struktural), atau behavioral (perilaku). Hal ini disebabkan
+oleh sifat uniknya dan caranya berfungsi sebagai lapisan abstraksi khusus untuk
+akses data, alih-alih sekadar mengikuti kategori tradisional. Pola Repositori
+digunakan terutama untuk akses data dan persistensi. Pola ini mengabstraksi
+logika yang diperlukan untuk mengakses sumber data (seperti database, API, atau
+sistem file) sehingga logika bisnis tidak perlu berinteraksi langsung dengan
+sumber data tersebut.
+                                                                                   10
+       Alih-alih interaksi langsung, pola ini menyediakan cara yang lebih bersih
+dan mudah dipelihara (maintainable) untuk mengambil, menyimpan, dan
+memperbarui data dengan cara mengenkapsulasi logika kueri dan penyimpanan
+data. (Ali, 2025)
+2.5​ Role Based Access Control
+Role-based access control (RBAC) telah muncul sebagai alternatif yang diterima
+secara luas terhadap kontrol akses diskresioner (discretionary) dan wajib
+(mandatory) klasik. Beberapa model RBAC telah dipublikasikan dan beberapa
+implementasi komersial telah tersedia. RBAC mengatur akses pengguna ke
+informasi dan sumber daya sistem berdasarkan aktivitas yang perlu dilakukan
+pengguna di dalam sistem, serta memerlukan identifikasi peran (roles) dalam
+sistem tersebut. Sebuah peran dapat didefinisikan sebagai sekumpulan tindakan
+dan tanggung jawab yang terkait dengan aktivitas kerja tertentu. Kemudian,
+alih-alih menentukan semua akses yang diizinkan untuk setiap individu pengguna,
+otorisasi akses pada objek ditentukan untuk peran tersebut. (Ahn dan Sandhu,
+2000)
+2.6​ LiveWire
+        Livewire adalah kerangka kerja full-stack untuk Laravel yang membuat
+pembuatan      antarmuka dinamis menjadi       sederhana, tanpa meninggalkan
+kenyamanan Laravel. Livewire merender output komponen awal dengan halaman
+(seperti penyertaan Blade). Dengan cara ini, SEO-friendly. Ketika interaksi
+terjadi, Livewire membuat permintaan AJAX ke server dengan data yang
+diperbarui. Server merender ulang komponen dan merespons dengan HTML baru.
+Livewire kemudian dengan cerdas mengubah DOM sesuai dengan hal-hal yang
+diubah. (Natania, Wahyuni dan Wati, 2024)
+2.7​ Restful API
+        REST (Representational State Transfer) adalah model arsitektur untuk
+sistem hypermedia terdistribusi yang diperkenalkan oleh Roy Fielding pada tahun
+2000 [10]. Secara sederhana, REST adalah salah satu desain arsitektur untuk API.
+RESTful API adalah implementasi dari arsitektur REST yang menyediakan
+                                                                              11
+antarmuka pemrograman yang efisien dan konsisten untuk aplikasi klien.
+(Natania, Wahyuni dan Wati, 2024)
+2.8​ JSON
+​       JSON (JavaScript Object Notation) adalah format pertukaran data yang
+ringan, mudah dibaca dan ditulis oleh manusia, serta mudah diterjemahkan dan
+dibuat (generate) oleh komputer. Format ini dibuat berdasarkan bagian dari
+Bahasa Pemprograman JavaScript, Standar ECMA-262 Edisi ke-3 - Desember
+1999. JSON merupakan format teks yang tidak bergantung pada bahasa
+pemprograman apapun karena menggunakan gaya bahasa yang umum digunakan
+oleh programmer keluarga C termasuk C, C++, C#, Java, JavaScript, Perl, Python
+dll. Oleh karena sifat-sifat tersebut, menjadikan JSON ideal sebagai bahasa
+pertukaran-data. (JSON, tanpa tanggal)
+​
+​
+2.9​ Business Process Model Notation
+      Proses bisnis adalah kumpulan terstruktur dari aktivitas atau tugas terkait
+untuk memecahkan masalah tertentu atau membuat produk atau layanan tertentu.
+Sebuah proses bisnis dibagi menjadi beberapa subproses. Setiap subproses
+memiliki karakteristik yang berbeda, tetapi juga mendukung untuk mencapai
+tujuan dari superproses tersebut. Analisis proses biasanya melibatkan proses
+tindakan dan subprosesnya ke dalam tingkatan. Analisis dapat dilakukan melalui
+pemodelan proses bisnis yang memvisualisasikan bagaimana orang atau
+pemangku kepentingan berhubungan dalam suatu sistem dan pemahaman dalam
+bentuk tertentu atau berdasarkan standar tertentu. (Firdaus, 2022)
+      Business Process Modelling Natation (BPMN) adalah sebuah standar
+untuk memodelkan proses bisnis yang menyediakan notasi grafis dalam
+menjelaskan sebuah proses bisnis. BPMN menggambarkan suatu bisnis
+proses diagram yang didasarkan kepada teknik diagram alur, dirangkai untuk
+membuat model-model grafis dari operasi-operasi bisnis dimana terdapat
+aktivitas-aktivitas dan kontrol-kontrol alur yang mendefinisikan urutan kerja.
+                                                                              12
+Tujuan dari menggunakan BPMN adalah untuk menyediakan notasi yang mudah
+untuk digunakan dan dipahami oleh semua individu yang ikut terlibat dalam
+bisnis. Sehingga semua yang terlibat dari berbagai tingkatan manajemen
+yang harus dapat membaca dan memahami proses diagram dengan cepat
+sehingga diharapkan     juga  dapat   membantu dalam proses pengambilan
+keputusan. (Ismanto, Hidayah dan Charisma, 2020)
+      Diagram BPMN terdiri atas elemen. Elemen ini terbagi atas empat kategori,
+yaitu Flow Object, Connecting Object, Swimlanes, dan Artifact (Sumarsono,
+Saputro dan Rifai, 2023).
+                                                                            ​
+        Gambar 2.1 Contoh BPMN (Sumarsono, Saputro dan Rifai, 2023)
+2.10​ Unified Modelling Language
+      UML     (Unified   Modeling Language) adalah sebuah bahasa yang
+berdasarkan     grafik/gambar    untuk    memvisualisasi,   menspesifikasikan,
+membangun, dan pendokumentasian dari sebuah sistem pengembangan software
+berbasis OO (Object-Oriented). UML sendiri juga memberikan standar penulisan
+sebuah sistem blue print, yang meliputi konsep bisnis proses, penulisan
+kelas-kelas dalam bahasa program yang spesifik, skema database, dan
+komponen-komponen        yang  diperlukan  dalam   sistem   software.  (Teknik
+Informatika Universitas Khairun dan Mubarak, 2019)
+                                                                            13
+      UML digunakan untuk menggambarkan desain sistem dalam sebuah
+aplikasi perangkat lunak berbasiskan gambar. UML akan menggambarkan
+bagaimana interaksi pengguna dengan sistem aplikasi yang ingin dikemabangkan.
+Selain interaksi, batasan-batasan sistem juga dapat tergambarkan menggunakan
+diagram UML (Koç dkk., 2021)
+2.11​ Usecase Diagram
+      Use case diagram adalah teknik untuk merekam persyaratan fungsional
+sebuah system, menggambarkan fungsionalitas yang diharapkan dari sebuah
+sistem. Use case diagram menekankan kepada “apa” yang diperbuat oleh sistem,
+dan bukan “bagaimana”. Sebuah use case merepresentasikan sebuah interaksi
+antara aktor dengan sistem. Use case merupakan sebuah pekerjaan tertentu,
+misalnya login ke sistem, meng-create sebuah daftar belanja, dan sebagainya.
+(Hasanah & Untari, 2020)
+                                                                           14
+                                                                                ​
+ Gambar 2.2 Contoh Usecase Diagram (Siska Narulita, Ahmad Nugroho, dan M.
+                               Zakki Abdillah, 2024)
+        Gambar 2.2 Menunjukkan contoh visualisasi Use Case Diagram yang
+menggambarkan hubungan interaksi antara aktor sebagai pengguna dengan
+berbagai fungsionalitas yang disediakan oleh sistem.
+2.12​ Entity Relationship Diagram
+      ERD (Entity Relationship Diagram) atau diagram hubungan entitas adalah
+sebuah diagram yang digunakan untuk perancangan suatu database dan
+menunjukan      relasi  atau   hubungan    antar  objek atau   entitas  beserta
+atribut-atributnya secara detail. Dengan menggunakan ERD, sistem database yang
+sedang dibentuk dapat digambarkan dengan lebih terstruktur dan terlihat rapi
+(Setiawan, 2021)
+                                                                            15
+             Gambar 2.3 Contoh ERD (Rizki, Achmady dan Setiawati, 2023)
+       Gambar 2.3 Menunjukkan Contoh Entity Relationship Diagram. Pada ERD
+tersebut terdapat beberapa entitas yakni Admin, Alumni dan Tracer Study.
+Masing-masing entitas memiliki Atribut. Contohnya entitas admin memiliki
+atribut id_user, nama_user, Ttgl_user, dan Password
+2.13​ Testing
+       Software testing (biasa disingkat testing) merupakan aktivitas penting dalam
+software engineering. Testing akan mengeksekusi software dengan tujuan untuk
+melihat kesesuaiannya dengan requirement yang didefinisikan (Min, Istiqomah
+dan Rahmani, 2020). Unit testing merupakan tahap dasar dalam pengujian. Unit
+testing berfokus pada pengujian building block yang lebih kecil daripada program
+atau sistem yang diuji. Pengujian ini mengeksekusi setiap fitur atau fungsionalitas
+untuk memastikan masing-masing fitur atau fungsionalitas tersebut berfungsi
+sesuai dengan yang diharapkan (Hasibuan dan Dirgahayu, 2021). Unit test adalah
+                                                                                  16
+tes otomatis yang memverifikasi bagian kecil dari kode (dikenal juga sebagai
+unit), melakukannya dengan cepat, dan melakukannya secara terisolasi. Sebuah
+unit biasanya merujuk pada bagian terkecil dari arsitektur perangkat lunak yang
+tidak dapat dipisahkan menjadi bagian-bagian yang lebih kecil, misalnya sebuah
+fungsi, metode, atau bahkan properti. Bagian dari definisi yang mengacu pada
+kecepatan juga berkaitan dengan persyaratan ukuran yang sama. Pengujian unit
+harus kecil, ringan, dan seindependen mungkin dari kelas lain agar dapat
+dijalankan secara paralel atau berurutan tanpa mempengaruhi hasil satu sama lain.
+(Vasev, 2024)
+2.14​ Waterfall Iterative
+       Model Waterfall adalah salah satu metodologi pengembangan perangkat
+lunak yang paling tua dan terstruktur yang digunakan dalam industri teknologi
+informasi. Ini adalah model sekuensial yang menguraikan pengembangan
+perangkat lunak menjadi serangkaian tahap berurutan. Model Waterfall dikenal
+dengan tahap-tahapnya yang jelas dan tidak memungkinkan untuk kembali ke
+tahap sebelumnya setelah tahap tertentu sudah selesai. (Priyanto dan Ramayanti,
+2025)
+                                                                              17
+           Gambar 2.3 SDLC Waterfall (Rizki, Achmady dan Setiawati, 2023)
+Pada gambar 2.4 ditunjukkan Tahapan Metode Waterfall. Menurut Semarandhanu
+dan Hermansyah (2024), metode Waterfall terdiri dari tahapan-tahapan berikut:
+    1.​ Requirements Analysis: menjelaskan mengenai permasalahan yang ada
+        serta analisis agar sistem dapat bekerja secara efisien;
+    2.​ Design: memberikan output analisis masalah yang digambarkan dalam
+        bentuk diagram perancangan sistem dan blueprint sistem;
+    3.​ Implementation: melakukan pengkodean (coding) berdasarkan hasil
+        perancangan dan mengimplementasikan database;
+    4.​ Testing: melakukan pengujian sistem secara menyeluruh untuk
+        memastikan fungsionalitas sistem sesuai dengan spesifikasi;
+    5.​ Maintenance: melakukan pemeliharaan dan pemeriksaan sistem secara
+        berkala setelah sistem diserahkan kepada pengguna.
+Iterative Waterfall merupakan pengembangan metode Waterfall, di mana setiap
+tahapan harus dilakukan secara bertahap, apabila tahapan pertama belum selesai
+maka tahapan berikutnya belum dapat dilakukan. Pada Iterative Waterfall, akan
+dilakukan perulangan pada tahap tertentu hingga proses tersebut selesai.
+                                                                              18
+Perulangan dilakukan karena masih adanya kekurangan ataupun kesalahan yang
+terjadi pada tahap tertentu (Stinjak dan Masya, 2021).
+2.15​ Penelitian Terdahulu
+                           Tabel 2.1 Penelitian Terdahulu
+       No.          Nama dan                                Hasil
+                      Tahun
+                    Publikasi
+        1           (Afriyadi,             Teknologi: Web-Based Tracer Study
+                    Putra dan                 System Design for the Faculty of
+                    Purnomo,            Computer Science, University of Dharmas
+                       2025)                              Indonesia
+                                           Fitur/Metode Utama: Penelitian ini
+                                          menggunakan metode Waterfall untuk
+                                              membangun sistem yang mampu
+                                           menyajikan data alumni secara valid
+                                         sesuai kriteria kementerian . Fitur utama
+                                         meliputi login multi-level (admin, dosen,
+                                            alumni), pengisian survei (bekerja,
+                                            wirausaha, studi lanjut), download
+                                           laporan, serta fitur berbagi informasi
+                                             lowongan pekerjaan bagi alumni .
+                                                                                  19
+2   (Hasan dan      Teknologi: Rancang Bangun Sistem
+     Nurlelah,     Informasi Tracer Studi Formulir 2021
+      2022)                     Berbasis Web
+                   Fitur/Metode Utama: Menggunakan
+                   metode Waterfall untuk menggantikan
+                   penggunaan Google Form yang sering
+                 menyebabkan data duplikat . Fitur sistem
+                     mencakup verifikasi data pribadi,
+                  kuesioner bertahap (4 step), monitoring
+                 progres pengisian per program studi, serta
+                  pembuatan laporan grafik otomatis yang
+                      valid untuk keperluan akreditasi .
+3 (Yunanto dkk.,   Teknologi: Tracer Study Information
+      2021)             System for Higher Education
+                   Fitur/Metode Utama: Menggunakan
+                       metode SDLC Waterfall untuk
+                   menghasilkan prototipe sistem terpadu
+                  bagi Universitas Negeri Jakarta . Sistem
+                 ini menyediakan fitur manajemen alumni,
+                    instrumen tracer standar, serta akses
+                     multi-level bagi admin universitas,
+                       fakultas, hingga alumni untuk
+                   meningkatkan efektivitas pengelolaan
+                                    data .
+                                                          20
+4  (Priyanto dan Teknologi: Design and Development of a
+    Ramayanti,   Web-Based Tracer Study System in Higher
+       2025)       Education Using the Waterfall Method
+                   Fitur/Metode Utama: Menggunakan
+                    metode Waterfall untuk membangun
+                  platform di Universitas Dian Nusantara .
+                    Fitur unggulannya adalah email blast
+                  untuk mengingatkan alumni yang belum
+                   mengisi kuesioner, dashboard analisis
+                    grafik, serta fungsi ekspor data yang
+                 sudah sesuai dengan format Kemendikbud
+                                        .
+5 (Semarandhan   Teknologi: Perancangan Sistem Informasi
+       u dan       Pendataan Alumni (Tracer Study) dan
+   Hermansyah,    Pencatatan Kegiatan Pembelajaran pada
+       2024)                LKP Sanggraha Putri
+                   Fitur/Metode Utama: Menggunakan
+                   metode Waterfall untuk mendigitalisasi
+                  pendataan alumni di lembaga pendidikan
+                    non-formal . Sistem ini memfasilitasi
+                    pencatatan administrasi murid, input
+                     catatan hasil belajar oleh pengajar,
+                   verifikasi izin ujian, dan penyimpanan
+                  data lulusan secara terstruktur agar tidak
+                             hilang atau tercecer .
+                                                            21
+6 (Sasmita dkk.,    Teknologi: Evaluasi Kualitas Sistem
+      2024)         Tracer Study INSTIKI Menggunakan
+                               Blackbox Testing
+                   Fitur/Metode Utama: Berfokus pada
+                      evaluasi kualitas fungsional sistem
+                  menggunakan Blackbox Testing dengan
+                         pendekatan Use Case Testing,
+                 Equivalence Partitioning, dan Boundary
+                   Value Analysis . Penelitian ini berhasil
+                 mengidentifikasi cacat pada penanganan
+                      input tidak valid dan memberikan
+                    rekomendasi desain ulang antarmuka
+                          (UI/UX) agar lebih intuitif .
+7   (Wijaya,        Teknologi: Rancang Bangun Sistem
+   Perdana dan   Infromasi Tracer Study Berbasis Website
+  Rofiani, 2024)        Menggunakan Metode SCRUM
+                   Fitur/Metode Utama: Menggunakan
+                     metode SCRUM untuk mendukung
+                 pengembangan fitur yang dinamis . Fitur
+                     unggulannya adalah peta persebaran
+                   alumni digital (GIS) untuk mengetahui
+                  posisi geografis lulusan secara real-time
+                     serta dashboard summary card yang
+                       sangat informatif bagi pengambil
+                                  keputusan .
+                                                            22
+8 (Fernandy, Ali    Teknologi: Rancang Bangun Sistem
+   dan Juwono,      Tracer study UNUSIA Berbasis Web
+      2023)             Menggunakan Metode RAD
+                   Fitur/Metode Utama: Menggunakan
+                  metode Rapid Application Development
+                        (RAD) untuk mempercepat
+                 pengembangan sistem yang adaptif . Fitur
+                     utamanya adalah sinkronisasi data
+                  identitas melalui NIM yang terintegrasi
+                   dengan database pangkalan data Dikti,
+                 sehingga alumni dapat mengisi kuesioner
+                      secara lebih singkat dan akurat .
+                                                          23
+                                         BAB 3​
+                         DESAIN DAN IMPLEMENTASI
+           Bab ini berisi konsep desain prototipe, spesifikasi teknis, dan tahapan
+   pembuatan prototipe. Metode implementasi mencakup pemilihan bahan, teknik
+   manufaktur/produksi, alat yang digunakan, serta rencana jadwal pembuatan
+   prototipe
+3.1​       Konsep Desain
+           Konsep desain sistem backend tracer study ITK disusun berdasarkan
+   kebutuhan yang diperoleh dari diskusi dengan Kepala UPA Pengembangan Karier
+   dan Kewirausahaan serta dokumen pendukung tracer study. Desain sistem ini
+   mengacu pada daftar kebutuhan yang telah dirumuskan.
+  3.1.1​    Role Based Access Control
+   Sistem dirancang dengan menggunakan Role dan hak akses yang dinamis.
+   Pendekatan ini memungkinkan admin membuat, memodifikasi, dan menghapus
+   role yang ada, serta menentukan hak aksesnya.
+   Meskipun bersifat dinamis, sistem akan menyediakan konfigurasi bawaan.
+   Konfigurasi role bawaan dapat dilihat sebagai berikut:
+     1.​ Admin: Memiliki akses penuh terhadap manajemen pengguna dan data
+         master (Unit Kerja/Prodi).
+     2.​ Tim Tracer : Bertanggung jawab penuh atas manajemen kuesioner utama
+         (Tracer Study, Exit Survey, SKP), pengaturan logika kuesioner (skip
+         logic/branching), dan pelaporan ke kementerian/BAN-PT.
+     3.​ Tim Prodi: Memiliki hak untuk melihat data alumninya, menambahkan
+         pertanyaan spesifik prodi, dan mengunduh laporan prodi.
+     4.​ Petinggi (Pimpinan Unit): Memiliki akses eksekutif untuk melihat dasbor
+         laporan dan statistik kinerja.
+                                                                                 24
+     5.​ Alumni: Pengguna akhir yang mengisi kuesioner (Exit Survey dan Tracer
+          Study).
+     6.​ Supervisor: Atasan alumni yang mengisi Survei Kepuasan Pengguna (SKP)
+          melalui tautan khusus tanpa perlu melakukan login (akses berbasis token).
+  3.1.2​     Konsep Manajemen Kuesioner
+   ​         Sistem dirancang untuk mendukung pengelolaan kuesioner secara
+   dinamis.hal ini mengatasi keterbatasan sistem ketika ada perubahan dari
+   kementrian, sehingga sistem dirancang untuk mendukung perubahan pada bagian
+   kuesioner tanpa memerlukan intervensi pengembang sistem.
+   Struktur kuesioner dirancang untuk mendukung berbagai jenis pertanyaan,
+   termasuk:
+         -​ Pilihan ganda (single choice dan multiple choice)
+         -​ Skala penilaian (Likert scale)
+         -​ Isian teks (Textbox)
+         -​ Dropdown selection
+3.2​       Spesifikasi Teknis
+   Spesifikasi teknis mencakup teknologi-teknologi yang akan digunakan untuk
+   mengembangkan sistem. Sistem backend akan dikembangkan menggunakan :
+         -​ Laravel: Digunakan sebagai framework utama pengembangan backend
+             dengan arsitektur MVC
+         -​ MySQL: sebagai sistem manajemen basis data relasional.
+         -​ Maatwebsite/Excel
+         -​ SMTP Mail Server: sebagai infrastruktur pengiriman email untuk
+             kebutuhan notifikasi otomatis
+                                                                                    25
+       -​ Rest API sebagai antarmuka layanan berbasis HTTP yang memungkinkan
+           frontend mengakses fungsi backend.
+3.3​     Tahapan Pembuatan Prototipe
+           Prosedur penelitian ini mengikuti metode Waterfall Iterative. Berikut
+   adalah rincian aktivitas yang dilakukan pada setiap tahapan pengembangan
+   sistem:
+3.3.1​   Analisis Kebutuhan​
+           Tahap analisis kebutuhan dilakukan untuk memetakan seluruh kebutuhan
+   fungsional dan non-fungsional sistem berdasarkan permasalahan yang dihadapi
+   oleh UPA Pengembangan Karier dan Kewirausahaan. Proses ini bertujuan untuk
+   menerjemahkan kebutuhan operasional pengguna ke dalam spesifikasi teknis yang
+   terukur, memastikan sistem yang dibangun mampu menangani kompleksitas
+   manajemen data alumni serta memenuhi standar pelaporan yang berlaku.
+     Kode FR      Nama Kebutuhan      Aktor           Deskripsi Kebutuhan
+                                                      Mengelola data pengguna,
+                                                      role, dan hak akses
+                  Manajemen User &
+     FR-01                            Admin           (permission) untuk Admin,
+                  RBAC
+                                                      Tim Tracer, Tim Prodi, dan
+                                                      Pimpinan.
+                                                      Mengelola data master unit
+                  Manajemen Unit
+     FR-02                            Admin           kerja (Fakultas, Jurusan,
+                  Kerja
+                                                      Prodi) serta pejabat terkait.
+                                                      Fitur tambah, ubah, baca,
+                                                      dan hapus (soft delete)
+     FR-03        CRUD Kuesioner      Tim Tracer
+                                                      untuk kuesioner serta jenis
+                                                      kuesioner.
+                                                      Menduplikasi (kloning)
+                                                      kuesioner untuk template
+     FR-04        Duplikasi Kuesioner Tim Tracer
+                                                      atau versi baru dengan
+                                                      menjaga integritas relasi.
+                                                                                    26
+Kode FR Nama Kebutuhan        Aktor             Deskripsi Kebutuhan
+                                                Tampilan pratinjau
+                                                kuesioner untuk
+FR-05   Preview Kuesioner     Tim Tracer
+                                                memverifikasi alur sebelum
+                                                dipublikasikan.
+                                                Mengelola hierarki
+                                                kuesioner: Halaman,
+FR-06   Manajemen Struktur    Tim Tracer
+                                                Section, dan Pertanyaan
+                                                (CRUD & reorder).
+                                                Logika percabangan untuk
+        Skip Logic /                            menampilkan/menyembunyi
+FR-07                         Tim Tracer
+        Branching                               kan Section atau
+                                                Pertanyaan.
+                                                Menambah dan mengelola
+        Pertanyaan Khusus                       pertanyaan spesifik yang
+FR-08                         Tim Prodi
+        Prodi                                   hanya berlaku untuk alumni
+                                                prodi tersebut.
+                                                Ekspor struktur kuesioner ke
+        Export Struktur
+FR-09                         Tim Tracer        format Excel (backup),
+        Kuesioner
+                                                BAN-PT, dan Kementerian.
+                                                Impor kembali struktur
+        Import Struktur
+FR-10                         Tim Tracer        kuesioner dari file
+        Kuesioner
+                                                Excel/CSV (round-trip).
+                                                Impor jawaban responden
+        Import Hasil
+FR-11                         Tim Prodi         dari file eksternal
+        Responden
+                                                (migrasi/manual).
+                                                Pengaturan tanggal
+FR-12   Aktivasi Periode      Tim Tracer        mulai/selesai dan status
+                                                aktif kuesioner.
+                                                Statistik kemajuan pengisian
+FR-13   Monitoring Progress   Tim Tracer, Prodi
+                                                kuesioner secara real-time.
+                                                Filter data responden
+FR-14   Filter Data Pengisian Tim Tracer        berdasarkan prodi,
+                                                angkatan, status, dll.
+                                                Antarmuka pengisian
+        Pengisian oleh
+FR-15                         Alumni            kuesioner dengan validasi
+        Alumni
+                                                dan simpan draft.
+                                                Otomatis melewati Exit
+FR-16   Skip Exit Survey      Alumni            Survey jika status alumni
+                                                sudah bekerja.
+                                                Pengisian SKP tanpa login
+        Pengisian SKP
+FR-17                         Supervisor        menggunakan token/tautan
+        (Publik)
+                                                unik.
+FR-18   Email Blast Otomatis  Sistem            Kirim email otomatis untuk
+                                                                           27
+ Kode FR       Nama Kebutuhan           Aktor             Deskripsi Kebutuhan
+                                                          undangan Tracer Lv.1 dan
+                                                          SKP.
+               WhatsApp Blast                             Kirim WA otomatis untuk
+ FR-19                                  Sistem
+               Otomatis                                   undangan Tracer Lv.2.
+                                                          Pengiriman ulang email
+               Resend Email
+ FR-20                                  Tim Prodi         notifikasi SKP ke supervisor
+               Manual
+                                                          secara manual.
+               Dashboard &              Tim Tracer,       Detail jawaban responden
+ FR-21
+               Laporan                  Pimpinan          dan dashboard eksekutif.
+                                                          Ekspor jawaban responden
+               Export Hasil
+ FR-22                                  Tim Tracer, Prodi ke format Raw Data dan
+               Responden
+                                                          standar Kementerian.
+                                                          Dashboard agregasi data
+ FR-23         Dashboard BAN-PT         Tim Prodi         otomatis sesuai format
+                                                          borang BAN-PT.
+                          Tabel 3.1 Functional Requirement
+        Berdasarkan hasil identifikasi proses bisnis, dirumuskan daftar Kebutuhan
+Fungsional (Functional Requirements) yang menjadi inti kapabilitas sistem. Tabel
+3.1 menjabarkan 23 spesifikasi fungsional yang mencakup manajemen hak akses
+bertingkat (Role-Based Access Control), fleksibilitas perancangan instrumen
+kuesioner yang dinamis, otomasi distribusi survei melalui kanal email dan
+WhatsApp, hingga fitur pelaporan analitik yang terintegrasi dengan standar
+akreditasi nasional dan kementerian.
+ Kode NFR             Kategori               Prioritas          Deskripsi Kebutuhan
+                                                                Pemisahan hak akses
+ NFR-01               Security               Critical           ketat antar role dan
+                                                                isolasi data antar prodi.
+                                                                Mekanisme Secure
+                                                                Token unik dan expired
+ NFR-02               Security (Public)      High
+                                                                time untuk akses
+                                                                Supervisor.
+                                                                Format ekspor/impor
+                                                                mematuhi standar
+ NFR-03               Interoperability       High
+                                                                BAN-PT &
+                                                                Kementerian.
+                                                                                        28
+                                                               Background Job
+                                                               Scheduler untuk
+    NFR-04              Reliability        Critical
+                                                               antrean email dan
+                                                               WhatsApp blast.
+                                                               Logika percabangan
+    NFR-05              Performance        Medium              (Skip Logic) berjalan di
+                                                               sisi klien (Client-Side).
+                                                               Responsive Design
+    NFR-06              Usability          Medium              (Mobile, Tablet,
+                                                               Desktop).
+                                                               Integrasi layanan
+                                                               SMTP (Email) dan
+    NFR-07              Integration        High
+                                                               WhatsApp Gateway
+                                                               API.
+                                                               Mekanisme Deep Copy
+    NFR-08              Data Integrity     High                saat duplikasi
+                                                               kuesioner.
+                                                               Penerapan Soft Delete
+    NFR-09              Data Management    Medium
+                                                               pada data krusial.
+                                                               Optimasi database
+    NFR-10              Scalability        Medium              untuk volume data
+                                                               besar.
+                                                               Standar kode (PSR)
+    NFR-11              Maintainability    Medium              dan arsitektur
+                                                               MVC/Service Layer.
+                                                               Mekanisme Backup &
+    NFR-12              Reliability        High
+                                                               Recovery rutin.
+                         Tabel 3.2 Non Functional Requirement
+           Selain spesifikasi fitur, sistem juga dibangun dengan memperhatikan
+   batasan kualitas dan teknis yang didefinisikan dalam Kebutuhan Non-Fungsional
+   (Non-Functional Requirements). Tabel 3.2 merincikan 12 parameter kualitas
+   sistem dengan prioritas pada aspek keamanan (Security) untuk menjaga
+   kerahasiaan data alumni, keandalan (Reliability) sistem dalam menangani antrean
+   notifikasi massal (background jobs), serta interoperabilitas format data agar hasil
+   keluaran sistem kompatibel dengan standar eksternal.
+3.3.2​   Perancangan Sistem
+                                                                                         29
+          Setelah kebutuhan didefinisikan, tahap perancangan dilakukan untuk
+   menghasilkan cetak biru sistem.
+3.3.2.1​  Perancangan Proses Bisnis
+   ​      Perancangan proses bisnis dilakukan menggunakan Business Process
+   Model and Notation (BPMN) untuk memodelkan alur utama tracer study ITK,
+   mulai dari penjadwalan survei, pembuatan kuesioner, pengisian oleh alumni dan
+   supervisor, hingga pengolahan hasil dan pelaporan analitik. Pemodelan ini
+   bertujuan memastikan bahwa setiap kebutuhan fungsional yang dirumuskan pada
+   tahap analisis tercermin dalam alur proses yang jelas dan terdokumentasi.
+                        Gambar 3.1 Diagram Penjadwalan Survey
+          Gambar 3.1 mengilustrasikan mekanisme otomasi penjadwalan survei
+   yang dirancang untuk mengelola siklus hidup pengambilan data alumni secara
+   periodik, dimulai sejak mahasiswa dinyatakan lulus hingga periode pemantauan
+   jangka panjang berakhir. Alur proses ini mengintegrasikan mekanisme cron job
+   dan message queue untuk memicu distribusi kuesioner secara bertahap, meliputi
+   Exit Survey pada fase awal kelulusan, Tracer Study Level 1 pada bulan keenam,
+   hingga Tracer Study Level 2 dua tahun setelahnya. Selain itu, diagram ini
+                                                                              30
+memperlihatkan logika percabangan sistem yang secara paralel memfasilitasi
+pengiriman Survei Kepuasan Pengguna (SKP) kepada supervisor apabila alumni
+teridentifikasi telah bekerja, memastikan seluruh rangkaian evaluasi berjalan
+secara terstruktur dan tepat waktu sesuai dengan tonggak waktu (milestone) karir
+alumni.
+                    Gambar 3.2 Diagram Pembuatan Kuesioner
+        Gambar 3.2 memodelkan alur kerja manajemen penyusunan instrumen
+kuesioner yang menerapkan prinsip fleksibilitas dan kolaborasi bertingkat antara
+Tim Tracer Pusat dan Tim Program Studi. Dalam proses ini, Tim Tracer Pusat
+memegang kendali penuh atas siklus hidup kuesioner, mencakup kemampuan
+untuk membuat, menduplikasi, mengimpor, serta mendefinisikan struktur hierarki
+pertanyaan (halaman, bagian, dan butir soal) secara dinamis. Fitur kunci dalam
+                                                                                31
+diagram ini adalah mekanisme pelimpahan akses penyuntingan kepada Tim Prodi,
+yang memungkinkan program studi untuk mengkurasi dan menambahkan
+pertanyaan spesifik sesuai kebutuhan disiplin ilmu mereka ke dalam kuesioner
+induk sebelum instrumen tersebut dipublikasikan, sehingga menjamin standarisasi
+data di tingkat universitas sekaligus mengakomodasi kebutuhan spesifik program
+studi.
+                     Gambar 3.3 Diagram Pengisian Kuesioner
+        Gambar 3.3 memvisualisasikan alur interaktif pengisian kuesioner yang
+mengintegrasikan sisi pengguna (client-side) dengan logika pemrosesan di
+backend, dirancang untuk menjamin integritas data dan kenyamanan responden.
+Proses diawali dengan validasi otentikasi dan personalisasi kuesioner, di mana
+sistem secara otomatis mendeteksi dan menyuntikkan (inject) halaman pertanyaan
+spesifik dari Program Studi yang relevan dengan profil alumni ke dalam struktur
+kuesioner utama. Salah satu fitur krusial yang digambarkan dalam diagram ini
+adalah mekanisme penyimpanan draft otomatis (auto-save) yang beroperasi secara
+asinkron di latar belakang setiap kali responden menjawab pertanyaan, memitigasi
+risiko kehilangan data selama proses pengisian sebelum responden melakukan
+pengiriman (submission) final ke basis data.
+                                                                               32
+                      Gambar 3.4 Diagram Pelaporan Analitik
+        Gambar 3.4 memodelkan alur kerja modul pelaporan dan analitik yang
+dirancang untuk mendukung pengambilan keputusan berbasis data bagi dua
+entitas manajerial utama, yaitu Tim Tracer Pusat dan Tim Program Studi. Sistem
+memfasilitasi pengguna untuk melakukan filtrasi data spesifik berdasarkan
+periode kelulusan atau angkatan, yang kemudian didistribusikan ke dalam tiga
+kanal visualisasi utama: pemantauan progres partisipasi alumni secara real-time,
+tinjauan mendalam terhadap hasil jawaban kuesioner, serta modul khusus untuk
+kebutuhan pelaporan eksternal. Diagram ini mempertegas distinksi fungsional
+antara kedua aktor, di mana Tim Tracer Pusat diberikan otoritas administratif
+untuk mengelola konfigurasi representasi data standar BAN-PT dan Kementerian,
+sementara Tim Program Studi difokuskan pada akses dasbor analitik untuk
+evaluasi kinerja internal program studi.
+                                                                                33
+                           Gambar 3.5 Diagram Ekspor Hasil
+           Gambar 3.5 memvisualisasikan prosedur ekspor hasil survei yang
+   memfasilitasi interoperabilitas data untuk kebutuhan pelaporan eksternal maupun
+   pengolahan mandiri. Alur kerja ini memungkinkan Tim Tracer Pusat dan Tim
+   Program Studi untuk mengunduh set data yang telah difilter berdasarkan periode
+   tertentu ke dalam berbagai format standar yang didukung sistem. Poin pembeda
+   utama dalam diagram ini terletak pada opsi format keluaran, di mana Tim Tracer
+   Pusat diberikan akses eksklusif untuk menghasilkan laporan yang terformat
+   otomatis sesuai standar akreditasi BAN-PT dan pelaporan Kementerian,
+   sementara Tim Program Studi disediakan akses ke format data mentah
+   (Excel/CSV) dan format kementerian untuk mendukung analisis internal yang
+   lebih fleksibel.
+3.3.2.2​   Perancangan Use Case
+   ​       Berdasarkan analisis kebutuhan, disusun use case diagram untuk
+   memetakan interaksi antara aktor dan sistem pada tingkat fungsional. Use case
+                                                                                 34
+diagram ini menggambarkan hak akses dan tanggung jawab utama masing‑masing
+aktor, seperti Admin, Tim Tracer, Tim Prodi, Alumni, Supervisor, dan Pimpinan
+Unit, sesuai dengan daftar FR yang telah dirumuskan.
+                          Gambar 3.6 Usecase Diagram
+        Gambar 3.6 berikut menunjukkan interaksi fungsional dalam sistem
+dikelompokkan berdasarkan tanggung jawab spesifik setiap aktor. Tim Tracer
+                                                                           35
+   Pusat memegang kendali utama dalam manajemen instrumen survei secara
+   menyeluruh, sedangkan Tim Program Studi diberikan akses khusus untuk
+   melakukan personalisasi pertanyaan dan memantau progres alumni di lingkup
+   program studinya. Di sisi lain, Admin berperan sebagai pengelola hak akses
+   pengguna, sementara aktor eksternal seperti Alumni dan Supervisor fokus pada
+   aktivitas pengisian data melalui antarmuka publik yang disediakan.
+3.3.2.3​   Perancangan Basis Data
+   ​       Perancangan basis data merupakan tahap krusial dalam pengembangan
+   sistem Tracer Study, mengingat kompleksitas struktur kuesioner dinamis yang
+   harus didukung.      Entity  Relationship Diagram (ERD)         dirancang untuk
+   merepresentasikan seluruh entitas dalam sistem beserta relasinya.
+                        Gambar 3.7 Entity Relationship Diagram
+                                                                                36
+         Gambar 3.7 menggambarkan skema basis data yang dirancang dengan
+ pendekatan hybrid, menggabungkan integritas basis data relasional untuk
+ manajemen data terstruktur dengan fleksibilitas tipe data JSON untuk data
+ semi-terstruktur. Inti dari perancangan ini terletak pada tabel questionnaires dan
+ questionnaire_responses, di mana struktur pertanyaan yang dinamis (skema) dan
+ jawaban responden disimpan dalam format JSON, memungkinkan sistem untuk
+ mengakomodasi perubahan instrumen survei tanpa perlu melakukan alter table
+ secara fisik. Di sisi lain, manajemen hak akses diterapkan secara ketat
+ menggunakan konsep Role-Based Access Control (RBAC) melalui relasi antara
+ entitas users, roles, dan permissions, sementara relasi hierarkis antara alumni,
+ unit_kerja (Program Studi), dan supervisors dipetakan secara eksplisit untuk
+ menjamin akurasi distribusi survei dan validitas data pelacakan karir.
+3.3.3​   Implementasi​
+         Pada tahap ini, rancangan desain ditransformasikan menjadi kode program
+ yang dapat dieksekusi. Pembangunan sistem dilakukan menggunakan stack
+ teknologi yang telah ditentukan, yaitu Framework Laravel 12 untuk sisi backend
+ dan manajemen basis data MySQL. Implementasi dilakukan secara bertahap,
+ dimulai dari pembuatan struktur database migration, penyusunan logika bisnis
+ menggunakan Repository Pattern untuk manajemen pengguna dan kuesioner.
+         Tahap implementasi merupakan kunci dalam menghubungkan hasil
+ perancangan dengan bentuk nyata sistem yang siap diuji. Detail mengenai metode
+ dan langkah implementasi dari prototipe akan dijelaskan lebih lanjut pada subab
+ 3.4 Metode Implementasi
+3.3.4​   Testing
+         Pengujian dilakukan untuk memverifikasi bahwa seluruh fungsi sistem
+ berjalan sesuai dengan spesifikasi dari kebutuhan yang telah dikumpukan. Metode
+ pengujian mencakup Unit Testing untuk memvalidasi logika kode pada level
+ repository, serta pengujian fungsional secara menyeluruh (Black Box Testing).
+ Sesuai dengan karakteristik metode Iterative, apabila ditemukan kesalahan (bug)
+                                                                                 37
+   atau ketidaksesuaian logika bisnis pada tahap ini, proses pengembangan akan
+   dikembalikan (iterasi) ke tahap implementasi atau perancangan untuk segera
+   dilakukan perbaikan sebelum sistem dinyatakan siap digunakan.
+3.4​     Metode Implementasi
+           Tahap implementasi merupakan proses penerjemahan rancangan sistem
+   menjadi kode program (source code) yang dapat dijalankan berdasarkan
+   kebutuhan yang telah dikumpulkan melalui user stories. Pada tahap ini, seluruh
+   komponen yang telah dirancang, mulai dari struktur basis data hingga modul
+   manajemen pengguna dan kuesioner, dikembangkan menggunakan framework
+   Laravel. Proses pembangunan dilakukan dengan memastikan bahwa setiap fungsi
+   yang dibangun sesuai dengan spesifikasi antarmuka dan logika bisnis yang telah
+   disepakati sebelumnya.
+   Sistem backend dibangun mengikuti arsitektur Model-View-Controller (MVC)
+   yang diperkuat dengan penerapan Repository Pattern untuk memisahkan logika
+   bisnis dari akses data. Alur pemrosesan permintaan dimulai ketika Routing
+   menerima permintaan HTTP dari pengguna dan mengarahkannya ke Controller
+   yang relevan. Controller bertindak sebagai penghubung yang melakukan validasi
+   input dasar, namun tidak memuat logika bisnis yang kompleks. Sebaliknya,
+   Controller memanggil metode pada lapisan Repository Interface yang menangani
+   seluruh operasi Create, Read, Update, Delete (CRUD) ke basis data. Data tersebut
+   dikelola oleh Model menggunakan Eloquent ORM yang merepresentasikan tabel
+   basis data MySQL serta menangani struktur data JSON untuk fitur kuesioner
+   dinamis. Hasil pemrosesan kemudian dikembalikan ke View menggunakan Blade
+   Template Engine untuk ditampilkan kepada pengguna. Penerapan Repository
+   Pattern ini bertujuan mengabstraksi implementasi teknis basis data sehingga
+   struktur kode menjadi lebih rapi dan mudah dipelihara.
+           Implementasi dilakukan secara bertahap yang dimulai dari pembangunan
+   basis data menggunakan fitur Migration dan Seeder Laravel untuk mendefinisikan
+                                                                                 38
+skema tabel, termasuk kolom bertipe JSON yang mengakomodasi formulir
+dinamis serta pengisian data referensi awal. Tahap selanjutnya berfokus pada
+logika backend, mencakup autentikasi multi-level untuk Admin, Tim Tracer, dan
+Alumni, serta penerapan logika percabangan (branching logic) pada kuesioner.
+Selama proses pengkodean berlangsung, pengujian unit (Unit Testing) dilakukan
+secara berkala pada level Repository dan Service untuk memastikan setiap fungsi
+berjalan sesuai spesifikasi sebelum diintegrasikan ke dalam antarmuka pengguna.
+Apabila ditemukan ketidaksesuaian fungsi atau bug saat proses integrasi,
+perbaikan dilakukan segera pada modul terkait sebelum melangkah ke
+pengembangan modul berikutnya. Pendekatan ini selaras dengan karakteristik
+metode Waterfall Iteratif, di mana tahapan pengembangan dilakukan secara
+berurutan namun tetap membuka ruang untuk pengulangan terbatas guna
+menyempurnakan kualitas kode dan fungsionalitas sistem.
+                                                                            39
+3.5​     Jadwal Pembuatan Prototipe
+        Rencana jadwal penelitian menguraikan alokasi waktu untuk setiap tahapan
+   guna memastikan penyelesaian penelitian secara tepat waktu. Penelitian ini
+   direncanakan akan berlangsung selama 5 bulan, dimulai dari bulan Januari sampai
+   Mei 2025. Seluruh tahapan diuraikan kedalam jadwal secara sistematis untuk
+   memastikan alur pengerjaan yang efektif dan efisien.
+                            Februari      Maret         April        Mei
+    Kegiatan                1 2 3 4 1 2 3 4              1 2 3 4 1 2 3 4
+    Studi Literatur
+    Identifikasi Masalah
+    Analisis Kebutuhan
+    Desain
+    Implementasi
+    Pengujian & Validasi
+    Pendaftaran HKI
+    Analisis Hasil dan
+    Diskusi
+    Kesimpulan dan Saran
+                                                                               40
+                             DAFTAR PUSTAKA
+       Daftar pustaka yang digunakan harus ditulis secara benar, lengkap, dan
+konsisten dengan menggunakan format atau standar tertentu. Penulisan daftar
+pustaka diwajibkan menggunakan aplikasi pengolah referensi, seperti Mendeley,
+Zotero, Endnote, atau lainnya. Daftar pustaka mengikuti aturan HARVARD style.
+Setiap daftar pustaka harus dikutip dalam dalam uraian atau teks, tabel dan atau
+gambar.
+Afriyadi, M.R., Putra, F. dan Purnomo, W.A. (2025) “Rancang Bangun Tracer
+Study Berbasis Website pada Fakultas Ilmu Komputer Universitas Dharmas
+Indonesia,” Jurnal Ilmiah Sistem Informasi, 4(2), hlm. 308–319. Tersedia pada:
+https://doi.org/10.51903/phmead65.
+Agustin, Deni Apriadi, D. (2019) “RANCANG BANGUN SISTEM E-TRACER
+STUDY ALUMNI UNTUK MENGETAHUI OUTCOME PENDIDIKAN
+BERBASIS WEB MOBILE,” Jurnal Ilmiah Binary STMIK Bina Nusantara Jaya
+Lubuklinggau, 1(1), hlm. 8–14. Tersedia pada: https://doi.org/10.52303/jb.v1i1.6.
+Ahn, G.-J. dan Sandhu, R. (2000) “Role-based authorization constraints
+specification,” ACM Transactions on Information and System Security, 3(4), hlm.
+207–226. Tersedia pada: https://doi.org/10.1145/382912.382913.
+Alkaff, M., Radam, I.F. dan Chandra, W. (2021) “Penerapan Pattern MVC (Model
+View Controller) dalam Pengembangan Aplikasi Identifikasi Jam Puncak Arus
+Lalu Lintas pada Simpang Lima,” JUSTINDO (Jurnal Sistem dan Teknologi
+Informasi       Indonesia),     6(2),     hlm.     91–97.      Tersedia     pada:
+https://doi.org/10.32528/justindo.v6i2.4381.
+Buku Ajar Rekayasa Perangkat Lunak | Umsida Press (tanpa tanggal). Tersedia
+pada:
+https://press.umsida.ac.id/index.php/umsidapress/article/view/978-623-6833-89-6
+(Diakses: 29 Januari 2026).
+Fernandy, H., Ali, I. dan Juwono, M.P. (2023) “Rancang Bangun Tracer Study
+UNUSIA Berbasis Web Menggunakan Metode Rapid Application Development,”
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI), 6(3), hlm. 171–179.
+Firdaus, A. (2022) “Pemodelan Proses Bisnis Konveksi di Tasikmalaya dengan
+Business Process Model and Notation (BPMN),” Jurnal Ekonomi dan Bisnis
+Digital,         1(3),        hlm.         133–142.         Tersedia        pada:
+https://doi.org/10.55927/ministal.v1i3.826.
+                                                                               41
+Fitriani, L., Setiawan, R. dan Anwar, D.N. (2024) “Tracer Study Berbasis Website
+dengan menggunakan Metodologi Agile Framework Scrum,” Jurnal Algoritma,
+21(1), hlm. 35–46. Tersedia pada: https://doi.org/10.33364/algoritma/v.21-1.1401.
+Hasan, F.N. dan Nurlelah, E. (2022) “RANCANG BANGUN SISTEM
+INFORMASI TRACER STUDI FORMULIR 2021 BERBASIS WEB,” Jurnal
+Khatulistiwa       Informatika,    10(1),     hlm.     57–65.     Tersedia    pada:
+https://doi.org/10.31294/jki.v10i1.12584.
+Hasibuan, A.N. dan Dirgahayu, T. (2021) “Pengujian dengan Unit Testing dan
+Test case pada Proyek Pengembangan Modul Manajemen Pengguna,”
+AUTOMATA,                       2(1).                 Tersedia               pada:
+https://journal.uii.ac.id/AUTOMATA/article/view/17367 (Diakses: 26 November
+2025).
+Ismanto, I., Hidayah, F. dan Charisma, K. (2020) “Pemodelan Proses Bisnis
+Menggunakan Business Process Modelling Notation (BPMN) (Studi Kasus Unit
+Penelitian Dan Pengabdian Kepada Masyarakat (P2KM) Akademi Komunitas
+Negeri Putra Sang Fajar Blitar),” Briliant: Jurnal Riset dan Konseptual, 5(1), hlm.
+69–76. Tersedia pada: https://doi.org/10.28926/briliant.v5i1.430.
+JSON (tanpa tanggal). Tersedia pada: https://www.json.org/json-id.html (Diakses:
+8 Februari 2026).
+KESUMADJI, K.R., VIKASARI, C. dan PURWANTO, R. (2024) TUGAS AKIR :
+SISTEM INFORMASI MANAJEMEN DAN PENYEWAAN ALAT BERAT
+BERBASIS WEBSITE PT. DUTA SAMUDERA KARYA. diploma. Politeknik
+Negeri Cilacap. Tersedia pada: https://elib.pnc.ac.id/2006/ (Diakses: 1 Februari
+2026).
+Koç, H. dkk. (2021) “UML Diagrams in Software Engineering Research: A
+Systematic Literature Review,” dalam The 7th International Management
+Information Systems Conference. International Management Information Systems
+Conference,            MDPI,          hlm.        13.         Tersedia        pada:
+https://doi.org/10.3390/proceedings2021074013.
+Laravel       Sanctum       (tanpa      tanggal)    laravel.     Tersedia     pada:
+https://devdocs-fr.github.io/laravel/7.x/sanctum.html (Diakses: 29 Januari 2026).
+Min, J.L., Istiqomah, A. dan Rahmani, A. (2020) “EVALUASI PENGGUNAAN
+MANUAL           DAN       AUTOMATED          SOFTWARE         TESTING      PADA
+PELAKSANAAN END-TO-END TESTING,” JTT (Jurnal Teknologi Terapan),
+6(1), hlm. 18. Tersedia pada: https://doi.org/10.31884/jtt.v6i1.256.
+Mohamed Ali, A. (2025) “Optimizing Software Architecture: Using the
+Repository Pattern in Decoupling Data Access Logic,” International Scientific
+Journal of Engineering and Management, 04, hlm. 1–7. Tersedia pada:
+https://doi.org/10.55041/ISJEM00104.
+                                                                                 42
+Natania, I.K., Wahyuni, E.D. dan Wati, S.F.A. (2024) “Rancang Bangun Aplikasi
+Donor Darah Darurat Berbasis Website Menggunakan Livewire Laravel,” 11(3).
+Permana, P.T.I. dan Sihanato, A.N. (2024) “Implementasi Arsitektur MVC Dalam
+Pengembangan Aplikasi Customer Relationship Portal,” Jurnal Teknologi
+Informasi,          10(1),         hlm.        50–57.       Tersedia         pada:
+https://doi.org/10.52643/jti.v10i1.2344.
+Pramudita, A.W. dan Somya, R. (2021) “SISTEM FILTERING DATA
+MAHASISWA MENGGUNAKAN FRAMEWORK LARAVEL DAN LIBRARY
+LARAVEL EXCEL,” JURNAL ILMIAH INFORMATIKA, 9(01), hlm. 38–42.
+Tersedia pada: https://doi.org/10.33884/jif.v9i01.3716.
+Priyanto, M.R. dan Ramayanti, D. (2025) “Design and Development of a
+Web-Based Tracer Study System in Higher Education Using the Waterfall Method
+(Case Study at Dian Nusantara University),” Instal : Jurnal Komputer, 17(01),
+hlm. 370–379. Tersedia pada: https://doi.org/10.54209/jurnalinstall.v17i01.355.
+Rizki, K., Achmady, S. dan Setiawati, C.L. (2023) “Pengembangan Aplikasi
+Tracer Study Universitas Jabal Ghafur Menggunakan Framework Laravel,” Sagita
+Academia Journal, 1(1), hlm. 1–9.
+Rizki, K., Achmady, S. dan Setiawati, C.L. (tanpa tanggal) “Pengembangan
+Aplikasi Tracer Study Universitas Jabal Ghafur Menggunakan Framework
+Laravel.”
+Sasmita, I.M.A. dkk. (2024) “Evaluasi Kualitas Sistem Tracer Study INSTIKI
+Menggunakan Blackbox Testing,” Jutisi : Jurnal Ilmiah Teknik Informatika dan
+Sistem       Informasi,     13(3),      hlm.    2248–2258.     Tersedia      pada:
+https://doi.org/10.35889/jutisi.v13i3.2327.
+Semarandhanu, L.G.M. dan Hermansyah, H. (2024) “PERANCANGAN SISTEM
+INFORMASI          PENDATAAN          ALUMNI (TRACER            STUDY) DAN
+PENCATATAN KEGIATAN PEMBELAJARAN PADA LKP SANGGRAHA
+PUTRI DI KOTA SINGARAJA – BALI DENGAN METODE
+PENGEMBANGAN PERANGKAT LUNAK WATERFALL,” Journal of
+Computer Science and Information Technology, 1(3), hlm. 171–183. Tersedia
+pada: https://doi.org/10.59407/jcsit.v1i3.1085.
+Setiawan, R. (2021) “Memahami ERD, Model Data, dan Komponennya,”
+Dicoding           Blog,         24          Agustus.      Tersedia         pada:
+https://www.dicoding.com/blog/memahami-erd/ (Diakses: 22 Desember 2025).
+Shelly Andari dkk. (2021) “Educational Management Graduates: A Tracer Study
+from Universitas Negeri Surabaya, Indonesia,” IJORER : International Journal of
+Recent Educational Research, 2(6), hlm. 671–681. Tersedia pada:
+https://doi.org/10.46245/ijorer.v2i6.169.
+Siska Narulita, Ahmad Nugroho, dan M. Zakki Abdillah (2024) “Diagram Unified
+Modelling Language (UML) untuk Perancangan Sistem Informasi Manajemen
+                                                                                43
+Penelitian dan Pengabdian Masyarakat (SIMLITABMAS),” Bridge : Jurnal
+publikasi Sistem Informasi dan Telekomunikasi, 2(3), hlm. 244–256. Tersedia
+pada: https://doi.org/10.62951/bridge.v2i3.174.
+Stinjak, M.L. dan Masya, F. (2021) “PERANCANGAN DAN IMPLEMENTASI
+SISTEM          INFORMASI          INVENTORY          BERBASIS          WEBSITE
+MENGGUNAKAN ITERATIVE WATERFALL,” Rabit : Jurnal Teknologi dan
+Sistem     Informasi     Univrab,    6(2),     hlm.   83–91.      Tersedia pada:
+https://doi.org/10.36341/rabit.v6i2.1687.
+Sumarsono, S., Saputro, D. dan Rifai, A.F. (2023) “Pemodelan Proses Bisnis
+Kuliah Online MOOCs menggunakan BPMN (Studi Kasus alison.com),” JISKA
+(Jurnal Informatika Sunan Kalijaga), 8(3), hlm. 199–209. Tersedia pada:
+https://doi.org/10.14421/jiska.2023.8.3.199-209.
+Teknik Informatika Universitas Khairun dan Mubarak, A. (2019) “RANCANG
+BANGUN APLIKASI WEB SEKOLAH MENGGUNAKAN UML (UNIFIED
+MODELING LANGUAGE) DAN BAHASA PEMROGRAMAN PHP (PHP
+HYPERTEXT PREPROCESSOR) BERORIENTASI OBJEK,” JIKO (Jurnal
+Informatika dan Komputer), 2(1), hlm. 19–25. Tersedia pada:
+https://doi.org/10.33387/jiko.v2i1.1052.
+Vasev, S. (tanpa tanggal) “Enhancing Testing Practices in PHP Laravel
+Applications.”
+Wijaya, M.A., Perdana, C. dan Rofiani, R. (2024) “Perancangan Sistem Informasi
+Pemantauan Proyek Kerja Berbasis Website Di PT. XYZ,” Jurnal Informatika,
+3(2), hlm. 38–44. Tersedia pada: https://doi.org/10.57094/ji.v3i2.2217.
+Yunanto, P.W. dkk. (2021) “Tracer study information system for higher
+education,” IOP Conference Series: Materials Science and Engineering, 1098(5),
+hlm. 052107. Tersedia pada: https://doi.org/10.1088/1757-899X/1098/5/052107.
+                                                                             44

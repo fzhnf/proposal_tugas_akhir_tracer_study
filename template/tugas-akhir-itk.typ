@@ -12,6 +12,32 @@
   prototipe: "Prototipe",
 )
 
+// Indonesian month names
+#let bulan-indo = (
+  "January": "Januari",
+  "February": "Februari",
+  "March": "Maret",
+  "April": "April",
+  "May": "Mei",
+  "June": "Juni",
+  "July": "Juli",
+  "August": "Agustus",
+  "September": "September",
+  "October": "Oktober",
+  "November": "November",
+  "December": "Desember",
+)
+
+// Helper function to format date in Indonesian
+#let tanggal-indo() = {
+  let today = datetime.today()
+  let day = today.display("[day]")
+  let month-en = today.display("[month repr:long]")
+  let year = today.display("[year]")
+  let month-id = bulan-indo.at(month-en, default: month-en)
+  [#day #month-id #year]
+}
+
 // ============================================================================
 // MAIN TEMPLATE FUNCTION
 // ============================================================================
@@ -23,10 +49,17 @@
   author: "Nama Mahasiswa",
   nim: "12345678",
   program-studi: "Informatika",
-  fakultas: "Fakultas Sains dan Teknologi Data",
+  jurusan: "Teknik Elektro, Informatika, dan Bisnis",
+  fakultas: "Sains dan Teknologi Informasi",
   thesis-type: "prototipe", // skripsi, proyek, prototipe
   pembimbing-utama: "Nama Pembimbing Utama, S.T., M.T.",
+  nip-pembimbing-utama: 198803082020121011,
   pembimbing-pendamping: "Nama Pembimbing Pendamping, S.T., M.T.",
+  nip-pembimbing-pendamping: 199205182019031015,
+  penguji-1: "Nama Penguji I",
+  nip-penguji-1: "........................",
+  penguji-2: "Nama Penguji II",
+  nip-penguji-2: "........................",
   tahun: "2025",
   // Content
   body,
@@ -49,6 +82,7 @@
       top: 3cm,
       bottom: 3cm,
     ),
+    background: image("../resources/background_watermark_itk_07.png", width: 50%),
   )
 
   // Font settings - Times New Roman, 12pt
@@ -61,7 +95,7 @@
   // Paragraph settings - 1.5 line spacing, justified, first-line indent
   set par(
     leading: 0.65em, // Approximately 1.5 line spacing
-    first-line-indent: 1cm,
+    first-line-indent: (amount: 1cm, all: true),
     justify: true,
   )
 
@@ -109,7 +143,7 @@
 
   // Figure styling with chapter-based numbering
   set figure(
-    placement: auto,
+    placement: none,
     gap: 0.5cm,
   )
 
@@ -118,6 +152,9 @@
     set par(leading: 0.5em)
     it
   }
+
+  // Remove colon separator from figure/table captions ("Gambar 1.1" not "Gambar 1.1:")
+  set figure.caption(separator: [ ])
 
   // Table styling
   set table(
@@ -161,11 +198,18 @@
     author: author,
     nim: nim,
     program-studi: program-studi,
+    jurusan: jurusan,
     fakultas: fakultas,
     thesis-type: thesis-type,
     thesis-display: thesis-display,
     pembimbing-utama: pembimbing-utama,
+    nip-pembimbing-utama: nip-pembimbing-utama,
     pembimbing-pendamping: pembimbing-pendamping,
+    nip-pembimbing-pendamping: nip-pembimbing-pendamping,
+    penguji-1: penguji-1,
+    nip-penguji-1: nip-penguji-1,
+    penguji-2: penguji-2,
+    nip-penguji-2: nip-penguji-2,
     tahun: tahun,
   ))
 
@@ -175,11 +219,18 @@
     author: author,
     nim: nim,
     program-studi: program-studi,
+    jurusan: jurusan,
     fakultas: fakultas,
     thesis-type: thesis-type,
     thesis-display: thesis-display,
     pembimbing-utama: pembimbing-utama,
+    nip-pembimbing-utama: nip-pembimbing-utama,
     pembimbing-pendamping: pembimbing-pendamping,
+    nip-pembimbing-pendamping: nip-pembimbing-pendamping,
+    penguji-1: penguji-1,
+    nip-penguji-1: nip-penguji-1,
+    penguji-2: penguji-2,
+    nip-penguji-2: nip-penguji-2,
     tahun: tahun,
   ))
 
@@ -267,47 +318,72 @@
 
   set par(first-line-indent: 0pt)
 
-  heading(level: 1)[PERNYATAAN ORISINALITAS]
+  heading(level: 1)[PERNYATAAN ORISINALITAS TUGAS AKHIR]
 
   context {
     let meta = state("thesis-metadata").get()
-
-    par(first-line-indent: 1cm, justify: true)[
-      Saya yang bertanda tangan di bawah ini:
-    ]
-
-    v(0.5cm)
-
-    table(
-      columns: (3cm, 0.5cm, auto),
-      stroke: none,
-      inset: 3pt,
-      [Nama], [:], [#meta.author],
-      [NIM], [:], [#meta.nim],
-      [Program Studi], [:], [#meta.program-studi],
-      [#meta.thesis-display], [:], [#meta.title],
-    )
-
-    v(0.5cm)
-
-    par(first-line-indent: 1cm, justify: true)[
-      menyatakan bahwa #meta.thesis-display ini adalah hasil karya saya sendiri dan ditulis dengan mengikuti kaidah penulisan ilmiah. Apabila di kemudian hari ditemukan pelanggaran terhadap kaidah keilmuan dalam karya ini, saya bersedia menanggung segala konsekuensi hukum yang berlaku.
-    ]
+    par([
+      Dengan ini saya menyatakan bahwa isi sebagian maupun keseluruhan Tugas
+      Akhir saya dengan judul #strong(meta.title) adalah
+      benar-benar hasil karya intelektual mandiri, diselesaikan tanpa menggunakan
+      bahan-bahan yang tidak diizinkan dan bukan merupakan karya pihak lain yang
+      saya akui sebagai karya sendiri. Semua referensi yang dikutip maupun
+      dirujuk telah ditulis secara lengkap pada daftar pustaka. Apabila ternyata
+      pernyataan ini tidak benar, saya bersedia menerima sanksi sesuai peraturan
+      yang berlaku.
+    ])
 
     v(2cm)
 
     grid(
       columns: (1fr, 1fr),
       [],
-      align(center)[
-        Balikpapan, #datetime.today().display("[day] [month repr:long] [year]")
-
-        #v(2cm)
-
+      align(left)[
+        Balikpapan, #tanggal-indo()
+        #v(1cm)
+        [MATERIAL + TTD]
+        #v(1cm)
         #meta.author \
         NIM. #meta.nim
       ],
     )
+    //
+    //   par(first-line-indent: 1cm, justify: true)[
+    //     Saya yang bertanda tangan di bawah ini:
+    //   ]
+    //
+    //   v(0.5cm)
+    //
+    //   table(
+    //     columns: (3cm, 0.5cm, auto),
+    //     stroke: none,
+    //     inset: 3pt,
+    //     [Nama], [:], [#meta.author],
+    //     [NIM], [:], [#meta.nim],
+    //     [Program Studi], [:], [#meta.program-studi],
+    //     [#meta.thesis-display], [:], [#meta.title],
+    //   )
+    //
+    //   v(0.5cm)
+    //
+    //   par(first-line-indent: 1cm, justify: true)[
+    //     menyatakan bahwa #meta.thesis-display ini adalah hasil karya saya sendiri dan ditulis dengan mengikuti kaidah penulisan ilmiah. Apabila di kemudian hari ditemukan pelanggaran terhadap kaidah keilmuan dalam karya ini, saya bersedia menanggung segala konsekuensi hukum yang berlaku.
+    //   ]
+    //
+    //   v(2cm)
+    //
+    //   grid(
+    //     columns: (1fr, 1fr),
+    //     [],
+    //     align(center)[
+    //       Balikpapan, #tanggal-indo()
+    //
+    //       #v(2cm)
+    //
+    //       #meta.author \
+    //       NIM. #meta.nim
+    //     ],
+    //   )
   }
 }
 
@@ -331,7 +407,7 @@
   context {
     let meta = state("thesis-metadata").get()
 
-    par(first-line-indent: 1cm, justify: true)[
+    par(justify: true)[
       Sebagai sivitas akademik Institut Teknologi Kalimantan, saya yang bertanda tangan di bawah ini:
     ]
 
@@ -344,34 +420,42 @@
       [Nama], [:], [#meta.author],
       [NIM], [:], [#meta.nim],
       [Program Studi], [:], [#meta.program-studi],
-      [#meta.thesis-display], [:], [#meta.title],
+      [Jurusan], [:], [#meta.jurusan],
+      [Fakultas], [:], [#meta.fakultas],
+      // [#meta.thesis-display], [:], [#meta.title],
     )
 
     v(0.5cm)
 
     par(first-line-indent: 1cm, justify: true)[
-      demi pengembangan ilmu pengetahuan, menyetujui untuk memberikan kepada Institut Teknologi Kalimantan *Hak Bebas Royalti Noneksklusif* (_Non-exclusive Royalty-Free Right_) atas #meta.thesis-display saya yang berjudul:
+      demi pengembangan ilmu pengetahuan, menyetujui untuk memberikan kepada Institut Teknologi Kalimantan Hak Bebas Royalti Non-eksklusif (_Non-exclusive Royalty-Free Right_) atas #meta.thesis-display saya yang berjudul:
     ]
 
     v(0.5cm)
 
     align(center)[
-      *#meta.title*
+      *#upper(meta.title)*
     ]
 
     v(0.5cm)
 
-    par(first-line-indent: 1cm, justify: true)[
-      beserta perangkat yang ada (jika diperlukan). Dengan Hak Bebas Royalti Noneksklusif ini, Institut Teknologi Kalimantan berhak menyimpan, mengalihmedia/formatkan, mengelola dalam bentuk pangkalan data (_database_), merawat, dan mempublikasikan #meta.thesis-display saya selama tetap mencantumkan nama saya sebagai penulis/pencipta dan sebagai pemilik Hak Cipta.
+    par(justify: true)[
+      beserta perangkat yang ada (jika diperlukan). Dengan Hak Bebas Royalti
+      Non-eksklusi ini, Institut Teknologi Kalimantan berhak menyimpan,
+      mengalihmediakan, mengelola dalam bentuk pangkalan data (database),
+      merawat, dan memublikasikan tugas akhir saya selama tetap mencantumkan nama
+      saya sebagai penulis/pencipta dan sebagai pemilik Hak Cipta.
     ]
 
+    v(0.5cm)
+    text([Demikian pernyataan ini saya buat dengan sebenarnya.])
     v(2cm)
 
     grid(
       columns: (1fr, 1fr),
       [],
-      align(center)[
-        Balikpapan, #datetime.today().display("[day] [month repr:long] [year]")
+      align(left)[
+        Balikpapan, #tanggal-indo()
 
         #v(2cm)
 
@@ -383,6 +467,76 @@
 }
 
 // ============================================================================
+// APPROVAL PAGE FOR PROPOSAL (LEMBAR PERSETUJUAN PROPOSAL)
+#let approval-proposal-page() = {
+  set page(
+    header: none,
+    footer: context {
+      set align(center)
+      counter(page).display("i")
+    },
+    background: none,
+  )
+
+  set par(first-line-indent: 0pt)
+  // set align(left)
+
+  heading(level: 1)[LEMBAR PERSETUJUAN]
+
+  context {
+    let meta = state("thesis-metadata").get()
+    text(size: 12pt)[Proposal Tugas Akhir dengan judul:]
+
+    v(0.5cm)
+    align(center, text(size: 14pt, weight: "bold")[
+      "#upper(meta.title)"
+    ])
+
+    v(1cm)
+
+    text(size: 12pt)[Yang disusun oleh:]
+    v(0.5cm)
+
+    align(center, text(size: 12pt)[
+      [tanda tangan] \
+      #v(1cm)
+      #meta.author \
+      NIM. #meta.nim
+    ])
+
+    v(1cm)
+
+    text[Telah diperiksa dan disetujui oleh dosen pembimbing:]
+
+    v(1cm)
+
+    grid(
+      columns: (1fr, 1fr),
+      gutter: 1cm,
+      [
+        #align(left)[
+          Dosen Pembimbing Utama
+
+          #v(2.5cm)
+
+          #meta.pembimbing-utama \
+          NIP. #meta.nip-pembimbing-utama
+        ]
+      ],
+      [
+        #align(left)[
+          Dosen Pembimbing Pendamping
+
+          #v(2.5cm)
+
+          #meta.pembimbing-pendamping \
+          NIP. #meta.nip-pembimbing-pendamping
+        ]
+      ],
+    )
+  }
+}
+
 // APPROVAL PAGE (LEMBAR PENGESAHAN)
 // ============================================================================
 
@@ -393,81 +547,62 @@
       set align(center)
       counter(page).display("i")
     },
+    background: none,
   )
 
   set par(first-line-indent: 0pt)
   set align(center)
 
-  heading(level: 1)[LEMBAR PENGESAHAN]
+  heading(level: 1)[LEMBAR PENGESAHAN \ TUGAS AKHIR]
 
   context {
     let meta = state("thesis-metadata").get()
 
-    v(0.5cm)
-
-    text(size: 14pt, weight: "bold")[
-      #upper(meta.title)
-    ]
-
     v(1cm)
 
+    set align(center)
     text(size: 12pt)[
-      Oleh: \
-      *#meta.author* \
-      NIM. #meta.nim
+      Disusun untuk memenuhi syarat memperoleh gelar \
+      Sarjana Komputer (S.Kom.) \
+      pada \
+      Program Studi S-1 #meta.program-studi #meta.jurusan \
+      #meta.fakultas \
+      Institut Teknologi Kalimantan
+
+      Judul Tugas Akhir :\
+      *#upper(meta.title)*
+      #v(0.5cm)
+      Oleh :\
+      #meta.author NIM. #meta.nim
     ]
+
 
     v(1cm)
 
-    par(first-line-indent: 0pt, justify: false)[
-      Diajukan untuk memenuhi salah satu syarat memperoleh gelar Sarjana pada Program Studi #meta.program-studi #meta.fakultas Institut Teknologi Kalimantan.
-    ]
-
-    v(1cm)
-
-    text[Disetujui oleh:]
+    set align(left)
+    text[Disetujui oleh Tim Penguji Tugas Akhir:]
 
     v(0.5cm)
 
     grid(
-      columns: (1fr, 1fr),
-      gutter: 1cm,
-      [
-        #align(center)[
-          Pembimbing Utama
-
-          #v(2cm)
-
-          #meta.pembimbing-utama \
-          NIP. ........................
-        ]
-      ],
-      [
-        #align(center)[
-          Pembimbing Pendamping
-
-          #v(2cm)
-
-          #meta.pembimbing-pendamping \
-          NIP. ........................
-        ]
-      ],
+      columns: (0.5fr, 6fr, 2fr, 2fr),
+      row-gutter: 1cm,
+      align: left,
+      [1.], [ #meta.pembimbing-utama], [Pembimbing I], [....................],
+      [2.], [#meta.pembimbing-pendamping], [Pembimbing II], [....................],
+      [3.], [#meta.penguji-1], [Penguji I], [....................],
+      [4.], [#meta.penguji-2], [Penguji II], [....................],
     )
 
-    v(1cm)
+    v(2fr)
 
-    text[Disahkan oleh:]
-
-    v(0.5cm)
-
-    align(center)[
-      Koordinator Program Studi #meta.program-studi
-
-      #v(2cm)
-
-      ..................................... \
-      NIP. ........................
+    set align(center)
+    text(weight: "bold")[
+      BALIKPAPAN \
+      [BULAN disesuaikan dengan periode Sidang TA], #meta.tahun
     ]
+
+    v(1cm)
   }
 }
 
@@ -496,12 +631,13 @@
     grid(
       columns: (1fr, 1fr),
       [],
-      align(center)[
-        Balikpapan, #datetime.today().display("[day] [month repr:long] [year]")
+      align(left)[
+        Balikpapan, #tanggal-indo()
 
         #v(1.5cm)
 
-        #meta.author \
+        #meta.author
+        #v(0cm)
         NIM. #meta.nim
       ],
     )
@@ -669,13 +805,14 @@
       h(1fr)
     },
     footer: context {
-      set align(center)
+      set align(right)
       counter(page).display("1")
     },
   )
 
   // Store chapter number for figure/table numbering
   counter("chapter").update(number)
+  counter(heading).update(0)
   counter(figure.where(kind: image)).update(0)
   counter(figure.where(kind: table)).update(0)
   counter(math.equation).update(0)
@@ -689,7 +826,7 @@
     let level = nums.pos().len()
     if level == 1 { none } else {
       let sub-nums = nums.pos().slice(1)
-      numbering(str(ch-num) + "." + "1." * (level - 1), ..sub-nums)
+      numbering("1." * level, ch-num, ..sub-nums)
     }
   })
 
@@ -709,7 +846,7 @@
       h(1fr)
     },
     footer: context {
-      set align(center)
+      set align(right)
       counter(page).display("1")
     },
   )
@@ -738,7 +875,7 @@
       h(1fr)
     },
     footer: context {
-      set align(center)
+      set align(right)
       counter(page).display("1")
     },
   )
@@ -759,7 +896,7 @@
     caption: context {
       let ch = counter("chapter").get().first()
       let fig-num = counter(figure.where(kind: image)).get().first()
-      [Gambar #ch.#fig-num #caption]
+      [#caption]
     },
     kind: image,
     supplement: [Gambar],
@@ -777,7 +914,7 @@
     caption: context {
       let ch = counter("chapter").get().first()
       let tbl-num = counter(figure.where(kind: table)).get().first()
-      [Tabel #ch.#tbl-num #caption]
+      [#caption]
     },
     kind: table,
     supplement: none,

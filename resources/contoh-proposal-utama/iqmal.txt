@@ -1,0 +1,1120 @@
+                     PROPOSAL
+            TUGAS AKHIR SKRIPSI
+   PENGEMBANGAN FRONTEND PORTAL
+BIODIVERSITAS KALIMANTAN MENGGUNAKAN
+  METODE WATERFALL ITERATIF BERBASIS
+                        DJANGO
+             MUHAMMAD FATIHUL IQMAL
+                       NIM 11221065
+                Program Studi Informatika
+      Jurusan Teknik Elektro, Informatika, dan Bisnis
+          Fakultas Sains dan Teknologi Informasi
+              Institut Teknologi Kalimantan
+                     Balikpapan, 2025
+                                                      1
+                     PROPOSAL
+            TUGAS AKHIR SKRIPSI
+ PENGEMBANGAN FRONTEND PORTAL
+       BIODIVERSITAS KALIMANTAN
+ MENGGUNAKAN METODE WATERFALL
+       ITERATIF BERBASIS DJANGO
+  Disusun untuk memenuhi salah satu syarat kelulusan
+          memperoleh Gelar Sarjana Komputer
+             MUHAMMAD FATIHUL IQMAL
+                      NIM. 11221065
+                    Dosen Pembimbing
+Gusti Ahmad Fanshuri Alfarisy, S. Kom., M. Kom., Ph. D.
+         Dwi Arief Prambudi, S. Kom., M.Kom.
+                Program Studi Informatika
+      Jurusan Teknik Elektro, Informatika, dan Bisnis
+         Fakultas Sains dan Teknologi Informasi
+              Institut Teknologi Kalimantan
+                     Balikpapan, 2025
+                                                        2
+                        LEMBAR PERSETUJUAN
+Proposal Tugas Akhir dengan judul:
+     “PENGEMBANGAN FRONTEND PORTAL BIODIVERSITAS KALIMANTAN
+     MENGGUNAKAN METODE WATERFALL ITERATIF BERBASIS DJANGO”
+Yang disusun oleh :
+                            Muhammad Fatihul Iqmal
+                                  NIM. 11221065
+Telah diperiksa dan disetujui oleh dosen pembimbing:
+ Dosen Pembimbing Utama                   Dosen Pembimbing Pendamping
+ Gusti Ahmad Fanshuri Alfarisy,           Dwi Arief Prambudi, S. Kom.,
+ S. Kom., M. Kom., Ph. D.                 M.Kom.
+ NIP. 199307152019031008                  NIP. 199208012019031010
+                                                                       i
+                            KATA PENGANTAR
+         Puji syukur kepada Tuhan Yang Maha Esa atas berkat dan anugerah-Nya
+sehingga Penulis dapat menyelesaikan proposal tugas akhir skripsi yang berjudul:
+        “PENGEMBANGAN FRONTEND PORTAL BIODIVERSITAS
+  KALIMANTAN MENGGUNAKAN METODE WATERFALL ITERATIF
+                             BERBASIS DJANGO”
+     Proposal tugas akhir ini merupakan salah satu syarat yang harus ditempuh
+untuk menyelesaikan Program Sarjana di Program Studi Informatika, Jurusan
+Teknik Elektro, Informatika, dan Bisnis, Fakultas Sains dan Teknologi Informasi
+Institut Teknologi Kalimantan (ITK) Balikpapan. Untuk itu Penulis mengucapkan
+terima kasih yang sebesar-besarnya kepada:
+1.   Bapak Gusti Ahmad Fanshuri Alfarisy, S. Kom., M. Kom., Ph. D. selaku Dosen
+     Pembimbing Utama dan Bapak Dwi Arief Prambudi, S. Kom., M.Kom. selaku
+     Dosen Pembimbing Pendamping.
+2.   Ibu Nisa Rizqiya Fadhliana, S.Kom., M.T selaku Koordinator Program Studi
+     Informatika.
+3.   Orang Tua yang selalu mendoakan dan memeberi dukungan dalam proses
+     penyusunan proposal tugas akhir.
+4.   Serta semua pihak yang terlibat dalam penyusunan proposal tugas akhir ini.
+     Penulis menyadari bahwa penyusunan proposal tugas akhir skripsi ini masih
+jauh dari sempurna, karena itu Penulis mengharapkan segala kritik dan saran yang
+membangun. Semoga tugas akhir ini dapat bermanfaat bagi semua pihak. Atas
+perhatiannya Penulis ucapkan terima kasih.
+                                                     Balikpapan, Desember 2025
+                                                                          Penulis
+                                                                                ii
+  PENGEMBANGAN FRONTEND PORTAL BIODIVERSITAS
+  KALIMANTAN MENGGUNAKAN METODE WATERFALL
+                      ITERATIF BERBASIS DJANGO
+Nama Mahasiswa                         : Muhammad Fatihul Iqmal
+NIM                                    : 11221065
+Dosen Pembimbing Utama                 : Gusti Ahmad Fanshuri Alfarisy, S. Kom.,
+                                         M. Kom., Ph. D.
+Dosen Pembimbing Pendamping            : Dwi Arief Prambudi, S. Kom., M.Kom.
+                                      ABSTRAK
+       Kalimantan merupakan salah satu kawasan dengan keanekaragaman hayati
+tertinggi di dunia, namun menghadapi ancaman serius akibat deforestasi dan
+fragmentasi habitat. Penyediaan informasi biodiversitas yang terstruktur, visual,
+dan interaktif diperlukan untuk mendukung konservasi dan pengambilan keputusan
+berbasis data. Penelitian ini bertujuan untuk merancang dan mengimplementasikan
+antarmuka frontend Portal Biodiversitas Kalimantan berdasarkan dokumen
+Software Requirements Specification (SRS) yang telah disusun. Portal ini dirancang
+untuk menyajikan data spesies, kondisi hutan, dan sebaran spasial secara interaktif,
+serta menyediakan fitur kolaboratif seperti forum diskusi dan repository data.
+Metode pengembangan yang digunakan adalah Waterfall Iteratif, dengan tahapan
+studi literatur, identifikasi masalah, analisis kebutuhan, perancangan antarmuka,
+implementasi menggunakan Django dan Jinja, serta visualisasi spasial dengan
+Leaflet. Penelitian ini diharapkan menghasilkan prototipe sistem yang memiliki
+potensi fungsional sebagai platform penyedia informasi biodiversitas yang dapat
+dimanfaatkan dalam penelitian, edukasi, dan perencanaan konservasi. Evaluasi
+terhadap hasil pengembangan dilakukan melalui pengujian User Acceptance Test
+(UAT) untuk menilai kesesuaian sistem dengan kebutuhan pengguna.
+Kata kunci: biodiversitas, antarmuka frontend, visualisasi geospasial, Waterfall
+Iteratif, Django, Jinja, Leaflet, UAT.
+                                                                                 iii
+       FRONTEND DEVELOPMENT OF THE KALIMANTAN
+   BIODIVERSITY PORTAL USING ITERATIVE WATERFALL
+                      METHOD BASED ON DJANGO
+By                               : Muhammad Fatihul Iqmal
+Student Identity Number          : 11221065
+Supervisor                       : Gusti Ahmad Fanshuri Alfarisy, S. Kom.,
+                                   M.Kom., Ph. D.
+Co-supervisor                    : Dwi Arief Prambudi, S. Kom., M.Kom.
+                                     ABSTRACT
+        Kalimantan is one of the regions with the highest biodiversity in the world,
+yet it faces serious threats due to deforestation and habitat fragmentation. The
+availability of structured, visual, and interactive biodiversity information is
+essential to support conservation efforts and data-driven decision-making. This
+study aims to design and implement the frontend interface of the Kalimantan
+Biodiversity Portal based on the previously developed Software Requirements
+Specification (SRS). The portal is designed to present species data, forest condition,
+and spatial distribution interactively, as well as to support collaboration through
+features such as discussion forums and data repositories. The development process
+follows an iterative Waterfall method, involving literature review, problem
+identification, requirements analysis, interface design, implementation using
+Django and Jinja, and spatial visualization using Leaflet. This study is expected to
+produce a prototype with functional potential as an integrated platform for
+biodiversity information that can be utilized in research, education, and
+conservation planning. The results will be evaluated through a User Acceptance
+Test (UAT) to assess the system's alignment with user needs.
+Keywords        : biodiversity, frontend interface, geospatial visualization, Iterative
+Waterfall, Django, Jinja, Leaflet, UAT.
+                                                                                     iv
+                                               DAFTAR ISI
+LEMBAR PERSETUJUAN .................................................................................. i
+KATA PENGANTAR ........................................................................................... ii
+ABSTRAK ........................................................................................................... iii
+ABSTRACT ........................................................................................................... iv
+BAB 1 ..................................................................................................................... 1
+PENDAHULUAN .................................................................................................. 1
+ 1.1   Latar Belakang ........................................................................................... 1
+ 1.2   Rumusan Masalah dan/atau Obyek yang dirancang .................................. 3
+ 1.3   Tujuan ........................................................................................................ 4
+ 1.4   Manfaat ...................................................................................................... 4
+ 1.5   Potensi Dampak Fungsional/Komersial .................................................... 5
+ 1.6   Batasan Rancangan .................................................................................... 5
+ 1.7   Kerangka Penelitian ................................................................................... 6
+BAB 2 ..................................................................................................................... 8
+TINJAUAN PUSTAKA ........................................................................................ 8
+ 2.1   Biodiversitas .............................................................................................. 8
+ 2.2   Sistem Informasi Biodiversitas dan Konservasi Hutan ............................. 8
+ 2.3   User Interface (UI) dan User Experience (UX) ........................................ 9
+ 2.4   Figma ......................................................................................................... 9
+ 2.5   Django Framework .................................................................................. 10
+     2.5.1 Arsitektur Django .............................................................................. 10
+     2.5.2 Jinja Templating ................................................................................ 11
+ 2.6   Visualisasi Data Biodiversitas dan Konservasi Hutan ............................. 11
+     2.6.1 Visualisasi Geospasial ....................................................................... 11
+     2.6.2 Peta Interaktif dengan Library Leaflet.js ........................................... 11
+     2.6.2 GeoJSON ........................................................................................... 12
+                                                                                                                            v
+ 2.7    Waterfall Iteratif ....................................................................................... 13
+ 2.8    Requirements Traceability Matrix (RTM) ............................................... 15
+ 2.9    User Acceptance Test (UAT) ................................................................... 15
+ 2.10 Penelitian Terdahulu ................................................................................ 16
+BAB 3 .................................................................................................................... 20
+DESAIN DAN IMPLEMENTASI...................................................................... 20
+ 3.1    Konsep Desain Sistem .............................................................................. 20
+     3.1.1      Konsep Visualisasi Spasial .............................................................. 20
+     3.1.2      Gaya Visual dan Struktur Halaman ................................................. 23
+ 3.2    Spesifikasi Teknis .................................................................................... 24
+ 3.3    Tahapan Pembuatan Prototipe .................................................................. 24
+     3.3.1      Analisis Kebutuhan ......................................................................... 24
+     3.3.2      Perancangan Desain Antarmuka ...................................................... 25
+              3.3.2.1 Evaluasi Mockup Existing ................................................... 25
+              3.3.2.2 Redesign dengan Menggunakan Figma............................... 26
+              3.3.2.3 Validasi Kebutuhan dengan RTM ....................................... 26
+     3.3.3      Implementasi ................................................................................... 27
+     3.3.4      Testing ............................................................................................. 27
+              3.3.4.1 Persiapan Pengujian ............................................................. 27
+              3.3.4.2 Pelaksanaan Uji oleh Stakeholder ....................................... 28
+              3.3.4.3 Evaluasi dan Pencatatan Hasil ............................................. 28
+ 3.4    Metode Implementasi ............................................................................... 29
+ 3.5    Jadwal Penelitian ...................................................................................... 31
+DAFTAR PUSTAKA .......................................................................................... 32
+                                                                                                                            vi
+                         DAFTAR GAMBAR
+Gambar 2.1 Arsitektur MVT pada Django (GeeksForGeeks, 2025) .................. 10
+Gambar 2.2 Tahapan Model Waterfall Iteratif (GeeksForGeeks, 2025) ............. 14
+Gambar 3.1 Tampilan Desain Peta Persebaran Spesies (Status Konservasi) ...... 21
+Gambar 3.2 Tampilan Desain Peta Persebaran Spesies (Tingkat Keberagaman) 21
+Gambar 3.3 Tampilan Visualisasi Spasial Kondisi Hutan Kalimantan ............... 22
+Gambar 3.4 Mockup Low-Fidelity Halaman Detail Spesies pada SRS .............. 23
+Gambar 3.5 Arsitektur Implementasi Django dengan Jinja Templating............. 29
+                                                                                 vii
+                              DAFTAR TABEL
+Tabel 2.1 Contoh Struktur Dasar Format GeoJSON ............................................ 12
+Tabel 2.2 Penelitian Terdahulu ............................................................................. 16
+Tabel 3.1 Contoh RTM untuk Validasi Desain Antarmuka ................................. 26
+Tabel 3.2 Contoh Hasil Pengujian User Acceptance Test (UAT) ........................ 28
+Tabel 3.3 Jadwal Penelitian .................................................................................. 31
+                                                                                                             viii
+                                       BAB 1
+                                PENDAHULUAN
+1.1    Latar Belakang
+        Biodiversitas atau keanekaragaman hayati merupakan istilah yang digunakan
+untuk menggambarkan variasi kehidupan pada tingkat genetik, spesies, dan
+ekosistem (Gaston & Spicer, 2004). Keanekaragaman ini menjadi fondasi bagi
+stabilitas ekosistem karena menyediakan berbagai fungsi ekologis penting seperti
+penyerbukan, pengaturan iklim, dan pemeliharaan kualitas tanah. Menurut S. Díaz
+et al. (2019), biodiversitas memiliki peran langsung terhadap ketahanan lingkungan
+dan kesejahteraan manusia, sehingga penurunan biodiversitas dapat berdampak
+signifikan terhadap keberlanjutan ekosistem. Oleh karena itu, pelestarian
+keanekaragaman hayati menjadi salah satu isu penting dalam menjaga
+keseimbangan lingkungan secara global.
+        Kalimantan merupakan salah satu kawasan dengan tingkat keanekaragaman
+hayati tertinggi di dunia dan menjadi wilayah penting bagi endemisme serta evolusi
+spesies Asia Tenggara (de Bruyn et al., 2014). Namun, keberadaan ekosistem ini
+semakin terancam akibat deforestasi dan degradasi habitat yang terus berlangsung.
+Studi Gaveau et al. (2014) menunjukkan bahwa Borneo, termasuk Kalimantan,
+telah kehilangan sekitar 30% hutan alamnya sejak tahun 1973 akibat ekspansi
+pertanian, konversi lahan, dan aktivitas penebangan. Penelitian lain oleh Struebig
+et al. (2015) juga menegaskan bahwa fragmentasi habitat menyebabkan penurunan
+populasi satwa liar yang rentan dan mengganggu konektivitas ekologis antar
+kawasan hutan. Kondisi ini menegaskan perlunya upaya konservasi yang lebih
+terarah serta ketersediaan informasi biodiversitas yang terintegrasi untuk
+mendukung pemantauan dan pengambilan keputusan.
+        Melihat ancaman terhadap kelestarian biodiversitas dan pentingnya informasi
+yang mendukung pengambilan keputusan, diperlukan sebuah sistem informasi
+biodiversitas yang terpusat dan interaktif. Sistem ini diharapkan mampu membantu
+pengelolaan data spesies, kondisi hutan, dan sebaran geografis secara lebih
+terstruktur dan informatif. Selain menyajikan data melalui visualisasi spasial,
+                                                                                 1
+sistem juga dirancang untuk mendorong kolaborasi melalui fitur seperti forum
+diskusi, pelaporan, serta repository data secara kolaboratif. Dengan pendekatan ini,
+berbagai pihak seperti peneliti, lembaga pemerintah, dan masyarakat dapat lebih
+mudah mengakses, berbagi, serta memanfaatkan informasi secara efektif dalam
+mendukung upaya konservasi biodiversitas Kalimantan.
+      Untuk menjawab kebutuhan akan penyediaan informasi biodiversitas yang
+lebih terstruktur, telah disusun sebuah dokumen Software Requirements
+Specification (SRS) yang dirancang oleh Kurniawan (2024) sebagai acuan
+kebutuhan sistem dan perancangan fitur utama Portal Biodiversitas Kalimantan.
+Dokumen ini memuat daftar kebutuhan fungsional seperti penyajian informasi
+spesies, data kondisi hutan, peta persebaran biodiversitas, repository data, forum
+diskusi, dan fitur pengaduan lingkungan. Namun, seluruh rancangan tersebut masih
+berada pada tahap spesifikasi dan belum diimplementasikan menjadi sistem yang
+dapat digunakan. Mockup antarmuka yang disertakan dalam SRS juga masih
+bersifat dasar, dengan elemen visual yang belum matang dari segi warna, tipografi,
+ikon, maupun komposisi layout. Selain itu, rancangan visualisasi peta yang menjadi
+elemen penting dalam penyajian data spasial masih ditampilkan secara sederhana
+dan belum menggambarkan representasi data yang sesungguhnya. Kesenjangan
+antara spesifikasi kebutuhan yang telah dirumuskan dalam SRS dan belum adanya
+implementasi nyata inilah yang menjadi dasar perlunya dilakukan proses
+pengembangan lebih lanjut.
+      Melanjutkan     dari   kondisi   tersebut,   proses    pengembangan    sistem
+membutuhkan pendekatan yang mampu menjaga keteraturan alur kerja sesuai
+spesifikasi dalam SRS, namun tetap memberikan ruang untuk penyempurnaan di
+setiap tahap. Oleh karena itu, model Waterfall Iteratif dipilih karena menawarkan
+alur yang terstruktur dan terdokumentasi, sekaligus memungkinkan adanya revisi
+ketika ditemukan ketidaksesuaian selama pengembangan. Sunarya et al. (2025)
+menjelaskan bahwa metode Waterfall cocok untuk proyek dengan kebutuhan yang
+telah terdefinisi jelas sejak awal karena setiap tahap dapat dijalankan secara
+mendalam dan mengurangi risiko kesalahan. Gharajeh (2019) juga menegaskan
+bahwa penggabungan prinsip waterfall dengan mekanisme iteratif melalui model
+Waterative memberikan fleksibilitas untuk menyesuaikan kebutuhan tanpa
+                                                                                  2
+mengulang keseluruhan proses. Selain itu, Chandra (2015) menilai bahwa model
+ini unggul karena tahapan-tahapannya terstruktur dan memungkinkan perbaikan
+antar tahap. Dengan pertimbangan tersebut, metode Waterfall Iteratif menjadi
+pilihan yang tepat untuk pengembangan Portal Biodiversitas Kalimantan yang
+memiliki kebutuhan terdefinisi namun tetap memerlukan fleksibilitas dalam proses
+implementasinya.
+      Berdasarkan kondisi tersebut, penelitian ini difokuskan pada proses
+pengembangan sisi frontend Portal Biodiversitas Kalimantan sebagai tindak lanjut
+dari dokumen SRS yang telah dirumuskan. Pengembangan mencakup perancangan
+dan implementasi seluruh fitur yang dibutuhkan, mulai dari penyajian data spesies
+dan kondisi hutan, forum diskusi, hingga fitur pelaporan dan repository. Selain itu,
+sistem juga akan dilengkapi dengan visualisasi spasial untuk mendukung penyajian
+data persebaran spesies secara informatif. Pengujian sistem dilakukan
+menggunakan pendekatan User Acceptance Test (UAT) untuk menilai kesesuaian
+hasil pengembangan terhadap kebutuhan pengguna. Dengan pendekatan ini,
+diharapkan portal yang dibangun dapat menjadi solusi terpadu dalam penyediaan
+informasi biodiversitas Kalimantan yang mudah diakses dan mendukung upaya
+pelestarian lingkungan.
+1.2   Rumusan Masalah dan/atau Obyek yang dirancang
+      Berdasarkan uraian permasalahan pada bagian latar belakang, penelitian ini
+dirumuskan untuk menjawab beberapa pertanyaan penelitian sebagai berikut:
+1. Bagaimana perancangan mockup antarmuka frontend Portal Biodiversitas
+    Kalimantan dapat menghasilkan tampilan yang lebih optimal namun tetap
+    memenuhi kebutuhan pengguna?
+2. Bagaimana merancang dan mengimplementasikan visualisasi data persebaran
+    spesies flora dan fauna serta kondisi hutan Kalimantan agar informasi dapat
+    disajikan secara interaktif dan informatif?
+3. Bagaimana tingkat penerimaan pengguna terhadap hasil pengembangan portal
+    biodiversitas Kalimantan berdasarkan pengujian User Acceptance Test (UAT)?
+                                                                                   3
+1.3 Tujuan
+       Sejalan dengan rumusan masalah yang telah disusun, penelitian ini memiliki
+tujuan sebagai berikut:
+1. Melakukan       perancangan    ulang  mockup     antarmuka   frontend    Portal
+    Biodiversitas Kalimantan agar menghasilkan tampilan yang lebih optimal dan
+    sesuai dengan kebutuhan pengguna.
+2. Merancang dan mengimplementasikan visualisasi data persebaran spesies flora
+    dan fauna serta kondisi hutan Kalimantan agar informasi dapat disajikan secara
+    interaktif dan informatif.
+3. Mengevaluasi hasil pengembangan portal melalui pengujian User Acceptance
+    Test (UAT) untuk mengetahui tingkat penerimaan dan kesesuaian sistem
+    dengan kebutuhan pengguna.
+1.4 Manfaat
+       Melalui penelitian ini, diharapkan muncul berbagai manfaat yang dapat
+dirasakan baik dari sisi akademis, praktis, maupun sosial dan lingkungan, antara
+lain :
+1. Manfaat Akademis
+    Memberikan kontribusi dalam pengembangan studi terkait perancangan
+    antarmuka dan visualisasi data pada sistem informasi biodiversitas, khususnya
+    dalam konteks penyajian informasi flora dan fauna Kalimantan secara
+    terstruktur dan mudah dipahami pengguna.
+2. Manfaat Praktis
+    Menjadi referensi bagi pengembang atau instansi dalam membangun portal
+    biodiversitas dengan antarmuka dan visualisasi data yang informatif, serta
+    sebagai sumber informasi bagi masyarakat dan peneliti.
+3. Manfaat Sosial dan Lingkungan
+    Sistem yang dikembangkan diharapkan dapat meningkatkan pemahaman dan
+    kesadaran masyarakat mengenai keanekaragaman hayati serta kondisi hutan
+    Kalimantan, sehingga dapat mendukung upaya pelestarian dan pengelolaan
+    lingkungan secara lebih baik.
+                                                                                 4
+1.5   Potensi Dampak Fungsional/Komersial
+       Adapun potensi dampak yang dapat diperoleh melalui hasil penelitian ini
+adalah sebagai berikut:
+1.   Memiliki potensi sebagai platform pengelolaan biodiversitas yang dapat
+     dimanfaatkan oleh instansi pemerintah, lembaga penelitian, dan institusi
+     pendidikan.
+2.   Berpotensi menjadi platform kolaboratif bagi peneliti, lembaga konservasi, dan
+     masyarakat, karena keberadaan fitur forum diskusi memungkinkan pertukaran
+     informasi, pembaruan data spesies, serta diskusi terkait kondisi ekologis
+     Kalimantan secara lebih terstruktur.
+3.   Dapat digunakan sebagai pendukung pengambilan keputusan awal dalam
+     perencanaan konservasi, melalui penyajian informasi spasial mengenai sebaran
+     spesies dan kondisi hutan.
+1.6   Batasan Rancangan
+       Untuk menghindari pembahasan yang terlalu luas dan menjaga penelitian
+tetap sesuai dengan tujuan, maka ruang lingkup penelitian ini dibatasi pada
+beberapa hal berikut:
+1. Penelitian ini hanya berfokus pada pengembangan sisi frontend Portal
+    Biodiversitas Kalimantan menggunakan Django dan Jinja melalui pendekatan
+    server-side rendering (SSR).
+2. Pengujian sistem terbatas pada User Acceptance Test (UAT) untuk menilai
+    kesesuaian dan penerimaan pengguna.
+3. Penelitian ini hanya mencakup proses analisis kebutuhan, perancangan ulang
+    antarmuka, implementasi frontend, dan pengujian UAT. Tahap deployment
+    tidak termasuk dalam ruang lingkup penelitian.
+                                                                                  5
+1.7 Kerangka Penelitian
+                         Gambar 1.1 Kerangka Penelitian
+       Gambar 1.1 menunjukkan kerangka penelitian yang menggambarkan alur
+kegiatan dari tahap awal hingga tahap akhir. Penelitian diawali dengan studi
+literatur untuk memperoleh landasan teori mengenai biodiversitas, sistem informasi
+lingkungan, visualisasi geospasial, serta teknologi yang digunakan dalam
+pengembangan prototipe. Tahap ini menjadi dasar dalam memahami konteks
+permasalahan dan menentukan arah pengembangan.
+       Selanjutnya dilakukan identifikasi masalah berdasarkan hasil studi literatur
+dan dokumen SRS. Dari tahap ini dirumuskan kebutuhan sistem serta kesenjangan
+pada desain antarmuka dan visualisasi data yang ada. Masalah yang telah
+teridentifikasi kemudian dianalisis lebih lanjut pada tahap analisis kebutuhan, yang
+menghasilkan rincian kebutuhan fungsional dan non-fungsional sebagai acuan
+perancangan.
+                                                                                   6
+       Proses pengembangan prototipe mengikuti metode waterfall iteratif, yang
+terdiri dari beberapa tahapan berurutan namun memungkinkan adanya revisi
+terbatas antar langkah. Setelah analisis kebutuhan, penelitian berlanjut ke tahap
+perancangan desain antarmuka, yang dilakukan dengan menerapkan pendekatan
+User Centered Design (UCD). Pada tahap ini, mockup awal dievaluasi dan
+diperbaiki dengan mempertimbangkan kebutuhan dan kemudahan penggunaan bagi
+pengguna sebelum divalidasi menggunakan Requirement Traceability Matrix
+(RTM). Desain yang telah memenuhi kebutuhan kemudian diterjemahkan pada
+tahap implementasi, yaitu merakit struktur halaman dan komponen antarmuka
+sesuai rancangan.
+       Tahap berikutnya adalah testing, yang dilakukan melalui User Acceptance
+Test (UAT) untuk memastikan bahwa prototipe telah memenuhi kebutuhan
+pengguna. Jika ditemukan ketidaksesuaian, proses kembali ke tahap sebelumnya
+sesuai prinsip waterfall iteratif. Setelah prototipe dinyatakan sesuai, dilakukan
+analisis hasil dan diskusi untuk menjawab rumusan masalah dan menilai
+keberhasilan penerapan metode pengembangan. Penelitian ditutup dengan
+kesimpulan dan saran.
+                                                                                7
+                                       BAB 2
+                            TINJAUAN PUSTAKA
+2.1 Biodiversitas
+       Biodiversitas atau keanekaragaman hayati merupakan keragaman kehidupan
+pada tingkat genetik, spesies, dan ekosistem (Gaston & Spicer, 2004).
+Keanekaragaman ini menjadi dasar stabilitas ekosistem dan menyediakan berbagai
+jasa lingkungan penting. Penelitian global menunjukkan bahwa aktivitas manusia
+telah menyebabkan penurunan biodiversitas secara signifikan melalui perubahan
+penggunaan lahan, eksploitasi sumber daya, dan tekanan lingkungan lainnya (S.
+Díaz et al., 2019). Kondisi tersebut menegaskan perlunya penyediaan informasi
+biodiversitas yang lebih terintegrasi untuk mendukung upaya konservasi.
+2.2 Sistem Informasi Biodiversitas dan Konservasi Hutan
+       Sistem informasi biodiversitas berfungsi untuk mengelola dan menyajikan
+data keanekaragaman hayati secara terstruktur agar dapat dimanfaatkan untuk
+analisis dan pemantauan lingkungan. Gadelha et al. (2021) menjelaskan bahwa
+pengelolaan data biodiversitas membutuhkan proses yang sistematis mulai dari
+pengumpulan, pengolahan, hingga penyajian informasi, sehingga data dapat
+digunakan kembali oleh peneliti dan lembaga konservasi. Sistem yang baik
+memungkinkan integrasi data spesies, lokasi, dan kondisi ekologi untuk
+mendukung kegiatan penelitian dan pengambilan keputusan.
+       Dalam konteks kehutanan, sistem informasi berperan penting dalam
+menyediakan data akurat mengenai kondisi hutan dan sumber daya yang dikelola.
+Riska et al. (2016) menunjukkan bahwa Sistem Informasi Sumber Daya Hutan
+(SISDH) digunakan untuk mendukung pengelolaan hutan berkelanjutan melalui
+penyediaan data yang dapat diakses dan dianalisis oleh berbagai tingkat
+manajemen . Sistem tersebut membantu mengurangi fragmentasi informasi dan
+meningkatkan efektivitas pemantauan serta perencanaan konservasi.
+                                                                             8
+2.3 User Interface (UI) dan User Experience (UX)
+       User interface (UI) adalah bagian antarmuka yang digunakan pengguna untuk
+berinteraksi dengan sistem, seperti tombol, ikon, dan tata letak halaman. Sementara
+itu, user experience (UX) merujuk pada persepsi pengguna terhadap kemudahan,
+kenyamanan, serta kepuasan saat menggunakan sistem. Menurut Lallemand et al.
+(2015), UX tidak hanya mencakup aspek fungsi, tetapi juga mencakup kenyamanan
+kognitif dan emosional selama proses penggunaan.
+       Perancangan UI/UX umumnya mengikuti prinsip-prinsip seperti konsistensi,
+navigasi yang jelas, umpan balik sistem, dan kemudahan akses. L. V. M. Díaz (2022)
+menyatakan bahwa UI yang baik harus mampu menyampaikan informasi secara
+efektif dan mengurangi beban interaksi bagi pengguna. Penerapan prinsip ini
+bertujuan untuk meningkatkan kegunaan dan mendukung pengalaman penggunaan
+yang optimal dalam sistem informasi.
+2.4 Figma
+       Figma merupakan perangkat lunak desain antarmuka berbasis web yang
+memungkinkan pembuatan prototipe secara interaktif dan real-time. Dalam
+penelitian J. Wang et al. (2022), Figma dinilai memiliki tingkat kegunaan dan
+kepuasan pengguna yang lebih tinggi dibandingkan alat sejenis seperti Adobe XD
+dan Sketch, terutama dalam hal efisiensi desain dan kejelasan antarmuka. Fitur
+berbasis awan serta kemudahan akses lintas perangkat menjadikan Figma banyak
+digunakan dalam proyek pengembangan UI/UX.
+       Studi Pernando et al. (2025), menegaskan bahwa Figma mendukung
+kolaborasi real-time antaranggota tim, yang mempercepat proses perancangan dan
+revisi desain. Figma juga dianggap efektif untuk menghasilkan desain antarmuka
+high-fidelity yang responsif dan mudah dipahami. Dengan kemampuan tersebut,
+Figma menjadi salah satu alat utama yang digunakan dalam proses pembuatan
+mockup antarmuka pada pengembangan sistem informasi.
+                                                                                  9
+2.5 Django Framework
+2.5.1 Arsitektur Django
+      Django merupakan framework web berbasis Python yang menerapkan
+arsitektur Model–View–Template (MVT). Menurut Chen et al. (2020) arsitektur ini
+memisahkan pengelolaan data, logika aplikasi, dan tampilan antarmuka agar proses
+pengembangan sistem menjadi lebih terstruktur serta mudah dipelihara.
+        Gambar 2.1 Arsitektur MVT pada Django (GeeksForGeeks, 2025)
+      Arsitektur MVT pada Django ditunjukkan pada Gambar 2.1, yang
+menggambarkan hubungan antara Model, View, dan Template dalam proses
+pengolahan dan penyajian data. Model berfungsi untuk mendefinisikan struktur
+data serta menangani proses penyimpanan dan pembaruan data yang berhubungan
+langsung dengan basis data. View berperan sebagai pengendali utama alur aplikasi
+yang mengelola logika pemrosesan data dengan berinteraksi dengan Model,
+kemudian meneruskan data yang telah diproses ke Template untuk ditampilkan
+kepada pengguna dalam bentuk antarmuka web (Chen et al., 2020).
+      Alur kerja tersebut sejalan dengan penjelasan George (2017), yang
+menyatakan bahwa setiap permintaan dari pengguna diproses melalui View sebelum
+hasilnya dirender oleh Template. Dalam implementasinya, Django menyediakan
+dukungan bawaan seperti Object Relational Mapping (ORM) dan sistem routing
+yang    memudahkan     penerapan   arsitektur   MVT    secara   konsisten  pada
+pengembangan aplikasi web.
+                                                                              10
+2.5.2 Jinja Templating
+       Jinja merupakan template engine berbasis Python yang digunakan untuk
+mengatur tampilan (frontend) pada proyek Django. Melalui Jinja, pengembang
+dapat menggabungkan data dari backend ke dalam halaman HTML menggunakan
+sintaks sederhana seperti {{ variable }} untuk menampilkan nilai dan {% ... %}
+untuk logika seperti perulangan atau kondisi (Django Software Foundation, 2024).
+       Menurut Chen et al. (2020), sistem templating pada Django membantu
+memisahkan tampilan dan logika pemrograman dengan jelas. Jinja mendukung hal
+tersebut dengan menyediakan cara dinamis untuk menampilkan data tanpa
+mencampurkan kode Python langsung ke HTML, sehingga struktur proyek menjadi
+lebih bersih dan mudah dikelola.
+2.6   Visualisasi Data Biodiversitas dan Konservasi Hutan
+2.6.1 Visualisasi Geospasial
+       Visualisasi geospasial atau geovisualization mengintegrasikan pendekatan
+dari scientific visualization, kartografi, analisis citra, information visualization,
+exploratory data analysis, dan sistem informasi geografis untuk menyediakan teori,
+metode, dan alat bagi eksplorasi visual, analisis, sintesis, serta presentasi data
+geospasial (MacEachren & Kraak, 2001). Geovisualization merupakan alat visual
+untuk eksplorasi data yang dapat menghasilkan pemahaman dan pengetahuan baru
+(Fitzpatrick & Hedley, 2023).
+       Prinsip utama dalam visualisasi geospasial mencakup hierarki visual yang
+jelas (clear visual hierarchy), kesederhanaan (simplicity), keterbacaan (legibility),
+dan konsistensi (consistency). Kesederhanaan berarti hanya menampilkan data yang
+relevan agar tidak terjadi kekacauan visual, sementara keterbacaan bergantung pada
+pemilihan warna dan ukuran simbol yang tepat, dan konsistensi mengharuskan
+simbol serupa selalu digambarkan dengan cara yang sama untuk membangun
+keakraban pengguna dengan peta (Wesson et al., 2013).
+2.6.2 Peta Interaktif dengan Library Leaflet.js
+       Leaflet.js adalah pustaka JavaScript open source yang ringan untuk
+membangun peta interaktif berbasis web. Library ini dirancang agar sederhana,
+                                                                                   11
+mudah dipelajari, serta kompatibel dengan berbagai browser modern termasuk
+perangkat mobile (Lewin, 2016). Dalam praktiknya, Leaflet.js banyak digunakan
+untuk menampilkan peta dasar dari berbagai sumber seperti OpenStreetMap,
+menambahkan elemen visual seperti marker, polygon, dan polyline, serta
+menyediakan fitur interaktif seperti zoom, pan, dan popup yang memudahkan
+pengguna memperoleh informasi tambahan. Selain itu, Leaflet.js juga mendukung
+pengelolaan berbagai layer sehingga pengguna dapat memilih tampilan peta sesuai
+kebutuhan (Edler & Vetter, 2019).
+2.6.2 GeoJSON
+      GeoJSON adalah format terbuka berbasis JavaScript Object Notation (JSON)
+yang digunakan untuk merepresentasikan data geografis secara ringan dan dapat
+digunakan dalam aplikasi pemetaan berbasis web. Format ini mendukung berbagai
+jenis geometri seperti titik (Point), garis (LineString), poligon (Polygon), serta fitur
+kompleks seperti MultiPoint dan FeatureCollection (Butler et al., 2016). GeoJSON
+dirancang agar mudah dibaca manusia sekaligus dapat diproses oleh mesin,
+sehingga menjadi salah satu standar yang populer dalam visualisasi spasial
+interaktif di web. Contoh sederhana struktur GeoJSON untuk merepresentasikan
+sebuah titik ditampilkan pada Tabel 2.1.
+                 Tabel 2.1 Contoh Struktur Dasar Format GeoJSON
+ No Format GeoJSON
+   1   {
+   2     "type": "Feature",
+   3     "geometry": {
+   4       "type": "Point",
+   5       "coordinates": [125.6, 10.1]
+   6     },
+   7     "properties": {
+   8       "name": "Dinagat Islands"
+   9     }
+  10   }
+                                                                                     12
+2.7 User Centered Design (UCD)
+    User-Centered Design (UCD) merupakan pendekatan perancangan sistem yang
+menempatkan pengguna sebagai pusat dari seluruh proses pengembangan, dengan
+tujuan memastikan bahwa sistem yang dihasilkan sesuai dengan kebutuhan,
+karakteristik, dan konteks penggunaan pengguna. Menurut standar ISO 9241-210
+(2019), pendekatan ini menekankan pemahaman kebutuhan pengguna, keterlibatan
+pengguna sepanjang proses perancangan, serta evaluasi desain secara berulang
+untuk meningkatkan kualitas interaksi antara pengguna dan sistem (ISO 9241-210,
+2019).
+    Gulliksen et al. (2003) menyatakan bahwa UCD diterapkan sebagai pendekatan
+sistematis dalam pengembangan sistem interaktif, di mana kebutuhan pengguna
+menjadi dasar pengambilan keputusan desain, dan proses perancangan dilakukan
+secara iteratif untuk memastikan kemudahan penggunaan dan efektivitas sistem.
+Oleh karena itu, UCD banyak digunakan dalam perancangan antarmuka sistem
+informasi untuk menghasilkan desain yang tidak hanya berfungsi secara teknis,
+tetapi juga mudah digunakan dan sesuai dengan ekspektasi pengguna.
+2.8 Waterfall Iteratif
+       Metode Waterfall merupakan pendekatan pengembangan perangkat lunak
+yang bersifat sekuensial, di mana setiap tahapan harus diselesaikan sebelum
+melanjutkan ke tahapan berikutnya (Sunarya et al., 2025). Model Waterfall Iteratif
+yang digunakan dalam penelitian ini ditunjukkan pada Gambar 2.2, di mana setiap
+tahapan masih mengikuti alur berurutan khas Waterfall, namun ditambahkan jalur
+umpan balik yang memungkinkan tim pengembang kembali ke tahap sebelumnya
+ketika ditemukan ketidaksesuaian atau kesalahan (Gharajeh, 2019).
+                                                                               13
+      Gambar 2.2 Tahapan Model Waterfall Iteratif (GeeksForGeeks, 2025)
+Menurut Chandra (2015), metode Waterfall terdiri dari beberapa tahapan utama
+yang dilakukan secara berurutan, yaitu:
+    1. Feasibility Analysis, yaitu analisis kelayakan proyek;
+    2. Requirement Analysis, yaitu mengumpulkan dan mendokumentasikan
+        seluruh kebutuhan sistem;
+    3. Design, yaitu merancang arsitektur sistem dan antarmuka;
+    4. Coding, yaitu melakukan pengkodean atau pemrograman;
+    5. Testing, yaitu menguji sistem untuk memastikan fungsi berjalan sesuai
+        spesifikasi;
+    6. Maintenance, yaitu melakukan pemeliharaan sistem setelah implementasi.
+    Model Waterfall klasik memiliki keterbatasan karena tidak mengizinkan
+pengulangan ke tahap sebelumnya setelah tahap tersebut selesai (Chandra, 2015).
+Untuk mengatasi keterbatasan ini, dikembangkan model Waterfall Iteratif yang
+mempertahankan struktur dasar Waterfall namun menambahkan jalur umpan balik
+dari setiap fase ke fase sebelumnya, sehingga memungkinkan koreksi kesalahan
+selama proses pengembangan berlangsung (Chandra, 2015; Gharajeh, 2019).
+Dengan adanya mekanisme iterasi ini, kesalahan yang terdeteksi pada tahap
+selanjutnya dapat diperbaiki dengan kembali ke tahap yang relevan, sehingga
+meningkatkan kualitas dan kesesuaian sistem dengan kebutuhan pengguna
+(Sunarya et al., 2025).
+                                                                            14
+2.9   Requirements Traceability Matrix (RTM)
+     Requirements Traceability Matrix (RTM) adalah dokumen berbentuk matriks
+yang memetakan setiap kebutuhan (requirement) ke artefak perangkat lunak terkait
+seperti desain, kode, dan kasus uji, untuk memastikan bahwa seluruh kebutuhan
+telah diimplementasikan dan diverifikasi secara lengkap (B. Wang et al., 2018).
+RTM merupakan salah satu metode ketertelusuran kebutuhan yang paling populer
+karena menyediakan cara yang sederhana dan intuitif untuk mengekspresikan
+hubungan antara kebutuhan dan artefak lainnya, serta mendukung berbagai
+aktivitas verifikasi dan validasi seperti analisis dampak perubahan, analisis cakupan,
+dan verifikasi kepatuhan (Cuddeback et al., 2010).
+2.10      User Acceptance Test (UAT)
+      User Acceptance Test (UAT) adalah proses pengujian yang melibatkan
+pengguna akhir untuk memastikan bahwa sistem sudah sesuai dengan kebutuhan
+dan dapat digunakan dengan baik. Menurut Venkatesh et al. (2003), penerimaan
+pengguna terhadap suatu teknologi dipengaruhi oleh beberapa faktor seperti
+kemudahan penggunaan dan manfaat yang dirasakan. Pemahaman ini relevan
+dalam UAT karena membantu menilai apakah pengguna merasa sistem mudah
+dipakai dan memberi manfaat sesuai tujuan.
+      Otaduy & Diaz (2017) menjelaskan bahwa UAT pada sistem berbasis web
+dilakukan dengan meminta pengguna mencoba fitur-fitur sistem melalui skenario
+penggunaan nyata. Hasil pengujian kemudian digunakan untuk melihat apakah
+fungsi sistem sudah berjalan dengan benar dan sesuai harapan pengguna. Secara
+umum, UAT membantu memastikan bahwa sistem tidak hanya berfungsi, tetapi
+juga dapat diterima dan nyaman digunakan oleh pengguna.
+                                                                                   15
+2.11 Penelitian Terdahulu
+     Bagian ini membahas beberapa penelitian terdahulu yang relevan dengan topik penelitian yang dilakukan saat ini yaitu :
+                                               Tabel 2.2 Penelitian Terdahulu
+     Nama dan Tahun
+  No                                              Metode                                                Hasil
+         Publikasi
+                          Menggunakan Iterative Waterfall dengan tahapan Penelitian ini menghasilkan sistem inventory
+                          kebutuhan, desain, implementasi, serta pengujian black web yang mampu mengelola barang masuk–
+                          box dan UAT yang dilakukan berulang hingga sistem keluar, memperbarui stok otomatis, dan
+     (Stinjak & Masya,    sesuai kebutuhan.                                        menghasilkan laporan dengan kinerja yang
+   1
+            2021)
+                                                                                   telah tervalidasi melalui black box dan UAT.
+                                                                                                                               16
+   Nama dan Tahun
+No                                            Metode                                             Hasil
+       Publikasi
+                      Menggunakan pendekatan User Centered Design (UCD) Pendekatan         UCD     menghasilkan     desain
+                      dengan tahapan riset pengguna, analisis kebutuhan purwarupa LMS mobile yang efektif dan
+                      (empathy map, persona, user journey), perancangan mudah digunakan, ditunjukkan oleh nilai
+   (Novianto & Rani,
+ 2
+         2022)        wireframe & high-fidelity design berbasis Material completion rate 84%, efisiensi (ORE) 91%,
+                      Design, serta evaluasi melalui Usability Testing dan dan SUS 75.38 yang menandakan tingkat
+                      System Usability Scale (SUS)                          usability yang baik.
+                      Penelitian menggunakan metode Design Thinking. Proses Penelitian ini menghasilkan antarmuka baru
+                      mencakup pengumpulan data melalui survei, asesmen yang lebih nyaman dan mudah digunakan.
+                      DISC,    wawancara    pengguna    bertipe kepribadian Pengujian menunjukkan skor SEQ rata-rata
+   (Puspitaningrum et Influence, pembuatan prototipe high-fidelity berbasis 6,6 serta seluruh skenario pada UAT diterima,
+ 3
+       al., 2023)
+                      Material Design, serta evaluasi menggunakan Usability menandakan      peningkatan    kepuasan   dan
+                      Testing (SEQ) dan User Acceptance Testing (UAT).      kemudahan penggunaan website Open Library
+                                                                            Telkom University.
+                                                                                                                         17
+    Nama dan Tahun
+No                                                Metode                                                Hasil
+         Publikasi
+                         Pengembangan dalam penelitian ini dilakukan melalui Penelitian ini menghasilkan portal web
+                         perancangan struktur basis data taksonomi yang “Nature of the Republic of North Ossetia–
+                         mencakup hierarki klasifikasi organisme hingga tingkat Alania” sebagai basis data biodiversitas
+                         spesies, serta data temuan individu. Struktur basis data regional. Portal tersebut menyediakan katalog
+ 4 (Mamaev et al., 2024) tersebut kemudian diimplementasikan dalam bentuk spesies berbasis taksonomi, informasi dasar
+                         portal web yang berfungsi untuk penyajian, pengelolaan, spesies, status konservasi, serta visualisasi
+                         dan pembaruan data spesies secara terpusat dan lokasi temuan pada peta. Sistem ini berfungsi
+                         terstruktur.                                             sebagai sarana pengelolaan dan penyajian data
+                                                                                  biodiversitas secara terstruktur dan terintegrasi
+                         Penelitian ini menggunakan metode pengembangan Penelitian ini menghasilkan aplikasi Point of
+                         sistem dengan model Iterative Waterfall. Pengembangan Sales       (POS)     berbasis    Android      yang
+                         dilakukan     melalui   tahapan   analisis   kebutuhan, mendukung pencatatan transaksi, pengelolaan
+     (Salsabil & Kahfi,  perancangan sistem, implementasi aplikasi POS berbasis stok, dan pembuatan laporan penjualan.
+ 5
+           2025)
+                         Android      menggunakan    framework    Flutter,  serta Aplikasi berjalan sesuai kebutuhan dan
+                         pengujian untuk memastikan fungsi sistem berjalan membantu meningkatkan efisiensi operasional
+                         sesuai kebutuhan pengguna.                               rumah makan
+                                                                                                                                 18
+    Nama dan Tahun
+No                                              Metode                                            Hasil
+        Publikasi
+                         Penelitian ini menggunakan metode pengembangan Penelitian ini menghasilkan aplikasi mobile
+                         perangkat lunak dengan pendekatan Agile. Pengujian pemesanan hotel dengan fitur pemesanan
+                         sistem     dilakukan   menggunakan       Requirement kamar,       pembayaran,    dan    check-in
+                         Traceability    Matrix (RTM)       untuk  memastikan menggunakan QR code. Hasil pengujian RTM
+ 6 (Liyana et al., 2025)
+                         keterlacakan kebutuhan serta User Acceptance Testing menunjukkan seluruh kebutuhan fungsional
+                         (UAT) guna menilai kesesuaian sistem dengan kebutuhan terpenuhi, sementara UAT menunjukkan
+                         dan penerimaan pengguna.                              tingkat penerimaan pengguna yang baik
+                                                                               terhadap sistem yang dikembangkan
+                                                                                                                        19
+                                         BAB 3
+                      DESAIN DAN IMPLEMENTASI
+3.1 Konsep Desain Sistem
+    Konsep desain sistem disusun berdasarkan kebutuhan yang tercantum dalam
+dokumen Software Requirements Specification (SRS). Setiap elemen antarmuka
+dirancang dengan mengacu pada kebutuhan fungsional dan non-fungsional yang
+telah ditetapkan, sehingga struktur tampilan dan alur interaksi mengikuti ketentuan
+pada SRS.
+3.1.1 Konsep Visualisasi Spasial
+    Visualisasi spasial dirancang untuk menampilkan informasi persebaran spesies
+dan kondisi hutan Kalimantan melalui peta interaktif yang dapat diakses dalam satu
+halaman. Peta ini menyediakan dua mode tampilan, yaitu Spesies dan Kondisi
+Hutan, yang dapat dipilih melalui tab navigasi tanpa perlu memuat ulang halaman.
+Pendekatan       ini  memungkinkan          pengguna   membandingkan       informasi
+keanekaragaman hayati dan kondisi ekologis secara efisien. Tampilan peta dibatasi
+hanya pada wilayah Pulau Kalimantan agar fokus tetap sesuai konteks konservasi
+regional.
+    Mode Spesies menampilkan persebaran spesies dalam bentuk area sebaran pada
+peta interaktif. Visualisasi ini disajikan dalam dua mode tampilan, yaitu mode status
+konservasi dan mode keanekaragaman, yang dapat dipilih oleh pengguna sesuai
+kebutuhan analisis. Pada mode status konservasi, area sebaran spesies diberi warna
+berdasarkan status perlindungan masing-masing spesies yang disediakan oleh
+sistem backend. Pendekatan ini memudahkan pengguna dalam mengenali tingkat
+risiko spesies pada suatu wilayah secara visual. Sementara itu, mode
+keanekaragaman menampilkan area sebaran yang sama dengan skema pewarnaan
+yang merepresentasikan tingkat keanekaragaman spesies pada wilayah sebaran.
+Mode ini digunakan untuk memberikan gambaran umum mengenai kondisi
+ekologis spesies tanpa menekankan aspek status perlindungan.
+                                                                                   20
+    Setiap area sebaran dilengkapi dengan label singkatan spesies dan dapat dipilih
+untuk menampilkan jendela popup yang berisi informasi detail, seperti nama
+spesies, status konservasi, estimasi populasi, informasi lokasi, serta tautan menuju
+halaman spesies terkait. Tampilan mode status konservasi dan mode
+keanekaragaman masing-masing ditunjukkan pada Gambar 3.1 dan Gambar 3.2.
+    Gambar 3.1 Tampilan Desain Peta Persebaran Spesies (Status Konservasi)
+ Gambar 3.2 Tampilan Desain Peta Persebaran Spesies (Tingkat Keberagaman)
+                                                                                  21
+      Mode Kondisi Hutan menyajikan layer spasial berupa kawasan hutan yang
+diklasifikasikan ke dalam tiga kategori kondisi: hutan lestari, hutan terdegradasi
+ringan, dan hutan terdegradasi berat. Setiap kategori ditandai dengan warna berbeda
+yang dapat diklik untuk menampilkan informasi lanjutan, seperti jenis lahan, tipe
+ekosistem, dan tahun pengambilan data. Tampilan visualisasi ini disajikan pada
+Gambar 3.3.
+       Gambar 3.3 Tampilan Visualisasi Spasial Kondisi Hutan Kalimantan
+      Kedua mode ini dibangun menggunakan pustaka Leaflet.js dan basemap
+OpenStreetMap (OSM), serta dilengkapi fitur interaktif seperti kontrol zoom,
+legenda dinamis, dan popup informasi. Atribut yang ditampilkan, baik dalam
+marker maupun layer spasial, disesuaikan dengan kebutuhan pengguna yang telah
+dirumuskan dalam dokumen Software Requirements Specification (SRS) dan
+bersumber dari data yang terintegrasi melalui backend. Visualisasi ini dirancang
+agar informatif, intuitif, dan mudah dipahami oleh pengguna dari berbagai latar
+belakang, serta mendukung tujuan konservasi dan edukasi mengenai biodiversitas
+Kalimantan.
+                                                                                 22
+3.1.2 Gaya Visual dan Struktur Halaman
+    Struktur halaman prototipe mengacu pada mockup low-fidelity yang terdapat
+dalam dokumen SRS. Mockup tersebut memberikan gambaran awal mengenai
+susunan header, area konten utama, dan footer, serta pembagian informasi pada
+setiap halaman. Selain itu, mockup ini juga menunjukkan pengelompokan
+informasi utama yang disajikan kepada pengguna, seperti identitas spesies,
+deskripsi singkat, status perlindungan, dan informasi pendukung lainnya. Contoh
+mockup tersebut ditunjukkan pada Gambar 3.4.
+    Walaupun masih memiliki keterbatasan pada aspek visual dan detail antarmuka,
+mockup low-fidelity ini berfungsi sebagai dasar untuk memahami kebutuhan
+tampilan dan alur informasi yang harus dipenuhi sebelum dilakukan proses
+penyempurnaan desain pada tahap perancangan antarmuka.
+      Gambar 3.4 Mockup Low-Fidelity Halaman Detail Spesies pada SRS
+    Penyempurnaan terhadap struktur dan kualitas visual mockup dilakukan pada
+tahap perancangan antarmuka, yang dijelaskan pada Subbab 3.3.2 Perancangan
+Desain Antarmuka, untuk menghasilkan desain berfidelitas tinggi yang lebih
+konsisten, proporsional, dan sesuai dengan kebutuhan sistem serta pengalaman
+pengguna.
+                                                                             23
+3.2 Spesifikasi Teknis
+     Spesifikasi teknis mencakup teknologi dan alat yang digunakan dalam
+pengembangan prototipe. Prototipe dibangun menggunakan :
+     -   Django sebagai framework utama untuk pengelolaan struktur halaman dan
+         alur tampilan.
+     -   Jinja sebagai templating engine untuk merender data ke dalam antarmuka.
+     -   Leaflet.js digunakan untuk membuat tampilan peta interaktif, termasuk
+         menampilkan titik lokasi spesies dan lapisan informasi pada peta.
+     -   OpenStreetMap (OSM) sebagai basemap dalam visualisasi peta.
+     -   Tailwind CSS dan DaisyUI sebagai kerangka gaya visual untuk penyusunan
+         komponen antarmuka.
+     -   HTMX untuk menambahkan interaktivitas pada elemen halaman tanpa
+         memerlukan JavaScript kompleks, sehingga beberapa proses dapat
+         dijalankan secara dinamis melalui permintaan asynchronous sederhana.
+     Pengembangan prototipe berfokus pada sisi frontend berbasis server-side
+rendering, mencakup penyusunan halaman beranda, daftar spesies, detail spesies,
+peta persebaran, forum, repositori, dan pelaporan. Seluruh komponen tampilan
+dirancang untuk memenuhi kebutuhan yang ditetapkan dalam dokumen SRS serta
+mendukung penyajian informasi Biodiversitas Kalimantan secara konsisten.
+3.3 Tahapan Pembuatan Prototipe
+      Prosedur penelitian ini mengikuti metode waterfall dengan mekanisme iteratif.
+Berikut adalah tahapan-tahapan yang dilakukan dalam penelitian ini:
+3.3.1 Analisis Kebutuhan
+       Tahap analisis kebutuhan dilakukan dengan mengacu pada Software
+Requirements Specification (SRS) sebagai dasar perancangan sistem. Pada tahap
+ini, kebutuhan fungsional dan non-fungsional dipahami untuk menentukan fitur apa
+saja yang harus ditampilkan pada sisi frontend serta bagaimana alur antarmuka
+dibangun.
+                                                                                24
+       Kebutuhan fungsional meliputi penyajian informasi spesies, halaman detail,
+fitur pencarian dan filter, tampilan peta persebaran, forum diskusi, repository data,
+serta fitur pelaporan seluruhnya sebagaimana telah dirumuskan dalam SRS.
+Sementara itu, kebutuhan non-fungsional berkaitan dengan responsivitas tampilan,
+kemudahan penggunaan, konsistensi desain, serta kejelasan penyajian informasi
+bagi pengguna.
+       Analisis juga dilakukan terhadap jenis data yang akan ditampilkan pada setiap
+halaman, termasuk data spesies, kondisi hutan, dan data spasial yang nantinya
+diolah melalui template frontend. Hasil analisis kebutuhan ini menjadi dasar dalam
+proses perancangan antarmuka serta pedoman pelaksanaan implementasi pada
+tahap berikutnya.
+3.3.2 Perancangan Desain Antarmuka
+       Tahap perancangan desain antarmuka merupakan langkah penting dalam
+pengembangan Portal Biodiversitas Kalimantan. Proses perancangan ini dilakukan
+dengan menerapkan pendekatan User Centered Design (UCD), di mana desain
+antarmuka dikembangkan dengan mempertimbangkan kebutuhan pengguna dan
+kemudahan penggunaan berdasarkan konteks sistem berdasarkan SRS.
+       Pada tahap ini dilakukan evaluasi, perbaikan, dan validasi desain agar
+antarmuka yang dihasilkan tidak hanya memenuhi kebutuhan fungsional yang telah
+didefinisikan dalam SRS, tetapi juga memiliki kualitas visual yang lebih baik dan
+mudah digunakan.
+        3.3.2.1 Evaluasi Mockup Existing
+           Mockup awal yang terdapat pada dokumen SRS menjadi dasar utama
+        dalam proses perancangan. Secara fungsional, mockup tersebut sudah
+        mewakili kebutuhan sistem, namun beberapa aspek visual seperti tipografi,
+        pemilihan ikon, warna, dan pengaturan jarak antar elemen masih perlu
+        dioptimalkan. Evaluasi dilakukan dengan meninjau elemen-elemen visual
+        berdasarkan prinsip desain antarmuka, lalu hasilnya didokumentasikan
+        sebagai daftar temuan dan rekomendasi perbaikan.
+                                                                                  25
+      3.3.2.2 Redesign dengan Menggunakan Figma
+         Berdasarkan hasil evaluasi, dilakukan proses redesign menggunakan
+      Figma untuk menghasilkan prototype dengan kualitas visual yang lebih baik.
+      Redesign berfokus pada penyempurnaan tipografi, konsistensi warna,
+      pemilihan ikon yang lebih sesuai, pengelolaan layout, serta penyesuaian
+      elemen tampilan untuk kebutuhan visualisasi data peta. Struktur informasi
+      dan kebutuhan fungsional dari SRS tetap dipertahankan sehingga redesign
+      tidak mengubah alur utama sistem.
+      3.3.2.3 Validasi Kebutuhan dengan Requirements Traceability Matrix
+         Setelah desain disetujui, dilakukan proses validasi kebutuhan
+      menggunakan Requirements Traceability Matrix (RTM). RTM berfungsi
+      untuk memastikan bahwa seluruh kebutuhan fungsional yang tercantum
+      dalam dokumen SRS telah direpresentasikan secara utuh dalam desain
+      antarmuka yang baru. Proses ini juga membantu mengidentifikasi apabila
+      terdapat fitur yang belum terakomodasi dalam hasil redesign. Contoh hasil
+      validasi tersebut ditunjukkan pada Tabel 3.1, yang menggambarkan
+      keterlacakan antara kebutuhan sistem dan elemen-elemen dalam desain
+      sebagai dasar bahwa desain telah siap untuk dilanjutkan ke tahap
+      implementasi.
+           Tabel 3.1 Contoh RTM untuk Validasi Desain Antarmuka
+  ID                                          Kode        Halaman/Komponen
+            Deskripsi Kebutuhan    Terpenuhi
+Skenario                                     Halaman            Desain
+          Menampilkan daftar
+ UC-01    spesies lengkap dengan      Ya       D-01      Halaman Daftar Spesies
+          informasi ringkas
+          Visualisasi peta                     D-02
+ UC-02                                Ya                Halaman Peta Persebaran
+          persebaran spesies
+          Fitur pelaporan terkait
+ UC-03                                Ya       D-03        Halaman Pelaporan
+          kondisi lingkungan
+          Tampilan detail spesies
+                                                        Pop-up & Halaman Detail
+ UC-04    dengan grafik indeks dan    Ya       D-04
+                                                                Spesies
+          lokasi
+                                                                                26
+3.3.3 Implementasi
+       Pada tahap implementasi, rancangan yang telah disusun pada fase desain
+mulai diwujudkan dalam bentuk kode program. Tahap ini berfokus pada
+pembangunan struktur template, penyusunan komponen antarmuka, serta perakitan
+halaman prototipe berdasarkan kebutuhan fungsional dan non-fungsional yang
+tercantum dalam dokumen SRS. Implementasi dilakukan dengan mengikuti alur
+tampilan dan struktur informasi yang telah ditetapkan pada desain high-fidelity.
+       Apabila pada proses implementasi ditemukan ketidaksesuaian antara hasil
+dan desain atau kebutuhan sistem, dilakukan iterasi untuk penyesuaian sebelum
+tahap pengujian dilaksanakan. Pendekatan ini selaras dengan prinsip Waterfall
+Iteratif, di mana tahapan implementasi dapat ditinjau ulang secara terbatas untuk
+menyempurnakan prototipe. Tahap ini menjadi kunci dalam menghubungkan hasil
+perancangan dengan bentuk nyata sistem yang siap diuji. Detail mengenai langkah
+dan metode implementasi prototipe dijelaskan lebih lanjut pada Subbab 3.4 Metode
+Implementasi.
+3.3.4 Testing
+       Pengujian sistem dilakukan untuk memastikan bahwa seluruh fitur telah
+berfungsi sesuai dengan kebutuhan yang telah dirumuskan dalam tahap analisis.
+Metode pengujian yang digunakan adalah User Acceptance Test (UAT), dengan
+melibatkan stakeholder utama yang sebelumnya terlibat dalam proses penyusunan
+kebutuhan sistem. Proses pengujian dipandu langsung oleh peneliti, dan dilakukan
+terhadap sistem yang telah sepenuhnya diimplementasikan.
+Tahapan pelaksanaan UAT dijabarkan sebagai berikut :
+         3.3.4.1 Persiapan Pengujian
+            Peneliti menyusun skenario uji dan tabel uji berdasarkan seluruh fitur
+         yang telah dikembangkan, sesuai dokumen SRS. Setiap fitur dijelaskan
+         dalam bentuk deskripsi pengujian yang dapat dilakukan langsung oleh
+         pengguna.
+                                                                                 27
+         3.3.4.2 Pelaksanaan Uji oleh Stakeholder
+            Stakeholder mencoba setiap fitur sesuai skenario yang disediakan.
+         Peneliti memberikan pendampingan dan dokumentasi selama proses uji
+         berlangsung. Uji dilakukan secara langsung menggunakan perangkat dan
+         prototipe yang telah disiapkan.
+         3.3.4.3 Evaluasi dan Pencatatan Hasil
+            Untuk setiap fitur, stakeholder memberikan penilaian terhadap
+         fungsionalitas dan tampilan antarmuka. Penilaian mencakup apakah fitur
+         berjalan sesuai harapan (status uji: Lulus/Tidak Lulus) dan jika ada
+         ketidaksesuaian, akan dicatat dalam kolom catatan. Selain itu, status
+         implementasi (sudah/belum) juga diisi untuk memverifikasi kesiapan
+         sistem.
+       Prototipe dinyatakan lulus UAT apabila seluruh fitur memperoleh status lulus.
+Jika terdapat fitur yang belum memenuhi ekspektasi pengguna, dilakukan
+perbaikan sesuai tingkat perubahan sebelum pengujian diulang. Perubahan minor
+dapat dilakukan langsung pada tahap implementasi, sedangkan perubahan yang
+lebih besar dapat memerlukan penyesuaian desain atau kebutuhan sistem. Hasil
+pengujian dicatat dalam tabel UAT yang memuat skenario uji, status implementasi,
+hasil pengujian, serta catatan pengguna. Contoh hasil pengujian UAT ditampilkan
+pada Tabel 3.2.
+           Tabel 3.2 Contoh Hasil Pengujian User Acceptance Test (UAT)
+   ID         Fitur yang                                     Status
+                            Deskripsi Pengujian Implementasi            Catatan
+ Skenario        Diuji                                        Uji
+                            Menampilkan daftar
+  UC-01      Daftar Spesies                        Sudah     Lulus         -
+                            keseluruhan spesies
+              Visualisasi   Menampilkan peta                        Perlu perbaikan
+  UC-02                                            Sudah     Lulus
+              Persebaran    dan marker spesies                      warna legenda
+                 Form        Mengirim laporan                Tidak   Validasi form
+  UC-03                                            Sudah
+              Pelaporan     kondisi lingkungan               Lulus    belum aktif
+                                                                                  28
+3.4   Metode Implementasi
+      Tahap implementasi merupakan proses pembangunan prototipe berdasarkan
+rancangan antarmuka high-fidelity dan kebutuhan sistem yang telah didefinisikan
+pada dokumen Software Requirements Specification (SRS). Pada tahap ini, struktur
+halaman dan komponen antarmuka yang telah dirancang mulai diwujudkan ke
+dalam bentuk tampilan yang dapat diakses melalui web browser. Seluruh halaman
+dikembangkan menggunakan framework Django dengan Jinja sebagai templating
+engine, sehingga proses perenderan antarmuka dilakukan dari sisi server sesuai alur
+yang telah ditentukan pada tahap perancangan.
+      Proses render pada Django mengikuti arsitektur Model–View–Template
+(MVT). Setiap permintaan dari web browser diterima oleh URL Dispatcher untuk
+menentukan View yang sesuai. Selanjutnya, View berperan sebagai pengendali
+utama yang mengelola alur aplikasi dengan mengambil dan memproses data
+melalui Model yang terhubung ke basis data. Data hasil pemrosesan kemudian
+dikirimkan ke Template untuk dirender menjadi tampilan antarmuka yang dapat
+diakses oleh pengguna melalui browser. Pemisahan peran antara Model, View, dan
+Template memungkinkan pengembangan aplikasi web yang lebih terstruktur serta
+memudahkan pengelolaan logika aplikasi dan tampilan secara terpisah. Alur
+implementasi berbasis MVT tersebut ditunjukkan pada Gambar 3.5.
+      Gambar 3.5 Arsitektur Implementasi Django dengan Jinja Templating
+                                                                                29
+      Implementasi dilakukan secara bertahap, dimulai dari penyusunan struktur
+template dan komponen antarmuka, hingga pengembangan halaman utama seperti
+beranda, daftar spesies, detail spesies, peta persebaran, forum, dan repositori. Fitur
+yang    memerlukan        interaksi   lebih  lanjut,   khususnya    visualisasi  peta,
+diimplementasikan menggunakan Leaflet.js dengan menambahkan marker dan
+pop-up di atas basemap OpenStreetMap sesuai kebutuhan prototipe. Data spasial,
+seperti titik sebaran spesies dan area kondisi hutan, diambil melalui fungsi View
+pada Django, kemudian dikonversi ke dalam format GeoJSON dan disisipkan ke
+dalam template melalui mekanisme context rendering pada Jinja. Data tersebut
+selanjutnya digunakan oleh Leaflet untuk membentuk layer interaktif yang
+dilengkapi fitur filter, label saat diarahkan kursor, serta pop-up informasi.
+      Selama proses implementasi, pengujian sederhana dilakukan secara berkala
+untuk memastikan tampilan dan fungsi setiap halaman sesuai dengan rancangan.
+Jika ditemukan ketidaksesuaian dengan desain atau kebutuhan di dalam SRS,
+dilakukan penyesuaian sebelum melanjutkan ke tahap berikutnya. Pendekatan ini
+mengikuti karakteristik Waterfall Iteratif, di mana tahapan pengembangan tetap
+berurutan     namun      memungkinkan       adanya    pengulangan     terbatas  untuk
+menyempurnakan hasil implementasi.
+                                                                                   30
+3.5   Jadwal Penelitian
+      Rencana jadwal penelitian disusun untuk mengatur alokasi waktu pada setiap
+tahapan sehingga proses penyusunan prototipe dapat berjalan secara terarah dan
+selesai tepat waktu. Penelitian ini direncanakan berlangsung selama 20 minggu,
+dimulai dari bulan Desember hingga April. Seluruh tahapan yang telah dijelaskan
+dalam prosedur penelitian akan dijadwalkan secara sistematis agar alur kerja efektif
+dan efisien. Rincian jadwal pelaksanaan untuk setiap aktivitas dalam
+pengembangan sistem pada penelitian ini disajikan pada Tabel 3.3.
+                           Tabel 3.3 Jadwal Penelitian
+                    Desember       Januari      Februari       Maret           April
+     Kegiatan
+                   1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4
+        Studi
+      Literatur
+    Identifikasi
+      Masalah
+      Analisis
+     Kebutuhan
+    Perancangan
+       Desain
+     Antarmuka
+   Implementasi
+      Testing
+   Analisis Hasil
+    dan Diskusi
+    Kesimpulan
+     dan Saran
+                                                                                 31
+                        DAFTAR PUSTAKA
+Butler, H., Daly, M., Doyle, A., Gillies, S., Hagen, S., & Schaub, T. (2016).
+     The GeoJSON Format. https://doi.org/https://doi.org/10.17487/RFC7946
+Chandra, V. (2015). Comparison between Various Software Development
+     Methodologies. In International Journal of Computer Applications (Vol.
+     131, Issue 9).
+Chen, S., Ahmmed, S., Lal, K., & Deming, C. (2020). Django Web
+     Development Framework: Powering the Modern Web. American Journal
+     of Trade and Policy, 7(3).
+Cuddeback, D., Dekhtyar, A., & Hayes, J. (2010). Automated Requirements
+     Traceability: The Study of Human Analysts. 2010 18th IEEE
+     International    Requirements      Engineering    Conference,      231–240.
+     https://doi.org/10.1109/RE.2010.35
+de Bruyn, M., Stelbrink, B., Morley, R. J., Hall, R., Carvalho, G. R., Cannon,
+     C. H., van den Bergh, G., Meijaard, E., Metcalfe, I., Boitani, L., Maiorano,
+     L., Shoup, R., & von Rintelen, T. (2014). Borneo and Indochina are
+     Major Evolutionary Hotspots for Southeast Asian Biodiversity.
+     Systematic               Biology,             63(6),               879–901.
+     https://doi.org/10.1093/sysbio/syu047
+Díaz, L. V. M. (2022, November 16). What is a User Interface, again? A
+     Survey of Definitions of User Interface Our shared and implicit
+     understanding of the concept of User Interface. ACM International
+     Conference                         Proceeding                        Series.
+     https://doi.org/10.1145/3565494.3565504
+Díaz, S., Settele, J., Brondízio, E. S., Ngo, H. T., Agard, J., Arneth, A.,
+     Balvanera, P., Brauman, K. A., Butchart, S. H. M., Chan, K. M. A.,
+     Garibaldi, L. A., Ichii, K., Liu, J., Subramanian, S. M., Midgley, G. F.,
+     Miloslavich, P., Molnár, Z., Obura, D., Pfaff, A., … Zayas, C. N. (2019).
+     Pervasive human-driven decline of life on Earth points to the need for
+     transformative      change.       Science,     366(6471),         eaax3100.
+     https://doi.org/10.1126/science.aaw3100
+                                                                              32
+Django Software Foundation. (2024, April 2). Django documentation (Version
+     6.0).              Django               Software                 Foundation.
+     https://docs.djangoproject.com/en/6.0/
+Edler, D., & Vetter, M. (2019). The Simplicity of Modern Audiovisual Web
+     Cartography: An Example with the Open-Source JavaScript Library
+     leaflet.js. KN - Journal of Cartography and Geographic Information,
+     69(1), 51–62. https://doi.org/10.1007/s42489-019-00006-2
+Fitzpatrick, M., & Hedley, N. (2023). Review of the state of practice in
+     geovisualization in the geosciences. In Frontiers in Earth Science (Vol.
+     11). Frontiers Media SA. https://doi.org/10.3389/feart.2023.1230973
+Gadelha, L. M. R., de Siracusa, P. C., Dalcin, E. C., da Silva, L. A. E., Augusto,
+     D. A., Krempser, E., Affe, H. M., Costa, R. L., Mondelli, M. L., Meirelles,
+     P. M., Thompson, F., Chame, M., Ziviani, A., & de Siqueira, M. F. (2021).
+     A survey of biodiversity informatics: Concepts, practices, and challenges.
+     In Wiley Interdisciplinary Reviews: Data Mining and Knowledge
+     Discovery        (Vol.      11,      Issue       1).      Wiley-Blackwell.
+     https://doi.org/10.1002/widm.1394
+Gaston, K. J., & Spicer, J. I. (2004). Biodiversity: An Introduction, Second
+     Edition (2nd Edition). Blackwell Publishing.
+Gaveau, D. L. A., Sloan, S., Molidena, E., Yaen, H., Sheil, D., Abram, N. K.,
+     Ancrenaz, M., Nasi, R., Quinones, M., Wielaard, N., & Meijaard, E.
+     (2014). Four decades of forest persistence, clearance and logging on
+     Borneo. PLoS ONE, 9(7). https://doi.org/10.1371/journal.pone.0101654
+GeeksForGeeks. (2025, September 29). Iterative Waterfall Model - Software
+     Engineering. GeeksforGeeks. https://www.geeksforgeeks.org/software-
+     engineering/software-engineering-iterative-waterfall-model/
+George, N. (2017). Mastering Django: Core The Complete Guide to Django
+     1.8 LTS. Lean Publishing.
+Gharajeh, M. S. (2019). Waterative Model: an Integration of the Waterfall and
+     Iterative Software Development Paradigms. In Database Systems Journal:
+     Vol. X.
+                                                                               33
+Gulliksen, J., Göransson, B., Boivie, I., Blomkvist, S., Persson, J., & Cajander,
+     Å. (2003). Key principles for user-centred systems design. Behaviour and
+     Information              Technology,             22(6),            397–409.
+     https://doi.org/10.1080/01449290310001624329
+ISO 9241-210. (2019). ISO 9241-210: Ergonomics of human-system
+     interaction — Human-centred design for interactive systems.
+Kurniawan, R. (2024). Rekayasa Kebutuhan untuk Portal Biodiversitas dan
+     Konservasi Hutan Kalimantan dengan Large Language Model.
+Lallemand, C., Gronier, G., & Koenig, V. (2015). User experience: A concept
+     without consensus? Exploring practitioners’ perspectives through an
+     international survey. Computers in Human Behavior, 43, 35–48.
+     https://doi.org/https://doi.org/10.1016/j.chb.2014.10.048
+Lewin, M. (2016). Leaflet.js Succinctly. www.syncfusion.com.
+Liyana, N., Zamrai, N., & Yasin, S. M. (2025). Paradian Hotel Booking
+     Mobile Application with QR Code for Check-In. Applied Information
+     Technology     and     Computer     Science    (AITCS),   6(2),    963–980.
+     https://doi.org/10.30880/aitcs.2025.06.02.052
+MacEachren, A. M., & Kraak, M.-J. (2001). Research challenges in
+     geovisualization. Cartography Geograph. Cartography and Geographic
+     Information                           Science,                        28(1).
+     https://doi.org/https://doi.org/10.1559/152304001782173970
+Mamaev, V. I., Cherchesova, S. K., Shapovalov, M. I., Saprykin, M. A.,
+     Tskhovrebova, A. I., & Karaeva, A. S. (2024). Digitization and
+     mobilization of regional biodiversity data on the example of the
+     information portal “Nature of the Republic of North Ossetia-Alaniaa.”
+     E3S             Web              of            Conferences,             537.
+     https://doi.org/10.1051/e3sconf/202453708016
+Novianto, A. R., & Rani, S. (2022). Pengembangan Desain UI/UX Aplikasi
+     Learning Management System dengan Pendekatan User Centered Design.
+     Jurnal Sains, Nalar, Dan Aplikasi Teknologi Informasi, 2(1).
+     https://doi.org/10.20885/snati.v2i1.16
+                                                                               34
+Otaduy, I., & Diaz, O. (2017). User acceptance testing for Agile-developed
+     web-based applications: Empowering customers through wikis and mind
+     maps.     Journal    of    Systems    and     Software,    133,   212–229.
+     https://doi.org/https://doi.org/10.1016/j.jss.2017.01.002
+Pernando, A., Danuarta, T., Nugraha, M. A., Fikri, D., Faldan Caesar, M., &
+     Sitepu, D. (2025). Development and Usability Evaluation of a Mobile-
+     Based Educational System Prototype using Figma. In Digital Frontier:
+     Journal of Computer and Science Innovation (Vol. 1, Issue 2).
+Puspitaningrum, D. N., Perdana, I., & Utama, N. I. (2023). Redesign UI/UX
+     Website Open Library Telkom University Berdasarkan Tipe Kepribadian
+     Influence dengan Metode Design Thinking. Jurnal Indonesia :
+     Manajemen       Informatika     Dan    Komunikasi,      4(3),   1874–1886.
+     https://doi.org/10.35870/jimik.v4i3.425
+Riska, A., Saleh, M. B., & Hendrayanto. (2016). The forest resources
+     information system to support sustainable forest management: Case study
+     perum perhutani. Jurnal Manajemen Hutan Tropika, 22(3), 213–223.
+     https://doi.org/10.7226/jtfm.22.3.213
+Salsabil, H., & Kahfi, A. H. (2025). Rancang Bangun Aplikasi Point of Sales
+     pada Rumah Makan Harapan Bundo Berbasis Android. Jurnal Rekayasa
+     Informasi SWADHARMA (JRIS), 5(1).
+Stinjak, M. L., & Masya, F. (2021). Perancangan dan Implementasi Sistem
+     Informasi Inventory Berbasis Website Menggunakan Iterative Waterfall.
+     Rabit : Jurnal Teknologi Dan Sistem Informasi Univrab, 6(2), 83–91.
+     https://doi.org/10.36341/rabit.v6i2.1687
+Struebig, M. J., Wilting, A., Gaveau, D. L. A., Meijaard, E., Smith, R. J.,
+     Fischer, M., Metcalfe, K., Kramer-Schadt, S., Abdullah, T., Abram, N.,
+     Alfred, R., Ancrenaz, M., Augeri, D. M., Belant, J. L., Bernard, H.,
+     Bezuijen, M., Boonman, A., Boonratana, R., Boorsma, T., … Wong, A.
+     (2015). Targeted conservation to safeguard a biodiversity hotspot from
+     climate and land-cover change. Current Biology, 25(3), 372–378.
+     https://doi.org/10.1016/j.cub.2014.11.067
+                                                                             35
+Sunarya, P. A., Rahardja, U., Santoso, N. P. L., Mulyati, Mustofa, K. I., &
+    Bennet, D. (2025). Pengaruh Metode Waterfall dalam Penyempurnaan
+    Proses Pengembangan Sistem Informasi Akademik secara Sistematis.
+    Technomedia                 Journal,             9(3),        360–373.
+    https://doi.org/10.33050/tmj.v9i3.2421
+Venkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User
+    Acceptance of Information Technology: Toward a Unified View. MIS
+    Quarterly, 27(3), 425–478.
+Wang, B., Peng, R., Li, Y., Lai, H., & Wang, Z. (2018). Requirements
+    traceability technologies and technology transfer decision support: A
+    systematic review. Journal of Systems and Software, 146, 59–79.
+    https://doi.org/https://doi.org/10.1016/j.jss.2018.09.001
+Wang, J., Xu, Z., Wang, X., & Lu, J. (2022). A Comparative Research on
+    Usability and User Experience of User Interface Design Software.
+    IJACSA) International Journal of Advanced Computer Science and
+    Applications, 13(8), 2022. www.ijacsa.thesai.org
+Wesson, C., Glynn, C., & Naylor, P. (2013). Ordnance Survey’s cartographic
+    design principles: An approach to promoting good map design.
+                                                                         36
+Biodata Penulis
+Muhammad Fatihul Iqmal
+Tanah Grogot, 27 Maret 2004
+Jl Sultan Hasanuddin, RT. 013 RW. 002 NO. 25, Tanah Grogot
+fatihuliqmalzzz@gmail.com
+                                                           37
+                                                                                                              38
+NIM. 11221065   PENJADWALAN MATA KULIAH MENGGUNAKAN ALGORITMA GENETIKA DENGAN REPRESENTASI BILANGAN ASLI   FSTI - 2025

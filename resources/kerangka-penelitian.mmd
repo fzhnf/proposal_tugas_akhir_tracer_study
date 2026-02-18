@@ -1,0 +1,77 @@
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#e1f5fe', 'primaryTextColor': '#01579b', 'primaryBorderColor': '#0288d1', 'lineColor': '#0288d1', 'secondaryColor': '#fff3e0', 'tertiaryColor': '#e8f5e9'}}}%%
+flowchart TB
+    subgraph FASE1["<b>FASE 1: Identifikasi Masalah</b>"]
+        A1[("Permasalahan:<br/>Pelaporan Tracer Study ITK<br/>manual & tidak terstandarisasi")]
+        A2["Kebutuhan ekspor format<br/>BAN-PT & Kementerian"]
+        A3["Kebutuhan monitoring<br/>multi-level:<br/>Kampus, Fakultas, Prodi"]
+        A1 --> A2
+        A1 --> A3
+    end
+
+    subgraph FASE2["<b>FASE 2: Studi Literatur & Analisis</b>"]
+        B1["Studi Literatur:<br/>• Format BAN-PT LKPS<br/>• Format Kemendikti<br/>• Dashboard Analytics"]
+        B2["Analisis Kebutuhan:<br/>• Wawancara Stakeholder<br/>• User Story Mapping<br/>• Analisis Format Pelaporan"]
+        B1 --> B2
+    end
+
+    subgraph FASE3["<b>FASE 3: Perancangan Sistem</b>"]
+        C1["Desain Arsitektur<br/>Modul Ekspor & Analitik"]
+        C2["Desain Skema<br/>Data Agregasi"]
+        C3["Desain Antarmuka<br/>Dashboard"]
+        C4["Desain Mapping<br/>Format Pelaporan"]
+        C1 --> C2
+        C2 --> C3
+        C3 --> C4
+    end
+
+    subgraph FASE4["<b>FASE 4: Implementasi Prototipe</b>"]
+        direction TB
+        D0["Laravel Livewire<br/>+ PhpSpreadsheet + Chart.js"]
+        
+        subgraph MODUL["Modul Ekspor & Analitik (FOKUS)"]
+            D1["📊 Dashboard Monitoring<br/>Progres Pengisian"]
+            D2["🔍 Filter & Visualisasi<br/>Data Responden"]
+            D3["📤 Ekspor Excel<br/>(dengan template)"]
+            D4["📋 Ekspor Format<br/>BAN-PT LKPS"]
+            D5["📄 Ekspor Format<br/>Kementerian"]
+            D6["🔄 Mapping Representasi<br/>Pertanyaan/Jawaban"]
+        end
+        
+        D0 --> MODUL
+    end
+
+    subgraph FASE5["<b>FASE 5: Pengujian & Evaluasi</b>"]
+        E1["Pengujian Fungsional<br/>(Black Box Testing)"]
+        E2["Validasi Format Ekspor<br/>(BAN-PT & Kementerian)"]
+        E3["User Acceptance<br/>Testing (UAT)"]
+        E1 --> E2
+        E2 --> E3
+    end
+
+    subgraph FASE6["<b>FASE 6: Dokumentasi & Finalisasi</b>"]
+        F1["Penyusunan<br/>Laporan TA"]
+        F2["Penyusunan<br/>Artikel Ilmiah"]
+        F3["Pendaftaran<br/>HKI"]
+        F1 --> F2
+        F2 --> F3
+    end
+
+    %% Flow connections between phases
+    FASE1 --> FASE2
+    FASE2 --> FASE3
+    FASE3 --> FASE4
+    FASE4 --> FASE5
+    FASE5 --> FASE6
+
+    %% Output
+    F3 --> OUTPUT[("📦 OUTPUT:<br/>• Modul Ekspor & Analitik<br/>• Laporan TA<br/>• Artikel Ilmiah<br/>• Sertifikat HKI")]
+
+    %% Styling
+    classDef fase fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef problem fill:#ffebee,stroke:#c62828,stroke-width:2px
+    classDef output fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px
+    classDef modul fill:#fff8e1,stroke:#f57f17,stroke-width:1px
+    
+    class A1 problem
+    class OUTPUT output
+    class D1,D2,D3,D4,D5,D6 modul

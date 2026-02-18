@@ -1,0 +1,783 @@
+                     PROPOSAL
+          TUGAS AKHIR PROTOTIPE
+RANCANG BANGUN SISTEM BACKEND PORTAL
+BIODIVERSITAS KALIMANTAN MENGGUNAKAN
+      METODE WATERFALL ITERATIVE
+             RIONANDO SOEKSIN PUTRA
+                         11221063
+            PROGRAM STUDI INFORMATIKA
+      Jurusan Teknik Elektro, Informatika, dan Bisnis
+          Fakultas Sains dan Teknologi Informasi
+              Institut Teknologi Kalimantan
+                   Balikpapan, 2025
+                                                      i
+                     PROPOSAL
+        TUGAS AKHIR PROTOTIPE
+RANCANG BANGUN SISTEM BACKEND PORTAL
+BIODIVERSITAS KALIMANTAN MENGGUNAKAN
+       METODE WATERFALL ITERATIVE
+     Disusun untuk memenuhi salah satu syarat kelulusan
+              memperoleh Gelar Sarjana S.Kom
+               RIONANDO SOEKSIN PUTRA
+                           11221063
+            Gusti Ahmad Fanshuri Alfarisy, PhD.
+         Riska Kurniyanto Abdullah, S. T., M. Kom.
+              PROGRAM STUDI INFORMATIKA
+        Jurusan Teknik Elektro, Informatika, dan Bisnis
+            Fakultas Sains dan Teknologi Informasi
+                Institut Teknologi Kalimantan
+                       Balikpapan, 2025
+                                                        ii
+         PERNYATAAN ORISINALITAS TUGAS AKHIR
+Dengan ini saya menyatakan bahwa isi sebagian maupun keseluruhan Tugas Akhir
+saya dengan judul Rancang Bangun Sistem Backend Portal Biodiversitas
+Kalimantan Menggunakan Metode Waterfall Iterative adalah benar-benar hasil
+karya intelektual mandiri, diselesaikan tanpa menggunakan bahan-bahan yang tidak
+diizinkan dan bukan merupakan karya pihak lain yang saya akui sebagai karya
+                                         JUDUL TUGAS AKHIR-SKRIPSI/PROYEK/PROTOTIPE
+sendiri. Semua referensi yang dikutip maupun dirujuk telah ditulis secara lengkap
+pada daftar pustaka. Apabila ternyata pernyataan ini tidak benar, saya bersedia
+menerima sanksi sesuai peraturan yang berlaku.
+                                                                      Balikpapan, 27 November 2028
+                                                                                         Materai
+                                                                                        Rp. 10,000
+                                                                                      Rionando Soeksin Putra
+                                                                                      NIM. 11221063
+                                        FSTI/FPB/FRTI - TAHUN                                                  i
+ PERNYATAAN PERSETUJUAN PUBLIKASI TUGAS AKHIR
+                 UNTUK KEPENTINGAN AKADEMIS
+Sebagai sivitas akademik Institut Teknologi Kalimantan, saya yang bertanda tangan
+di bawah ini :
+Nama                   : Rionando Soeksin Putra
+NIM                    : 11221063
+Program Studi          : Informatika
+Jurusan                : Teknik Elektro, Informatika, dan Bisnis
+Fakultas               : Fakultas Sains dan Teknologi Informasi
+demi pengembangan ilmu pengetahuan, menyetujui untuk memberikan kepada
+Institut Teknologi Kalimantan Hak Bebas Royalti Non-eksklusif (Non-exclusive
+Royalty Free Right) atas karya ilmiah saya yang berjudul:
+RANCANG BANGUN SISTEM BACKEND PORTAL BIODIVERSITAS
+KALIMANTAN MENGGUNAKAN METODE WATERFALL ITERATIVE
+beserta perangkat yang ada (jika diperlukan). Dengan Hak Bebas Royalti Non-
+eksklusi    ini,   Instutut    Teknologi     Kalimantan     berhak   menyimpan,
+mengalihmediakan, mengelola dalam bentuk pangkalan data (database), merawat,
+dan memublikasikan tugas akhir saya selama tetap mencantumkan nama saya
+sebagai penulis/pencipta dan sebagai pemilik Hak Cipta.
+Demikian pernyataan ini saya buat dengan sebenarnya.
+                                              Balikpapan, 27 November 2025
+                                             Rionando Soeksin Putra
+                                             NIM. 11221063
+                                                                                ii
+                        LEMBAR PERSETUJUAN
+Proposal Tugas Akhir dengan judul :
+ “RANCANG BANGUN SISTEM BACKEND PORTAL BIODIVERSITAS
+KALIMANTAN MENGGUNAKAN METODE WATERFALL ITERATIVE”
+Yang disusun oleh :
+                             Rionando Soeksin Putra
+                                  NIM. 11221063
+Telah diperiksa dan disetujui oleh dosen pembimbing:
+Dosen Pembimbing Utama                        Dosen Pembimbing Pendamping
+Gusti Ahmad Fanshuri Alfarisy, PhD.           Riska Kurniyanto Abdullah, S.T.,
+                                              M.Kom.
+NIP./NIPH 199307152019031008                  NIP./NIPH 198803082020121011
+                                                                              iii
+                      LEMBAR PENGESAHAN
+                               TUGAS AKHIR
+             Disusun untuk memenuhi syarat memperoleh gelar
+                                 Sarjana S.Kom
+                                      pada
+Program Studi S-1 Informatika Jurusan Teknik Elektro, Informatika, dan Bisnis
+                   Fakultas Sains dan Teknologi Informasi
+                        Institut Teknologi Kalimantan
+                              Judul Tugas Akhir :
+   Rancang Bangung Sistem Backend Portal Biodiversitas Kalimantan
+                 Menggunakan Metode Waterfall Iterative
+                                     Oleh :
+                Rionando Soeksin Putra NIM. 11221063
+                  Disetujui oleh Tim Penguji Tugas Akhir :
+ BALIKPAPAN            1. Gusti Ahmad Fanshuri Alfarisy, PhD.        Pembimbing I  …………
+ November, 2025
+                       2. Riska Kurniyanto Abdullah, S.T.,           Pembimbing II …………
+                       M.Kom.
+                       3. Bowo Nugroho, S.Kom., M.Eng.               Penguji I     …………
+                       4. Nur Fajri Azhar, S.Kom., M.Kom.            Penguji II    …………
+                                                                             iv
+                            KATA PENGANTAR
+       Puji syukur kepada Allah SWT atas berkah dan anugerah-Nya sehingga
+kami dapat menyelesaikan laporan tugas akhir dengan judul:
+       “Rancang Bangun Sistem Backend Portal Biodiversitas Kalimantan
+Menggunakan Metode Waterfall Iterative”
+       Tugas akhir ini menjadi salah satu syarat yang harus ditempuh untuk
+menyelesaikan Program Sarjana di Prodi Informatika, Jurusan Teknik Elektro,
+Informatika, dan Bisnis, Fakultas Sains dan Teknologi Informasi, Institut Teknologi
+Kalimantan (ITK). Penulis mengucapkan terima kasih yang sebesar-besarnya
+kepada:
+    1. Tuhan Yang Maha Esa atas nikmat dan rahmat yang diberikan sehingga
+       laporan tugas akhir ini dapat diselesaikan tepat waktu.
+       Banyak kekurangan pada tugas akhir ini, karena itu diharapkan segala kritik
+dan saran yang membangun. Atas perhatiannya penulis mengucapkan banyak
+terima kasih.
+                                                                                  v
+        Rancang Bangun Sistem Backend Portal Biodiversitas
+        Kalimantan Menggunakan Metode Waterfall Iterative
+Nama Mahasiswa                       : Rionando Soeksin Putra
+NIM                                  : 11221063
+Dosen Pembimbing Utama               : Gusti Ahmad Fanshuri Alfarisy, PhD.
+Dosen Pembimbing Pendamping          : Riska Kurniyanto Abdullah, S.T., M.Kom.
+                                 ABSTRAK
+      Kalimantan merupakan salah satu wilayah dengan nilai kekayaan tertinggi di
+dunia. Ada banyak dampak yang dapat dirasakan manusia jika kekayaan tersebut
+tidak dimanajemen dengan benar, seperti hilangnya sumber penghidupan
+masyarakat yang bergantung pada kekayaan alam. Sehingga, diperlukan adanya
+sebuah sistem manajemen terpusat agar lembaga lembaga terkait dapat
+memanajemen kekayaan biodiversitas kalimantan dengan lebih efektif. Penelitian
+ini bertujuan untuk merancang dan membangun sistem backend dari portal
+biodiversitas Kalimantan menggunakan metode waterfall iterative. Semua
+kebutuhan yang diperlukan sudah dibentuk dalam software requirements
+specification yang dibentuk dari studi Rendi Kurniawan. Sistem akan dibangun
+menggunakan framework django dan database berupa PostgreSQL. Melalui
+penelitian ini, diharapkan sistem nantinya dapat mendukung manajemen
+biodiversitas pulau Kalimantan.
+Kata kunci: Biodiversitas, Kalimantan, Waterfall Iterative, Backend, Django
+                                                                              vi
+        Implementation of a Backend System for the Kalimantan
+     Biodiversity Portal Using the Iterative Waterfall Methodology
+By                                     : Rionando Soeksin Putra
+Student Identity Number                : 11221063
+Supervisor                             : Gusti Ahmad Fanshuri Alfarisy, PhD.
+Co- Supervisor                         : Riska Kurniyanto Abdullah, S.T., M.Kom.
+                                   ABSTRACT
+       Kalimantan is one of the regions with the highest biodiversity level in the
+world. Improper management of these natural resources may lead to various
+negative impacts, including the loss of livelihoods for communities that depend on
+environmental sustainability. Therefore, a centralized management system is
+required to enable relevant institutions to manage Kalimantan’s biodiversity more
+effectively. This study aims to design and develop the backend system for the
+Kalimantan biodiversity portal using the Waterfall Iterative method. All required
+system specifications are based on the Software Requirements Specification (SRS)
+document prepared by Rendi Kurniawan. The system will be developed using the
+Django framework and PostgreSQL as the database. Through this research, the
+resulting system is expected to support the effective management of biodiversity on
+the island of Kalimantan.
+Keywords: Biodiversity, Kalimantan, Waterfall Iterative, Backend, Django
+                                                                                 vii
+                                           DAFTAR ISI
+PERNYATAAN ORISINALITAS TUGAS AKHIR .............................................. i
+PERNYATAAN PERSETUJUAN PUBLIKASI TUGAS AKHIR UNTUK
+KEPENTINGAN AKADEMIS .............................................................................. ii
+LEMBAR PERSETUJUAN................................................................................... iii
+LEMBAR PENGESAHAN ................................................................................... iv
+KATA PENGANTAR ............................................................................................ v
+ABSTRAK ............................................................................................................. vi
+ABSTRACT ............................................................................................................ vii
+DAFTAR ISI ........................................................................................................ viii
+DAFTAR GAMBAR .............................................................................................. x
+DAFTAR TABEL .................................................................................................. xi
+DAFTAR NOTASI ............................................................................................... xii
+BAB 1 PENDAHULUAN ..................................................................................... 1
+  1. 1. Latar Belakang ........................................................................................ 1
+  1. 2. Rumusan Masalah dan/atau Obyek yang dirancang ............................... 3
+  1. 3. Tujuan ..................................................................................................... 3
+  1. 4. Batasan Rancangan ................................................................................. 4
+  1. 5. Manfaat ................................................................................................... 4
+  1. 6. Potensi Dampak Fungsional/Komersial .................................................. 4
+  1. 7. Kerangka Tugas Akhir ............................................................................ 5
+BAB 2 TINJAUAN PUSTAKA ............................................................................. 7
+  2. 1. Biodiversitas............................................................................................ 7
+  2. 2. Django ..................................................................................................... 7
+  2. 3. Celery ...................................................................................................... 8
+  2. 4. Unified Modeling Language ................................................................... 9
+  2. 5. Use Case Diagram .................................................................................. 9
+  2. 6. Entity Relational Diagram .................................................................... 10
+                                                                                                                      viii
+ 2. 7.  Physical Data Model ............................................................................. 11
+ 2. 8.  Waterfall Iterative ................................................................................. 12
+ 2. 9.  Unit Testing ........................................................................................... 13
+ 2. 10.   Penelitian Terdahulu ......................................................................... 13
+BAB 3 DESAIN ................................................................................................... 16
+ 3. 1.  Konsep Desain ...................................................................................... 16
+ 3. 2.  Spesifikasi Teknis ................................................................................. 17
+ 3. 3.  Tahapan Pembuatan Prototipe............................................................... 17
+ 3. 4.  Metode Implementasi ............................................................................ 18
+ 3. 5.  Jadwal Pembuatan Prototipe ................................................................. 19
+                                                                                                                  ix
+                            DAFTAR GAMBAR
+Gambar 1. 1. Peta Deforestasi (Dinas Lingkungan Hidup Provinsi Kalimantan Tengah,
+            2023)                                                                 2
+Gambar 1. 2. Diagram Alir Penelitian                                              5
+Gambar 2. 1. Contoh use case diagram (Fauzan dkk., 2021)                        10
+Gambar 2. 2. Contoh ERD (Christanto dan Singgalen, 2023)                        10
+Gambar 2. 3. Contoh PDM (Ribeiro, Silva dan Da Silva, 2015)                     11
+Gambar 2. 4. Alur SDLC Waterfall (Christanto dan Singgalen, 2023)               12
+Gambar 3. 1. Desain ERD                                                         17
+                                                                                  x
+                                DAFTAR TABEL
+Tabel 2. 1. Komponen dalam arsitektur MVT     8
+Tabel 2. 2. Diagram Alir Penelitian          13
+Tabel 3. 1. Rincian role dan hak aksesnya    16
+Tabel 3. 2. Rencana Jadwal Penelitian        18
+                                              xi
+DAFTAR NOTASI
+              xii
+                                      BAB 1
+                              PENDAHULUAN
+      Pada bab ini akan menguraikan pendahuluan dari penelitian yang sedang
+dilakukan. Pembahasan pada bab ini terdiri dari latar belakang, rumusan masalah,
+tujuan penelitian, manfaat penelitian, batasan masalah, serta kerangka pemikiran.
+ 1. 1. Latar Belakang
+      Biodiversitas adalah keberagaman kehidupan, seperti mikroba yang ada di
+tanah hingga semua organisme yang hidup di muka bumi (Magurran, 2010).
+Biodiversitas juga sangat penting untuk dilestarikan karena makhluk hidup lain
+memiliki hak untuk hidup di muka bumi, pengaruh estetika yang diciptakan
+biodiversitas, dan ada banyak barang kita andalkan dari alam, seperti ikan dari laut
+dan padi (Magurran, 2010).
+      Kalimantan sendiri merupakan salah satu wilayah yang memiliki tingkat
+biodiversitas cukup tinggi di muka bumi. Berdasarkan data yang diterbitkan Dinas
+Lingkungan Hidup Kalimantan Tengah saja menunjukkan tingkat keanekaragaman
+biodiversitas yang tinggi (Dinas Lingkungan Hidup Provinsi Kalimantan Tengah,
+2023). Beberapa contoh spesies yang ada di Kalimantan Tengah adalah Orangutan
+dan Katak Nyctixalus pictus (Dinas Lingkungan Hidup Provinsi Kalimantan
+Tengah, 2023). Namun, kekayaan biodiversitas Kalimantan kini menghadapi
+ancaman akibat kegiatan eksploitasi sumber daya alam yang terjadi.
+                                                                                   1
+        Gambar 1.1 Peta Deforestasi (Dinas Lingkungan Hidup Provinsi Kalimantan
+                                   Tengah, 2023)
+      Berdasarkan gambar 1.1, untuk wilayah Kalimantan Tengah saja, ada banyak
+sekali terjadi proses deforestasi. Berdasarkan data yang dikeluarkan Dinas
+Lingkungan Hidup Kalimantan Tengah (2023), terdapat 1.907.367 hektar tanah
+yang terkena proses deforestasi.
+      Ada banyak dampak yang akan dirasakan manusia jika terjadi kesalahan
+dalam proses manajemen biodiversitas, seperti masalah tentang makanan dan
+perlindungan alami yang biasanya lebih diandalkan oleh masyarakat masyarakat
+pedalaman (Díaz dkk., 2006). Seringkali, layanan yang dinikmati oleh sektor
+masyarakat mampu justru disubsidi, sementara kelompok paling rentan dipaksa
+menanggung sebagian besar dampak dan kerugian dari hilangnya keanekaragaman
+hayati (Díaz dkk., 2006). Dampak yang dimaksud adalah kesulitan petani di
+hadapan industrial agriculture dan nelayan di hadapan commercial fishing yang
+berlebihan (Díaz dkk., 2006).
+      Sehingga, melihat ancaman ancaman dan dampak dampak tersebut, peneliti
+merasa perlunya sebuah sistem manajemen biodiversitas yang terpusat. Alasannya,
+agar data terkait biodiversitas kalimantan dapat dikelola secara lebih terstruktur
+agar data-data tersebut dapat digunakan dengan mudah oleh pihak-pihak yang
+membutuhkan, seperti pemerintah hingga peneliti. Dengan adanya sistem yang
+                                                                                 2
+terpusat, proses manajemen serta pemantauan dapat dilakukan dengan lebih efektif,
+serta pengambilan keputusan dapat didukung dengan data yang valid.
+      Berdasarkan kondisi tersebut, penelitian ini difokuskan pada pengembangan
+sistem backend website portal biodiversitas Kalimantan yang berfungsi sebagai
+pusat pengelolaan data keanekaragaman hayati. Penelitian ini akan mengkaji
+penerapan waterfall iterative sebagai metode pengembangan, yang memungkinkan
+proses pengembangan dilakukan secara bertahap namun tetap memberikan ruang
+untuk melakukan perubahan di setiap tahapannya. Pengujian sistem akan dilakukan
+dengan proses unit test yang akan memvalidasi fungsionalitas unit program secara
+teknis.
+1. 2. Rumusan Masalah dan/atau Obyek yang dirancang
+      Berdasarkan permasalahan yang telah diuraikan, rumusan masalah dalam
+penelitian ini adalah sebagai berikut:
+    1. Bagaimana merancang dan mengembangkan sistem backend portal
+        biodiversitas Kalimantan sesuai kebutuhan fungsional dalam SRS dengan
+        menerapkan tahapan SDLC Waterfall Iterative?
+    2. Bagaimana cara mengoptimalkan sistem upload dataset menggunakan
+        library celery ?
+1. 3. Tujuan
+      Berdasarkan permasalahan yang ada, maka tujuan dari penelitian ini adalah
+sebagai berikut:
+    1. Merancang sistem backend portal biodiversitas kalimantan yang mampu
+        mengelola, menyimpan, dan menyediakan data keanekaragaman hayati
+        pulau kalimantan secara terpusat dan juga mudah diakses.
+    2. Menerapkan metode waterfall iterative dalam proses pengembangan sistem
+        backend portal biodiversitas kalimantan untuk menghasilkan sistem yang
+        terencana dan terdokumentasi dengan baik.
+                                                                               3
+ 1. 4. Batasan Rancangan
+      Adapun batasan-batasan yang telah ditetapkan pada penelitian ini adalah
+sebagai berikut:
+    1. Penelitian ini hanya berfokus pada sistem portal biodiversitas kalimantan
+       yang nantinya akan digunakan oleh kontributor umum, kontributor biologi,
+       dan DLH.
+    2. Penelitian ini hanya berfokus pada bagian backend dari sistem portal
+       biodiversitas kalimantan.
+    3. Framework yang digunakan dalam mengimplementasikan sistem backend
+       adalah Django dan PostgreSQL.
+1. 5. Manfaat
+      Adapun manfaat penelitian yang didapatkan melalui hasil penelitian ini
+adalah sebagai berikut:
+    1. Membantu peneliti dan lembaga konservasi untuk memanajemen data
+       biodiversitas di pulau Kalimantan
+    2. Sebagai referensi untuk penelitian selanjutnya pada bidang yang serupa
+       dengan penelitian yang telah dilakukan
+1. 6. Potensi Dampak Fungsional/Komersial
+      Adapun potensi dampak yang dapat diperoleh melalui hasil penelitian ini
+adalah sebagai berikut:
+    1. Memberikan sistem backend terpusat untuk mengelola data biodiversitas
+       kalimantan secara lebih terstruktur dan efisien.
+    2. Memperkuat proses pemantauan biodiversitas melalui manajemen data
+       seperti laporan dan taksonomi.
+    3. Berpotensi untuk dikembangkan lebih lanjut menjadi platform manajemen
+       biodiversitas yang siap diadopsi oleh lembaga pemerintah, lembaga riset,
+       dan institusi pendidikan.
+                                                                               4
+1. 7. Kerangka Tugas Akhir
+                            Gambar 1.2 Diagram Alir Penelitian
+       Gambar 1.2 merupakan alur penelitian yang akan digunakan untuk
+menggambarkan langkah-langkah penelitian. Proses penelitian dimulai dari studi
+literatur, lalu dilanjutkan oleh identifikasi masalah, dan akan diakhiri dengan
+pembuatan laporan akhir.
+                                                                              5
+      Penelitian terkait pengembangan sistem backend portal biodiversitas
+Kalimantan mencakup 9 tahapan penting. Tahap pertama adalah studi literatur,
+yaitu proses pengumpulan dan analisis penelitian penelitian terdahulu yang
+berhubungan dengan topik penelitian yang sedang diangkat. Tahap kedua adalah
+melakukan proses identifikasi terhadap masalah-masalah yang ingin diselesaikan.
+Masalah yang dimaksud adalah terkait tidak adanya sistem portal biodiversitas di
+pulau kalimantan. Selanjutnya adalah tahap desain, yaitu peneliti melakukan desain
+sistem yang akan diimplementasikan. Lalu, tahap berikutnya adalah implementasi,
+yaitu tahapan dimana peneliti akan menulis source code sesuai dengan kebutuhan
+yang sudah dikumpulkan dan sistem yang sudah didesain. Tahap kelima adalah
+testing, yaitu tahapan untuk menguji kode yang sudah ditulis untuk melakukan
+pengecekan apakah sudah sesuai dengan kebutuhan atau belum. Tahap keenam
+adalah proses deployment, yaitu proses untuk memastikan aplikasi yang sudah
+dikembangkan bisa digunakan oleh pengguna-pengguna lain. Tahap ketujuh adalah
+pemeliharaan, yaitu proses untuk memperbaiki masalah yang terjadi pada sisi
+pengguna saat aplikasi yang telah dikembangkan berhasil di-deploy. Lalu, ada
+tahapan untuk diskusi hasil dan yang terakhir adalah pembuatan saran dan
+kesimpulan dari penelitian yang telah dilakukan.
+                                                                                 6
+                                       BAB 2
+                            TINJAUAN PUSTAKA
+      Pada bab ini berisi tinjauan pustaka yang digunakan sebagai dasar teori untuk
+penelitian. Referensi yang relevan dengan topik penelitian, seperti jurnal, artikel,
+buku, peraturan perundang-undangan, dan informasi resmi dari instansi terkait.
+Sumber-sumber ini memberikan landasan teoritis dan mendukung pemahaman
+yang lebih mendalam pada penelitian. Pada bagian ini juga mencakup penelitian-
+penelitian sebelumnya yang memiliki kesamaan dengan penelitian ini sebagai
+pendukung tambahan.
+ 2. 1. Biodiversitas
+      Biodiversitas adalah keanekaragaman kehidupan di bumi yang mencakup
+semua spesies serta keragaman ekosistem seperti hutan, danau, dan sungai.
+Biodiversitas menjadi salah satu dasar kehidupan, di mana flora, fauna, manusia,
+serta organisme-organisme lainnya saling berinteraksi satu sama lain (Biosafety
+Unit, 2023).
+      Ada beberapa alasan mengapa kita perlu melestarikan biodiversitas di muka
+bumi. Alasan pertama adalah karena spesies lain memiliki hak untuk hidup di bumi,
+sehingga akan menjadi tidak etis jika aksi kita membuat sebuah spesies merasakan
+kepunahan. Alasan kedua adalah karena alasan estetika. Manusia bisa menemukan
+rasa senang dari alam. Lalu, alasan terakhir adalah karena kita ketergantungan kita
+kepada alam, seperti makanan dari laut dan udara segar dari pohon (Magurran,
+2010).
+ 2. 2. Django
+      Django adalah sebuah python-based web framework yang mendorong
+pengembangan aplikasi yang clean dan juga cepat (Django Software Foundation,
+2025). Beberapa keuntungan menggunakan framework Django adalah,
+    -   Waktu pengembangan aplikasi yang cukup cepat
+    -   Built-in security
+    -   Sangat scalable
+                                                                                  7
+      Django framework sendiri dikembangkan dengan mengadopsi framework
+Model View Template. Struktur MVT terdiri dari komponen komponen yang saling
+terhubung sebagai berikut (Atma, Insan dan Idris, 2024),
+    Tabel 2.1 Komponen dalam arsitektur MVT (Atma, Insan dan Idris, 2024)
+              Komponen                                    Tugas
+                                         Model berfungsi untuk mengelola data
+                                         aplikasi dan menyediakan interaksi
+                                         dengan      database.     Model      ini
+                 Model
+                                         menyimpan informasi mengenai objek,
+                                         hubungan antara objek, dan aturan
+                                         validasi data.
+                                         View     bertanggung    jawab     untuk
+                                         mengatur logika bisnis dan menangani
+                                         permintaan dari pengguna. View ini
+                 View                    mengambil data dari model dan
+                                         memformatnya ke dalam bentuk yang
+                                         sesuai    untuk   ditampilkan    kepada
+                                         pengguna.
+                                         Template bertugas untuk menghasilkan
+                                         tampilan     yang   diberikan    kepada
+                                         pengguna.     Template    menggunakan
+               Template                  bahasa template yang        terintegrasi
+                                         dengan django untuk menggabungkan
+                                         data dari model dengan markup
+                                         HTML.
+ 2. 3. Celery
+      Celery adalah sebuah library yang mendukung asynchronous background
+tasks (Neves dkk., 2025). Celery bekerja sebagai distributed task queue yang
+memungkinkan eksekusi task secara paralel melalui worker–worker yang berjalan
+                                                                                 8
+terpisah. Sehingga, celery sangat cocok digunakan untuk task yang cukup berat atau
+memakan waktu, seperti pemrosesan data dan mengirim email yang cukup banyak.
+       Dokumentasi resmi celery menjelaskan bahwa celery menggunakan task
+queue sebagai mekanisme untuk mendistribusikan task, di mana klien
+menambahkan pesan tugas ke queue dan message broker meneruskannya kepada
+worker untuk diproses. Sistem Celery dapat terdiri dari banyak worker dan broker
+sehingga mendukung high availability dan horizontal scaling.
+ 2. 4. Unified Modeling Language
+       Unified Modeling Language (UML) adalah sebuah bahasa pemodelan
+universal, dirancang untuk mencakup berbagai aspek dari perangkat lunak
+(AlRababah, 2024). Diagram UML sendiri biasanya dibuat pada saat tahapan
+desain sistem dan aplikasi. Beberapa jenis dari UML adalah, use case diagram &
+activity diagram.
+       UML digunakan untuk menggambarkan desain sistem dalam sebuah aplikasi
+perangkat lunak berbasiskan gambar. UML akan menggambarkan bagaimana
+interaksi pengguna dengan sistem aplikasi yang ingin dikemabangkan. Selain
+interaksi, batasan Batasan sistem juga dapat tergambarkan menggunakan diagram
+UML (Koç dkk., 2021).
+ 2. 5. Use Case Diagram
+       Use Case Diagram menunjukkan ilustrasi berupa diagram tentang bagaimana
+user akan berinteraksi dengan sistem akan dikembangkan. Analisis use case
+berfungsi untuk menentukan kebutuhan sistem pada saat tahap perancangan/desain
+aplikasi (Zhao dan Kim, 2024).
+                                                                                 9
+                  Gambar 2.1 Contoh use case diagram (Fauzan dkk., 2021)
+       Gambar 2.1 menunjukkan contoh dari use case diagram. Use case tersebut
+memiliki actor “Planner” yang bisa melakukan beberapa hal pada sistem, seperti
+“View category list” dan “Add new expenditure”.
+ 2. 6. Entity Relational Diagram
+       Entity Relational Diagram (ERD) adalah alat pemodelan konseptual yang
+digunakan untuk menggambarkan entitas, atribut, serta hubungan dalam suatu
+sistem (Amran, Mohamed dan Bahry, 2019). Dengan adanya ERD, pengembang
+dapat mengidentifikasi, menganalisis, dan Menyusun model data dengan lebih
+terstruktur.
+                 Gambar 2.2 Contoh ERD (Christanto dan Singgalen, 2023)
+                                                                           10
+      Gambar 2.2 adalah contoh dari sebuah entitas di dalam ERD. Entitas tersebut
+Bernama Agency dan memiliki beberapa atribut, seperti Agency_name dan
+Agency_Code.
+    2. 7.       Physical Data Model
+      Physical Data Model (PDM) menggambarakan secara visual struktur dari
+data data yang diimplementasikan oleh Databsae Management System (DBMS)
+(Ribeiro, Silva dan Da Silva, 2015). Setiap entitas digambarkan sebagai tabel,
+dengan atribut-atribut dari masing-masing entitas tersebut digambarkan sebagai
+kolom yang disertai tipe datanya.
+                Gambar 2.3 Contoh PDM (Ribeiro, Silva dan Da Silva, 2015)
+      Gambar 2.3 menunjukkan sebuah gambar PDM dengan beberapa tabel,
+seperti Person dan Professor. Person memiliki beberapa kolom, yaitu Name dengan
+tipe data string, PlaceOfOrigin dengan tipe data string, dan personID dengan tipe
+data integer sekaligus sebagai primary key dari tabel tersebut. Lalu, ada tabel
+Professor yang memiliki kolom seperti Degree dengan tipe data string dan
+professorID dengan tipe data integer. Selain itu, gambar 2.3 juga menunjukkan
+bahwa ada relasi antara Professor dan Person, dimana kolom professorID harus
+ada di dalam kolom personID.
+                                                                               11
+    2. 8.       Waterfall Iterative
+      Software Development Lifecycle (SDLC) digunakan untuk melakukan proses
+desain, pengembangan, dan menghasilkan aplikasi perangkat lunak yang
+berkualitas tinggi, hemat biaya, serta tepat waktu. SDLC ini sangat penting karena
+menjadi dasar dalam pengembangan perangkat lunak untuk memastikan pembuatan
+aplikasi dilakukan secara terstruktur (Pargaonkar, 2023).
+              Gambar 2.4 Alur SDLC Waterfall (Christanto dan Singgalen, 2023)
+      Gambar 2.4 menunjukkan alur pengembangan perangkat lunak menggunakan
+metode waterfall, yaitu
+    -   Analisis kebutuhan yang akan diperlukan oleh sistem
+    -   Melakukan proses desain sistem dan aplikasi
+    -   Implementasi desain yang telah dibuat
+    -   Melakukan proses testing
+    -   Melakukan proses deployment
+    -   Melakukan pengawasan dan pemeliharaan
+      Kelebihan dari metode waterfall ini adalah alur yang terstruktur dan
+kemudahan dalam memanajemen proyek. Tetapi, metode ini juga memiliki
+beberapa kekurangan, seperti kurangnya fleksibilitas dan kurangnya keterlibatan
+customer/stakeholder untuk memberikan feedback (Pargaonkar, 2023). Sedangkan,
+pada Waterfall iterative, akan dilakukan perulangan pada tahap tertentu hingga
+proses itu selesai. Perulangan dilakukan dikarenakan masih adanya kekurangan
+ataupun kesalahan yang terjadi pada tahap tertentu (Stinjak dan Masya, 2021).
+                                                                                12
+    2. 9.       Unit Testing
+       Software Testing adalah salah satu proses dari pengembangan aplikasi
+perangkat lunak. Proses ini bertujuan untuk mengetahui jika performa dari aplikasi
+yang sudah diciptakan sudah sesuai atau belum (Raksawat dan Charoenporn, 2021).
+Lalu, Unit test sendiri adalah sebuah test yang bertujuan untuk memvalidasi apakah
+unit dari sebuah program (seperti sebuah method) sudah berjalan sesuai ekspektasi
+(Yuan dkk., 2024). Unit test sendiri berperan sangat penting pada prosedur awal
+pengembangan perangkat lunak, karena dengan unit test, pengembang bisa
+menemukan bug lebih awal (Yuan dkk., 2024).
+ 2. 10. Penelitian Terdahulu
+                            Tabel 2.2 Penelitian terdahulu
+              Nama dan Tahun
+    No.                                                   Hasil
+                  Publikasi
+     1          Mamaev dkk.,       Teknologi: Digitization and mobilization of
+                    2024)          regional
+                                   biodiversity data on the example of the
+                                   information portal "Nature of the Republic of
+                                   North Ossetia-Alania
+                                   Fitur/Metode Utama: Hasil utama penelitian ini
+                                   adalah berupa sebuah portal web yang bernama
+                                   “Nature of the Republic of North Ossetia-Alania”
+                                   yang          dapat          diakses        pada
+                                   https://natureofosetia.ru/. Portal ini bertujuan
+                                   untuk mendigitalkan data spesies biologis di
+                                   Ossetia Utara, yang akan berfungsi sebagai basis
+                                   data keanekaragaman hayati.
+     2        Jackowiak dkk.,      Teknologi: Open Access to the Digital
+                    2022           Biodiversity Database: A Comprehensive
+                                   Functional Model of the Natural History
+                                   Collections
+                                                                                 13
+    Nama dan Tahun
+No.                                       Hasil
+        Publikasi
+                    Fitur/Metode Utama: Penelitian ini berhasil
+                    mengembangkan AMUNATCOLL IT System.
+                    Penulis juga berhasil membuat aplikasi portal
+                    biodiversitas berbasis mobile dan web.
+ 3  Atma, Insan dan Teknologi: Implementasi Model-View-Template
+       Idris, 2024  Pada Aplikasi Surat Keterangan Pendamping
+                    Ijazah Berbasis Web
+                    Fitur/Metode Utama: Peneliti berhasil
+                    mengembangkan aplikasi untuk keperluan SKPI
+                    pada Universitas Mulia menggunakan framework
+                    Django. Fitur fitur yang dikembangkan meliputi
+                    manajemen data prestasi, data magang, dan data
+                    organisasi.
+ 4    (Utami dkk.,  Teknologi: Web based Yogyakarta food recipe
+          2023)     application using sdlc waterfall method
+                    Fitur/Metode Utama: Peneliti berhasil
+                    membangun aplikasi resep makanan khas
+                    Yogyakarta berbasis web yang memungkinkan
+                    pengguna mencari sertia mengelola resep.
+                    Pengujian menggunakan proses black-box testing
+                    juga menunjukkan bahwa sistem sudah berhasil
+                    berjalan seperti yang diharapkan.
+ 5    (Neves dkk.,  Teknologi: RAISE: A Self-Hosted Platform for
+          2025)     Mining and Managing Data from GitHub and
+                    Jira
+                    Fitur/Metode Utama: Penulis menggunakan
+                    studi eksperimental yang user-centered untuk
+                    mengevaluasi platform. RAISE adalah platform
+                    yang modular dan self hosted dalam bentuk
+                    REST API dan UI berbasis web. RAISE sendiri
+                    berguna untuk mengintegrasikan dan mining data
+                                                                14
+                   dari Github dan Jira. Platform dikembangkan
+                   menggunakan Django, Docker, dan PostgreSQL.
+6 (Novaliendry dan Teknologi: Development of A Tracer Study
+    Hakim, 2022)   Information System in Senior High School with
+                   DevOps Method Using Python Application and
+                   Django Framework
+                   Fitur/Metode Utama: Peneliti berhasil
+                   membangun aplikasi tracer study menggunakan
+                   django. Beberapa halaman yang dibuat adalah
+                   halaman dashboard dan search siswa. Pengguna
+                   juga mengisi dan meng-export hasil kuesioner.
+7   (Stinjak dan   Teknologi:        PERANCANGAN             DAN
+    Masya, 2021)   IMPLEMENTASI         SISTEM       INFORMASI
+                   INVENTORY          BERBASIS          WEBSITE
+                   MENGGUNAKAN ITERATIVE WATERFALL
+                   Fitur/Metode Utama: Peneliti berhasil
+                   mengembangkan sistem informasi inventory
+                   berbasis website pada PT. Dolok Mitra Sinergi
+                   dengan metode SDLC berupa waterfall iterative.
+                   Fitur fitur yang dikembangkan adalah seperti
+                   mengelola user dan mengelola produk.
+                                                                15
+                                     BAB 3
+                                    DESAIN
+      Bab ini berisi konsep desain prototipe, spesifikasi teknis, dan tahapan
+pembuatan prototipe. Metode implementasi mencakup pemilihan bahan, teknik
+manufaktur/produksi, alat yang digunakan, serta rencana jadwal pembuatan
+prototipe.
+3. 1. Konsep Desain
+      Konsep desain sistem backend Portal Biodiversitas Kalimantan dirancang
+untuk menyediakan layanan manajemen data biodiversitas pulau Kalimantan secara
+terpusat menggunakan Django dan jinja sebagai template engine. Desain sistem
+dibuat berdasarkan dokumen Software Requirements Specification (SRS) yang
+telah disusun berdasarkan studi yang telah dilakukan Rendi Kurniawan (2024).
+      Sistem dirancang dengan beberapa role pengguna yang masing-masing
+memiliki hak akses berbeda sesuai fungsinya. Pembagian peran ini bertujuan untuk
+menjamin keamanan data, mengatur hak pengguna, serta memastikan pengelolaan
+data biodiversitas dapat dilakukan secara terkendali. Rincian role beserta hak
+aksesnya disajikan dalam tabel 3.1.
+                     Tabel 3.1 Rincian role dan hak aksesnya
+            Role                                 Hak Akses
+           Admin           Full access ke dashboard
+                           Upload file, Akses forum diskusi, Cek status verifikasi
+    Kontributor Umum
+                           data
+                           Akses data detail spesies dan penelitian, Akses data
+    Kontributor Biologi
+                           diskusi ilmiah
+           DLH             Akses ke pengaduan
+         Pengguna          Hak akses tambahan untuk fitur pelaporan (form
+      Terautentikasi       pelanggaran biodiversitas) setelah login
+                                                                                16
+                            Akses terbuka ke data publik, kirim pertanyaan via
+     Pengguna Umum          form kontak, Unggah gambar tanaman untuk
+                            identifikasi, dan Melihat peta dan grafik publik.
+3. 2. Spesifikasi Teknis
+      Spesifikasi teknis mencakup teknologi-teknologi yang akan digunakan untuk
+mengembangkan sistem. Sistem backend akan dikembangkan menggunakan :
+    -   Django sebagai framework untuk mengembangkan sistem backend.
+    -   PostgreSQL sebagai Relational Database Management System yang
+        digunakan untuk menyimpan data.
+    -   Celery untuk menangani asynchronous task tanpa mengganggu performa
+        HTTP server.
+    -   Penggunaan redis sebagai database queue untuk memanajemen antrian
+        tugas.
+    -   Penggunaan reCaptcha sebagai proteksi spam.
+    -   Semua fitur akan dipecah menjadi 6 modul, yaitu user, pengaduan,
+        repository, forum, kontak, dan lembaga.
+4.      Tahapan Pembuatan Prototipe
+      Tahapan pembuatan prototipe dilakukan untuk mengimplementasikan
+rancangan sistem menjadi aplikasi yang dapat diuji. Proses pengembangan dimulai
+dari persiapan environment, termasuk instalasi Django, konfigurasi virtual
+environment, Instalasi dan persiapan PostgreSQL sebagai database, serta integrasi
+library pendukung seperti Celery.
+      Setelah environment siap, tahap berikutnya adalah perancangan dan
+implementasi prototipe. Kegiatan yang dilakukan meliputi perancangan Entity
+Relational Diagram (ERD) sebagai dasar pemodelan database, karena diagram
+tersebut tidak dicantumkan dalam dokumen SRS. Fitur-fitur inti, seperti manajemen
+repository, pengelolaan dataset, dan manajemen user akan dikembangkan secara
+bertahap. Selain itu, Celery diintegrasikan untuk menangani tugas-tugas
+asynchronous, yaitu pemrosesan file dataset yang membutuhkan waktu eksekusi
+                                                                               17
+lebih lama. Setiap fitur akan diuji secara lokal menggunakan unit test untuk
+memastikan bahwa fitur telah berjalan sesuai rancangan.
+                             Gambar 3.1 Desain ERD
+      Gambar 3.1 menunjukkan desain Entity Relational Diagram (ERD)
+sementara yang telah peneliti rancang untuk bisa memenuhi kebutuhan fungsional
+yang sudah tercantum di Software Requirements Specification (SRS). ERD tersebut
+akan menjadi acuan utama pada saat tahap implementasi, karena pemetaan data
+yang baik serta relasi-relasinya akan menjamin bahwa setiap fitur sistem dapat
+dikembangkan secara optimal.
+3.      Metode Implementasi
+      Tahap implementasi merupakan proses penulisan source code yang dapat
+dijalankan dengan mengikuti rancangan sistem yang sudah dibuat dalam Software
+Requirements Specification (SRS) dan tahap desain. Pada tahap ini, setiap
+komponen yang sudah didesain, seperti struktur Entity Relational Diagram (ERD)
+serta modul-modul seperti user dan repository, akan dikembangkan menggunakan
+Django sebagai framework utama. Django template engine, jinja, digunakan untuk
+                                                                             18
+mengembangkan User Interface (UI), sehingga seluruh proses render halaman
+dilakukan backend tanpa perlu menggunakan REST API.
+      Selain itu proses implementasi juga memanfaatkan docker untuk
+menyediakan environment yang terisolasi. Melalui containerization, seluruh
+dependensi sistem, seperti python dan postgresql, dapat dijalankan dalam
+environment yang lebih seragam. Sehingga, dengan adanya docker, potensi masalah
+akibat perbedaan konfigurasi antar pengembang dapat berkurang.
+      Selama proses implementasi, proses testing akan dilakukan secara berkala
+untuk memastikan setiap modul dan fitur bekerja sesuai dengan spesifikasi yang
+sudah diatur dan didesain. Apabila ditemukan ketidaksesuaian atau kebutuhan baru
+selama proses pengembangan, proses iterasi dilakukan dengan melakukan kembali
+tahapan terkait untuk memperbaiki atau menyesuaikan komponen tersebut.
+Pendekatan ini sesuai dengan karakteristik waterfall iterative, di mana setiap
+tahapan tetap berurutan, tetapi dapat diulang secara terbatas untuk menghasilkan
+sistem yang lebih stabil dan memenuhi kebutuhan pengguna secara optimal.
+4.      Jadwal Pembuatan Prototipe
+      Rencana jadwal penelitian menguraikan alokasi waktu untuk setiap tahapan
+guna memastikan penyelesaian penelitian secara tepat waktu. Penelitian ini
+direncanakan berlangsung selama 5 bulan, dimulai dari bulan Januari sampai Mei
+2025. Seluruh tahapan diuraikan kedalam jadwal secara sistematis untuk
+memastikan alur pengerjaan yang efektif dan efisien.
+                       Tabel 3.2 Rencana Jadwal Penelitian
+     Kegiatan                                   Bulan
+                      Januari     Februari      Maret         April       Mei
+                    1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4
+ Studi Literatur
+                                                                              19
+Identifikasi
+Masalah
+Desain
+Implementasi
+Testing
+Deployment
+Pemeliharaan
+Diskusi hasil
+Pengembangan
+saran dan
+kesimpulan
+              20
+21                             DAFTAR PUSTAKA
+AlRababah, A.A. (2024) “Assessing the Effectiveness of UML Models in
+Software System Development,” International Journal of Applied Science and
+Research, 07(01), hlm. 13–24. Tersedia pada:
+https://doi.org/10.56293/IJASR.2024.5703.
+Amran, N., Mohamed, H. dan Bahry, F.D.S. (2019) “Developing Human
+Resource Training Management (HRTM) Conceptual Model Using Entity
+Relationship Diagram (ERD),” International Journal of Academic Research in
+Business and Social Sciences, 8(12), hlm. Pages 1444-1459. Tersedia pada:
+https://doi.org/10.6007/IJARBSS/v8-i12/5249.
+Atma, Y.D., Insan, P.P. dan Idris, N.B. (2024) “IMPLEMENTASI MODEL-
+VIEW-TEMPLATE PADA APLIKASI SURAT KETERANGAN
+PENDAMPING IJAZAH BERBASI WEB,” JTT (Jurnal Teknologi Terpadu),
+12(1), hlm. 20–30. Tersedia pada: https://doi.org/10.32487/jtt.v12i1.1921.
+Biosafety Unit (2023) Biodiversity. Secretariat of the Convention on Biological
+Diversity. Tersedia pada: https://www.cbd.int/youth/biodiversity (Diakses: 17
+Agustus 2025).
+Christanto, H.J. dan Singgalen, Y.A. (2023) “Analysis and Design of Student
+Guidance Information System through Software Development Life Cycle (SDLC)
+dan Waterfall Model,” Journal of Information Systems and Informatics, 5(1), hlm.
+259–270. Tersedia pada: https://doi.org/10.51519/journalisi.v5i1.443.
+Díaz, S. dkk. (2006) “Biodiversity Loss Threatens Human Well-Being,” PLoS
+Biology, 4(8), hlm. e277. Tersedia pada:
+https://doi.org/10.1371/journal.pbio.0040277.
+Dinas Lingkungan Hidup Provinsi Kalimantan Tengah (2023) “Profil
+Keanekaragaman Hayati Provinsi Kalimantan Tengah.” Dinas Lingkungan Hidup
+Provinsi Kalimantan Tengah.
+Django Software Foundation (2025) The web framework for perfectionists with
+deadlines, Django Project. Tersedia pada: https://www.djangoproject.com/
+(Diakses: 16 Agustus 2025).
+Fauzan, R. dkk. (2021) “A Different Approach on Automated Use Case Diagram
+Semantic Assessment,” International Journal of Intelligent Engineering and
+Systems, 14(1), hlm. 496–505. Tersedia pada:
+https://doi.org/10.22266/ijies2021.0228.46.
+Jackowiak, B. dkk. (2022) “Open Access to the Digital Biodiversity Database: A
+Comprehensive Functional Model of the Natural History Collections,” Diversity,
+14(8), hlm. 596. Tersedia pada: https://doi.org/10.3390/d14080596.
+                                                                                22
+Koç, H. dkk. (2021) “UML Diagrams in Software Engineering Research: A
+Systematic Literature Review,” dalam The 7th International Management
+Information Systems Conference. International Management Information Systems
+Conference, MDPI, hlm. 13. Tersedia pada:
+https://doi.org/10.3390/proceedings2021074013.
+Magurran, A.E. (2010) “Q&A: What is biodiversity?,” BMC Biology, 8(1), hlm.
+145. Tersedia pada: https://doi.org/10.1186/1741-7007-8-145.
+Mamaev, V.I. dkk. (2024) “Digitization and mobilization of regional biodiversity
+data on the example of the information portal ‘Nature of the Republic of North
+Ossetia-Alania,’” E3S Web of Conferences. Disunting oleh V. Riccardo, T. Petaja,
+dan V.S. Kukhar, 537, hlm. 08016. Tersedia pada:
+https://doi.org/10.1051/e3sconf/202453708016.
+Neves, B. dkk. (2025) “RAISE: A Self-Hosted Platform for Mining and Managing
+Data from GitHub and Jira,” dalam Anais do XIX Simpósio Brasileiro de
+Componentes, Arquiteturas e Reutilização de Software (SBCARS 2025). Simpósio
+Brasileiro de Componentes, Arquiteturas e Reutilização de Software, Brasil:
+Sociedade Brasileira de Computação, hlm. 112–122. Tersedia pada:
+https://doi.org/10.5753/sbcars.2025.14603.
+Novaliendry, D. dan Hakim, N.U. (2022) “Development of A Tracer Study
+Information System In Senior High School with Devops Method Using Python
+Application and Django Framework,” Jurnal Teknologi Informasi dan
+Pendidikan, 15(1), hlm. 96–104. Tersedia pada:
+https://doi.org/10.24036/jtip.v15i1.586.
+Pargaonkar, S. (2023) “A Comprehensive Research Analysis of Software
+Development Life Cycle (SDLC) Agile & Waterfall Model Advantages,
+Disadvantages, and Application Suitability in Software Quality Engineering,”
+International Journal of Scientific and Research Publications, 13(8), hlm. 120–
+124. Tersedia pada: https://doi.org/10.29322/IJSRP.13.08.2023.p14015.
+Raksawat, C. dan Charoenporn, P. (2021) “Software Testing System
+Development Based on ISO 29119,” Journal of Advances in Information
+Technology, 12(2), hlm. 128–134. Tersedia pada:
+https://doi.org/10.12720/jait.12.2.128-134.
+Rendi Kurniawan (2024) REKAYASA KEBUTUHAN UNTUK PORTAL
+BIODIVERSITAS DAN KONSERVASI HUTAN KALIMANTAN DENGAN LARGE
+LANGUAGE MODEL.
+Ribeiro, A., Silva, A. dan Da Silva, A.R. (2015) “Data Modeling and Data
+Analytics: A Survey from a Big Data Perspective,” Journal of Software
+Engineering and Applications, 08(12), hlm. 617–634. Tersedia pada:
+https://doi.org/10.4236/jsea.2015.812058.
+                                                                                23
+Stinjak, M.L. dan Masya, F. (2021) “PERANCANGAN DAN IMPLEMENTASI
+SISTEM INFORMASI INVENTORY BERBASIS WEBSITE
+MENGGUNAKAN ITERATIVE WATERFALL,” Rabit : Jurnal Teknologi dan
+Sistem Informasi Univrab, 6(2), hlm. 83–91. Tersedia pada:
+https://doi.org/10.36341/rabit.v6i2.1687.
+Utami, A. dkk. (2023) “Web based yogyakarta food recipe application using sdlc
+waterfall method,” Jurnal Mantik, 7(1), hlm. 1–9. Tersedia pada:
+https://doi.org/10.35335/mantik.v6i4.3621.
+Yuan, Z. dkk. (2024) “Evaluating and Improving ChatGPT for Unit Test
+Generation,” Proceedings of the ACM on Software Engineering, 1(FSE), hlm.
+1703–1726. Tersedia pada: https://doi.org/10.1145/3660783.
+Zhao, Y. dan Kim, S.-K. (2024) “Versatile Machine Learning-Based
+Authentications by Using Enhanced Time-Sliced Electrocardiograms,”
+Information, 15(4), hlm. 187. Tersedia pada:
+https://doi.org/10.3390/info15040187.
+                                                                             24
