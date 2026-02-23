@@ -1,0 +1,380 @@
+IOP Conference Series:
+Materials Science and
+Engineering
+
+PAPER • OPEN ACCESS
+
+Tracer study information system for higher
+education
+To cite this article: P W Yunanto et al 2021 IOP Conf. Ser.: Mater. Sci. Eng. 1098 052107
+
+View the article online for updates and enhancements.
+
+You may also like
+- Development of a tracer study system for
+graduates of the Integrated Science
+Department, Universitas Negeri Semarang
+N R Dewi, P Listiaji, M Taufiq et al.
+- DEVELOPMENT OF TARUMANAGARA
+UNIVERSITY TRACER STUDY
+INFORMATION SYSTEM
+Muhamad Hafiz, Ery Dewayani and
+Wasino
+- Design of geographic information system
+for tracer study
+L Fitriani, D Tresnawati and S Rahayu
+
+This content was downloaded from IP address 140.213.204.122 on 20/02/2026 at 03:44
+
+The 5th Annual Applied Science and Engineering Conference (AASEC 2020)
+IOP Conf. Series: Materials Science and Engineering
+
+1098 (2021) 052107
+
+IOP Publishing
+doi:10.1088/1757-899X/1098/5/052107
+
+Tracer study information system for higher education
+P W Yunanto1,*, A Idrus1, V M Santi2 and A S Hanif3
+1
+
+Information System and Technology, Faculty of Engineering, Universitas Negeri
+Jakarta, Indonesia
+2
+Statistics, Faculty of Science, Universitas Negeri Jakarta, Indonesia
+3
+Sports Education, Faculty of Physics, Universitas Negeri Jakarta, Indonesia
+
+*prasetyo.wy@unj.ac.id
+Abstract. A good education system has a looping system in which the responsibility of higher
+education for students does not end at graduation but also related to the sustainability of
+graduates careers so that they are better prepared to work in the community. The purpose of this
+study is to develop a one-door Tracer Study Information System managed by universities to
+improve the quality of graduates through improving the education process. The results of the
+tracer study as feedback are expected to be an input for the education system, curriculum, student
+activity direction, and Universitas Negeri Jakarta (UNJ) policies which include the development
+of student hard skills, soft skills, and life skills. A reliable tracer study system is due to the
+availability of adequate resources, namely information systems, survey teams, publications, also
+the reward and punishment given to respondents. The prototype was developed using the
+waterfall method which went through several stages specifically analysis, design,
+implementation, testing and maintenance. The prototype was tested using black box testing.
+Based on the functional test, it is known that all functions of the system prototype are running
+according to plan.
+
+1. Introduction
+Tracer study is a study of high-performing organizing institutions [1]. The results of the tracer study are
+a powerful tool for documenting work, shifting workplaces and levels of satisfaction in terms of
+University service satisfaction levels, learning environment and facilities. Tracer study can also be used
+to see the abilities and competencies of undergraduate programs provided that programs are still
+effective, appropriate and relevant in the rapid and complex development developed by emerging
+developments [2]. Tracer studies that reveal results obtained by educational programs can be tracked
+using unique sampling techniques that can provide useful information related to the quality of
+educational programs offered to alumni. This study used a descriptive survey including demographic
+profile, employment characteristics, and job satisfaction of graduates. It is an evaluation of the curricular
+offerings on how useful, relevant, applicable, and adequate competencies (knowledge, skills, and
+attitude) of the graduates have achieved by the vision, mission, goals, and objectives (VMGO) of their
+respective study program [3].
+The benefits of Tracer Study for study programs can be used as a condition for completing
+accreditation by the National Accreditation Board of Higher Education (BAN-PT) [4]. The main
+problem of the tracer study is its coverage. It is not easy to reach alumni and ask them to fill out the
+survey. Only successful alumni are willing to respond to the survey [5]. Other alumni may not be willing
+Content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution
+of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI.
+Published under licence by IOP Publishing Ltd
+1
+
+The 5th Annual Applied Science and Engineering Conference (AASEC 2020)
+IOP Conf. Series: Materials Science and Engineering
+
+1098 (2021) 052107
+
+IOP Publishing
+doi:10.1088/1757-899X/1098/5/052107
+
+to fill out the survey, which is the same as the survey fulfilling some private information (e.g. salary).
+Moreover, an effective tracer system can also contribute to poor coverage. Here, the selection of media
+to reach alumni can affect this issue.
+As a reference for carrying out this research, several studies on tracer study will be explained in
+outline. The First, the research conducted by H. Toba et al. [6] propose a strategy of gathering
+information by gathering information spread on the Internet through search engines. This research
+focuses more on alumni search without information systems, only using search engines on the internet.
+Second, the research conducted by A. Wibisono, et al. [7], as one of the prominent university in
+Indonesia, Institut Teknologi Sepuluh November (ITS) recognizes the need of integrated tracer study to
+maintain its curriculums competitive to address stakeholders’ needs. The term integrated here is used to
+distinguish this program with previous tracer study efforts conducted independently by each department
+within ITS. Then the third study from Renny, et al. [8] states that the results of the Tracer Study can be
+used by universities to determine the success of the educational process that has been carried out on
+their students. Therefore, universities need a technology service to support the optimization of the use
+of tracer study. One of those is the use of a website to facilitate the conduct tracer study. Most services
+tracer study provides information to the college, like year graduated, got a job waiting period, the first
+salary to work, first job, the relevance of the curriculum to the work, and compliance with the major
+areas of work taken in college. Therefore in this study we made Universitas Negeri Jakarta as a case
+study of this research in order to improve services for the campus community
+2. Material and methods
+2.1. Material
+Universitas Negeri Jakarta (UNJ) currently runs a partial Tracer Study. The Tracer Study is carried out
+by each Study Program. Tracer Study is usually done only when applying for accreditation. Data Tracer
+Studies cannot be elaborated into institutional policies because they are only collected at the level of the
+study program. The Tracer Study conducted by the Study Program did not go hand in hand so that the
+policies taken by the institution also only resolved case by case for several Study Programs that had
+conducted Tracer Studies.
+2.2. Methods
+This Tracer Study Information System was developed using the Waterfall Software Development
+Lifecycle Model. Lifecycle Software Lifecycle Model Waterfall is the process of developing / making
+a software that is sequential from one process to the next [9]. In this model, there are several stages /
+phases to be carried out, namely: analysis, design, implementation, testing, and maintenance.
+The First, in the analysis phase, the needs of the Tracer Study Information System are identified The
+system requirements consist of functional, and non-functional needs. Functional requirements,
+containing functions that must exist, and will be made in the Tracer Study Information System. One
+example of a function that must be made is that Alumni can fill out the Form Tracer Study. Nonfunctional requirements can be identified as supporting needs to create a Tracer Study Information
+System.
+The second stage, namely design, is the development stage of the first stage. At this stage what is
+done is making Use Case Diagrams and Activity Diagrams. Use Case Diagram is a diagram that
+describes what functions / features are in the system. Activity Diagram is a diagram that will describe
+the processes that occur in the system. Based on Use Case Diagrams that have been created then the
+Activity Diagram will describe technically the processes that will occur.
+The third stage, namely the implementation stage, namely implementing the design results from the
+fourth stage, into the programming language. In the Tracer Study Information System, the Programming
+Language used is PHP with MySQL Database.
+The fourth stage, namely the testing phase, is the testing phase of the system that has been made. The
+test method uses functional tests which are part of the standard application feasibility according to ISO
+
+2
+
+The 5th Annual Applied Science and Engineering Conference (AASEC 2020)
+IOP Conf. Series: Materials Science and Engineering
+
+1098 (2021) 052107
+
+IOP Publishing
+doi:10.1088/1757-899X/1098/5/052107
+
+25010 which includes functional aspects of suitability, performance efficiency, usability, reliability,
+maintainability, and portability [10]. This test method focuses on the side of the functionality of the
+system. Are functions that have been made can run well, and as expected.
+The last stage, maintenance is the monitoring and repair stage if there is a bug in the system. If there
+are still bugs, it will continue to be improved, developed, and enhanced features in the system to be more
+useful, and relevant to the needs of users (Alumni). The purpose of this stage is that the system can
+continue to run well, along with the development of the world of technology, and information.
+3. Results and discussion
+In designing and constructing this tracer study system there are stages of the research carried out
+covering:
+3.1. Analysis
+Based on observations made on the process of tracer studies conducted by each study program, data on
+Alumni needs by the Bureau of Academic Student and Public Relations (BAKHUM), especially the
+Alumni Subdivision of UNJ, the Vice Rector for Student and Alumni Affairs UNJ, and the Ministry of
+Research and Technology can be obtained the information is BAKHUM UNJ has alumni data through
+the graduation registration form which is then sent to the BAKHUM Alumni Subdivision Head. The
+study program has a partial tracer study data because it only does data collection when it will apply for
+study program accreditation. the Vice Rector for Student and Alumni Affairs UNJ field every year must
+report the results of the study tracer to the Ministry of Research, Technology and Higher Education
+where the study tracer data is in each study program. In accordance with the provisions of the Ministry
+of Research, Technology and Higher Education, Tracer studies must be carried out by Universities for
+graduates in the current year up to three years before. So based on the analysis of the system that is
+running, the system requirements are formulated as shown in Table 1.
+Table 1. Analysis of tracer study system requirements.
+No
+1
+2
+3
+4
+5
+6
+7
+
+System Requirements
+The system can verify and validate the user ID and password
+The system can manage data administrators
+The system can manage graduates / alumni data
+The system can manage graduate personal data
+The system can manage stakeholders' data
+The system can manage tracer study instruments
+The system can provide a tracer study report
+
+3.2. Use case diagram
+Based on the analysis of the study of information system requirements, the Use Case diagram can be
+described as shown in Figure 1. According to the need analysis of the information system of the tracer
+study to be developed, it can be identified that the system will have 5 types of users, that are:
+3.2.1. Admin of university. The University Admin has special rights and authority to manage the entire
+data of the University's tracer study information system. The University Admin is responsible for
+managing data and full responsibility for data and information from tracer studies. University admin
+have all access and application services so that the information presented is more accurate, effective,
+and efficient in assisting leaders in making decisions. University admins can manage study tracer
+instruments at both the university level and Study Program.
+3.2.2. Admin of study program. The study program admin has access rights to manage data and
+information based solely on the origin of the study program, meaning that the study program admin
+cannot see the tracer study data from other study programs because of restrictions on access. The study
+
+3
+
+The 5th Annual Applied Science and Engineering Conference (AASEC 2020)
+IOP Conf. Series: Materials Science and Engineering
+
+1098 (2021) 052107
+
+IOP Publishing
+doi:10.1088/1757-899X/1098/5/052107
+
+program admin has the duty to validate and check alumni data whether it is in accordance with the data
+in the study program. Tracer study data can later be used by study programs to be used in the study
+program accreditation process. Study Program Admin can manage study tracer instruments with limited
+target in the Study Program.
+
+Figure 1. Use case of tracer study system.
+3.2.3. Graduates/Alumni. Alumni are data sources from tracer studies where alumni are required to
+register to be able to enter the information system application for tracer studies to then fill out the tracer
+study questionnaire. Alumni get the ease of registration by using an email to register after they can log
+in and fill in the tracer study. Alumni can manage their personal identities.
+3.2.4. Stakeholders. Stakeholders are third parties involved with the University. The form of
+stakeholders can consist of individuals, entities, institutions, business units, or companies. Stakeholders
+in the tracker study receive as part of the user obtaining / alumni. Stakeholders also provide input
+(feedback) from the registration application.
+3.2.5. Guest. Guest is an ordinary user who can only view general information from the tracer study
+information system such as a news page and see a list of alumni who have registered in this system.
+3.3. Implementation
+After the design phase is completed, the implementation phase is then carried out, namely the
+development of an information system for tracer studies using the PHP programming language and
+MySQL database. Examples of system development results are shown in Figure 2 (2a-2f).
+
+4
+
+The 5th Annual Applied Science and Engineering Conference (AASEC 2020)
+IOP Conf. Series: Materials Science and Engineering
+
+1098 (2021) 052107
+
+IOP Publishing
+doi:10.1088/1757-899X/1098/5/052107
+
+(a) Login
+
+(b) Home Admin
+
+(c) Manage the questionnaire by university
+
+(d) University admins see the results of the
+questionnaire
+
+(e) Display of alumni data in the admin
+university
+
+(f) Questionnaire for the tracer study
+questionnaire university for alumni
+
+Figure 2. Examples of some of the results of the development of the tracer study information system.
+3.4. Testing
+After the implementation process is complete, the testing process will then be carried out to find out
+whether the application has been built in accordance with the identification of the needs obtained during
+the process of engineering needs or not. The testing process used is functional testing with Blackbox
+testing. In this stage of Functionality Testing, testing will only focus on the functionality of the Tracer
+Study Information System. Each - each function will be tested (with predetermined test points), whether
+each of the existing functions can run well as expected. For example the test points of the Tracer Study
+Information System are testing the Blackbox for the Login Page. The following are the results of testing
+the Blackbox Method on the login page as shown in Table 2. Based on the results of functional testing,
+it can be seen that all functions developed can run well on localhost without any obstacles.
+
+5
+
+The 5th Annual Applied Science and Engineering Conference (AASEC 2020)
+IOP Conf. Series: Materials Science and Engineering
+
+1098 (2021) 052107
+
+IOP Publishing
+doi:10.1088/1757-899X/1098/5/052107
+
+Table 2. Black box testing on the login page.
+Test
+ID
+A.1
+A.2
+
+A.3
+
+A.4
+
+Testing Scenario
+Log in with the correct
+username and password
+Log in with the correct
+username but the
+password is incorrect
+Log in with the
+incorrect username but
+the password is correct
+Log in with the
+incorrect username and
+password
+
+Results are
+Expected
+Successfully logged in (entered the
+user page)
+Login failed with the description
+"The username or password you
+entered is incorrect"
+Login failed with the description
+"The username or password you
+entered is incorrect"
+Login failed with the description
+"The username or password you
+entered is incorrect"
+
+Result
+Accepted Rejected
+V
+
+Note.
+Valid
+
+V
+
+Valid
+
+V
+
+Valid
+
+V
+
+Valid
+
+3.5. Maintenance
+In this study, the maintenance phase has not been carried out because the testing phase is still done
+locally.
+4. Conclusion
+The results of system testing using black-box testing techniques, namely testing carried out by observing
+the results of execution and checking the functionality of the software show that the system has been
+running properly on a localhost basis and can be continued at the implementation stage on the internet
+network. For further, this system will be tested in terms of speed and responsiveness of the interface and
+security issue of the website system.
+References
+[1] Schomburg H 2003 Handbook for tracer studies (Centre for Research on Higher Education and
+Work, University of Kassel, Moenchebergstrasse) 17 p 34109
+[2] Gines AC 2014 Tracer study of PNU graduates American International Journal of Contemporary
+Research 4(3) pp 81-98
+[3] Sira K S & Valenciana D S O 2018 Tracer Study of CIT Technology Programs Graduates
+American International Journal of Contemporary Research 8(4) pp 118-129
+[4] Panduan PH 2016 Direktorat Jenderal Pembelajaran dan Kemahasiswaan Kementerian Riset.
+Teknologi dan Pendidikan Tinggi
+[5] Heidemann L 2011 Only Successful Graduates Respond to Tracer Studies: A Myth? Results from
+the German Corporation Project Tracer Studies
+[6] Toba H, Wijaya EA, Wijanto MC, Karnalim O 2017 Enhanced unsupervised person name
+disambiguation to support alumni tracer study Global Journal of Engineering Education 19(1)
+pp 42-8
+[7] Wibisono A, Ulama BS, Asmoro WA, SAC SA 2012 Tracer Study At Institut Teknologi Sepuluh
+Nopember (ITS), Promoting Localization and Multiple Touch Points To Capture Alumni. In
+International Conference on Experience with Link and Match in Higher Education: Result of
+tracer studies world wide, Bali, Indonesia
+[8] Renny R, Chandra R, Ruhama S, Sarjono MW 2013 Exploring Tracer Study Service in Career
+Center Web Site of Indonesia Higher Education International Journal of Computer Science
+and Information Security 11(3) 36-9
+[9] Bassil Y 2012 A simulation model for the waterfall software development life cycle arXiv preprint
+arXiv:1205.6904. 2012 May 31
+[10] IEC I 25010 2011 Systems and software engineering--Systems and software Quality
+Requirements and Evaluation (SQuaRE)--System and software quality models (International
+Organization for Standardization, Geneva, Switzerland)
+
+6
+
+

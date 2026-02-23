@@ -1,0 +1,326 @@
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+Rancang Bangun Sistem Tracer study UNUSIA Berbasis Web
+Menggunakan Metode Rapid Application Development
+Handy Fernandy1*, Ircham Ali2, Musaid Purnomo Juwono3
+1) Prodi Sistem Informasi, Fakultas Teknik dan Ilmu Komputer, Unversitas Nahdlatul Ulama Indonesia
+2,3) Prodi Teknik Informatika, Fakultas Teknik dan Ilmu Komputer, Unversitas Nahdlatul Ulama Indonesia
+
+Email: 1handy@unusia.ac.id, 2irchamali@unusia.ac.id, 3purnomo@unusia.ac.id
+Email Penulis Korespondensi: 1handy@unusia.ac,id
+
+Abstrak− Studi pelacakan (tracer study) sebagai proses penting dalam dunia pendidikan tinggi karena memberikan wawasan yang
+berharga tentang kesuksesan alumni dalam menghadapi dunia kerja. Salah satu perguruan tinggi yang mulai menerapkan tracer study
+yaitu Universitas Nahdlatul Ulama Indonesia (UNUSIA) untuk implementasi sistem tracer study yang efisien dan terintegrasi.
+Penelitian ini bertujuan untuk merancang dan mengembangkan sistem tracer study berbasis web menggunakan bahasa pemrograman
+PHP, Framework Laravel, didukung dengan JavaScript, pengelolan data dalam sistem menggunakan MySQL/MariaDB, dan software
+pendukung lainnya. Metode perancangan sistem menggunakan Unified Modeling Language (UML) dan metode pengembangan
+sistem menggunakan Rapid Application Development (RAD) untuk mempercepat proses pengembangan dan memastikan fleksibilitas
+sistem dalam memenuhi kebutuhan pengguna. Tujuan utama penelitian yaitu membangun sistem tracer study yang dapat digunakan
+sebagai instrumen dalam tracing alumni dan informasi pusat karir. Metode RAD diterapkan dengan tiga tahapan seperti requirement
+planning, system design, dan implementation. Metode Blackbox Testing dilakukan untuk pemecahan masalah dan memastikan sistem
+berjalan sesuai fungsionalitas yang dibutuhkan. Fungsionalitas sistem mencakup fitur-fitur seperti survei alumni, manajemen data
+alumni, analisis data, dan pelaporan hasil tracer study. Pentingnya sistem tracer study pada perguruan tinggi ter-letak pada
+kemampuannya untuk memberikan umpan balik tentang kesesuaian program pendidikan dengan kebutuhan dunia kerja, kualitas
+pengajaran dan kurikulum, serta efektivitas proses pembelajaran. Hasil penelitian menunjukan sistem tracer study berbasis web dapat
+diimplementasikan dengan baik dan memudahkan alumni dalam mengakses informasi dan mengisi profesi yang dijalani.
+Kata Kunci: Tracer study, Unusia, RAD, Website, Laravel
+Abstract− Tracer study serves as an important process in higher education as it provides valuable insights into the success of alumni
+in facing the working world. One of the universities that has started implementing tracer study is Universitas Nahdlatul Ulama
+Indonesia (UNUSIA) with the aim of efficient and integrated implementation of the tracer study system. This research aims to design
+and develop a web-based tracer study system using PHP programming language, Laravel Framework, supported by JavaScript, and
+data management within the system using MySQL/MariaDB, along with other supporting software. The system de-sign utilizes the
+Unified Modeling Language (UML), and the system development method employs Rapid Application Development (RAD) to
+expedite the development process and ensure system flexibility in meeting user needs. The main objective of this research is to build
+a tracer study system that can be used as an instrument to trace alumni and career center information. The RAD method is applied in
+three stages: requirement planning, system design, and implementation. The Blackbox Testing method is employed to troubleshoot
+issues and ensure the system functions according to the required functionality. The system's functionality includes features such as
+alumni surveys, alumni data management, data analysis, and tracer study result reporting. The importance of the tracer study system
+in higher education lies in its ability to provide feedback on the alignment of educational programs with the needs of the job market,
+the quality of teaching and curriculum, and the effectiveness of the learning process. The research results show that the web-based
+tracer study system can be implemented successfully, making it easier for alumni to access information and provide details about
+their respective professions.
+Keywords: Tracer study, Unusia, RAD, Website, Laravel
+
+1. PENDAHULUAN
+Perkembangan teknologi informasi dan komunikasi telah banyak dimanfaatkan dalam berbagai keperluan, salah
+satunya digunakan untuk Perguruan Tinggi untuk melacak keberadaan alumni mereka [1]. Alumni memegang peranan
+penting sebagai indikator keberhasilan proses pembelajaran di suatu lembaga Pendidikan [2]. Alumni dapat
+memberikan kontribusi dalam bentuk masukan dan program konkret untuk memajukan perguruan tinggi, serta menjadi
+sumber informasi mengenai dunia kerja dan usaha bagi alumni lainnya [3]. Selain itu, data dan informasi tentang alumni
+juga diperlukan dalam proses akreditasi program studi, pemberian informasi lowongan kerja, dan pengembangan
+kurikulum[4].
+Universitas Nahdlatul Ulama Indonesia (UNUSIA) yang berdiri sejak tahun 2015 ini telah menghasilkan sejumlah
+besar alumni. Namun, tidak ada catatan atau database terkait keberadaan mereka setelah lulus. Hal ini membuat
+UNUSIA kesulitan dalam mengetahui periode waktu yang diperlukan oleh alumni untuk memperoleh pekerjaan setelah
+lulus hingga relevansi kesesuaian antara kurikulum yang digunakan perguruan tinggi dengan kebutuhan dunia kerja.
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 171
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+Dorongan untuk pelaksanaan pembuatan rancang bangun sistem tracer study berbasis website juga sesuai dengan
+surat edaran Ditjen Belmawa Kemenristek No. 313/B/SE/2016 dalam upaya untuk mendapatkan informasi mengenai
+hubungan antara pendidikan tinggi dan dunia kerja, termasuk peralihan dari pendidikan tinggi ke dunia kerja, pengaruh
+pendidikan terhadap penilaian penguasaan kompetensi, serta evaluasi proses pembelajaran dan kontribusi pendidikan
+terhadap penguasaan kompetensi [5].
+Berdasarkan atas permasalahan tersebut maka diperlukan implementasi suatu sistem yang dapat menangani
+kebutuhan tersebut, salah satunya adalah membuat rancangan bangun sistem tracer study berbasis website yang
+digunakan untuk alumni UNUSIA. Penggunaan website dianggap cocok karena memberikan kemudahan akses di mana
+pun dan kapan pun melalui jaringan internet [6], sehingga memudahkan bagi alumni UNUSIA untuk mengisi
+pertanyaan-pertanyaan yang ada pada form tracer study.
+Proses pengembangan sistem tracer study UNUSIA ini melalui mekanisme rancang dan bangun dengan
+menggunakan framework Laravel dengan bahasa pemrograman PHP dan Javascript dengan basis data menggunakan
+MySQL, web server dengan Lite Speed serta software pendukung lainnya seperti; MySQL, browser Google Chrome,
+dan Visual Studio Code sebagai aplikasi untuk menulis script program. Penelitian ini menggunakan metode Rapid
+Application Development (RAD) yang meliputi tahap requirement planning, system design, dan implementation untuk
+perancangan pembuatan website [7].
+Penelitian terdahulu yang pernah membahas tentang tracer study dengan menggunakan metode RAD yaitu
+pengembangan aplikasi tracer study untuk pelacakan alumni di IAIN Salatiga sebagai objek penelitian [8]. Penelitian
+lainnya yaitu pengembangan sistem informasi tracer study pada Fakultas Ilmu Komputer Universitas Banten Jaya
+untuk optimalisasi pelaporan data alumni [9]. Selanjutnya penelitian yang menggunakan framework Laravel untuk
+pengembangan sistem pada fakultas keguruan terhadap para lulusan dari FKIP UKSW [10].
+
+2. METODOLOGI PENELITIAN
+Metode penelitian ini menggunakan RAD yakni metode pengembangan software yang mampu menghemat waktu
+pengerjaan [11]. RAD merupakan versi adaptasi cepat dari model waterfall yang membutuhkan perencanaan yang
+panjang dan terbilang cukup kaku [12]. Tahapan pengembangan sistem pada metode RAD terdiri dari tiga tahap, yaitu:
+A. Requirements Planning
+Pada tahap perencanaan kebutuhan ini pengguna dan analisis bertemu untuk mengidentifikasi tujuan dari aplikasi
+atau sistem yang akan dibuat atau dikembangkan dengan fokus pada pemecahan masalah bisnis.
+B. System Design
+Tahap perancangan sistem ini menggunakan UML untuk membuat rancangan desain atau prototype yang telah
+diusulkan untuk disempurnakan, dan digunakan kelompok pendukung keputusan sistem. Programmer dan analis
+bekerja sama untuk membangun dan menunjukkan tampilan visual desain dan alur kerja pengguna [13].
+C. Implementation
+Tahap implementasi ini sistem yang telah dibangun akan diuji dan atau parsial diuji dan diperkenalkan kepada
+organisasi.
+
+Gambar 1. Model Pengembangan RAD
+
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 172
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+3. HASIL DAN PEMBAHASAN
+Berdasarkan hasil proses implementasi sistem tracer study berbasis website UNUSIA dengan tahapan dalam model
+RAD yaitu.
+A. Requirements Planning
+Untuk mendapatkan sistem tracer study dibutuhkan beberapa rencana kebutuan, yakni: Kebutuhan hardware
+minimal notebook, laptop atau personal computer (PC) dengan prosesor Intel Pentium Celeron N4500, memory 4 Gb
+dan SSD 256 Gb. Untuk kebutuhan minimum untuk software yang digunakan adalah sistem operasi Windows 10, PHP
+Framework Laravel, Lite Speed, MySQL, Google Chrome, dan Visual Studio Code.
+Untuk kebutuhan input data berasal dari formulir standar Kemenristekdikti yang berisi tiga faktor penting yang
+pertama tentang outcome pendidikan di mana berisikan waktu tunggu kerja sampai proses pencarian kerja, lalu yang
+kedua mengenai output Pendidikan yang mengukur tentang penguasanaan dan pemerolehan kompetisi serta yang ketiga
+adalah proses Pendidikan yang menyatakan bahwa evaluasi proses pembelajaran sehingga mampu menyiapkan lulusan
+yang sesuai dengan kompetensi yang diharapkan pada dunia kerja [14]. Untuk kebutuhan user interface (antar muka)
+nantinya dihadapkan dengan tampilan aplikasi berbasis browser yang dapat diakses menggunakan berbagai platform,
+mulai dari komputer pribadi (PC), laptop, notebook, tablet, hingga smartphone (HP) dengan syarat terhubung dengan
+jaringan internet.
+B. System Design
+Tahap system design pada sistem tracer study berbasis website UNUSIA. Pada tahap ini menggunakan Unified
+Modeling Language (UML) sebagai tools untuk mendokumentasikan, menentukan sepesifikasi, dan membangun sistem
+perangkat lunak [15]. UML merupakan kumpulan struktur dan teknik un-tuk pemodelan desain program berorientasi
+objek (Object Oriented Programming) serta aplikasinya. UML memiliki berbagai macam diagram, dian-taranya: Use
+Case Diagram, Activity Diagram, Sequence Diagram, Class Diagram, Class Diagram, Statemachine Diagram, dan
+Component Diagram.
+1. Use Case Diagram
+
+Gambar 2. Use Case Tracer study UNUSIA
+
+Use Case Diagram mengilustrasikan interaksi an-tara pengguna dengan sistem yang akan dibangun [16]. Pada
+perancangan sistem tracer study berbasis website UNUSIA ini terdapat dua jenis pengguna, yaitu admin dan user. Role
+admin memiliki hak akses penuh kepada sistem dan bertugas untuk mengelola dan validasi data, sedangkan role user
+ialah pengguna biasa yang yang diberikan hak akses secara terbatas, hanya berupa update profil dan update data alumni.
+
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 173
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+2. Activity Diagram
+
+Gambar 3. Activity Diagram Login dengan e-Mail
+
+Activity Diagram adalah untuk menjelaskan alur aktivias yang ada pada sistem tracer study berbasis website
+UNUSIA. Pada gambar 3 dijelaskan bahwa untuk masuk user harus terlebih dahulu memasukan email dan password
+yang nantinya divalidasi oleh sistem apakah berhasil masuk atau tidak sesuai dengan data yang tersedia. Dalam proses
+validasi, bila terjadi kegagalan akan muncul pesan berupa error, bila berhasil maka user bisa lansung masuk ke halaman
+form untuk mengisi data informasi.
+
+Gambar 4. Activity Diagram Pengisian Formulir dan Profil
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 174
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+Kemudian pada gambar 4 terdapat Activity Diagram yang menggambarkan formulir kelengkapan profil yang diisi
+oleh user. Apabila berhasil data yang diinput oleh maka data tersebut dapat tersimpan di dalam database.
+
+Gambar 5. Activity Diagram Validasi Formulir
+
+Pada diagram activitas validasi formulir pada gambar 5 dijelaskan bahwa user akan mendapatkan tampilan berupa
+formulir yang berisi pertanyaan pada tracer study yang tersedia pada query database. Formulir yang ditampilkan
+kemudian diisi lalu kemudian setelah divalidasi maka form telah tersimpan di database dan data pun sudah terupdate
+3.
+
+Sequence Diagram
+
+Gambar 6. Sequence Diagram untuk Pengisian Tracer study
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 175
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+Sequence Diagram adalah sebuah diagram yang menggambarkan interaksi antar objek dengan sistem. Pada sistem
+tracer study berbasis website UNUSIA dapat dilihat bahwa mejelaskan proses alumni mengakses aplikasi web seperti
+pada gambar 6 di mana proses mengakses kuesioner dengan menarik database mulai dari mengisi formulir yang berupa
+kumpulan pertanyayaan hingga formulir selesai dilakukan dan disimpan di dalam database.
+4. Class Diagram
+
+Gambar 7. Diagram Kelas
+
+Class Diagram merupakan sebuah diagram yang digunakan dalam penggambaran kelas-kelas serta atribut,
+operasi, dan hubungan antara class yang ada. Pada susunan class diagram pada gambar 7 terdapat dua komponen, yakni
+komponen atas sebagai pembeda class ProfileService dengan JobsService serta Komponen tengah yang berisi atributatribut dari class tersebut sebagai penjelasan terhadap class diagram. Pada sistem tracer study berbasis website
+UNUSIA terbagi dalam dua class diagram yang memiliki atribut-atribut yang harus dipenuhi.
+5. State Machine Diagram
+
+Gambar 8. State Machine Diagram Formulir
+
+State Machine Diagram yakni diagram yang menggambarkan adanya perubahan serta transisi dari sebuah keadan
+satu kepada keadaan lainnya atau dari status yang satu ke status lainnya dengan urutan yang jelas. Pada gambar 8 sistem
+tracer study berbasis website UNUSIA adalah apabila alumni sudah mengisi formulir dan status selanjutnya adalah
+proses validasi. Ketika sudah terkonfirmasi data pun akan tersimpan.
+C. Implementation
+Tahap implementation system design pada sistem tracer study berbasis website UNUSIA dapat dilihat dengan
+pengujian pada sistem infomasi yang dibuat. Pengujian sistem dapat ditunjukan dengan gambar hasil dari sistem seperti
+pada Gambar 9.
+
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 176
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+1.
+
+Halaman Utama
+
+Gambar 9. Halaman Utama Tracer study UNUSIA
+
+Pada halaman utama terdapat himbauan yang ditujukan kepada pengguna atau alumni untuk mengisi formulir.
+Untuk mengisi terlebih dahulu user mengklik tombol ikut sekarang untuk masuk ke dalam halaman form yang berasal
+dari formulir standar Kemristekdikti sebanyak 23 pertanyaan dari identitas diri, status pekerjaan, sampai relevansi
+antara kurikulum pada bidang studi dengan pekerjaan. Sebelum mengisi formulir terlebih dahulu melakukan login
+dengan menggunakan user dan password lalu kemudian data akan divalidasi oleh sistem untuk kemudian dilanjutkan
+mengisi kumpulan pertanyaan.
+2.
+
+Halaman Form
+
+Gambar 10. Halaman Identitas Alumni
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 177
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+Halaman form terbagi dua yakni Identitas dan Kuesioner Wajib. Untuk identitas ketika mahasiswa memasukan
+NIM Mahasiswa maka nantinya secara otomatis kode prodi, nama, nomor telpon, alamat email akan terisi secara
+otomatis. Alumni hanya tinggal menambahkan data NIK dan NPWP.
+
+Gambar 11. Halaman Form Tracer study UNUSIA
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 178
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+Jurnal Ilmu Komputer dan Sistem Informasi (JIKOMSI)
+Volume 6, Nomor 3 Oktober-Desember 2023, Hal 171-179
+ISSN 2723- 6129 (media online)
+Link Jurnal : https://ejournal.sisfokomtek.org/index.php/jikom
+
+Pada halaman form pertanyaan terdapat kumpulan pertanyaan yang akan diisi oleh user. Form yang berasal dari
+formulir standar Kemristekdikti sebanyak 23 pertanyaan dari identitas diri, status pekerjaan, sampai relevansi antara
+kurikulum pada bidang studi dengan pekerjaan. Dengan memenuhi semua kebutuhan fungsional sistem, maka penelitian
+sistem tracer study berbasis website UNUSIA memudahkan alumni untuk mengisi form yang tersedia dan UNUSIA
+mendapatkan informasi yang tepat, jelas dan akurat.
+
+4. KESIMPULAN
+Berdasarkan hasil penelitian pada penelitian rancang bangun tracer study UNUSIA berbasis web menggunakan
+Rapid Application Development (RAD) dapat disimpulkan bahwa sistem tracer study memudahkan UNUSIA untuk
+mendapat data dan informasi valid tentang alumni. Memudahkan UNUSIA untuk menarik data yang masuk untuk
+kemudian bisa ditarik datanya terintegrasi dengan pangkalan data Kemendikbud yang akan disinkronkan dengan
+Pangkalan Data Dikti. pengembangan sistem tracer study UNUSIA berbasis web dengan RAD mampu menghasilkan
+laporan analisis data yang memenuhi kebutuhan pengguna dan semuanya dapat berjalan dengan lancar dan baik.
+Tracer study UNUSIA berbasis website dengan framework Laravel ini bisa dikembangkan dengan
+menghubungkan antara database yang ada pada e-campus UNUSIA sehingga data bisa sinkron dan memberikan
+kemudahan alumni untuk mengisi form lebih singkat karena beberapa data seperti nama, nik,kode prodi, kode
+perguruan tinggi yang bisa terisi secara otomatis. Penelitan lanjutan dapat menambahkan fitur grafis untuk
+menampilkan hasil survey.
+
+REFERENSI
+M. Rizka, A. Amri, H. Hendrawaty, and M. Mahdi, “Analisis Dan Perancangan Sistem Informasi Tracer study Berbasis WEB,”
+J. Infomedia, vol. 3, no. 2, pp. 69–73, 2018, doi: 10.30811/jim.v3i2.716.
+[2] Y. Nurizzati, “TRACER STUDY ALUMNI IAIN SYEKH NURJATI CIREBON,” J. Soc. Econ. Educ., vol. IX, no. 2, pp. 36–
+51, 2019.
+[3] I. Mohidin, S. Suleman, and A. Asep, “Rancang Bangun Aplikasi Tracer study Alumni Kampus Politeknik Gorontalo Berbasis
+Mobile,” J. Teknol. Inf. Indones., vol. 4, no. 1, pp. 18–29, 2019, doi: 10.30869/jtii.v4i1.373.
+[4] T. Noor, S. Muhamad, and R. Indera, “Perancangan Aplikasi Tracer study Alumni Jurusan Administrasi Bisnis Politeknik
+Negeri Banjarmasin Berbasis Web,” Positif, vol. 2, no. 1, pp. 34–40, 2016.
+[5] V. Kurnia Bakti, M. Noval, and E. Purnomo Bayu Aji, “SistemPreKompilasi DataTracerStudiOnline Ditjen Belmawa
+Ristekdikti(Studi Kasus: Politeknik Harapan Bersama),” J. Inform. J. Pengemb. IT, vol. 2, no. 1, pp. 50–53, 2017.
+[6] M. Rizki Shofiyulloh, A. Teguh Wibowo, and F. Muslihul Amin, “Rancang Bangun Sistem Informasi Pelayanan Skripsi untuk
+Mendukung Layanan Akademik,” NJCA (Nusantara J. Comput. Its Appl., vol. 5, no. 1, pp. 8–15, 2020.
+[7] I. Ali, A. H. Ghaniy, and H. Fernandy, “Pengembangan Learning Management System sebagai Pembelajaran Berempati di
+Media Sosial berbasis Framework Ruby on Rails menggunakan Metode RAD,” J. Teknlogi Inform. dan Komput. MH. Thamrin,
+vol. 8, no. 2, pp. 375–385, 2022, doi: https://doi.org/10.37012/jtik.v8i2.1132.
+[8] M. Prabowo and A. Suprapto, “Pengembangan Aplikasi Tracer study Berbasis Mobile,” Jutisi J. Ilm. Tek. Inform. dan Sist.
+Inf., vol. 9, no. 2, p. 185, Aug. 2020, doi: 10.35889/jutisi.v9i2.526.
+[9] R. Fatullah and S. Syaechurodji, “Sistem Informasi Tracer study Pada Fakultas Ilmu Komputer Universitas Banten Jaya,” J.
+Sist. Inf. dan Inform., vol. 1, no. 01, pp. 66–76, 2018, doi: 10.47080/simika.v1i01.39.
+[10] A. K. Putri and M. A. I. Pakereng, “Pengembangan Sistem Informasi Tracer study Berbasis User Centered Design (UCD)
+Menggunakan Framework Laravel,” J. Media Inform. Budidarma, vol. 5, no. 3, p. 1027, 2021, doi: 10.30865/mib.v5i3.3033.
+[11] H. Fernandy and Arifin A Abd Karim, “Rancang Bangun Sistem Informasi Website Program Studi Teknik Informatika Unusia
+Menggunakan Metode Waterfall Dan Framework Laravel,” J. Publ. Ilmu Komput. dan Multimed., vol. 1, no. 1, pp. 11–21,
+2022, doi: 10.55606/jupikom.v1i1.230.
+[12] M. P. Puteri and H. Effendi, “Implementasi Metode RAD Pada Website Service Guide ‘Tour Waterfall South Sumatera,’” J.
+Sisfokom (Sistem Inf. dan Komputer), vol. 7, no. 2, pp. 130–136, Sep. 2018, doi: 10.32736/sisfokom.v7i2.570.
+[13] I. Ali, V. Gunawan, and K. Adi, “Decision Support Systems for Land Suitability Evaluation on Rice Cultivation using
+ELECTRE Method,” E3S Web Conf., vol. 202, 2020, doi: 10.1051/e3sconf/202020214004.
+[14] D. Agustin, Deni Apriadi, “Rancang Bangun Sistem E-Tracer study Alumni Untuk Mengetahui Outcome Pendidikan Berbasis
+Web Mobile,” J. Ilm. Bin. STMIK Bina Nusant. Jaya Lubuklinggau, vol. 1, no. 1, pp. 8–14, 2019, doi: 10.52303/jb.v1i1.6.
+[15] I. Wahyudi, S. Bahri, and P. Handayani, “Aplikasi Pembelajaran Pengenalan Budaya Indonesia,” vol. V, no. 1, pp. 135–138,
+2019, doi: 10.31294/jtk.v4i2.
+[16] Moch Zawaruddin Abdullah, Mungki Astiningrum, Yuri Ariaynto, Dwi Puspitasari, and Atiqah Nurul Asri, “Rancang Bangun
+Sistem Informasi Akuntansi Berbasis Website menggunakan Framework Laravel,” J. Pengabdi. Polinema Kpd. Masy., vol. 8,
+no. 1, pp. 74–80, 2021, doi: 10.33795/jppkm.v8i1.64.
+[1]
+
+Handy Fernandy, Copyright © 2023, JIKOMSI, Page 179
+Submitted: 05/08/2023; Accepted: 13/08/2023; Published: 20/11/2023
+
+

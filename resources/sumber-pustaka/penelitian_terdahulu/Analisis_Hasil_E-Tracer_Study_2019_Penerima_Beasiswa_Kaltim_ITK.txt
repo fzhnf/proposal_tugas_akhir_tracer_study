@@ -1,0 +1,339 @@
+JSHP VOL. 5 NO. 1, 2021
+
+p-ISSN: 2580 -5398
+e-ISSN: 2597-7342
+
+Analisis Hasil E-Tracer Study 2019 pada Penerima Beasiswa
+Kaltim Cemerlang Institut Teknologi Kalimantan
+Ridhwan Haliq1*, Tegar Palyus Fiqar2, Nur Fajri Azhar3
+1,2,3 Institut Teknologi Kalimantan, Balikpapan
+*E-mail: ridhwanhaliq@lecturer.itk.ac.id
+
+Abstract
+Tracer study is a system used to obtain information about alumni a year after their graduation. Tracer
+Study 2019 had 199 ITK Graduates consisting of alumni in 2016, 2017, and 2018. Of the 163 graduates, 120 of
+them had received the Kaltim Cemerlang Scholarship. The respondent's highest Grade point average (GPA) was
+from the System information study program, and the lowest grade point average was from the electrical
+engineering study program. Graduates business consists of 56,67% private company, 8,33% entrepreneur ,
+government company 34,17% and 0,83% profit organization. Based on the scale rate of department grade point
+average. The industrial technology and process department was in the lowest position with 3.29, and
+mathematicsand information technology's information technology stands in the first position with 3.49. kaltim
+cemerlang graduates scholarship prefer to work with privet company then government company, despite them
+havinga GPA over 3.00. graduates who take multinational companies got Rp 2.828.000/month. A few of them who
+take national companies had an average salary until Rp 5.212.000 than private companies.
+Keywords: GPA, Tracer Study, Kaltim Cemerlang Scholarship
+
+Abstrak
+Tracer study adalah suatu sistem yang digunakan untuk mendapatkan informasi alumni setahun setelah
+kelulusan mereka. Tracer study 2019 ini melibatkan 199 alumni ITK yang terdiri dari alumni tahun 2016, 2017,
+dan 2018. Terdapat 163 alumni yang merespon dan 120 alumni pernah mendapatkan Beasiswa Kaltim Cemerlang.
+Indeks Prestasi Kumulatif (IPK) yang memiliki median tertinggi adalah Sistem Informasi dan median terendah
+dari prodi Teknik Elektro. Kategori bidang usaha para alumni terdiri dari 56,67% Perusahaan Swasta, 8,33%
+wiraswasta , Instansi Pemerintah (termasuk BUMN) 34,17% dan Organisasi non-Profit/Lembagaswadaya
+masyarakat sebanyak 0,83%. Berdasarkan urutan perolehan IPK terhadap Jurusan, Jurusan Teknologi Industri dan
+Proses menempati terendah dengan 3.29 dan Jurusan Matematika dan Teknologi Informasi (JMTI) berada diposisi
+tertinggi dengan 3.49. Alumni Beasiswa Kaltim Cemerlang lebih banyak memilih bekerja di perusahaan swasta
+dibanding kan instansi pemerintah meskipun banyak diantaranya memiliki IPK >3.00. untuk alumni yang bekerja
+dengan skala multinasional mendapatkan Rp 2.828.000 setiap bulannya. Jumlah alumni beasiswa kaltim
+cemerlang dengan skala nasional sebanyak 32 lebih sedikit dibandingkan alumni yang bekerja di skala nasional
+pada perusahaan swasta namun, penghasilan yang diperoleh perbulannya rata-rata mencapai Rp 5.212.000 lebih
+besar dibandingkan perusahaan swasta. Data tracer study selanjutnya akan diberikan ke pihak pengelola beasiswa
+untuk dijadikn bahan evaluasi pemberian beasiswa kepada ITK.
+Kata kunci: IPK, Tracer Study, Beasiswa Kaltim Cemerlang
+
+1. Pendahuluan
+1.1. Beasiswa Kaltim Cemerlang
+Institut Teknologi Kalimantan (ITK) ialah perguruan tinggi baru yang diresmikan oleh Presiden
+Republik Indonesia Susilo Bambang Yudhoyono pada 6 Oktober 2014. Meskipun baru diresmikan pada
+tahun 2014, ITKsudah memulai penerimaan mahasiswa baru sejak tahun 2012 dan memulai perkuliahan
+di Institut Teknologi Sepuluh Nopember (ITS).
+Pada bulan juli 2019 mulai terbentuk pusat karir di ITK dan alumni untuk mengerjakan beberapa
+hal seperti tracer study dan pengembangan karir. Dimulai dengan Focus Group Discussion (FGD) dan
+exit survey wisudawan untuk Angkatan 2019. Pengolahan datanya dimulai bulan September dan
+74
+
+JSHP VOL. 5 NO. 1, 2021
+
+p-ISSN: 2580 -5398
+e-ISSN: 2597-7342
+
+dibuatkan data premier dalam bentuk X banner. Tracer study dimulai pada bulan September melalui
+pembuatan sistem informasi Tracer Study berdasarkan standarisasi Inc. - 29148-2011 - ISO_IEC_IEEE
+(Software Requirement Specification) dan Inc. - 1016-2009 - ISO_IEC_IEEE (Software Design
+Description), yang dapat mempermudah pembuatan sistem informasi agar data para alumni dapat
+dipetakan dan diolah untuk kebutuhan akreditasi. Pemetaan juga dilakukan oleh Rahman F (2018)
+memiliki konsep framework hampir sama dengan milik ITK. Data input di proses selama 2 bulan dimulai
+bulan Maret 2020 sampai dengan bulan Mei 2020. Diperlukan pendataan alumni Beasiswa Kaltim
+Cemerlang yang telah lulus untuk mengetahui apakah pemberian beasiswa memberikan hasil yang
+maksimal atau tidak. Dari hasil tracer study 2020 dengan mengambil data alumni tahun 2016 s/d 2018
+ditemukan 100% alumni Beasiswa Kaltim Cemerlang sedang bekerja diberbagai sektor di Indonesia
+ataupun di luar negri.
+Beasiswa Kaltim Cemerlang (BKC) merupakan beasiswa yang diberikan oleh Pemerintahan
+Provinsi Kalimantan Timur dan diwacanakan dimasa pemerintahan Gubernur Prof. Dr. H. Awang
+Faroek Ishak, M.M., M.Si. untuk menambah minat putra daerah untuk berkuliah di ITK. BKC membuka
+beasiswa penerimaan mahasiswa baru ITK yang dititipkan di Institut Teknologi Sepuluh Nopember
+(ITS) terlebih dahulu sebelum akhirnya Gedung ITK di Km. 15 Karang Joang selesai di bangun. Untuk
+memberikan feedback positive terhadap dinas Pemerintahan Kalimantan Timur maka, tim tracer study
+memberikan data analisis ini dan selanjutnya di publikasikan di seminar nasional. Studi ini dilakukan
+untuk mengetahui alumni penerima beasiswa kaltim cemerlang setelah satu tahun kelulusan dari Intitut
+Teknologi Kalimantan (ITK).
+
+2. Metodologi
+Untuk mendapatkan data alumni penerima beasiswa BKC, maka dilakukan perubahan data
+menjadi data yang dapat dibaca oleh civitas akademis. Berikut alur pengerjaan tracer study pertama
+Intsitut Teknologi Kalimantan (lihat Gambar 1).
+
+Gambar 1. Alur Proses Tracer Study 2019
+
+Berdasarkan hasil Gambar 1 seluruh tahapan proses dilakukan selama kurang lebih 7 bulan.
+Tahapan persiapan penelitian ini diawali dengan validasi jumlah alumni, IPK dan lainnya dari tahun
+2016 s/d 2018 yang telah terekam oleh bagian akademik ITK. Pertanyaan-pertanyaan tracer study dibuat
+berdasarkan standar dari buku tracer study yang dibuat oleh Institut Teknologi Bandung (ITB) dan ITS
+sehingga data alumni yang akan diperoleh lebih maksimal. Kemudian Pertanyaan disusun oleh tim IT
+sesuai dengan framework Laravel. Melalui tim IT UPT Institut Teknologi Kalimantan dalam pembuatan
+sistem kuesioner alumni pada bulan oktober dibuatlah domain http://.tracer.itk.ac.id agar alumni dapat
+mengisi secara online. Tampilan login peserta alumni dapat dilihat pada Gambar 2.
+75
+
+JSHP VOL. 5 NO. 1, 2021
+
+p-ISSN: 2580 -5398
+e-ISSN: 2597-7342
+
+Gambar 2. Website tracer study ITK
+
+Dari Gambar 2 peserta memasukan username Nomor Registrasi Pokok (NRP) mereka masingmasing pada saat masih kuliah dulu dan password yang sudah di sosialisasikan sebelumnya oleh tim
+kemahasiswaan pusat. Tahap pelaksanaan dilakukan dengan admin dan user yang sudah disepakati
+terlebih dahulu. Tautan diberikan setelah koordinator Tracer setiap prodi sudah ditetapkan dan
+melakukan follow up satu arah. Tahap analisis dilakukan selama 3 bulan dari Maret 2020 sampai dengan
+Mei 2020 hal ini dilakukan dengan acuan dari buku Tracer Study ITS dan ITB tahun 2017. Analisis
+yang dilakukan analisis kualitatif dan kuantitatif. Tahap Pelaporan Tracer Study dibuat dalam bentuk
+Buku yang sudah ber ISBN (International Standard Book Number) dan Roll Banner dan diserahkan
+kepada wakil rektor bidang akademik dan perpustakaan ITK. Analisis alumni beasiswa Kaltim
+Cemerlang diolah dengan mengatur inputan data.
+
+3. Hasil dan Pembahasan
+Hasil yang didapatkan dari proses pengolahan data yang berpedoman pada buku tracer 2019
+Institut Teknologi Kalimantan untuk mendapatkan track record alumni beasiswa kaltim cemerlang
+dengan mengetahui total jumlah nya terlebih dahulu sesuai Gambar 3, pemisahan data kuantitatif
+mengikuti (Widyastuti, 2017).
+Commented [X11]: Gambar sebaiknya diperbaiki agar tdk
+membiaskan pembaca. Data 163 responden tdk perlu dimunculkan dalam
+informasi legend. Karena bias dg data “bukan penerima beasiswa” yg
+menggunakan warna sama yaitu orange. Alternatifnya, tuliskan jumlah
+responden pada judul gambar, misal: “Gambar 3. Responden Penerima
+Beasiswa dan Bukan Penerima Beasiswa (163 Responden)” atau tdk
+dituliskn dlm judul tdk masalah. Nanti dijelaskan dalam naskah teks.
+
+Gambar 3. Responden Penerima Beasiswa dan Bukan Penerima Beasiswa
+
+Dari Gambar 3 menunjukan bahwa dari 163 responden yang mengisi tracer study 2019, 120
+alumni pernah menerima beasiswa Kaltim Cemerlang dan 43 diantaranya tidak pernah menerima sama
+sekali beasiswa tersebut. Total alumni dari tahun 2016 s/d 2018 sebanyak 199 alumni dimana 163 alumni
+melakukan pengisian sedangkan 36 alumni yang lain masih belum memberikan feedback atau belum
+mengisi tracer study sesuai dengan buku tracer study 2019 ITK (Ridhwan, 2019). Berikut tabel lulusan
+2016, 2017 dan 2018 terhadap penerima BKC.
+Tabel 1. Kelulusan Tahun 2016, 2017 dan 2018
+76
+
+JSHP VOL. 5 NO. 1, 2021
+
+p-ISSN: 2580 -5398
+e-ISSN: 2597-7342
+
+Lulusan
+2016
+2017
+2018
+Jumlah Total Alumni
+26 Orang 96 Orang 74 Orang
+Jumlah Responden
+24 Orang 71 Orang 67 Orang
+Alumni Penerima BKC
+16 Orang 51 Orang 54 Orang
+Rata-rata IPK
+3.31
+3.28
+3.28
+Alumni Biaya Orang Tua/Keluarga
+3 Orang 3 Orang
+Rata-rata IPK
+3.3
+3.3
+Invalid Input
+8 Orang 15 Orang 10 Orang
+Subjek
+
+Dari Table 1 diketahui bahwa setiap tahunnya terjadi kenaikan penerima Beasiswa Kaltim
+Cemerlang oleh mahasiswa ITK. Invalid input adalah alumni yang tidak mengisi bagian pertanyaan
+mengenai “sumber biaya kuliah selama kuliah di ITK” hal ini dapat diakibatkan karena responden masih
+dapat menyelesaikan kuisioner tracer meskipun ada pertanyaan yang tidak dijawab dan dapat
+diakibatkan oleh sistem masih dalam tahap awal. Indeks Prestasi Kumulatif (IPK) yang diperoleh
+mengalami penurunan sebanyak 0,03 dari tahun 2016 - 2017 dan IPK tidak mengalami perubahan di
+tahun berikutnya. Perbandingan alumni yang menerima BKC dan tidak mengalami perbedaan yang
+signifikan, setelah dilakukan pemetaan alumni BKC pertahunnya, selanjutnya dilakukan pemetaan
+Indeks Prestasi Kumulatif (IPK) per program studi yang ditunjukan pada gambar dibawah ini.
+
+Gambar 4. IPK Alumni Beasiswa KaltimCemerlang Per Prodi.
+
+Pemerataan prodi dilakukan berdasarkan Indeks Prestasi Kumulatif (IPK) untuk menentukan
+median rate IPK setiap prodi yang mendapatkan beasiswa kaltim cemerlang, seperti program studi fisika
+yang memiliki median rate yang stabil artinya rata-rata penerima di prodi tersebut memiliki rata-rata
+IPK diatas 3.3. dari Gambar 4 juga bisa diketahui bahwa nilai mahasiswa dengan rata-rata IPK tertinggi
+terdapat di program studi Sistem Informasi dan Perencanaan Wilayah dan Kota (PWK), sedangkan
+untuk Teknik elektro menempati rata-rata IPK terendah tetapi memiliki deviasi yag lebih besar
+dibandingkan program studi lainnya. Setelah ditunjukan kualitas IPK alumni BKC per program studi
+selanjutnya diperlukan kategori bidang usaha alumni BKC untuk melihat ketercapaian yang telah
+diperoleh setelah mereka lulus dari ITK. Hal ini seperti yang terlihat pada Gambar 5.
+
+77
+
+JSHP VOL. 5 NO. 1, 2021
+
+p-ISSN: 2580 -5398
+e-ISSN: 2597-7342
+
+Gambar 5. Kategori Bidang Usaha Alumni Beasiswa Kaltim Cemerlang Institut Teknologi Kalimantan.
+
+Sebanyak 120 alumni BKC tebagi menjadi beberapa kategori seperti bidang usaha non-proft,
+instansi pemerintahan/BUMN, wiraswasta dan perusahaan swasta di seluruh Indonesia. Sebanyak
+56.67% menunjukan alumni banyak memilih perusahaan swasta, hal ini merupakan hal yang wajar,
+dikarenakan daerah Kalimantan timur mayoritas di penuhi perusahaan swasta baik nasional atau
+internasional. Instansi pemerintahan/Badan Usaha Milik Negara (BUMN) menduduki posisi kedua
+setelah perusahaan swasta yang diminati alumni BKC sebesar 34,17% alumni dipekerjakan sebagai
+Honorer, Pegawai Tetap atau Aparatur Sipil Negara (ASN). Wiraswasta adalah alumni yang memiliki
+bisnis pribadi ataupun bisnis non-pribadi bisnis pribadi adalah bisnis yang usahanya atas nama pribadi
+tanpa kerjasama ataupun instansi lain. Sedangkan untuk non-pribadi adalah bisnis yang dibuat 2 atau
+lebih orang secara bersama-sama sesuai dengan kesepakatan dan hitam diatas putih seperti melanjutkan
+usaha orangtua, membuka cabang bisnis pihak tertentu dll. Sedangkan yang memiliki poin terendah
+adalah organisasi non-profit dimana pekerjaan ini dilakukan dengan tujuan pelayanan kepada
+masyarakat dan memiliki gaji tidak tentu/dapat berubah-ubah setiap saat. Diperlukan pemetaan kategori
+bidang usaha alumni beasiswa kaltim cemerlang, sehingga data lebih mendetail dalam analisis track
+record alumni.
+
+Gambar 6. Jurusan dan Program Studi ITK.
+
+Gambar 6 menggambarkan pembagian program studi di Institut Teknologi Kalimantan terhadap
+5 jurusan yaitu Jurusan Matematika dan Teknologi Informasi (JMTI), Jurusan sains, Teknologi Pangan
+dan Kemaritiman (JSTPK), Jurusan Teknologi Industri (JTIP), Jurusan Teknik Sipil dan Perencanaan
+(JTSP) dan Jurusan Ilmu Kebumian dan Lingkungan (JIKL). Dapat dihubungkan data Gambar 5
+terhadap pemetaan ITK di Gambar 6 sebagai berikut.
+
+78
+
+JSHP VOL. 5 NO. 1, 2021
+
+p-ISSN: 2580 -5398
+e-ISSN: 2597-7342
+
+Gambar 7. Kategori Bidang Usaha Alumni Beasiswa Kaltim Cemerlang Per Jurusan.
+
+Dari kelima jurusan berdasarkan Gambar 7 organisasi non-profit berada di jurusan JIKL dengan
+rata-rata IPK JIKL sebesar 3.39. JTSP memiliki alumni BKC yang bekerja di instansi
+pemerintahan/BUMN lebih banyak dibandingkan 5 jurusan yang lainnya. Hal ini disebabkan tingkat
+pembangunan perkantoran atau infrastruktur bangunan sedang berkembang di Indonesia khususnya di
+Kalimantan timur. Jurusan yang memiliki peminat perusahaan seasta yang paling besar adalah JTSPK,
+sehingga 56,67% perusahaan swasta lebih banyak yang berasal dari), Jurusan sains, Teknologi Pangan
+dan Kemaritiman (JSTPK). Jumlah alumni yang berwiraswasta paling banyak berada Rata-rata Indeks
+Prestasi Kumulatif terendah dimiliki oleh JTIP dan JMTI memiliki rata-rata IPK terbesar, tetapi
+perbedaan antara jurusan IPK tertinggi dan terendah adalah 0,2 dan hal ini tidak terlalu siginifikan.
+Pengelompokan berdasarkan jurusan memudahkan mengikuti design analisis report tracer study
+(Budi, 2017). Kategori usaha perusahaan swasta dan pemerintahan/BUMN menduduki posisi yang
+paling banyak diminati oleh para alumni beasiswa kaltim cemerlang sehingga diperlukan data detai
+mengenai pendapatan rata-rata di kedua kategori ini.
+
+Gambar 8. Pendapatan dan skala perusahaanAlumni Beasiswa Kaltim Cemerlang yang bekerja di perusahaan
+swasta
+
+Pendapatan atau gaji alumni menjadi data yang sangat diperlukan untuk mengukur keberhasilan
+alumni di dunia pekerjaan, karena gaji yang besar akan berbanding lurus dengan status pekerjaan
+(pegawai tetap/honorer), jenjang karir dan nama besar perusahaan. Apabila gaji yang didapatkan setara
+dengan Upah Minimum Regional (UMR) maka besar kemungkinan alumni tersebut bekerja dengan
+status pekerjaan honorer dan jenjang karir yang rendah. Sedangkan alumni yang memiliki gaji besar
+atau diatas UMR dapat dipastikan dia berada diperusahaan yang memiliki nama cukup besar di skala
+lokal, nasional atau internasional. Jumlah alumni yang bekerja di perusahaan skala lokal berjumlah 8
+orang, perusahaan multinasional 13 orang dan 36 orang bekerja diperusahaan swasta berskala nasional.
+Tentunya 3 skala ini mempengaruhi pendapatan dari masing-masing alumni dengan pemetaan rata-rata
+diperoleh alumni yang bekerja di skala multinasional memiliki gaji dengan rata-rata Rp 4.868.000,
+79
+
+JSHP VOL. 5 NO. 1, 2021
+
+p-ISSN: 2580 -5398
+e-ISSN: 2597-7342
+
+sedangkan skala lokal dan nasional hanya sebesar Rp4.425.000 dan Rp 4.190.400. Alumni Beasiswa
+Kaltim Cemerlang (BKC) yang memilih bekerja di instansi pemerintah/BUMN ditunjukan pada gambar
+dibawah ini.
+
+Gambar 9. Pendapatan dan skala perusahaan Alumni Beasiswa Kaltim Cemerlang yang bekerja di instansi
+pemerintah/ BUMN.
+
+Diketahui melalui Gambar 9, bahwa perusahaan BUMN dan kementrian lebih banyak diambil
+oleh para alumni dengan nilai 32 alumni. Sedangkan multinasional merupakan perusahaan BUMN yang
+sudah mencapai mancanegara hanya 1 orang yang dapat masuk keperusahaan tersebut. Untuk
+perusahaan lokal hanya berjumlah 7 alumni yaitu, perusahaan instansi pemerintahan yang berada di
+kalimantan timur. Gaji yang didapatkan alumni yang bekerja di instansi pemerintahan dan BUMN
+apabila di rata-ratakan menjadi sangat kecil, berbeda dengan rata-rata pendapatan yang ditunjukan
+Gambar 8. Sebanyak 7 orang alumni BKC hanya memperoleh Rp2.750.000, untuk yang multinasional
+mendapatkan Rp 2.828.000 setiap bulannya. Jumlah alumni yang bekerja di perusahaan skala nasional
+sebanyak 32 lebih sedikit dibandingkan alumni yang bekerja di skala nasional pada perusahaan swasta
+namun, penghasilan yang diperoleh perbulannya rata-rata mencapai Rp 5.212.000 lebih besar
+dibandingkan perusahaan swasta. Untuk sistem perbandingan analisis studi kasus ini mengacu dari cara
+pengambilan data dan perbandingan dari report tracer study ITB (Budi, 2015). Terlihat bahwa jumlah
+penerima Beasiswa Kaltim Cemerlang meningkat dari tahun ke tahunnya.
+KESIMPULAN
+Meskipun dari 199 wisudawan dari tahun 2016 s/d 2018 yang melakukan pengisian tracer study
+hanya 163 responden, hal tersebut sudah >80% sesuai dengan standar surat edaran kemedikbud untuk
+dapat di proses analisis datanya dan di jadikan laporan. Dari 120 penerima Beasiswa Kaltim Cemerlang,
+100% mendapatkan pekerjaan untuk skala lokal, nasional dan multi-nasional. Peminat di perusahaan
+swasta menjadi nomor 1 bagi alumni 2016 s/d 2018 akan tetapi nilai rata-rata gaji peminat perusahaan
+swasta masih lebih rendah di bandingkan peminat instansi pemerintah/BUMN dengan perusahaan skala
+nasional. Gaji tertinggi perusahaan swasta sebesar
+Rp 4.868.000 dan gaji tertinggi instansi
+pemerintah/BUMN Rp5.212.000 dengan selisih Rp 344.000. lebih banyak alumni yang memilih bekerja
+sebagai instansi pemerintah/BUMN dengan skala nasional dapat membuat track record alumni Institut
+Teknologi Kalimantan semakin baik di masyarakat indonesia. Data tracer study selanjutnya akan
+diberikan ke pihak pengelola beasiswa untuk dijadikan bahan evaluasi pemberian beasiswa kepada ITK.
+SARAN
+Sistem tracer kedepannya dapat membentuk dokumentasi pelengkap seperti dokumen Software
+Quality Assurace, Software Configuration Management, Software Test Plan, User Manual dan
+sebagainya dengan lengkap dan terperinci. Tim pengembang perangkat lunak merupakan tim yang tidak
+tetap dan akan selalu beregenerasi. Oleh karena itu diperlukan suatu dokumentasi yang dapat dijadikan
+sebagai acuan dalam pengembangan perangkat lunak ini dikemudian harinya. Ketika tim pengembang
+sudah berjalan data yang diperoleh akan lebih teratur, valid dan cepat dalam pengolahannya.
+
+80
+
+JSHP VOL. 5 NO. 1, 2021
+
+p-ISSN: 2580 -5398
+e-ISSN: 2597-7342
+
+UCAPAN TERIMA KASIH
+Analisis ini merupakan salah satu syarat yang harusditempuh setelah menyelesaikan buku tracer
+study 2019 dan juga menjadi bahan pertimbangan pengambil kebijakan kampus atau senat. Untuk
+itusaya mengucapkan terima kasih yangsebesar-besarnya kepada :
+1. Rektor Instiut Teknologi Kalimantan Prof. Ir. Budi santosa M.S., Ph.D
+2. Wakil rektor bidang akademik Nurul Widiastuti, S.Si., M.Si., Ph.D sebagai penganggung jawab
+Tim Kemahasiswaan Pusat
+3. Tim Kemahasiswaan Pusat Institut Teknologi Kalimantan dan Tim UPT TIK Institut Teknologi
+Kalimantan
+DAFTAR PUSTAKA
+Aji, Nurul Apsari, Bambang Setia Budi, Angga Dinan A. (2015). Progress and Development of Tracer Study ITB.
+Poster Session presented at international conference EXLIMA 2015 on 25-26 November 2015. 34.
+https://tracer.itb.ac.id/en/article/index/15.
+Budi, Bambang Setia, Angga Dinan A., Nur Faidzatus Saydah, Nissa Fadilah, Mila Isti. (2017). Report Tracer
+Study ITB 2017 Angkatan 2009. Penerbit ITB. 5.7, 81-87. https://tracer.itb.ac.id/en/report/index/10.
+Budi, Bambang Setia, Angga Dinan A. (2015). Report Tracer Study ITB Angkatan 2008. Penerbit ITB. 7.26, 138143. https://tracer.itb.ac.id/id/report/index/15
+Budi, Bambang Setia, dkk. (2011). Report 2011 Tracer Study & Kepuasan Pengguna. Penerbit ITB. BAB 3.b, 2022. https://tracer.itb.ac.id/id/report/index/20
+Ridhwan, Shadrina. (2019). Tracer Study 2019 Institut Teknologi Kalimantan, Tim Kemahasiswaan Pusat, ISBN
+978-623-7721-26-0. 2.28, 48-50.
+Rahman F, Ratna Silivia. (2018). Perancangan E-Learning Berbasis WEB Mengguakan Framework Codeiniter.
+Jurnal Ilmiah Technolgia, Universitas Islam Kalimantan. http://dx.doi.org/10.31602/tji.v9i2.1370
+Widyastuti, Ghulam Isaq Khan, Alviani Marsha A. (2017). Analisis Hasil Tracer Study ITS 2017. Institut
+Teknologi Sepuluh Nopember. ISBN 978-602-0817-72-6, 2.26, 64-66.
+
+81
+
+

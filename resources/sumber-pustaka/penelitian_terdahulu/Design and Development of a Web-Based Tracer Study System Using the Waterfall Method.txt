@@ -1,0 +1,570 @@
+Instal : Jurnal Komputer
+E-ISSN: 2808-683X
+Edisi : Volume 16 Nomor 07 | 2025
+Available online at https://journalinstal.cattleyadf.org/index.php/Instal/index
+
+Design and Development of a Web-Based Tracer Study System in
+Higher Education Using the Waterfall Method (Case Study at Dian
+Nusantara University)
+Mei Rendy Priyanto1, Desi Ramayanti2
+Universitas Dian Nusantara
+
+ABSTRACT
+
+Keywords:
+Website,
+PHP,
+Waterfall,
+tracer study
+
+This study aims to design and develop a web-based tracer
+study system at Dian Nusantara University using the Waterfall
+method. The system is designed to assist higher education
+institutions in tracking alumni's career paths and their level of
+satisfaction with the education they received. Additionally,
+this system aims to expedite the survey form completion
+process by alumni, ensuring that the collected data is more
+accurate and easier to analyze. The development stages
+include requirements analysis, design, implementation, and
+testing to ensure system performance. The outcome of this
+research is a platform that allows alumni to fill out surveys
+online, facilitating data processing by the university. This
+system is expected to strengthen the relationship with alumni
+and provide valuable information for curriculum development
+and educational planning.
+This work is licensed under a Creative Commons Attribution
+4.0 International License.
+
+Corresponding Author:
+Mei Rendy Priyanto
+Universitas Dian Nusantara
+Email: meirendypriyanto@gmail.com
+
+INTRODUCTION
+The success indicator of higher education is how relevant graduates are to the needs of the job
+market. Higher education institutions are expected to produce graduates who are competitive
+and ready to contribute to development, both locally and globally. Although many
+universities have conducted tracer studies on their graduates, the results have not been
+satisfactory. Data from tracer studies are crucial for universities to evaluate the effectiveness
+of their education on students. In fact, during grant processes and accreditation, data from
+tracer studies, such as the waiting period for graduates, the percentage of graduates who are
+employed, and their initial income, are often required. [4]
+Currently, Dian Nusantara University (UNDIRA) does not have a dedicated tracer study
+application. The alumni data tracking mechanism is done by contacting alumni via email and
+attaching a Google Form as a medium for filling out the survey. Although Google Forms is
+easy to use and free, there are several limitations that Dian Nusantara University must
+consider for the sustainability of its tracer study activities in the coming years.[2]
+
+370
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+The proposed solution is the development of a Tracer Study application. The purpose of
+developing the tracer study application is to integrate the research needs of the tracer study
+into an application. This application offers significant benefits, such as helping study programs
+improve their curriculum by providing feedback and preparing the necessary tracer study
+documentation for accreditation processes. Through this platform, alumni career tracking can
+be done more efficiently and systematically. Alumni can be invited to fill out the survey online,
+reducing barriers such as difficulty in contacting them and receiving responses. Additionally,
+the web-based tracer study allows for centralized data storage and management, making it
+easier for relevant parties, such as study program staff and education decision-makers, to
+access and analyze the data. Therefore, creating a web-based tracer study can be an effective
+step in improving the accuracy and relevance of information about alumni career paths and
+supporting efforts to evaluate and develop educational programs at higher education
+institutions . [7]
+The main issue faced is the collection of alumni data at Dian Nusantara University, especially
+related to the evaluation of graduate success in the information technology industry. Manual
+data collection results in difficulties in tracking alumni career paths, low response rates, and
+challenges in storing and analyzing data adequately. The proposed solution is the creation of
+a web-based tracer study platform that allows for online data collection. With this platform, it
+is expected that the process of tracking and collecting alumni data will be more efficient and
+structured. Furthermore, centralized data storage and easy access for relevant parties will
+facilitate data analysis and decision-making related to the enhancement of educational
+programs and curricula .[3]
+METHODS
+Data Collection
+In this study, data collection techniques were conducted using interviews and observations.
+The purpose of the interviews was to gather relevant data and information to assist in
+observing and analyzing the processes occurring in the tracer study system at Dian Nusantara
+University. The data and information used were sourced from books, scholarly articles, and
+journals available on the internet. The observation aimed to collect existing data and
+information.[1]
+Software Development Methods
+This information system was developed using the SDLC (Software Development Life Cycle)
+model, which includes problem analysis, requirements specification, design, coding, testing,
+system integration, and operation. System maintenance and evolution are necessary to ensure
+the continued functionality of the system. The advantage of applying the fountain model is
+that certain stages can be prioritized or skipped, although some stages, such as
+implementation, cannot be prioritized before the design phase. The data collection methods
+used were observation and interviews. The system testing results indicate that the mobilebased tracer study information system enables higher education institutions to effectively and
+efficiently collect the required information.[5]
+Waterfall Method
+To carry out the software development process, the method used is the waterfall method. The
+Waterfall method is a sequential method of each development part that is owned. The
+Waterfall method is a development method that is a Linear Sequential Model which is often
+also known as the classic life cycle, starting from the initial part of the system development
+specification, namely the planning, modeling, construction and delivery of the system. to users
+(deployment), which ends with support for the complete software produced. [6]The
+development method uses a waterfall model similar to that in the following picture:
+371
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+Figure 1. Development of the Waterfall method
+This waterfall method has several steps:
+1. Communications
+This stage is used to analyze the importance of the tracer study system, as well as the steps
+in collecting data and holding meetings with research objects, both to collect additional
+data and those contained in journals or articles.
+2. Planning
+In this planning stage, which is a continuation of the communication stage, the system's
+services, constraints, and objectives are developed through consultation with system
+users. The description of the services provided by the system and the restrictions specified
+in detail serve as a detailed component of the system.
+3. Modeling
+This stage is a design and modeling stage that aims to translate system requirements,
+focusing on designing data structures, software architecture, interface appearance, and
+program algorithms. The goal is to gain a better understanding of the overall picture of
+what will be done.
+4. Construction
+In the Construction process, this is the process of translating the design form into a code
+or form of language that can be read by a computer. The programmer will translate the
+code into a software interface through coding. This process is the real process of handling
+software, therefore the use of computers is maximized in this process. After the coding is
+complete, testing is carried out on the system and also the code that has been created. The
+goal is to find errors that may occur so that they can be corrected later.
+5. Deployments
+The Deployment process is the stage of implementing the software to users, or it could
+also be said to be the final stage in creating the software. After analysis, design and coding
+have been carried out, the system that has been created will be used by users. Then the
+software that has been created will always be checked periodically, software repaired,
+software evaluated, and software developed based on the feedback provided so that the
+system can continue to run and develop according to its function.
+Unified Modeling Language (UML)
+Unified Modeling Language, hereinafter referred to as (UML), is a system development
+technique that uses graphical language as a tool for documenting and carrying out system
+specifications. In this research, the system design uses UML, which consists of creating use
+case diagrams, activity diagrams, and sequence diagrams. System software design includes
+database design, producing a mapping of tables depicted with an Entity Relationship
+Diagram. [13]
+Test Result
+System testing uses Blackbox testing, which is a software testing technique that focuses on the
+functional specifications of the software without having to pay attention to software details.
+Black box testing works by entering data in each form. Black box testing allows software
+372
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+developers to create a set of input conditions that will train all the functional requirements of
+a program so they can find out whether the program can run as desired or not. The advantage
+over the black box testing method is that the tester does not have to have more knowledge of
+a particular programming language because this testing is carried out from the user's
+perspective to help reveal inconsistencies in the requirements specification. [7]
+RESULTS AND DISCUSSION
+Analysis of the tracer study system using Google Forms for collecting alumni data reveals
+several weaknesses, including low response rates and difficulties in data management. The
+system lacks a reminder feature for alumni who have not completed the form and does not
+provide centralized data storage. The development of a web-based application for the tracer
+study enables alumni to access a portal and complete the survey online more flexibly, which
+is expected to improve response rates. Additionally, all collected data will be stored in a
+centralized database, facilitating easier access and analysis. This process can also be monitored
+directly by administrators, both in terms of the number of alumni responding and the results
+of each survey question.
+Analysis
+The development of a website for alumni form completion serves as an effective solution to
+address the challenges in collecting tracer study data. This website is designed with several
+key features, including survey question formulation that adheres to the regulations of the
+Ministry of Education and Culture (Kemendikbud) and additional inputs from the university
+to enhance the system. The website also includes the creation of an alumni database for
+broadcasting needs and data management. The survey mechanism simplifies the process by
+tailoring it according to alumni employment status. Additionally, the website is equipped with
+a user-friendly tracer study form page, a dashboard for data analysis, and an export function
+that complies with Kemendikbud's formatting requirements.
+
+Figure 2. Use Case Diagram
+Use Case Diagrams
+The use case designed for the alumni and staff modules in the tracer study includes staff roles
+aimed at performing five tasks: managing alumni data, study programs, survey questions,
+373
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+survey results, and survey reports. Meanwhile, the alumni role is designed to update personal
+information and complete the tracer study survey.
+Implementation
+a. Main page
+
+Figure 3. Front page (Part 1)
+b. Admin Page
+Figure 3 shows the front page which is the first page that visitors see when entering the
+website.
+
+Figure 4. Front page (Part 2)
+Figure 4 The following is the admin dashboard page, which displays information on the
+number of alumni, survey completion status, a graph of tracer study survey results, the ability
+to manage survey questions, and the option to send messages to alumni via email blast.
+
+374
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+Figure 5. Alumni Data Page
+Figure 5 This page features functions for adding alumni data and editing alumni personal
+information. Additionally, it includes a blast email function to send email messages to alumni,
+reminding them to complete the tracer study survey.
+
+Figure 6. Tracer Study question edit page
+Figure 6 On this page, the admin can modify the questions and answers, which can then be
+sent to the alumni.
+
+Figure 7. The Tracer Study Completion Monitoring Page
+
+375
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+Figure 7 On this page, the admin can view in detail which alumni have completed the survey
+and which have not.
+
+Figure 8. Tracer Study Survey Results Page
+Figure 8 On this page, the admin can view the survey results and export them into an Excel
+format.
+c.
+
+Login Alumni
+
+Figure 9. Login Alumni Page
+Figure 9 On this page, alumni log in using a combination of their username and NIM (Student
+Identification Number) password.
+
+376
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+Figure 10. The Alumni Personal Data Page
+Figure 10 On this page, alumni can update their personal information, such as the company
+they work for, the city they live in, contact details, and social media profiles.
+
+Figure 11. Alumni survey completion page
+System Testing
+With the requirements specifications already outlined before the system is ready for use,
+system testing is carried out first. The following are the results of the testing system that has
+been carried out on website functions
+
+No
+
+Pengujian
+
+1.
+
+Login ke
+halaman
+admin
+
+Table 1. System Test Results Table
+test case
+hasil yang
+diharapkan
+Pengisian username
+dan password
+
+masuk ke halaman
+admin/dashboard
+
+hasil
+penguji
+an
+95%
+
+kesimpu
+lan
+valid
+
+377
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+2.
+
+Logout dari
+halaman
+admin
+
+klik tombol logout
+pada navbar sebelah
+kanan atas
+
+3.
+
+masuk ke
+halaman
+alumni
+
+CRUD pada data
+alumni
+
+4.
+
+blast email
+
+menirim email ke
+alumni
+
+5.
+
+masuk ke
+halaman
+Pertanyaan
+dan jawaban
+survey
+masuk ke
+halaman
+monitoring
+pengisian
+tracer study
+masuk ke
+halaman hasil
+tracer study
+
+CRUD pada
+pertanyaan dan
+jawaban
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+masuk ke
+halaman
+admin
+Login ke
+halaman
+alumni
+Logout dari
+halaman
+alumni
+
+masuk ke
+halaman profil
+Alumni
+12. menisi surfey
+Tracer Study
+
+keluar dari halaman
+admin dan masuk ke
+halaman login
+pengisian username
+dan password
+respon terhadapat
+data baik
+penambahan dan
+perubahan data
+alumni dapat
+dijalankan dengan
+baik
+alumni dapat
+menerima pesan
+pengisian tracer
+study lewat email
+data pertanyaan dan
+jawaban responsif
+sesuai fungsi yang
+diharapkan
+
+95%
+
+valid
+
+95%
+
+valid
+
+95%
+
+valid
+
+95%
+
+valid
+
+dapat menampilkan
+data alumni yang
+sudah mengisi dan
+belum mengisi tracer
+study
+dapat export data ke
+format ms.excell
+
+95%
+
+valid
+
+95%
+
+valid
+
+dapat menambah
+dan mengedit akun
+admin
+masuk ke halaman
+admin/dashboard
+
+95%
+
+valid
+
+95%
+
+valid
+
+95%
+
+valid
+
+melakukan update
+data diri
+
+keluar dari halaman
+admin dan masuk ke
+halaman login
+pengisian username
+dan password
+update data diri
+alumni
+
+95%
+
+valid
+
+klik tombol ikuti
+survey
+
+dapat mengisi data
+survey
+
+95%
+
+valid
+
+memilih status
+pengisian (
+sudah/belum) pada
+daftar alumni
+melihat data hasil
+pengisian dan export
+ke dalam format
+Microsoft excell
+CRUD pada halaman
+admin
+Pengisian username
+dan password
+klik tombol logout
+pada navbar sebelah
+kanan atas
+
+378
+
+Mei Rendy Priyanto, et al
+Page : 370-379
+Doi. 10.54209/jurnalinstall.v16i07.355
+
+CONCLUSION
+The research conducted at Dian Nusantara University reveals that the tracer study information
+system still relies on Google Forms. Based on these findings, the author developed a webbased tracer study information system. This system allows alumni to update their current
+personal information and complete the tracer study survey more flexibly. The application also
+facilitates the tracer study team in tracking and managing alumni data, enabling efficient
+survey completion monitoring and simplifying the analysis of survey responses from alumni.
+[1]
+
+[2]
+
+[3]
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+[12]
+[13]
+
+[14]
+
+REFERENCES
+Mustofa and D. Ramayanti, "Implementasi Load Balancing dan Failover to Device
+Mikrotik Router Menggunakan Metode NTH (Studi Kasus: PT.GO-JEK Indonesia),"
+Jurnal Teknologi Informasi dan Ilmu Komputer, vol. 7, no. 1, pp. 139-144, 2020.
+S. Adam, R. Rotikan, A. T. Pangkey, B. T. Rambi, and S. I. Saerang, "Pengembangan
+aplikasi tracer study klabatbridge berbasis web Di Universitas Klabat," Prosiding
+CORISINDO 2023, 2023.
+S. Y. A. Adi Soetrisno, "APLIKASI TRACER STUDY BERBASIS WEB PADA
+UNIVERSITAS DIPONEGORO," Transmisi, vol. 21, no. 4, pp. 135–146, 2019.
+E. Alfonsius, S. Sukardi, and I. M. N. V. Astawa, "Sistem informasi pelaporan pekerjaan
+Proyek Berbasis SDLC Modelling (Studi Kasus: PT Vertikal Tiara Manunggal)," Journal
+of Artificial Intelligence and Technology Information, vol. 1, no. 2, pp. 50–58, 2023.
+R. F. Hermansyah, R. B. Wijaya, and R. Utomo, "Metode Waterfall Dalam Rancang
+Bangun Sistem Informasi Manajemen Kegiatan Masjid Berbasis Web," KLIK: Kajian
+Ilmiah Informatika Dan Komputer, vol. 3, no. 5, pp. 563–571, 2023
+Peniarsih, "Sistem informasi pelacakan tracer study berbasis web program studi D3
+manajemen informatika," Jurnal Sistem Informasi Universitas Suryadarma, vol. 3, no. 2,
+2020.
+T. Prasetyo and A. Eviyanti, "Sistem Informasi Pusat Karir dan Tracer Study di
+Muhammadiyah Sidoarjo Berbasis Mobile," Journal of Technology and System
+Information, vol. 1, no. 1, pp. 71–85, 2024.
+N. Rachma and F. Ramdhani, "Sistem informasi tracer study Berbasis mobile Dengan
+Metode Fountain Menggunakan Bahasa Pemrograman Dart dan Framework Flutter,"
+Journal of Comprehensive Science (JCS), vol. 3, no. 3, pp. 702–711, 2024.
+K. Rizki, S. Achmady, and C. L. Setiawati, "Pengembangan aplikasi tracer study
+universitas jabal ghafur menggunakan framework laravel," Sagita Academia Journal,
+vol. 1, no. 1, pp. 1–9, 2023.
+N. SEPTIARINA, "PERANCANGAN SISTEM INFORMASI PENERIMAAN SISWA
+BARU BERBASIS WEB PADA SMK BANDARA," Jurnal Pengembangan Riset dan
+Observasi Sistem Komputer, vol. 8, pp. 60-67, Maret 2021.
+D. Setiawan, "Dampak Perkembangan Teknologi Informasi dan Komunikasi Terhadap
+Budaya," JURNAL SIMBOLIKA, vol. 1, p. 62, April 2018.
+N. Rachmawati, "Pengumpulan Data Dalam Penelitian Kualitatif: Wawancara," Jurnal
+Keperawatan Indonesia, vol. 11, p. 40, Maret 2027.
+C. Praniffa, A. Syahri, F. Sandes, U. Fariha, Q. A. Giansyah and M. Hamzah, "Pengujian
+Sistem Informasi Parkir Berbasis Web Pada UIN SUSKA RIAU Menggunakan White Box
+dan Black Box Testing," Jurnal Testing dan Implementasi Sistem Informasi, vol. 1, p. 16,
+Maret 2023.
+H. Purwantih, Z. F. Rahayu, W. Amelia, R. Dwi and H. M. Bilqis, "Rancang Bangun
+Sistem Seleksi Rekrutmen Karyawan Dan Guru Berbasis Website Pada Sekolah Citra
+Bangsa Tangerang," ADI Bisnis Digital Interdisiplin (ABDI Jurnal), vol. 1, desember
+2020.
+379
+
+

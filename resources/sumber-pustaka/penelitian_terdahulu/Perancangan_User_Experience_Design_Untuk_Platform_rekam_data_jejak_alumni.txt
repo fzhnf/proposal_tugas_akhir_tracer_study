@@ -1,0 +1,1055 @@
+Journal of Information Technology and Computer Science (INTECOMS)
+Volume 6 Nomor 1, Juni 2023
+e-ISSN : 2614-1574
+p-ISSN : 2621-3249
+
+PERANCANGAN USER EXPERIENCE DESIGN UNTUK PLATFORM REKAM
+DATA JEJAK ALUMNI (TRACER STUDY) DI PERGURUAN TINGGI
+USER EXPERIENCE DESIGN FOR ALUMNI TRACKING DATA RECORDING
+PLATFORM (TRACER STUDY) IN HIGHER EDUCATION
+Alika Nur Faradiba Saragih1, Rian Andrian2, Suprih Widodo3
+1,2,3
+Universitas Pendidikan Indonesia
+alikafaradiba@upi.edu
+
+ABSTRACT
+The user interaction design for the alumni data record platform (Tracer Study) in higher education is a research
+project that intends to create an interface design and test the accessibility level of the design findings before they
+are built by programmers. The Tracer Study seeks information about alumni who either have or have not found
+jobs and a first step in making decisions to improve a university's education system. Multiple colleges in
+Purwakarta manage their tracer study activities in the traditional manner. This research intends to create a user
+experience design platform tracer through the Design Thinking technique, which consists of of five stages:
+empathize, define, ideate, prototype, and test. Data was collected by conducting interviews, monitoring, and
+providing lift. The end result of this research is the display of the Tracer Study platform interface design and the
+findings of the calculations of the Tracer Study platform display test performed with the System Usability Scale
+(SUS).
+Keywords: User Experience Design, Tracer Study, Design Thinking, System Usability Scale
+ABSTRAK
+Perancangan User Experience Design untuk Platform Rekam Data Alumni (Tracer Study) di Perguruan Tinggi
+merupakan penelitian yang bertujuan untuk menghasilkan tampilan desain antarmuka dan mengukur tingkat
+kegunaan (usability) dari hasil desain sebelum di kembangkan oleh programmer. Tracer Study bertujuan untuk
+mendapatkan informasi terkait alumni yang telah mendapatkan pekerjaan, belum mendapatkan pekerjaan, dan
+sebagai langkah awal dalam mengambil keputusan untuk meningkatkan sistem pendidikan di suatu perguruan
+tinggi. Dalam melakukan kegiatan Tracer Study, beberapa perguruan tinggi di Purwakarta masih dilakukan secara
+konvensional. Penelitian ini bertujuan untuk membangun perancangan user experience design platform tracer
+study dengan metode Design Thinking dimana metode ini terdiri lima tahapan yaitu, empathize, define, ideate,
+prototype, dan testing. Pengumpulan data dilakukan dengan melakukan wawancara, observasi, dan penyebaran
+angkat. Hasil akhir dari penelitian ini adalah tampilan desain antarmuka platform Tracer Study, dan hasil dari
+perhitungan pengujian tampilan platform Tracer Study yang dilakukan dengan System Usability Scale (SUS).
+Kata Kunci: User Experience Design, Tracer Study, Design Thinking, System Usability Scale
+
+PENDAHULUAN
+Alumni
+adalah
+istilah
+yang
+digunakan untuk menyambut seseorang
+yang telah lulus dari suatu institusi
+pendidikan, seperti sekolah, universitas,
+atau akademik. Peran yang dimiliki alumni
+bagi suatu perguruan tinggi berdampak
+cukup besar, karena alumni dapat
+membantu institusi pendidikan dalam
+meningkatkan kualitas, nama baik, dan
+eksistensi institusi dengan memberikan
+masukan dan dukungan, serta membantu
+institusi dalam memperkenalkan lembaga
+
+pendidikan mereka di kalangan masyarakat
+luas.
+Dalam
+mengetahui
+informasi
+kegiatan yang berjalan pada perguruan
+tinggi menurut (Schomburg, 2003) dapat
+menggunakan sistem Tracer Study yang
+berperan sebagai salah satu alat ukur
+kinerja pada perguruan tinggi dan luaran
+yang dihasilkan berperan penting dalam
+memantau perkembangan dan kemampuan
+perguruan tinggi dalam membentuk
+mahasiswa mereka yang siap terjun ke
+dunia industri.
+
+525
+
+2023. Journal of Information Technology and Computer Science (INTECOMS) 6(1): 525-532
+
+pengumpulan data di tahap wawancara dan
+obervasi.
+User Experience Design adalah suatu
+metode yang digunakan dalam membantu
+menjawab permasalahan pengguna dengan
+mengutamakan kepuasan pengguna dalam
+merancang produk atau sistem. Tujuan dari
+metode ini adalah untuk mengidentifikasi,
+menentukan kebutuhan, dan menemukan
+kesulitan pengguna agar hasil desain
+produk mudah dipahami sehingga kualitas
+produk yang dihasilkan juga meningkat
+karena sesuai dengan kebutuhan target
+pengguna (Setiawansyah, 2021).
+Usability
+Testing
+merupakan
+pengujian kemampuan pada suatu produk
+yang akan digunakan oleh pengguna
+dengan mudah dan seluruh tujuan pengguna
+dapat tercapai. Suatu produk dapat
+dikatakan memiliki hasil usability testing
+yang baik Ketika prouk mudah untuk
+digunakan, memiliki fungsi dan tujuan
+yang
+sesuai
+dengan
+permasalahan
+pengguna (Darmawan, 2022). Dalam
+(Aisyah et al., 2021) Nielsen menuliskan
+bahwa terdapat lima komponen yang dilihat
+ketika melakukan usability, yaitu;
+1. Learnability,
+pengukuran
+tingkat
+kemudahan penggua dalam mempelajari
+dan menggunakan produk.
+2. Efficiency,
+mengukur
+kecepatan
+pengguna dalam menyelesaikan tugas
+untuk mencapai tujuan.
+3. Memorability, menilai ingatan pengguna
+dalam kegiatan yang mereka lakukan
+saat pengujian produk dalam mencapai
+tujuan.
+4. Error, menghitung jumlah kesalahan
+yang pengguna lakukan dan dampak dari
+kesalahan tersebut, dan apakah
+pengguna
+dapat
+menyelesaikan
+permasalahan yang mereka alami.
+5. Satisfaction,
+Kepuasan
+pengguna
+terhadap
+desain
+produk
+secara
+keseluruhan setelah selesai melakukan
+uji coba produk.
+System Usability Scale (SUS)
+merupakan salah satu bentuk penilaian dari
+hasil pengujian produk yang tengah
+dirancang. Penilaian ini terdiri dari sepuluh
+
+Tracer Study adalah salah satu studi
+yang bertujuan untuk memantau dan
+mengikuti
+keberlangsungan
+karir,
+perkembangan kompetensi lulusan, dan
+kondisi kehidupan lulusan setelah lulus dari
+perguruan tinggi. Tracer Study juga dapat
+digunakan sebagai penghubung antara
+perguruan tinggi dengan stakeholder dalam
+memperoleh informasi alumni mereka di
+dunia professional, mengetahui kompetensi
+seperti apa yang dapat ditingkatkan, dan
+kekurangan dari kurikulum yang diterapkan
+(Zulaiha, 2021).
+Berdasarkan hasil observasi yang
+telah dilakukan pada beberapa perguruan
+tinggi di Purwakarta, menunjukkan bahwa
+pelaksanaan Tracer Study pada perguruan
+tinggi
+masih
+diberlakukan
+secara
+konvensional
+dengan
+menyebarkan
+informasi menggunakan grup whatsapp. D
+Hasil observasi juga menunjukkan bahwa
+ditemukannya permasalahan yang muncul
+dalam proses pengolahan data hasil Tracer
+Study seperti, proses pengisian kuesioner
+Tracer Study di perguruan tinggi tersebut
+masih dilakukan secara konvensional
+dengan menggunakan google form,
+pergantian link yang dilakukan secara
+berkala ini mengakibatkan data yang
+dihasilkan tidak tersimpan secara rapih,
+kurang akurat, dan tidak efektif sehingga
+akan terasa lebih sulit ketika mencari salah
+satu data alumni.
+Penelitian ini bertujuan untuk
+merancang sebuah user experience design
+platform rekam data jejak alumni di
+perguruan tinggi dalam bentuk website.
+Platform ini berfungsi untuk membantu
+perguruan tinggi dalam merekam, melacak,
+dan mengolah data informasi alumni
+mereka.
+Langkah dalam menyusun antarmuka
+dan pengalaman pengguna pada penelitian
+ini dimulai dengan perumusan masalah,
+pengumpulan data secara studi literatur,
+observasi, dan wawancara. Dalam
+melakukan analisis data pada penelitian ini
+dilakukan dengan analisis data kualitatif
+deskriptif yang diterapkan pada hasil
+
+526
+
+2023. Journal of Information Technology and Computer Science (INTECOMS) 6(1): 525-532
+
+pertanyaan sederhana yang bertujuan
+unttuk mengetahui dan memberikan
+pandangan umum terkait penilaian dari
+kegunaan produk apakah telah sesuai
+dengan kebutuhan pengguna dan dapat
+membantu meringankan beban pengguna.
+
+scale ini dikelompokkan kedalam lima
+bagian yaitu, grade A dengan skor (90100), grade B dengan skor (90-80), grade C
+dengan skor (80-70), grade D dengan skor
+(70-60), dan F skor dibawah 60. Sedangkan
+untuk Acceptability Ranges terdiri dari nilai
+0-50 (not acceptable), nilai 51-62
+(marginal low), nilai 63-70 (marginal
+high), dan nilai 70-100 (acceptable).
+
+Tabel 1. Pertanyaan SUS
+No
+1.
+2.
+3.
+4.
+
+5.
+6.
+
+7.
+
+8.
+9.
+
+10.
+
+Pertanyaan
+Saya
+akan
+sering
+mengunjungi aplikasi ini.
+Saya merasa sistem ini rumit
+digunakan.
+Saya merasa sistem ini
+mudah digunakan.
+Saya membutuhkan bantuan
+orang
+lain
+dalam
+menggunakan aplikasi ini.
+Saya merasa fitur sistem.
+berjalan dengan semestinya
+Saya merasa ada banyak hal
+yang tidak konsisten pasa
+splatform.
+Saya merasa orang lain akan
+memahani
+cara
+menggunakan system ini
+dengan cepat.
+Saya merasa system ini
+membingungkan
+Saya merasa tidak ada
+hambatan dalam penggunaan
+system kami.
+Saya perlu membiasakan diri
+terlebih dahulu sebelum
+menggunakan system.
+
+Skala
+1-5
+1-5
+1-5
+1-5
+
+Gambar 1. Rentang Nilai SUS
+Sumber: (Muqoddas et al., 2020)
+
+1-5
+1-5
+
+METODE
+Data yang dikumpulkan dalam
+penelitian ini menggunakan teknik
+wawancara, observasi, dan penyebaran
+angket untuk menggali permasalahan,
+menentukan minimum viable product
+(MVP), dan menyesuaikan desain produk
+yang sesuai dengan kebutuhan target
+pengguna.
+Dalam tahap pegembangan desain
+antarmuka pada platform rekam data jejak
+alumni (Tracer Study) menggunakan
+metode Design Thinking. Metode ini
+merupakan kerangka kerja dalam strategi
+pengembangan desain dengan tujuan
+memecahkan masalah berbasis solusi.
+Dalam prosesnya Design Thinking terbagi
+menjadi lima tahapan yang diantaranya
+Empathize, Define, Ideate, Prototype, dan
+Testing.
+
+1-5
+
+1-5
+1-5
+
+1-5
+
+Jawaban yang diberikan oleh
+responden pada pertanyaan SUS akan
+diberikan dalam bentuk skala 1-5 yang
+terbagi menjadi sangat setuju (SS) dengan
+skala 5, Setuju (S) dengan skala 4, Netral
+(N) dengan skala 3, Tidak Setuju (TS)
+dengan skala 2, dan Sangat Tidak Setuju
+(STS) dengan skala 1, atau dapat dilihat
+seperti pada tabel skala likert dibawah
+Skala
+1
+2
+3
+4
+5
+
+Tabel 2. Skala Likert
+Pilihan Jawaban
+Sangat Tidak Setuju (STS)
+Tidak Setuju (TS)
+Netral (N)
+Setuju (S)
+Sangat Setuju (SS)
+
+Gambar 2. Tahapan Design Thinking
+Sumber: (McCarthy, S., 2022)
+
+Skor yang dihasilkan berdasarkan
+SUS terbagi kedalam tiga aspek penilaian
+yaitu, adjective rating atau skala penilaian
+dari worst imaginable, awful, poor, ok,
+good, excellent, and best imaginable. Grade
+
+1. Empathize
+Pada tahap awal dengan melakukan
+penelitian terhadap kebutuhan pengguna
+
+527
+
+2023. Journal of Information Technology and Computer Science (INTECOMS) 6(1): 525-532
+
+dengan serangkaian pertanyaan dan
+tugas yang akan pengguna kerjakan
+selama berinteraksi dengan produk
+
+yang akan dipecahkan, mengamati
+secara langsung perilaku pengguna,
+memahami bagaimana mereka berfikir,
+dan apa yang mereka inginkan. Pada
+tahapan ini dapat dilakukan dengan
+melakukan wawancara, observasi, atau
+dengan penyebaran angket. Wawancara
+dapat dilakukan untuk menggali
+permasalahan atau
+pain points,
+menentukan target pengguna, dan lebih
+mengenal calon pengguna (Amelia et al.,
+2021).
+2. Define
+Define
+merupakan
+tahap
+untuk
+mendapatkan pandangan dari pengguna
+secara langsung, dan menemukan
+kebutuhan pengguna yang dihasilkan
+pada
+tahap
+empathize.
+Seluruh
+pandangan
+terhadap
+kebutuhan
+pengguna akan terangkum dalam user
+persona yang nantinya akan menjadi
+landasan awal dalam perancangan
+produk (Haryuda et al., 2021).
+3. Ideate
+Tahap
+ini
+merupakan
+bagian
+brainstorming yang bertujuan untuk
+menghasilkan ide atau solusi yang
+kreatif dengan beberapa teknik seperti;
+sketching, brainwriting, wireframe, dan
+crazy 8’s.
+4. Prototype
+Tahap ini menghasilkan produk yang
+telah clickable atau dapat digunakan
+namun dengan versi murah (low
+fidelity). Namun keterbatasan dalam
+penggunaan produk di tahap ini dapat
+digunakan sebagai bahan atau alat uji
+coba secara langsung kepada target
+pengguna untuk meminimalisir human
+error dan mengetahui apakah terdapat
+kekurangan yang dapat diperbaiki
+sebelum produk diserahkan kepada
+pihak developer.
+5. Test
+Tahap ini merupakan teknik yang
+digunakan dalam melakukan evaluasi
+pada produk yang telah di desain
+menjadi tampilan yang clickable namun
+masih dalam bentuk format figma (low
+fidelity). Dalam prosesnya akan diiringi
+
+HASIL DAN PEMBAHASAN
+Hasil dari penelitian User Experience
+Design dalam Perancangan Platform
+Rekam Data Jejak Alumni (Tracer Study)
+di Perguruan Tinggi dengan menggunakan
+metode Design Thinking dihasilkan sebagai
+berikut;
+1. Empathize
+Dalam melakukan tahap ini peneliti
+mengumpulkan data dengan cara
+wawancara dan observasi secara
+langsung kepada target pengguna untuk
+mengetahui permasalahan yang mereka
+alami. Hasil dari penelitian yang
+dilakukan,
+ditemukan
+beberapa
+permasalahan dan berbagai keluhan
+ketika melakukan proses tracer study.
+Kemudian beberapa permasalahan yang
+didapat dituangkan kedalam bentuk
+empathy map sebagai berikut;
+
+Gambar 2. Empathy Map
+Sumber: Dokumen Pribadi
+
+2. Define
+Setelah
+menemukan
+berbagai
+permasalahan pada tahap empathize,
+kemudian hasil tersebut Kembali diolah
+yang bertujuan untuk mendefinisikan
+strategi dan solusi yang tepat untuk
+dilakukan
+dalam
+menjawab
+permasalahan dan keluhan pengguna.
+Dalam tahap ini dihasilkan daftar pain
+points dan how might we untuk
+menjawab pain points tersebut
+Tabel 3. Daftar Pain Points
+
+No.
+
+528
+
+Pain Points
+
+2023. Journal of Information Technology and Computer Science (INTECOMS) 6(1): 525-532
+
+1.
+
+2.
+3.
+
+kemudian
+hasil
+tersebut
+akan
+direalisasikan dalam bentuk desain
+rancangan awal yang bertujuan dalam
+mengetahui berbagai kesalahan awal dan
+mendapatkan kemungkinan terbaru (Sari
+et al., 2020). Adapun tampilan prototype
+yang telah dirancangan menggunakan
+aplikasi figma diantaranya;
+
+Pergantian link Tracer Study
+ketika akan memperbaharui
+data alumni.
+Data yang terekam tidak
+tersusun rapih.
+Perhitungan hasil data Tracer
+Study masih dilakukan secara
+konvensional.
+Tabel 4. Daftar How Might We
+
+No.
+How Might We
+1. Menyediakan wadah untuk
+melakukan Tracer Study.
+2. Hasil data dikelompokkan
+sesuai dengan Angkatan, dan
+jurusan alumni.
+3. Dapat melakukan perhitungan
+data secara otomatis
+4. Memberikan informasi terkait
+proses
+pengisian
+survey
+Tracer Study
+5. Memberikan progress bar saat
+mengisi Tracer Study
+3. Ideate
+Setelah menentukan How Might We,
+kemudian
+peneliti
+melakukan
+brainstorming pada tahap ideate. Tahap
+ini bertujuan untuk mendapatkan solusi
+yang tepat yang akan diterapkan dalam
+fitur produk dalam menyelesaikan
+permasalahan yang telah didapatkan
+pada tahap sebelumnya. Pada tahap ini
+dihasilkan user flow yang bertujuan
+untuk menentukan alur peggunaan
+produk yang dapat dilihat pada gambar
+3.
+
+Gambar 4. Halaman Dashboard
+
+Pada halaman dashboard akan langsung
+terlihat berupa pie chart sebagai
+highlight informasi data terkait alumni
+dari hasil kuesioner Tracer Study. Ketika
+admin ingin mengelola dan membuat
+kuesioner Tracer Study baru maka
+tampilan akan berubah seperti dibawah
+ini;
+
+Gambar 5. Kuesioner Tracer Study
+
+Kemudian jika admin ingin melihat dan
+memproses pengajuan legalisasi online
+yang dilakukan oleh alumni, admin akan
+diarahkan
+kehalaman
+pengajuan
+legalisasi seperti dibawah;
+
+Gambar 3. User flow
+
+Gambar 6. Legalisasi Online
+
+Kemudian jika admin membutuhkan
+hasil data dari penyebaran kuesioner
+Tracer Study secara lengkap maka
+admin akan diarahkan ke halaman hasil
+data Tracer Study, hasil data yang
+
+4. Prototype
+Setelah melewati tahapan ideate,
+kemudian didapatkan hasil prioritas, dan
+solusi ide yang menghasilkan user flow
+
+529
+
+2023. Journal of Information Technology and Computer Science (INTECOMS) 6(1): 525-532
+
+ditampilkan terbagi menjadi tiga
+tampilan yaitu, Diagram chart, pie
+chart, dan juga rangkuman dalam bentuk
+tabel. Pada halaman ini selain dapat
+mengakses hasil kuesioner admin juga
+dapat mengunggah data tersebut
+kedalam bentuk PDF atau Excel.
+Tampilan halaman dapat dilihat seperti
+gambar dibawah;
+
+admin atau akademik di perguruan
+tinggi maka, didapatkan hasil yaitu;
+Tabel 6. Perhitungan Metric Efficiency
+User
+1
+2
+3
+4
+5
+6
+7
+Ratarata
+
+3.
+4.
+5.
+
+6.
+
+Tugas (detik)
+3
+4
+5.2
+12.6
+8.3
+16.5
+7.0
+9.0
+4.6
+6.5
+3.3
+6.5
+4.1
+4.4
+4.0
+5.6
+5.2
+8.7s
+
+5
+9.9
+15.2
+8.8
+6.5
+6.8
+6.2
+6.9
+8.6
+
+6
+7.4
+2.8
+4.6
+3.7
+4.6
+3.3
+3.3
+4.1
+
+Tabel 7. Perhitungan Metric Efectiveness
+User
+1
+2
+3
+4
+5
+6
+7
+
+1
+1
+1
+1
+1
+1
+1
+1
+
+2
+1
+1
+1
+1
+1
+1
+1
+
+Tugas
+3 4 5
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+1 1 1
+
+Total
+6
+1
+1
+1
+1
+1
+1
+1
+
+6
+6
+6
+6
+6
+6
+6
+
+Rate
+(%)
+100
+100
+100
+100
+100
+100
+100
+
+Berdasarkan hasil data pada tabel 7
+matric effectiveness jika pengguna
+berhasil melakukan tugas maka skor
+yang didpatkan adalah ‘1’ dan jika tidak
+berhasil menyelesaikan tugas maka
+diberi skor ‘0’. Terlihat bahwa pada
+tabel 7 hasil pengukuran pada aspek
+effectiveness pada platform rekan data
+jejak alumni (tracer study) bahwa
+seluruh responden berhasil dalam
+menyelesaikan tugas yang diberikan.
+
+Tabel 5. Daftar Tugas Usabilitty Testing
+
+2.
+
+2
+26.1
+120
+18.5
+11.6
+8.1
+10.5
+7.1
+29.0
+
+Metric efficiency bertujuan untuk
+mengukur waktu yang dibutuhkan oleh
+pengguna untuk menyelsesaikan tugas.
+Perhitungan waktu dapat dihitung dari
+awal responden memulai hingga tugas
+terakhir. Data yang didapatkan dari hasil
+pengujian scenario pada aspek efficiency
+disajikan pada tabel 6 diatas.
+
+Gambar 7. Hasil Tracer Study
+5. Testing
+Tahapan ini melakukan pengujian
+dengan 7 responden yang terbagi
+menjadi dua indikator, yaitu merupakan
+bagian admin yang memiliki hak akses
+data alumni, dan bagian akademik di
+perguruan tinggi . Pengujian ini
+menggunakan usability testing yang
+kemudian hasil pengujian tersebut akan
+dianalisis
+dengan
+menggunakan
+perhitungan System Usability Scale
+(SUS). Berikut merupakan hasil
+penjabaran tahapan yang dilakukan
+dalam usability testing adalah sebagai
+berikut:
+No
+1.
+
+1
+27.2
+46.8
+17.6
+15.1
+12.0
+10.1
+10.6
+19.9
+
+Tugas
+Meminta
+pengguna
+untuk
+membuat kuesioner baru
+Mengakses dan mengunduh
+hasil data Tracer Study
+Meminta
+pengguna
+untuk
+melihat data alumni
+Melakukan
+penambahan
+informasi karir baru
+Meminta
+pengguna
+untuk
+memproses pengajuan legalisasi
+online
+Meminta
+pengguna
+untuk
+membuat berita baru
+
+Tabel 8. Perhitungan Metric Satisfaction
+User
+1
+2
+3
+4
+5
+6
+7
+Ratarata
+
+1 2
+4 2
+5 1
+4 2
+5 1
+4 1
+5 1
+5 1
+86.0
+
+3
+4
+5
+4
+5
+5
+4
+5
+
+4
+2
+3
+4
+2
+2
+1
+1
+
+Pertanyaan
+5
+6
+7
+5
+2
+4
+5
+1
+4
+4
+2
+4
+5
+1
+4
+4
+1
+4
+5
+2
+5
+5
+1
+4
+
+8
+2
+1
+2
+1
+1
+1
+1
+
+9
+4
+5
+4
+5
+4
+4
+5
+
+10
+2
+3
+2
+3
+2
+2
+1
+
+Total
+78
+88
+70
+90
+85
+90
+98
+
+Berdasarkan hasil penyebaran kuesioner
+System Usability Scale (SUS) kepada 7
+pengguna untuk mengukur aspek
+satisfaction diapat hasil rata-rata dengan
+skor 86.0 yang dimana skor tersebut
+termasuk kedalam kriteria pada
+“Adjective Rating” yang berada pada
+
+Berdasarkan hasil pengujian tugas
+usability testing yang telah dilakukan
+kepada tujuh responden baik pihak
+
+530
+
+2023. Journal of Information Technology and Computer Science (INTECOMS) 6(1): 525-532
+
+tingkat Excellent dan pada “Grade
+Scale” berada di tingkat A dan kriteria
+“Acceptability Ranges” pada tingkat
+Acceptable. Berdasarkan hasil data
+tersebut dengan hasil skor yang sudah
+berada diatas batas aman tingkat
+usability pada Platform Rekam Data
+Jejak Alumni (Tracer Study) di
+Perguruan Tinggi telah cukup. Namun,
+masih diperlukan peningkatan agar hasil
+Usability Testing pada platform Tracer
+Study masuk pada tingkat Best
+Imaginable pada kriteria Adjective
+Rating.
+
+Informasi, 7(2), 125–132. Retrieved
+from
+http://ejournal.uinsuska.ac.id/index.php/RMSI/article/v
+iew/13066
+Amelia, Y., Tarigan, B., Wijoyo, S. H., &
+Purnomo, W. (2021). Evaluasi dan
+Perancangan Prototype Perbaikan
+Antarmuka
+Sistem
+Informasi
+Administras
+Terpadu
+(SIAT)
+Fakultas
+Pertanian
+Universitas
+Brawijaya
+Malang
+dengan
+menggunakan metode WEBUSE dan
+Human Centered Design (HCD).
+5(9), 3866–3873.
+Dipo Darmawan, R., Rohman, H.,
+Yogyakarta, A., Kesehatan Bhakti,
+P., & Indonesia, S. (2022). Jurnal
+Informatika dan Rekayasa Perangkat
+Lunak
+Peningkatan
+Performa
+Pengalaman Pengguna Aplikasi
+Seluler Ajaib dengan Pendekatan
+Design Thinking dan Pengujian A/B
+Studi Kasus UX Terhaap AjaibPlatform Investasi Daring
+Haryuda, D., Asfi, M., & Fahrudin, R.
+(2021).
+Perancangan
+UI/UX
+Menggunakan
+Metode
+Design
+Thinking Berbasis Web Pada
+Laportea Company. Jurnal Ilmiah
+Teknologi Infomasi Terapan, 8(1),
+111–117.
+https://doi.org/10.33197/jitter.vol8.is
+s1.2021.730
+McCarthy, S. (2022). Design Thinking?
+Thank an Engineer. Dialectic, 3(1).
+https://doi.org/10.3998/dialectic.149
+32326.0003.102
+Sari, I. P., Kartina, A. H., Pratiwi, A. M.,
+Oktariana, F., Nasrulloh, M. F., &
+Zain, S. A. (2020). Implementasi
+Metode Pendekatan Design Thinking
+dalam Pembuatan Aplikasi Happy
+Class Di Kampus UPI Cibiru.
+Edsence:
+Jurnal
+Pendidikan
+Multimedia,
+2(1),
+45–55.
+https://doi.org/10.17509/edsence.v2i
+1.25131
+Schomburg, H. (2003). Handbook for tracer
+studies. Centre for Research on
+Higher Education and Work,
+
+SIMPULAN
+System Usability Scale (SUS)
+merupakan alat yang digunakan untuk
+melakukan penilai untuk mengukur tingkat
+keberhasilan dan efektivitas suatu produk
+yang sudah ada dan ingin dikembangkan
+ataupun produk baru. Hasil dari evaluasi
+pengujian pada pengembangan User
+Experience Design pada Platform Rekam
+Data Jejak Alumni (Tracer Study) di
+Perguruan Tinggi seperti yang telah
+dijelaskan diatas dihasilkan bahwa:
+1. Tingkat keberhasil pengujian pada hasil
+User Experience Design pada Platform
+Rekam Data Jejak Alumni (Tracer
+Study)
+dengan
+metode
+SUS
+menghasilkan skor 86.0 dengan tingkat
+“Acceptability Ranges” berapa pada
+bagian Acceptable atau diterima dengan
+baik oleh pengguna.
+2. Masih diperlukan peningkatan agar hasil
+Usability Testing pada platform Tracer
+Study masuk kategori Best Imaginable
+pada kriteria Adjective Rating.
+DAFTAR PUSTAKA
+Aisyah, S., Saputra, E., Evrilyan Rozanda,
+N., Khairil Ahsyar, T., Studi Sistem
+Informasi, P., Sains dan Teknologi,
+F., … Baru, S. (2021). Evaluasi
+Usability Website Dinas Pendidikan
+Provinsi Riau Menggunakan Metode
+System Usability Scale. Jurnal Ilmiah
+Rekayasa Dan Manajemen Sistem
+
+531
+
+2023. Journal of Information Technology and Computer Science (INTECOMS) 6(1): 525-532
+
+University
+of
+Kassel,
+Moenchebergstrasse, 17, 34109.
+Zulaiha, S., Meldina, T., Saputra, C. D., &
+Astuti, Y. T. (2021). Tracer Study:
+Studi Rekam Jejak dan Tingkat
+Kepuasan
+Pengguna
+Terhadap
+Lulusan Program Studi Pendidikan
+Guru Madrasah Ibtidaiyah Institut
+Agama Islam Negeri Curup. ARRIAYAH: Jurnal Pendidikan Dasar,
+5(1).
+https://doi.org/10.29240/jpd.v5i1.24
+16
+
+532
+
+

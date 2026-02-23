@@ -1,0 +1,724 @@
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Pengembangan Sistem Informasi Tracer Study Berbasis User
+Centered Design (UCD) Menggunakan Framework Laravel
+Alvira Karisma Putri*, Magdalena Ariance Ineke Pakereng
+Fakultas Teknologi Informasi, Teknik Informatika, Universitas Kristen Satya Wacana, Salatiga, Indonesia
+Email: 1,*672017171@student.uksw.edu, 2ineke.pakereng@uksw.edu
+Email Penulis Korespondensi: 672017171@student.uksw.edu
+Abstrak−Riset ini bertajuk Pelaksanaan Framework Laravel dalam Pengembangan Sistem Tracer Study Berbasis Website. Ada
+pula kasus yang dinaikan dalam riset ini merupakan sistem yang digunakan sangat simpel serta masih memakai Google Form,
+sistem masih kurang nyaman sebab siapapun bisa mengisi form Tracer Study serta informasi Tracer Study hanya dipunyai oleh
+Wakil Dekan. Tujuan dari riset ini merupakan membuat sistem data Tracer Study berbasis website dengan memakai framework
+Laravel yang bermanfaat untuk menolong FKIP UKSW dalam mengumpulkan informasi Alumni. Tata cara yang digunakan
+dalam riset ini merupakan riset lapangan serta tata cara pengembangan memakai metode User Centered Design. Untuk
+menanggulangi permasalahan tersebut, penulis meningkatkan sistem Tracer Study di FKIP dengan memakai framework
+Laravel serta membuat login sebagai pengamanan sistem. Hasil dari riset ini merupakan terciptanya sistem data Tracer Study
+yang bisa memudahkan pengumpulan informasi serta bisa diakses oleh Pimpinan Fakultas serta Dosen.
+Kata Kunci: Tracer Study; Framework Laravel; User Centered Design; MySQL; Pengujian Blackbox
+Abstract−This research is entitled Implementation of the Laravel Framework in the Development of a Website-Based Tracer
+Study System. There are also cases that are raised in this research which is the system used is very simple and still uses Google
+Forms, the system is still uncomfortable because anyone can fill in the Tracer Study form and the information on the Tracer
+Study is only owned by the Deputy Dean. The purpose of this research is to create a website-based Tracer Study data system
+using the Laravel framework, which is useful for helping the SWCU FKIP in gathering Alumni information. The procedure
+used in this research is field research and development procedures using the User Centered Design method. To overcome this
+problem, the authors improve the Tracer Study system in FKIP by using a Laravel framework and creating a login as system
+security. The result of this research is the creation of a Tracer Study data system that can facilitate information gathering and
+can be accessed by Faculty Leaders and Lecturers.
+Keywords: Tracer Study; Laravel Framework; User Centered Design; MySQL; Blackbox Testing
+
+1. PENDAHULUAN
+Perkembangan teknologi semakin berkembang seiring berjalannya waktu dan dari tahun ke tahun teknologi yang
+semakin pesat adalah framework. Hasil dari framework adalah sistem yang dibuat menjadi lebih cepat
+dikembangkan, lebih aman serta mudah untuk maintenance [1]. Tracer Study ialah salah satu program yang dicoba
+oleh segala perguruan tinggi di Indonesia, selaku wujud pengawasan Alumni perguruan tinggi, dalam artian tiap
+perguruan tinggi senantiasa mengevaluasi penerapannya. Dalam proses pemakaian Tracer Study, pengumpulan
+informasi kuesioner semacam tentang lulusan yang sudah memiliki pekerjaan, untuk mengenali berapa lama
+seseorang Alumni dapat memperoleh pekerjaan setelah lulus, serta sebagian hasil kuesioner data untuk digunakan
+sebagai rujukan kurikulum, kenaikan pendidikan, menyiapkan Alumni yang dibutuhkan dan siap dalam dunia kerja
+[2][3]. Perguruan tinggi memerlukan data informasi Alumni untuk mengetahui relevansi dan mengembangkan
+sikap profesional [4].
+Sebagian perguruan tinggi masih mempunyai hambatan dalam mengelola informasi Alumni, untuk sistem
+dikala ini banyak perguruan tinggi memakai Google Form untuk form kuesioner Alumni. Google Form
+mempunyai kekurangan salah satunya merupakan kala Alumni mengisi kuesioner yang salah sehingga Alumni
+wajib mengisi ulang yang menimbulkan informasi menjadi menumpuk ataupun double. Sehingga membuat
+pengelola informasi kuesioner Alumni kebimbangan karna banyaknya informasi hanya untuk satu Alumni.
+Semacam halnya dengan FKIP UKSW yang terletak di Gedung E UKSW, Jl. Diponegoro 52-60 Salatiga. Dikala
+ini Tracer Study yang telah terdapat di FKIP UKSW Salatiga masih memakai Google Form serta informasi
+kuesioner yang telah diisi oleh Alumni hanya dipunyai oleh wakil dekan sehingga wakil dekan wajib mengirimkan
+informasi tersebut satu persatu kepada setiap Ketua Program Studi serta Pimpinan Fakultas. Bersumber pada kasus
+yang di dapat, hingga dicoba riset yang bertujuan membuat sistem informasi Tracer Study berbasis website
+memakai Framework Laravel yang bermanfaat untuk menolong FKIP UKSW dalam melaksanakan pendataan
+Alumni yang bisa diakses oleh tiap Dosen, Pimpinan Program Studi, serta Pimpinan Fakultas. Dengan terdapatnya
+sistem Tracer Study ini, diharapkan sistem bisa berjalan dengan maksimal serta menciptakan aplikasi yang bisa
+tingkatkan kinerja dalam melaksanakan Tracer Study dan melihat statistik data Alumni yang sudah berkerja
+sebagai guru maupun non guru serta dapat membantu data untuk akreditasi fakultas [5]–[7].
+Berdasarkan permasalahan diatas maka dibuatlah program sistem informasi menggunakan framework
+Laravel dan PHP. Laravel adalah salah satu framework untuk menambah mutu perangkat lunak dengan
+meringankan pengeluaran pengembangan dan menambah produktifitas dengan sintak yang bersih serta fungsional.
+Laravel terdapat Command Line Interface yang berguna untuk membantu membangun sebuah aplikasi atau
+website dan Laravel memiliki fitur yang dinamakan Blade Template Engine yang dapat membuat tampilan terlihat
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1027
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+estetik [8]. Sedangkan Bahasa pemrograman yang digunakan adalah PHP. Untuk database yang digunakan adalah
+MySQL, MySQL ialah suatu sistem database relasional, sehingga bisa mengelompokan data kedalam grup-grup
+ataupun tabel-tabel yang berkatan dengan data. Tiap tabel muat bidang-bidang yang terpisah, yang
+mempresentasikan tiap bit data. Namun dalam sistem database tidak relasional, seluruh data ditaruh pada satu
+bidang luas, yang kadang informasi di dalamnya sangat susah serta meletihkan buat diakses. Proses kilat dalam
+pencarian baris data pada MySQL dicoba dengan memakai indeks. MySQL sendiri ialah singkatan dari My
+Structured Query Language yang pula ialah aplikasi yang banyak digunakan oleh para pemrograman website
+disebabkan My Structured Query Language ialah aplikasi DBMS ataupun Database Management System [9].
+Dimana MySQL yang digunakan adalah phpMyAdmin. phpMyAdmin merupakan perangkat lunak cocok
+digunakan dengan PHP karena perangkat ini dapat diakses melalui internet atau online. phpMyAdmin merupakan
+salah satu yang popular sebagai alat penyimpanan database sebagai alat administrasi MySQL [10]. Sistem ini
+terdapat fungsi login sebagai keamanan sistem karena sistem yang sebelumnya dapat diakses oleh semua orang,
+termasuk orang luar Alumni FKIP UKSW Salatiga. Terdapat fungsi tambah data, edit data, hapus data dan unduh
+data. Fungsi tersebut sangat berguna karena dapat mempermudah Alumni FKIP UKSW Salatiga untuk mengubah
+data Tracer Study yang akan dikirimkan. Dan untuk user dibuatkan hak akses untuk setiap user-nya, terdapat
+empat user yaitu Alumni, Dosen, Pimpinan Fakultas dan Admin. Hak akses disetiap user sesuai dengan status user
+karena informasi yang dibutuhkan berbeda disetiap status user dan data merupakan sebuah file yang rahasia dan
+tidak dapat digunakan dengan sembarangan oleh orang lain selain dengan orang yang bersangkutan [11].
+Riset ini mengacu pada 3 (tiga) penelitian terdahulu. Penelitian yang berjudul Perancangan Aplikasi Tracer
+Study Alumni Jurusan Administrasi Bisnis Politeknik Negeri Banjarmasin Berbasis Web, membahas tentang
+perancangan sistem yang dapat memudahkan pengumpulan informasi tentang Alumni dan membuat membuat
+sistem yang mudah untuk diakses oleh Alumni [5]. Perbedaan riset ini dengan penelitian tersebut adalah pada user
+yang dapat mengakses sistem Tracer Study tidak hanya admin dan Alumni tetapi dosen dan pimpinan fakultas
+serta hasil program, dimana pada riset ini hasil program di dalam menu login dan register menggunakan 1 (satu)
+halaman untuk semua user. Penelitian yang berjudul Analisis dan Perancangan Sistem Informasi Tracer Study
+Berbasis Web, membahas tentang aplikasi Tracer Study yang dapat memudahkan bagi institusi dalam melakukan
+penelusuran terhadap Alumni dan memudahkan Alumni untuk mengakses sistem. Hasil program pada penelitian
+tersebut memakai metode Waterfall dan memakai framework CodeIgniter. Pada penelitian diperoleh user interface
+sesuai kebutuhan pengguna [4]. Perbedaan riset ini dengan penelitian tersebut adalah pada hasil program, dimana
+riset ini membuat form kuesioner yang berfungsi untuk memperbaiki kurikulum sebagai evaluasi standar
+kompetensi dalam dunia kerja. Penelitian yang berjudul Pengembangan Sistem Informasi Tracer Study Fakultas
+Ilmu Komputer Universitas Brawijaya Menggunakan Metode Rational Unified Process, membahas tentang
+aplikasi Tracer Study yang melakukan pendataan serta pengolahan data yang bertujuan untuk menelusuri Alumni
+sebagai penilaian akreditasi. Aplikasi pada penelitian menggunakan metode RUP. Dimana proses kontrol
+perubahan dapat dilakukan setiap fase yang ada [7]. Perbedaan riset ini dengan penelitian tersebut adalah pada
+riset ini menggunakan metode Waterfall dengan alur penelitian mengidentifikasi masalah, mengumpulkan data,
+merancang sistem, menguji sistem dan penulisan laporan. Dan menguji sistem menggunakan Blackbox Testing.
+Diharapkan sistem informasi yang telah di buat ini dapat menjadi sistem yang mempermudah pekerjaan
+karyawan FKIP UKSW Salatiga yang mengurus data Tracer Study Alumni FKIP UKSW Salatiga dan juga
+mempermudah Alumni FKIP UKSW Salatiga dalam pengisian Tracer Study. Dan pihak FKIP UKSW Salatiga
+mendapatkan informasi tentang Alumni yang dibutuhkan dan dapat dipergunakan untuk kepentingan kampus
+seperti akreditasi ataupun keperluan yang lain.
+
+2. METODOLOGI PENELITIAN
+2.1 User Centered Design
+User Centered Design (UCD) merupakan paradigma baru dalam pengembangan sistem berbasis web. User
+Centered Design (UCD) juga sering disebut sebagai human centered design. Human centered design adalah
+sebuah pendekatan pengembangan sistem interaktif yang secara khusus focus untuk membuat sebuah sistem
+berguna. Prinsip dalam User Centered Design (UCD) adalah fokus pada pengguna, perancangan terintegrasi,
+pengujian pengguna dan perancangan interaktif [12].
+
+Gambar 1. Proses User Centered Design
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1028
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Gambar 1 menunjukkan proses User Centered Design, dijelaskan sebagai berikut :
+1. Plan the human centered process
+Menganalisis informasi ataupun teori yang berkaitan dengan proses membangun sistem yang berpusat kepada
+pengguna. Analisis teori, tat cara yang mempunyai tujuan untuk menggali kebutuhan yang diperlukan untuk
+penelitian ini serta segala kebutuhan yang terkait dengan penelitian ini [13].
+2. Specify the context of use
+Menjelaskan untuk apa serta dalam keadaan semacam apa pengguna hendak memakai produk.
+3. Specify user and organizational requirements
+Mengenali kebutuhan pengguna serta kebutuhan organisasi terhadap sistem yang hendak dibangun.
+4. Product design solutions
+Membangun desain sebagai solusi dari masalah yang dianalisis.
+5. Evaluate design against user requirements
+Melakukan evaluasi terhadap desain yang sudah dicoba pada tahap sebelumnya. Dimana desain tersebut wajib
+penuhi persyaratan yang diperlukan oleh pengguna. Tahap ini digunakan untuk melihat apakah tujuan
+pengguna dan organisasi tercapai.
+2.2 Tahapan Penelitian
+Tahapan terbagi menjadi 6 (enam), yaitu identifikasi masalah, pengumpulan data, perancangan sistem,
+implementasi sistem, pengujian sistem dan peulisan laporan penelitian.
+
+Gambar 2. Tahapan Penelitian
+Gambar 2 menunjukkan tahapan penelitian, dijelaskan sebagai berikut :
+1. Identifikasi Masalah
+Identifikasi permasalahan terkait sistem informasi Tracer Study yang diperlukan oleh FKIP UKSW Salatiga.
+Pada tahap ini juga membahas tentang analisis sistem yang bertujuan untuk menguasai sistem berjalan serta
+mengidentifikasikan permasalahan dan mencari solusinya. Diperlukan aplikasi yang bisa membagikan data
+informasi Alumni mahasiswa yang terdapat di tiap jurusan ataupun program studi. Permasalahan yang ada di
+FKIP UKSW adalah ketika Alumni mengisi form kuesioner dengan tidak benar padahal kuesioner sudah di
+submit, maka dari itu Alumni harus mengisi form kuesioner dari awal dengan teliti serta data Alumni yang
+tidak benar dan yang baru diisi tersebut tetap masuk pada data menjadi double, itulah menjadi permasalahan
+karena pihak FKIP UKSW yang menangani data Tracer Study menjadi kebingungan dengan data yang
+diberikan dan tidak tau mana yang benar dan mana yang salah pada data Alumni yang dikirim dalam waktu
+yang dekat.
+2. Pengumpulan Data
+Mengumpulkan data terkait daftar Alumni FKIP UKSW Salatiga. Data yang dikumpulkan didapat dengan cara
+observasi. Data yang diperlukan antara lain data Alumni selama belajar di FKIP UKSW Salatiga dan data
+pertanyaan yang diperlukan untuk pengisian Tracer Study pada sistem informasi FKIP UKSW Salatiga.
+3. Perancangan Sistem
+Merancang sistem menggunakan framework Laravel yang sesuai dengan kebutuhan FKIP UKSW Salatiga dari
+data yang sudah didapat. Pada tahap ini merancang desain dan fungsi apa saja yang ingin dijalankan. Seperti
+membuat fungsi login untuk keamanan sistem dan memberikan hak akses kepada setiap user. Dan tidak lupa
+untuk merancang tampilan halaman website supaya lebih menarik dan menyenangkan ketika mengisi form
+kuesioner.
+4. Implementasi Sistem
+Membuat sistem dengan mengimplementasikan framework Laravel untuk sistem Tracer Study FKIP UKSW
+Salatiga. Implementasi ialah bagian dari tahapan implementasi dan pengujian unit pada tata cara Waterfall.
+
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1029
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Pada tahapan ini desain ke dalam bahasa pemrograman cocok kebutuhan pengguna setelah itu dicoba
+pengecekan terhadap materi yang sudah terbuat.
+5. Pengujian Sistem
+Biasanya terdapat hasil implementasi, hingga ada suatu pengujian ataupun testing [14], pengujian sistem
+dilakukan dengan Blackbox. Menguji sistem yang sudah dibuat dengan menjalankan proses implementasi
+program serta menguji hasil output dari program dengan melihat hasil yang diberikan apakah program sesuai
+dengan konsep yang diinginkan FKIP UKSW Salatiga. Jika sistem terdapat kekurangan maka pembuat sistem
+akan memperbaiki sistem dengan teliti.
+6. Penulisan Laporan Penelitian
+Pada tahap ini dilakukan penulisan laporan dari data yang telah didapat pada implementasi dan pengujian
+sistem, serta hasil sistem ini ketika dijalankan dan hasil dari laporan ini adalah sebuah artikel ilmiah.
+
+3. HASIL DAN PEMBAHASAN
+3.1 Perancangan Sistem
+Perancangan sistem adalah bagaimana sistem dibangun melalui analisis sistem yang dilakukan oleh peneliti [15].
+Penelitian ini menampilkan perancangan use case diagram, activity diagram, dan statechart diagram. Diagram
+dapat dilihat pada Gambar 3-Gambar 14.
+a. Use Case Diagram
+Use case diagram menggambarkan aktivitas apa saja yang ada dalam sistem. Apa saja yang terjalin didalam
+sistem serta siapa saja yang melaksanakan aktivitas tersebut. Use Case Diagram dapat dilihat pada Gambar 3.
+
+Gambar 3. Use Case Diagram
+Use Case Diagram diatas terdapat aktor yang berfungsi sebagai orang yang akan mengoperasikan ataupun
+orang yang berhubungan dengan sistem [16]. Pada Gambar 2 terdapat 4 aktor yaitu Admin, Alumni, Dosen
+dan Pimpinan Fakultas, setiap aktor memiliki tugas yang berbeda-beda. Sebelum aktor melakukan tugas, aktor
+dijawibkan untuk registrasi dan login, kemudian aktor akan diarahkan dashboard. Setiap aktor memiliki hak
+akses yang berbeda, aktor Admin dan Pimpinan Fakultas memiliki akses untuk kelola akun (tambah akun, view
+akun, update akun dan hapus akun) dan kelola kuesioner (view kuesioner dan download kuesioner). Aktor
+Dosen memiliki akses untuk kelola kuesioner (view kuesioner dan download kuesioner). Dan aktor Alumni
+memiliki akses untuk kelola kuesioner (tambah kuesioner, view kuesioner, update kuesioner, hapus kuesioner,
+dan download kuesioner).
+b. Activity Diagram
+Activity diagram adalah diagram yang dapat memodelkan proses yang terjadi pada sebuah sistem. Activity
+diagram dapat dilihat pada Gambar 4-Gambar 7.
+
+Gambar 4. Activity Diagram Login
+Gambar 4 merupakan aktifitas login yang dilakukan oleh user. User melakukan login dengan cara memasukkan
+inputan berupa email dan password.
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1030
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Gambar 5. Activity Diagram Kuesioner Tracer Study
+Gambar 5 merupakan aktifitas pada menu Kuesioner untuk user alumni. Alumni dapat melakukan lihat detail
+kuesioner, tambah kuesioner, edit kuesioner, hapus kuesioner dan download kuesioner.
+
+Gambar 6. Activity Diagram Profile User
+Gambar 6 merupakan aktifitas pada menu Edit Profil untuk semua user. User dapat melakukan update data
+profil pribadi.
+
+Gambar 7. Activity Diagram Data User
+Gambar 7 merupakan aktifitas pada menu Data User untuk user Pimpinan Fakultas dan Admin. User dapat
+melakukan tambah data, lihat data, edit data, hapus data, dan download data.
+c. Statechart Diagram
+Statechart diagram adalah sebuah diagram yang menggambarkan, memperlihatkan serta mendeskripsikan
+tentang perilaku sistem. Statechart diagram dapat dilihat pada Gambar 8-Gambar 14.
+
+Gambar 8. Statechart Diagram Login
+Gambar 8 menjelaskan mengenai proses login user. Dimana user memasukkan data berupa email dan password
+lalu sistem akan menvalidasi inputan, jika data valid maka berhasil login jika data tidak valid maka gagal login
+dan harus mengulang.
+
+Gambar 9. Statechart Diagram Tambah Data
+Gambar 9 menjelaskan mengenai proses tambah data. Pertama yang dilakukan adalah menekan tombol tambah
+maka akan muncul tampilan form tambah lalu masukkan data yang diperlukan, jika data valid akan
+mendapatkan pesan konfirmasi berhasil dan data berhasil disimpan jika data tidak valid maka harus mengulang
+isi form tambah.
+
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1031
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Gambar 10. Statechart Diagram Edit Data
+Gambar 10 menjelaskan mengenai edit data. Pertama tekan tombol edit maka akan muncul tampilan form edit
+data lalu pilih data yang ingin di ubah dan masukkan data, jika data valid maka akan mendapatkan pesan
+konfirmasi berhasil dan data berhasil disimpan jika data tidak valid maka harus mengulang.
+
+Gambar 11. Statechart Diagram Data Hapus Data
+Gambar 11 menjelaskan mengenai hapus data. Yang dilakukan oleh user adalah dengan menekan hapus dan
+sistem akan mengarahkan pada tampilan sisa data.
+
+Gambar 12. Statechart Diagram Data View Data
+Gambar 12 menjelaskan mengenai lihat detail data. Yang dilakukan oleh user adalah dengan menekan lihat
+detail dan sistem akan mengarahkan pada tampilan detail data yang sudah dipilih.
+
+Gambar 13. Statechart Diagram Data Download Data
+Gambar 13 menjelaskan mengenai download data. Yang dilakukan oleh user adalah dengan menekan
+download dan sistem akan mengarahkan pada tampilan data serta muncul simpan data.
+
+Gambar 14. Statechart Diagram Data Update Data Profil
+Gambar 14 menjelaskan mengenai update data profil. User dapat memilih data apa saja yang ingin di update
+lalu memasukkan data, jika data valid maka muncul konfirmasi berhasil jika data tidak valid maka harus
+mengulang.
+3.2 Hasil Program
+Hasil pada riset ini adalah sistem Tracer Study berbasis web menggunakan framework Laravel. Penggunaan
+framework Laravel di sistem ini terdapat pada bagian user Alumni, Dosen, Pimpinan Fakultas dan Admin yaitu
+mulai dari halaman utama, halaman register, menu kuesioner, menu data user, menu edit profile dan semua
+tampilan tersebut menggunakan template yang sama. Hasil program dapat dilihat pada Gambar 15-Gambar 24.
+a. Halaman Utama
+
+Gambar 15. Halaman Utama
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1032
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Gambar 15 merupakan tampilan halaman utama. Ketika mengakses sistem ini maka akan diarahkan pada
+halaman login. Pada halaman ini akan diminta untuk memasukkan email dan kata sandi.
+b. Halaman Daftar
+
+Gambar 16. Halaman Register
+Gambar 16 merupakan tampilan halaman register. Ketika user belum memiliki akun pada sistem maka
+diwajibkan untuk melakukan register, dengan menginputkan nama lengkap, email, kata sandi dan status user.
+c. Alumni
+1. Tampilan Kuesioner
+
+Gambar 17. Tampilan Kuesioner
+Gambar 17 merupakan tampilan halaman kuesioner untuk user Alumni. User dapat melakukan tambah
+kuesioner, lihat detail kuesioner, edit kuesioner, hapus kuesioner dan download kuesioner.
+2. Tampilan Tambah Kuesioner
+
+Gambar 18. Tampilan Tambah Kuesioner
+Gambar 18 merupakan tampilan saat user ingin menambah data kuesioner guru atau non guru. Pada inputan
+akan otomatis menggunakan huruf kapital supaya data yang dihasilkan terlihat rapi dan sama. User akan
+menjawab pertanyaan yang sudah disediakan FKIP UKSW Salatiga.
+3. Tampilan Edit Profil
+
+Gambar 19. Tampilan Edit Profile
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1033
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Gambar 19 merpakan tampilan saat user ingin mengubah atau menambahkan data user. Data yang dapat
+ditambahkan dan diubah adalah nama lengkap, NIM, tahun masuk FKIP UKSW Salatiga, tahun lulus,
+program studi, email, foto profil dan kata sandi.
+d. Dosen
+1. Tampilan Kuesioner
+
+Gambar 20. Tampilan Kuesioner
+Gambar 20 merupakan tampilan halaman kuesioner untuk user Dosen. User hanya dapat melihat detail
+kuesioner dan download kuesioner. Pada halaman ini dapat menampilkan data kuesioner sesuai dengan
+program studi yang diampu. Missal user adalah dosen Bimbingan Koseling maka data yang akan
+ditampilkan adalah data kuesioner dengan program studi Bimbingan Konseling saja.
+2. Tampilan Edit Profile
+
+Gambar 21. Tampilan Edit Profile
+Gambar 21 merupakan tampilan saat user ingin mengubah atau menambahkan data user. Data yang dapat
+ditambahkan adalah nama lengkap, program studi, email. Foto profil dan kata sandi.
+e. Pimpinan Fakultas dan Admin
+1. Tampilan Kuesioner
+
+Gambar 22. Tampilan Kuesioner
+Gambar 22 merupakan tampilan halaman kuesioner untuk user Pimpinan Fakultas dan Admin. User
+hanya dapat melihat detail kuesioner dan download kuesioner. Pada halaman ini dapat menampilkan data
+kuesioner dari semua program studi, bisa juga melihat kuesioner sesuai dengan program studi.
+2. Tampilan Data User
+
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1034
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Gambar 23. Tampilan Data User
+Gambar 23 merupakan tampilan data user yang hanya bisa diakses oleh Pimpinan Fakultas dan Admin.
+User dapat menambahkan data, edit, dan hapus data.
+3. Tampilan Edit Profil
+
+Gambar 24. Tampilan Data User
+Gambar 24 merupakan tampilan saat user ingin mengubah atau menambahkan data user. Data yang dapat
+ditambahkan dan diubah adalah nama lengkap, program studi, email, foto profil dan kata sandi.
+3.3 Hasil Pengujian
+Setelah sistem berhasil dibuat, maka tahap selanjutnya adalah pengujian sistem. Pengujian sistem bertujuan untuk
+menemukan kesalahan pada sistem yang akan diuji, dengan menggunakan Blackbox Testing sistem dapat
+meminimalisir kesalahan dan untuk melihat fungsi dari sistem sudah berjalan sesuai yang diinginkan FKIP UKSW
+Salatiga yang sudah diidentifikasi [17]. Hasil Blackbox Testing dapat dilihat pada table 1.
+Tabel 1. Hasil Blackbox Testing
+Pola
+Pengujian
+
+Test Case
+
+Hasil yang diharapkan
+
+Hasil
+Pengujian
+
+Kesimpulan
+
+Register
+
+Mengisi
+semua isian
+dengan benar.
+
+Sistem akan menerima
+akses register dan kemudian
+diarahkan pada halaman
+dashboard.
+
+Sesuai
+harapan
+
+Valid
+
+Register
+
+Mengosongkan
+satu atau lebih
+isian form
+register.
+
+Sistem akan menolak
+akses register dan memberikan
+pesan error kemudian
+akan kembali pada
+halaman register.
+
+Sesuai
+harapan
+
+Valid
+
+Login
+
+Mengisi
+semua isian
+dengan benar.
+
+Sistem akan menerima
+akses login dan kemudian diara
+hkan pada
+halaman dashboard.
+
+Sesuai
+harapan
+
+Valid
+
+Login
+
+Mengosongkan
+isian email atau
+password.
+
+Sistem akan memberikan
+pesan error dan sistem akan
+mengarahkan
+pada halaman login.
+
+Sesuai
+harapan
+
+Valid
+
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1035
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+Pola
+Pengujian
+Tambah
+Kuesioner
+
+Test Case
+
+Hasil yang diharapkan
+
+Mengisi
+semua isian
+form kuesioner
+dengan benar.
+
+Sistem akan menerima
+akses tambah kuesioner dan
+kemudian diarahkan
+pada halaman index
+untuk user Alumni.
+Sistem akan memberikan
+pesan error sesuai dengan
+isian apa yang
+dikosongkan dan kemudian
+sistem akan mengarahkan
+kembali pada form kuesioner.
+
+Tambah
+Kuesioner
+
+Mengosongkan
+satu atau lebih
+isian form
+kuesioner.
+
+Hapus
+Kuesioner
+
+Klik tombol
+hapus.
+
+File akan terhapus sesuai
+dengan ID.
+
+Edit
+Kuesioner
+
+Mengisi form
+pada data yang
+ingin diubah.
+
+Sistem akan memberikan
+notifikasi bahwa data berhasil
+diubah.
+
+Tambah
+Data User
+
+Mengisian
+semua isian
+form data
+user dengan
+benar.
+
+Sistem akan menerima
+akses tambah data user dan
+kemudian diarahkan
+pada halaman form tambah
+data.
+
+Tambah
+Data User
+
+Hapus Data
+User
+
+Mengosongkan
+satu atau lebih
+isian form
+data user.
+
+Klik tombol
+hapus.
+
+Edit Data
+User
+
+Mengisi form
+pada data yang
+ingin diubah.
+
+Download
+
+Klik tombol
+download.
+
+Hasil
+Pengujian
+Sesuai
+harapan
+
+Kesimpulan
+Valid
+
+Sesuai
+harapan
+
+Valid
+
+Sesuai
+harapan
+
+Valid
+
+Sesuai
+harapan
+
+Valid
+
+Sesuai
+harapan
+
+Valid
+
+Sesuai
+harapan
+
+Valid
+
+File akan terhapus sesuai
+dengan ID.
+
+Sesuai
+harapan
+
+Valid
+
+Sistem akan memberikan
+notifikasi bahwa data berhasil
+diubah.
+
+Sesuai
+harapan
+
+Valid
+
+Sistem akan memberikan
+tampilan save file.
+
+Sesuai
+harapan
+
+Valid
+
+Sistem akan memberikan
+pesan error sesuai dengan
+isian apa yang
+dikosongkan dan kemudian
+sistem akan mengarahkan
+kembali pada form data user.
+
+Berdasarkan tabel 1 dapat dijelaskan bahwa hasil pengujian pada sistem Tracer Study ini tidak terjadi
+kesalahan. Hasil pengujian ini dapat memperlihatkan bahwa perancangan sistem Tracer Study sesuai dengan
+harapan yang diinginkan FKIP UKSW Salatiga.
+
+4. KESIMPULAN
+Sistem Tracer Study berhasil dibuat menggunakan framework Laravel dengan menggunakan proses
+pengembangan User Centered Design. Dengan tahapan penelitian yang pertama adalah mengidentifikasikan
+masalah sistem Tracer Study yang akan dibuat seperti apa dan bagaimana, kemudian mengumpulkan data seperti
+data Alumni, data dosen, data pimpinan fakultas, data pertanyaan yang akan diajukan pada form kuesioner dan
+data yang lainnya, kemudian merancang sistem Tracer Study seperti merancang desain tampilan website dan
+merancang fungsi apa saja yang dibutuhkan dalam sistem informasi Tracer Study ini, kemudian
+mengimplementasikan sistem Tracer Study, kemudian menguji sistem informasi Tracer Study dengan memakai
+blackbox testing dan menulis laporan dalam bentuk laporan dan artikel. Sistem ini dapat digunakan memperoleh
+data Alumni FKIP UKSW Salatiga. Sistem ini dapat membantu mempermudah FKIP UKSW Salatiga dalam
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1036
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+JURNAL MEDIA INFORMATIKA BUDIDARMA
+Volume 5, Nomor 3, Juli 2021, Page 1027-1037
+ISSN 2614-5278 (media cetak), ISSN 2548-8368 (media online)
+Available Online at https://ejurnal.stmik-budidarma.ac.id/index.php/mib
+DOI 10.30865/mib.v5i3.3033
+
+pendataan Alumni untuk kebutuhan yang diperlukan seperti akreditasi ataupun kebutuhan yang lainnya dan
+mempermudah Alumni dalam pengisian kuesioner Tracer Study. Dan dapat mempermudah Alumni FKIP UKSW
+Salatiga dalam pengisian kuesioner. Sistem informasi Tracer Study ini akan menyimpan data yang dibutuhkan
+oleh FKIP UKSW Salatiga mengenai Alumni FKIP UKSW Salatiga. Dan sistem informasi Tracer Study ini
+berhasil berjalan dengan baik seperti fungsi tambah kuesioner, edit kuesioner, hapus kuesioner, lihat kuesioner,
+download kuesioner, tambah data user, edit data user, hapus data user.
+
+REFERENCES
+A. F. Pakpahan, “Dasar-Dasar Pengembangan Aplikasi Web Modern dengan Framework Laravel - Google
+Books.”https://www.google.co.id/books/edition/Dasar_Dasar_Pengembangan_Aplikasi_Web_Mo/KfIIEAAAQBAJ?hl
+=id&gbpv=1&dq=perkembangan+teknologi+framework&pg=PR5&printsec=frontcover (accessed April 26, 2021).
+[2] E. Noviyantono and Aidil, “Integration System Of Web Based And SMS Gateway For Information System Of Tracer
+Study,” 1st International Conference on Engineering and Technology Development (ICETED) 2012, 2012.
+[3] Universitas
+Hasanuddin,
+“Tracer
+Study
+Universitas
+Hasanuddin
+Google
+Books.”
+https://www.google.co.id/books/edition/Tracer_Study_Universitas_Hasanuddin/utTnDwAAQBAJ?hl=id&gbpv=1
+(accessed April 26, 2021).
+[4] M. Rizka, “Analisis Dan Perancangan Sistem Informasi Tracer Study Berbasis WEB.” J. Informatika, vol. 3, no. 2, pp.6973, 2018.
+[5] T. Noor, S. Muhamad, and R. Indera, “Perancangan Aplikasi Tracer Study Alumni Jurusan Administrasi Bisnis Politeknik
+Negeri Banjarmasin Berbasis Web,” J. Positif, vol. 2, no. 1, pp. 34–40, 2016.
+[6] A. Febriani, W. Linda Wati, and H. Fonda, “Sistem Informasi Alumni Smp N 1 Dayun Menggunakan Framework Laravel
+Di Kab. Siak,” J. Ilmu Komputer, vol. 9, no. 2, pp. 65–70, Oct. 2020, doi: 10.33060/jik/2020/vol9.iss2.165.
+[7] S. Al Ayubi, Y. T. Mursityo, and N. Y. Setiawan, “Pengembangan Sistem Informasi Tracer Study Fakultas Ilmu
+Komputer Universitas Brawijaya Menggunakan Metode Rational Unified Procces,” J. Pengembangan Teknologi
+Informasi dan Ilmu Komputer, vol. 3, no. 5, pp. 4447-4454, 2019.
+[8] F. Luthfi, “Penggunaan Framework Laravel Dalam Rancang Bangun Modul Back-End Artikel Website Bisnisbisnis.ID,”
+JISKA (Jurnal Informatika Sunan Kalijaga), vol. 2, no. 1, pp. 34, Aug. 2017, doi: 10.14421/jiska.2017.21-05.
+[9] L. Fitriani, D. Kurniadi, and Z. R. Fikri, “Pengembangan Sistem Informasi Tracer Study di Sekolah Tinggi Teknologi
+Garut,” J. Algoritma, vol. 16, no. 2, pp. 263-269, 2019.
+[10] Y.
+Yudhanto,
+“Panduan
+Pintar
+Belajar
+phpMyAdmin
+Dasar
+Google
+Books.”
+https://www.google.co.id/books/edition/Panduan_Pintar_Belajar_phpMyAdmin_Dasar/44V7DwAAQBAJ?hl=id&gbp
+v=1&dq=phpmyadmin+adalah&printsec=frontcover (accessed April 27, 2021).
+[11] Y. A. Adi Soetrisno, “Aplikasi Tracer Study Berbasis Web Pada Universitas Diponegoro,” Transmisi, vol. 21, no. 4, pp.
+135–146, Nov. 2019, doi: 10.14710/transmisi.21.4.135-146.
+[12] I. Saputri, M. Fadhli, and I. Surya, “Penerapan Metode UCD (User Centered Design) Pada E-Commerce Putri Intan Shop
+Berbasis Web," Jurnal Nasional Teknologi dan Sistem Informasi, vol. 3, no. 2, pp. 269-278, 2017.
+[13] T. Vani, R. Hidayat, A. Yansen, and F. Danar, “Rancang Bangun Mobile Commerce di Lamandau Store Berbasis Android
+berdasarkan User Centered Design (UCD),” J. Media Informatika Budidarma, vol. 5, no. 1, pp. 287–296, 2021, doi:
+10.30865/mib.v5i1.2544.
+[14] E. Diana, “View of Analisis Dan Perancangan Sistem Informasi Tracer Study Berbasis Web.” J. Media Sisfo, vol. 11, no.
+2, pp. 817-829, 2017.
+[15] Q. Mardzotillah and M. Ridwan, “Sistem Tracer Study Dan Persebaran Alumni Berbasis Web Di Univesitas Islam SyekhYusuf Tangerang,” JUTIS, vol. 8, no. 1, pp. 90-106, 2020.
+[16] G. Karyono and N. Hermanto, “Rancang Bangun Sistem Tracer Study Online pada STMIK AMIKOM Purwokerto,”
+Semantik, vol. 3, no. 1, pp. 126–133, 2013.
+[17] A. Rouf, “Pengujian Perangkat Lunak Dengan Menggunakan Metode White Box dan Back Box,” J. Himsya Tech, vol.
+vol 8 no1, pp. 1–7, 2012.
+[1]
+
+Alfira Karisma Putri, Copyright ©2021, MIB, Page 1037
+Submitted: 30/05/2021; Accepted: 08/07/2021; Published: 31/07/2021
+
+

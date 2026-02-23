@@ -1,0 +1,108 @@
+@book{laudon2021,
+  title={Management Information Systems: Managing the Digital Firm},
+  author={Laudon, Kenneth C. and Laudon, Jane P.},
+  year={2021},
+  publisher={Pearson},
+  edition={17}
+}
+
+@book{obrien2011,
+  title={Management Information Systems},
+  author={O'Brien, James A. and Marakas, George M.},
+  year={2011},
+  publisher={McGraw-Hill/Irwin},
+  edition={10}
+}
+
+@manual{dikti2021,
+  title={Petunjuk Teknis Penyaluran Bantuan Program Fasilitasi Pelaksanaan Tracer Study Tahun 2021},
+  author={{Direktorat Pembelajaran dan Kemahasiswaan, Direktorat Jenderal Pendidikan Tinggi}},
+  year={2021},
+  organization={Kementerian Pendidikan dan Kebudayaan Republik Indonesia}
+}
+
+@article{bassil2012simulation,
+  title={A simulation model for the waterfall software development life cycle},
+  author={Bassil, Youssef},
+  journal={arXiv preprint arXiv:1205.6904},
+  year={2012}
+}
+
+@article{putri2021,
+  title={Pengembangan Sistem Informasi Tracer Study Berbasis User Centered Design (UCD) Menggunakan Framework Laravel},
+  author={Putri, Alvira Karisma and Pakereng, Magdalena Ariance Ineke},
+  journal={Jurnal Media Informatika Budidarma},
+  year={2021},
+  volume={5},
+  number={3},
+  pages={1027--1036},
+  doi={10.30865/mib.v5i3.3033}
+}
+
+@manual{laravel,
+  title={Laravel: The PHP Framework for Web Artisans},
+  author={Otwell, Taylor},
+  organization={Laravel LLC},
+  url={https://laravel.com},
+  note={Accessed: 2026}
+}
+
+@manual{livewire,
+  title={Livewire: A Full-Stack Framework for Laravel},
+  author={Porzio, Caleb},
+  url={https://livewire.laravel.com},
+  note={Accessed: 2026}
+}
+
+@book{fowler2002,
+  title={Patterns of Enterprise Application Architecture},
+  author={Fowler, Martin},
+  year={2002},
+  publisher={Addison-Wesley Professional}
+}
+
+@manual{mysql2024,
+  title={MySQL 8.0 Reference Manual},
+  author={{Oracle Corporation}},
+  year={2024},
+  url={https://dev.mysql.com/doc/refman/8.0/en/},
+  note={Accessed: 2026}
+}
+
+@book{silberschatz2019,
+  title={Database System Concepts},
+  author={Silberschatz, Abraham and Korth, Henry F. and Sudarshan, S.},
+  year={2019},
+  publisher={McGraw-Hill Education},
+  edition={7}
+}
+
+@book{gamma1994,
+  title={Design Patterns: Elements of Reusable Object-Oriented Software},
+  author={Gamma, Erich and Helm, Richard and Johnson, Ralph and Vlissides, John},
+  year={1994},
+  publisher={Addison-Wesley Professional}
+}
+
+
+@article{fitriani2024tracer,
+  title={Tracer Study Berbasis Website dengan menggunakan Metodologi Agile Framework Scrum},
+  author={Fitriani, Leni and Setiawan, Ridwan and Anwar, Deviliana Nabila},
+  journal={Jurnal Algoritma},
+  volume={21},
+  number={1},
+  pages={35--46},
+  year={2024}
+}
+
+
+@article{hasan2022rancang,
+  title={Rancang Bangun Sistem Informasi Tracer Studi Formulir 2021 Berbasis Web},
+  author={Hasan, Fuad Nur and Nurlelah, Elah},
+  journal={Jurnal Khatulistiwa Informatika},
+  volume={10},
+  number={1},
+  pages={57--65},
+  year={2022}
+}
+

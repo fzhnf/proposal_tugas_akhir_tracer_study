@@ -146,6 +146,7 @@
     placement: none,
     gap: 0.5cm,
   )
+  show figure: set block(breakable: true)
 
   show figure.caption: it => {
     set text(size: 12pt)
@@ -186,7 +187,7 @@
   // Equation numbering (right-aligned, chapter.number format)
   set math.equation(numbering: "(1)")
 
-  show math.equation: it => {
+  show math.equation.where(block: true): it => {
     set align(center)
     it
   }
@@ -341,7 +342,7 @@
       align(left)[
         Balikpapan, #tanggal-indo()
         #v(1cm)
-        [MATERIAL + TTD]
+        [MATERIAL + Tanda Tangan]
         #v(1cm)
         #meta.author \
         NIM. #meta.nim
@@ -428,7 +429,7 @@
     v(0.5cm)
 
     par(first-line-indent: 1cm, justify: true)[
-      demi pengembangan ilmu pengetahuan, menyetujui untuk memberikan kepada Institut Teknologi Kalimantan Hak Bebas Royalti Non-eksklusif (_Non-exclusive Royalty-Free Right_) atas #meta.thesis-display saya yang berjudul:
+      demi pengembangan ilmu pengetahuan, menyetujui untuk memberikan kepada Institut Teknologi Kalimantan Hak Bebas Royalti Non-eksklusif (*_Non-exclusive Royalty-Free Right_*) atas karya ilmiah saya yang berjudul:
     ]
 
     v(0.5cm)
@@ -553,15 +554,14 @@
   set par(first-line-indent: 0pt)
   set align(center)
 
-  heading(level: 1)[LEMBAR PENGESAHAN \ TUGAS AKHIR]
+  heading(level: 1)[LEMBAR PENGESAHAN]
+  v(0.5cm)
 
   context {
     let meta = state("thesis-metadata").get()
 
-    v(1cm)
-
-    set align(center)
     text(size: 12pt)[
+      TUGAS AKHIR \
       Disusun untuk memenuhi syarat memperoleh gelar \
       Sarjana Komputer (S.Kom.) \
       pada \
@@ -745,6 +745,13 @@
 
   heading(level: 1)[DAFTAR ISI]
 
+  show outline.entry.where(
+    level: 1
+  ): it => {
+    v(12pt, weak: true)
+    strong(it)
+  }
+
   outline(
     title: none,
     indent: 1em,
@@ -830,6 +837,16 @@
     }
   })
 
+  // Chapter-based figure numbering for ALL figures (gambar and raw #figure)
+  set figure(numbering: n => {
+    str(ch-num) + "." + str(n)
+  })
+
+  // Chapter-based equation numbering
+  set math.equation(numbering: n => {
+    "(" + str(ch-num) + "." + str(n) + ")"
+  })
+
   body
 }
 
@@ -889,33 +906,21 @@
 // UTILITY FUNCTIONS
 // ============================================================================
 
-// Figure with chapter-based numbering
+// Figure with chapter-based numbering (numbering set globally by chapter())
 #let gambar(img, caption: "", width: 100%) = {
   figure(
     image(img, width: width),
-    caption: context {
-      let ch = counter("chapter").get().first()
-      let fig-num = counter(figure.where(kind: image)).get().first()
-      [#caption]
-    },
+    caption: [#caption],
     kind: image,
     supplement: [Gambar],
-    numbering: n => context {
-      let ch = counter("chapter").get().first()
-      str(ch) + "." + str(n)
-    },
   )
 }
 
-// Table with chapter-based numbering
+// Table with chapter-based numbering (numbering set globally by chapter())
 #let tabel(content, caption: "", placement: none) = {
   figure(
     content,
-    caption: context {
-      let ch = counter("chapter").get().first()
-      let tbl-num = counter(figure.where(kind: table)).get().first()
-      [#caption]
-    },
+    caption: [#caption],
     kind: table,
     supplement: none,
     placement: placement,
